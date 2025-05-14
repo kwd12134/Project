@@ -1,0 +1,1039 @@
+2024-08-17 08:16:47:396  *******配置参数加载成功*******
+2024-08-17 08:16:48:578  加载C1234.ini型号阻值温度配置文件成功
+2024-08-17 08:16:48:674  服务器监听端口开启成功:127.0.0.1:7600
+2024-08-17 08:16:55:944  解锁成功
+2024-08-17 08:21:35:257  请选择连接串口连接
+2024-08-17 08:21:36:795  连接COM14成功
+2024-08-17 08:21:38:224  读取背光参数中
+2024-08-17 08:21:46:524  背光串数异常
+2024-08-17 08:22:42:105  选择配置文件:C:\Users\Administrator\Desktop\上位机\Project\BL12上位机\WinformBL12上位机\BL12\bin\Debug\Config\C1234.ini
+2024-08-17 08:22:42:111  配置文件参数正在写入中........................
+2024-08-17 08:22:44:192  配置文件参数写入成功
+2024-08-17 08:22:44:200  加载C1234.ini型号阻值温度配置文件成功
+2024-08-17 08:22:45:731  读取背光参数中
+2024-08-17 08:22:46:581  背光串数异常
+2024-08-17 08:22:59:856  读取背光参数中
+2024-08-17 08:23:06:876  NTC读取阻值超出当前阻值配置参数设置范围: 999.99KΩ,请检查是否连接NTC或者请联系管理员进行解锁快捷键F6
+2024-08-17 08:23:06:881  NTC读取阻值超出当前阻值配置参数设置范围: 999.99KΩ,请检查是否连接NTC或者请联系管理员进行解锁快捷键F6
+2024-08-17 08:23:06:988  点检完成
+2024-08-17 08:23:07:002  MCMQ CCD QueueName = S17MES.CCD
+2024-08-17 08:23:07:040  未连接MCMQ服务器与队列发送与队列查询
+2024-08-17 08:23:22:613  解锁成功
+2024-08-17 08:23:38:175  当前阻值在限定范围内,当前NTC阻值为: 12.01KΩ
+2024-08-17 08:23:38:178  当前阻值在限定范围内,当前NTC阻值为: 12.04KΩ
+2024-08-17 08:23:38:287  点检完成
+2024-08-17 08:23:38:296  MCMQ CCD QueueName = S17MES.CCD
+2024-08-17 08:23:38:297  未连接MCMQ服务器与队列发送与队列查询
+2024-08-17 08:24:04:770  当前阻值在限定范围内,当前NTC阻值为: 12.01KΩ
+2024-08-17 08:24:04:771  当前阻值在限定范围内,当前NTC阻值为: 12.03KΩ
+2024-08-17 08:24:04:881  点检完成
+2024-08-17 08:24:04:888  MCMQ CCD QueueName = S17MES.CCD
+2024-08-17 08:24:04:889  未连接MCMQ服务器与队列发送与队列查询
+2024-08-17 08:24:15:338  当前阻值在限定范围内,当前NTC阻值为: 12.01KΩ
+2024-08-17 08:24:15:340  当前阻值在限定范围内,当前NTC阻值为: 12.03KΩ
+2024-08-17 08:24:15:447  点检完成
+2024-08-17 08:24:15:454  MCMQ CCD QueueName = S17MES.CCD
+2024-08-17 08:24:15:455  未连接MCMQ服务器与队列发送与队列查询
+2024-08-17 08:24:18:400  成功关闭服务器:
+2024-08-17 08:24:19:825  *******配置参数加载成功*******
+2024-08-17 08:24:19:836  连接COM14成功
+2024-08-17 08:24:19:934  加载C1234.ini型号阻值温度配置文件成功
+2024-08-17 08:24:19:975  服务器监听端口开启成功:127.0.0.1:7600
+2024-08-17 08:24:23:232  读取背光参数中
+2024-08-17 08:24:31:464  解锁成功
+2024-08-17 08:24:34:125  当前阻值在限定范围内,当前NTC阻值为: 12KΩ
+2024-08-17 08:24:34:129  当前阻值在限定范围内,当前NTC阻值为: 12.03KΩ
+2024-08-17 08:24:34:235  点检完成
+2024-08-17 08:24:34:243  MCMQ CCD QueueName = S17MES.CCD
+2024-08-17 08:24:34:272  未连接MCMQ服务器与队列发送与队列查询
+2024-08-17 08:24:53:929  当前阻值在限定范围内,当前NTC阻值为: 12KΩ
+2024-08-17 08:24:53:931  当前阻值在限定范围内,当前NTC阻值为: 12.03KΩ
+2024-08-17 08:24:54:037  点检完成
+2024-08-17 08:24:54:044  MCMQ CCD QueueName = S17MES.CCD
+2024-08-17 08:24:54:045  未连接MCMQ服务器与队列发送与队列查询
+2024-08-17 08:24:58:399  当前阻值在限定范围内,当前NTC阻值为: 12KΩ
+2024-08-17 08:24:58:400  当前阻值在限定范围内,当前NTC阻值为: 12.03KΩ
+2024-08-17 08:24:58:509  点检完成
+2024-08-17 08:24:58:517  MCMQ CCD QueueName = S17MES.CCD
+2024-08-17 08:24:58:518  未连接MCMQ服务器与队列发送与队列查询
+2024-08-17 08:25:02:536  成功关闭服务器:
+2024-08-17 08:25:03:894  *******配置参数加载成功*******
+2024-08-17 08:25:03:907  连接COM14成功
+2024-08-17 08:25:03:997  加载C1234.ini型号阻值温度配置文件成功
+2024-08-17 08:25:04:051  服务器监听端口开启成功:127.0.0.2:7600
+2024-08-17 08:25:09:319  读取背光参数中
+2024-08-17 08:25:14:045  解锁成功
+2024-08-17 08:25:15:592  当前阻值在限定范围内,当前NTC阻值为: 12KΩ
+2024-08-17 08:25:15:594  当前阻值在限定范围内,当前NTC阻值为: 12.03KΩ
+2024-08-17 08:25:15:701  点检完成
+2024-08-17 08:25:15:711  MCMQ CCD QueueName = S17MES.CCD
+2024-08-17 08:25:15:740  未连接MCMQ服务器与队列发送与队列查询
+2024-08-17 08:27:27:519  当前阻值在限定范围内,当前NTC阻值为: 12KΩ
+2024-08-17 08:27:27:521  当前阻值在限定范围内,当前NTC阻值为: 12.03KΩ
+2024-08-17 08:27:27:630  点检完成
+2024-08-17 08:27:27:641  MCMQ CCD QueueName = S17MES.CCD
+2024-08-17 08:27:27:642  未连接MCMQ服务器与队列发送与队列查询
+2024-08-17 08:27:27:646  连接MCMQ服务器成功:127.0.0.1:7600
+2024-08-17 08:27:27:694  成功开启发送消息队列:S17MES.CCD,成功开启回复查询队列:renuknows
+2024-08-17 08:29:06:026  当前阻值在限定范围内,当前NTC阻值为: 12KΩ
+2024-08-17 08:29:06:028  当前阻值在限定范围内,当前NTC阻值为: 12.03KΩ
+2024-08-17 08:29:06:137  点检完成
+2024-08-17 08:29:06:143  MCMQ CCD QueueName = S17MES.CCD
+2024-08-17 08:30:23:814  *******配置参数加载成功*******
+2024-08-17 08:30:23:826  连接COM14成功
+2024-08-17 08:30:23:930  加载C1234.ini型号阻值温度配置文件成功
+2024-08-17 08:30:23:973  服务器监听端口开启成功:127.0.0.2:7600
+2024-08-17 08:30:30:383  解锁成功
+2024-08-17 08:30:32:505  当前阻值在限定范围内,当前NTC阻值为: 12KΩ
+2024-08-17 08:30:32:508  当前阻值在限定范围内,当前NTC阻值为: 12.03KΩ
+2024-08-17 08:30:32:614  点检完成
+2024-08-17 08:30:32:623  MCMQ CCD QueueName = S17MES.CCD
+2024-08-17 08:30:32:647  未连接MCMQ服务器与队列发送与队列查询
+2024-08-17 08:30:32:650  连接MCMQ服务器成功:127.0.0.1:7600
+2024-08-17 08:30:32:669  成功开启发送消息队列:S17MES.CCD,成功开启回复查询队列:renuknows
+2024-08-17 08:30:50:772  当前阻值在限定范围内,当前NTC阻值为: 12KΩ
+2024-08-17 08:30:50:773  当前阻值在限定范围内,当前NTC阻值为: 12.03KΩ
+2024-08-17 08:30:50:881  点检完成
+2024-08-17 08:30:50:888  MCMQ CCD QueueName = S17MES.CCD
+2024-08-17 08:31:09:589  发送消息到队列:S17MES.CCD,消息内容:
+<?xml version="1.0" encoding="utf-8"?><trx><trx_name>CCDDataRepor</trx_name>
+<lot_no>1</lot_no>
+<iary_infos><iary><ccd_type>ResistValue1</ccd_type>
+<unifomity>12.00</unifomity>
+<jig_id /><eqp_id /><judge>PASS</judge>
+</iary>
+<iary><ccd_type>ResistValue2</ccd_type>
+<unifomity>12.03</unifomity>
+<jig_id /><eqp_id /><judge>PASS</judge>
+</iary>
+<iary><ccd_type>Temperature1</ccd_type>
+<unifomity>21</unifomity>
+<jig_id /><eqp_id /><judge>PASS</judge>
+</iary>
+<iary><ccd_type>Temperature2</ccd_type>
+<unifomity>21</unifomity>
+<jig_id /><eqp_id /><judge>PASS</judge>
+</iary>
+</iary_infos>
+<lm_user>DESKTOP-CJIIOBE</lm_user>
+<lm_time>2024-8-17- 8:30</lm_time>
+</trx>
+
+2024-08-17 08:31:09:594  连接MCMQ服务器成功:127.0.0.1:7600
+2024-08-17 08:31:09:601  成功开启发送消息队列:S17MES.CCD,成功开启回复查询队列:renuknows
+2024-08-17 08:33:13:138  *******配置参数加载成功*******
+2024-08-17 08:33:13:183  连接COM14成功
+2024-08-17 08:33:13:281  加载C1234.ini型号阻值温度配置文件成功
+2024-08-17 08:33:13:342  服务器监听端口开启成功:127.0.0.2:7600
+2024-08-17 08:33:13:346  连接MCMQ服务器成功:127.0.0.1:7600
+2024-08-17 08:33:13:524  成功开启发送消息队列:S17MES.CCD,成功开启回复查询队列:renuknows
+2024-08-17 08:33:42:469  解锁成功
+2024-08-17 08:33:44:108  当前阻值在限定范围内,当前NTC阻值为: 12KΩ
+2024-08-17 08:33:44:110  当前阻值在限定范围内,当前NTC阻值为: 12.03KΩ
+2024-08-17 08:33:44:217  点检完成
+2024-08-17 08:33:44:226  MCMQ CCD QueueName = S17MES.CCD
+2024-08-17 08:33:50:458  发送消息到队列:S17MES.CCD,消息内容:
+<?xml version="1.0" encoding="utf-8"?><trx><trx_name>CCDDataRepor</trx_name>
+<lot_no>1</lot_no>
+<iary_infos><iary><ccd_type>ResistValue1</ccd_type>
+<unifomity>12.00</unifomity>
+<jig_id /><eqp_id /><judge>PASS</judge>
+</iary>
+<iary><ccd_type>ResistValue2</ccd_type>
+<unifomity>12.03</unifomity>
+<jig_id /><eqp_id /><judge>PASS</judge>
+</iary>
+<iary><ccd_type>Temperature1</ccd_type>
+<unifomity>21</unifomity>
+<jig_id /><eqp_id /><judge>PASS</judge>
+</iary>
+<iary><ccd_type>Temperature2</ccd_type>
+<unifomity>21</unifomity>
+<jig_id /><eqp_id /><judge>PASS</judge>
+</iary>
+</iary_infos>
+<lm_user>DESKTOP-CJIIOBE</lm_user>
+<lm_time>2024-8-17- 8:33</lm_time>
+</trx>
+
+2024-08-17 08:33:56:419  当前阻值在限定范围内,当前NTC阻值为: 12KΩ
+2024-08-17 08:33:56:422  当前阻值在限定范围内,当前NTC阻值为: 12.03KΩ
+2024-08-17 08:33:56:529  点检完成
+2024-08-17 08:33:56:537  MCMQ CCD QueueName = S17MES.CCD
+2024-08-17 08:33:56:538  发送消息到队列:S17MES.CCD,消息内容:
+<?xml version="1.0" encoding="utf-8"?><trx><trx_name>CCDDataRepor</trx_name>
+<lot_no>1</lot_no>
+<iary_infos><iary><ccd_type>ResistValue1</ccd_type>
+<unifomity>12.00</unifomity>
+<jig_id /><eqp_id /><judge>PASS</judge>
+</iary>
+<iary><ccd_type>ResistValue2</ccd_type>
+<unifomity>12.03</unifomity>
+<jig_id /><eqp_id /><judge>PASS</judge>
+</iary>
+<iary><ccd_type>Temperature1</ccd_type>
+<unifomity>21</unifomity>
+<jig_id /><eqp_id /><judge>PASS</judge>
+</iary>
+<iary><ccd_type>Temperature2</ccd_type>
+<unifomity>21</unifomity>
+<jig_id /><eqp_id /><judge>PASS</judge>
+</iary>
+</iary_infos>
+<lm_user>DESKTOP-CJIIOBE</lm_user>
+<lm_time>2024-8-17- 8:33</lm_time>
+</trx>
+
+2024-08-17 08:34:10:780  当前阻值在限定范围内,当前NTC阻值为: 12KΩ
+2024-08-17 08:34:10:785  当前阻值在限定范围内,当前NTC阻值为: 12.03KΩ
+2024-08-17 08:34:10:889  点检完成
+2024-08-17 08:34:10:900  MCMQ CCD QueueName = S17MES.CCD
+2024-08-17 08:34:10:902  发送消息到队列:S17MES.CCD,消息内容:
+<?xml version="1.0" encoding="utf-8"?><trx><trx_name>CCDDataRepor</trx_name>
+<lot_no>1</lot_no>
+<iary_infos><iary><ccd_type>ResistValue1</ccd_type>
+<unifomity>12.00</unifomity>
+<jig_id /><eqp_id /><judge>PASS</judge>
+</iary>
+<iary><ccd_type>ResistValue2</ccd_type>
+<unifomity>12.03</unifomity>
+<jig_id /><eqp_id /><judge>PASS</judge>
+</iary>
+<iary><ccd_type>Temperature1</ccd_type>
+<unifomity>21</unifomity>
+<jig_id /><eqp_id /><judge>PASS</judge>
+</iary>
+<iary><ccd_type>Temperature2</ccd_type>
+<unifomity>21</unifomity>
+<jig_id /><eqp_id /><judge>PASS</judge>
+</iary>
+</iary_infos>
+<lm_user>DESKTOP-CJIIOBE</lm_user>
+<lm_time>2024-8-17- 8:34</lm_time>
+</trx>
+
+2024-08-17 08:36:47:775  *******配置参数加载成功*******
+2024-08-17 08:36:47:787  连接COM14成功
+2024-08-17 08:36:47:891  加载C1234.ini型号阻值温度配置文件成功
+2024-08-17 08:36:47:983  服务器监听端口开启成功:127.0.0.2:7600
+2024-08-17 08:36:47:986  连接MCMQ服务器成功:127.0.0.1:7600
+2024-08-17 08:37:48:426  *******配置参数加载成功*******
+2024-08-17 08:37:48:432  连接COM14成功
+2024-08-17 08:37:48:531  加载C1234.ini型号阻值温度配置文件成功
+2024-08-17 08:37:48:560  服务器监听端口开启成功:127.0.0.2:7600
+2024-08-17 08:37:48:563  连接MCMQ服务器成功:127.0.0.1:7600
+2024-08-17 08:39:09:969  *******配置参数加载成功*******
+2024-08-17 08:39:10:979  加载C1234.ini型号阻值温度配置文件成功
+2024-08-17 08:39:11:011  服务器开启失败：通常每个套接字地址(协议/网络地址/端口)只允许使用一次。
+2024-08-17 08:39:11:013  连接MCMQ服务器成功:127.0.0.1:7600
+2024-08-17 08:49:26:210  *******配置参数加载成功*******
+2024-08-17 08:49:26:234  连接COM14成功
+2024-08-17 08:49:26:341  加载C1234.ini型号阻值温度配置文件成功
+2024-08-17 08:49:26:390  服务器监听端口开启成功:127.0.0.2:7600
+2024-08-17 08:49:28:447  连接MCMQ服务器失败:127.0.0.1:7600
+2024-08-17 08:49:35:402  成功关闭服务器:
+2024-08-17 08:50:00:861  *******配置参数加载成功*******
+2024-08-17 08:50:00:871  连接COM14成功
+2024-08-17 08:50:00:968  加载C1234.ini型号阻值温度配置文件成功
+2024-08-17 08:50:01:007  服务器监听端口开启成功:127.0.0.2:7600
+2024-08-17 08:50:01:139  连接MCMQ服务器成功:127.0.0.1:7600
+2024-08-17 08:50:01:176  成功开启发送消息队列:S17MES.CCD,成功开启回复查询队列:renuknows
+2024-08-17 08:50:07:959  解锁成功
+2024-08-17 08:50:10:011  当前阻值在限定范围内,当前NTC阻值为: 12KΩ
+2024-08-17 08:50:10:012  当前阻值在限定范围内,当前NTC阻值为: 12.03KΩ
+2024-08-17 08:50:10:118  点检完成
+2024-08-17 08:50:10:129  MCMQ CCD QueueName = S17MES.CCD
+2024-08-17 08:50:10:160  发送消息到队列:S17MES.CCD,消息内容:
+<?xml version="1.0" encoding="utf-8"?><trx><trx_name>CCDDataRepor</trx_name>
+<lot_no>1</lot_no>
+<iary_infos><iary><ccd_type>ResistValue1</ccd_type>
+<unifomity>12.00</unifomity>
+<jig_id /><eqp_id /><judge>PASS</judge>
+</iary>
+<iary><ccd_type>ResistValue2</ccd_type>
+<unifomity>12.03</unifomity>
+<jig_id /><eqp_id /><judge>PASS</judge>
+</iary>
+<iary><ccd_type>Temperature1</ccd_type>
+<unifomity>21</unifomity>
+<jig_id /><eqp_id /><judge>PASS</judge>
+</iary>
+<iary><ccd_type>Temperature2</ccd_type>
+<unifomity>21</unifomity>
+<jig_id /><eqp_id /><judge>PASS</judge>
+</iary>
+</iary_infos>
+<lm_user>DESKTOP-CJIIOBE</lm_user>
+<lm_time>2024-8-17- 8:50</lm_time>
+</trx>
+
+2024-08-17 08:50:25:157  成功关闭服务器:
+2024-08-17 10:29:17:334  *******配置参数加载成功*******
+2024-08-17 10:29:17:347  连接COM14成功
+2024-08-17 10:29:17:450  加载C1234.ini型号阻值温度配置文件成功
+2024-08-17 10:29:17:488  服务器监听端口开启成功:127.0.0.2:7600
+2024-08-17 10:42:45:378  *******配置参数加载成功*******
+2024-08-17 10:42:45:389  连接COM14成功
+2024-08-17 10:42:45:484  加载C1234.ini型号阻值温度配置文件成功
+2024-08-17 10:42:45:526  服务器监听端口开启成功:127.0.0.2:7600
+2024-08-17 10:42:45:649  连接MCMQ服务器成功:127.0.0.1:7600
+2024-08-17 10:42:45:658  成功开启发送消息队列:S17MES.CCD,成功开启回复查询队列:renuknows
+2024-08-17 10:42:47:960  读取背光参数中
+2024-08-17 10:42:56:608  点亮背光参数已储存
+2024-08-17 10:43:52:851  当前阻值在限定范围内,当前NTC阻值为: 12.01KΩ
+2024-08-17 10:43:52:974  点检完成
+2024-08-17 10:43:52:983  MCMQ CCD QueueName = S17MES.CCD
+2024-08-17 10:43:53:009  发送消息到队列:S17MES.CCD,消息内容:
+<?xml version="1.0" encoding="utf-8"?><trx><trx_name>CCDDataRepor</trx_name>
+<lot_no>1</lot_no>
+<type_id>I</type_id>
+<log_id>202408171043</log_id>
+<iary_infos><iary><ccd_type>ResistValue1</ccd_type>
+<unifomity>12.01</unifomity>
+<jig_id /><eqp_id /><judge>PASS</judge>
+</iary>
+<iary><ccd_type>ResistValue2</ccd_type>
+<unifomity /><jig_id /><eqp_id /><judge>PASS</judge>
+</iary>
+<iary><ccd_type>Temperature1</ccd_type>
+<unifomity>21</unifomity>
+<jig_id /><eqp_id /><judge>PASS</judge>
+</iary>
+<iary><ccd_type>Temperature2</ccd_type>
+<unifomity /><jig_id /><eqp_id /><judge>PASS</judge>
+</iary>
+</iary_infos>
+<lm_user>DESKTOP-CJIIOBE</lm_user>
+<lm_time>2024-08-17 10:43</lm_time>
+</trx>
+
+2024-08-17 10:44:05:307  当前阻值在限定范围内,当前NTC阻值为: 12.01KΩ
+2024-08-17 10:44:05:308  当前阻值在限定范围内,当前NTC阻值为: 12.03KΩ
+2024-08-17 10:44:05:414  点检完成
+2024-08-17 10:44:05:421  MCMQ CCD QueueName = S17MES.CCD
+2024-08-17 10:44:05:429  发送消息到队列:S17MES.CCD,消息内容:
+<?xml version="1.0" encoding="utf-8"?><trx><trx_name>CCDDataRepor</trx_name>
+<lot_no>1</lot_no>
+<type_id>I</type_id>
+<log_id>202408171044</log_id>
+<iary_infos><iary><ccd_type>ResistValue1</ccd_type>
+<unifomity>12.01</unifomity>
+<jig_id /><eqp_id /><judge>PASS</judge>
+</iary>
+<iary><ccd_type>ResistValue2</ccd_type>
+<unifomity>12.03</unifomity>
+<jig_id /><eqp_id /><judge>PASS</judge>
+</iary>
+<iary><ccd_type>Temperature1</ccd_type>
+<unifomity>21</unifomity>
+<jig_id /><eqp_id /><judge>PASS</judge>
+</iary>
+<iary><ccd_type>Temperature2</ccd_type>
+<unifomity>21</unifomity>
+<jig_id /><eqp_id /><judge>PASS</judge>
+</iary>
+</iary_infos>
+<lm_user>DESKTOP-CJIIOBE</lm_user>
+<lm_time>2024-08-17 10:44</lm_time>
+</trx>
+
+2024-08-17 10:44:06:864  请解锁在操作栏中进行解锁,或者点击快捷键F6
+2024-08-17 10:44:11:792  当前阻值在限定范围内,当前NTC阻值为: 12.03KΩ
+2024-08-17 10:44:11:899  点检完成
+2024-08-17 10:44:11:905  MCMQ CCD QueueName = S17MES.CCD
+2024-08-17 10:44:11:908  发送消息到队列:S17MES.CCD,消息内容:
+<?xml version="1.0" encoding="utf-8"?><trx><trx_name>CCDDataRepor</trx_name>
+<lot_no>1</lot_no>
+<type_id>I</type_id>
+<log_id>202408171044</log_id>
+<iary_infos><iary><ccd_type>ResistValue1</ccd_type>
+<unifomity>12.01</unifomity>
+<jig_id /><eqp_id /><judge>PASS</judge>
+</iary>
+<iary><ccd_type>ResistValue2</ccd_type>
+<unifomity>12.03</unifomity>
+<jig_id /><eqp_id /><judge>PASS</judge>
+</iary>
+<iary><ccd_type>Temperature1</ccd_type>
+<unifomity>21</unifomity>
+<jig_id /><eqp_id /><judge>PASS</judge>
+</iary>
+<iary><ccd_type>Temperature2</ccd_type>
+<unifomity>21</unifomity>
+<jig_id /><eqp_id /><judge>PASS</judge>
+</iary>
+</iary_infos>
+<lm_user>DESKTOP-CJIIOBE</lm_user>
+<lm_time>2024-08-17 10:44</lm_time>
+</trx>
+
+2024-08-17 10:45:01:384  成功关闭服务器:
+2024-08-17 10:59:52:799  *******配置参数加载成功*******
+2024-08-17 10:59:52:810  连接COM14成功
+2024-08-17 10:59:52:913  加载C1234.ini型号阻值温度配置文件成功
+2024-08-17 10:59:53:006  服务器监听端口开启成功:127.0.0.2:7600
+2024-08-17 10:59:53:166  连接MCMQ服务器成功:127.0.0.1:7600
+2024-08-17 10:59:53:175  成功开启发送消息队列:S17MES.CCD,成功开启回复查询队列:renuknows
+2024-08-17 11:06:25:146  客户端:127.0.0.1:64730连接成功
+2024-08-17 11:10:29:505  成功关闭服务器:
+2024-08-17 11:10:31:764  *******配置参数加载成功*******
+2024-08-17 11:10:31:775  连接COM14成功
+2024-08-17 11:10:31:878  加载C1234.ini型号阻值温度配置文件成功
+2024-08-17 11:10:31:920  服务器监听端口开启成功:127.0.0.2:7600
+2024-08-17 11:10:31:974  连接MCMQ服务器成功:127.0.0.1:7600
+2024-08-17 11:10:32:086  成功开启发送消息队列:S17MES.CCD,成功开启回复查询队列:renuknows
+2024-08-17 11:11:33:437  客户端:127.0.0.1:64993连接成功
+2024-08-17 11:14:06:974  *******配置参数加载成功*******
+2024-08-17 11:14:07:011  连接COM14成功
+2024-08-17 11:14:07:107  加载C1234.ini型号阻值温度配置文件成功
+2024-08-17 11:14:07:157  服务器监听端口开启成功:127.0.0.2:7600
+2024-08-17 11:14:07:308  连接MCMQ服务器成功:127.0.0.1:7600
+2024-08-17 11:14:07:346  成功开启发送消息队列:S17MES.CCD,成功开启回复查询队列:renuknows
+2024-08-17 11:14:24:557  客户端:127.0.0.1:65149连接成功
+2024-08-17 11:14:36:472  客户端:127.0.0.1:65149断开连接
+2024-08-17 11:15:34:130  客户端:127.0.0.1:65238连接成功
+2024-08-17 11:17:23:727  *******配置参数加载成功*******
+2024-08-17 11:17:23:738  连接COM14成功
+2024-08-17 11:17:23:844  加载C1234.ini型号阻值温度配置文件成功
+2024-08-17 11:17:23:907  服务器监听端口开启成功:127.0.0.2:7600
+2024-08-17 11:17:24:114  连接MCMQ服务器成功:127.0.0.1:7600
+2024-08-17 11:17:24:127  成功开启发送消息队列:S17MES.CCD,成功开启回复查询队列:renuknows
+2024-08-17 11:17:30:851  客户端:127.0.0.1:65332连接成功
+2024-08-17 11:20:12:309  *******配置参数加载成功*******
+2024-08-17 11:20:12:322  连接COM14成功
+2024-08-17 11:20:12:427  加载C1234.ini型号阻值温度配置文件成功
+2024-08-17 11:20:12:515  服务器监听端口开启成功:127.0.0.2:7600
+2024-08-17 11:20:12:699  连接MCMQ服务器成功:127.0.0.1:7600
+2024-08-17 11:20:12:711  成功开启发送消息队列:S17MES.CCD,成功开启回复查询队列:renuknows
+2024-08-17 11:20:41:906  客户端:127.0.0.1:65495连接成功
+2024-08-17 11:21:37:990  发送内容：<?xml version="1.0" encoding="utf-8"?><Response><StreamNo></StreamNo>
+<Result>OK</Result>
+<Param1></Param1>
+<Param2></Param2>
+<Param3></Param3>
+<Param4></Param4>
+<Param5></Param5>
+<Param6></Param6>
+<Param7></Param7>
+<Param8></Param8>
+<Param9></Param9>
+</Response>
+
+2024-08-17 11:21:37:998  没有找到对应名称的配置文件:C:\Users\Administrator\Desktop\上位机\Project\BL12上位机\WinformBL12上位机\BL12\bin\Debug\Config\.ini.请检查!
+2024-08-17 11:21:38:002  收到来自 127.0.0.1:65495 的消息: <?xml version="1.0" encoding="UTF-8"?><Request><StreamNo>1</StreamNo><Timeout>10000</Timeout><Command>SET_LOT_NO</Command><Param1></Param1><Param2></Param2><Param3></Param3><Param4></Param4><Param5></Param5><Param6></Param6><Param7></Param7><Param8></Param8><Param9></Param9></Request>
+2024-08-17 11:23:10:071  发送内容：<?xml version="1.0" encoding="utf-8"?><Response><StreamNo></StreamNo>
+<Result>OK</Result>
+<Param1></Param1>
+<Param2></Param2>
+<Param3></Param3>
+<Param4></Param4>
+<Param5></Param5>
+<Param6></Param6>
+<Param7></Param7>
+<Param8></Param8>
+<Param9></Param9>
+</Response>
+
+2024-08-17 11:23:19:745  没有找到对应名称的配置文件:C:\Users\Administrator\Desktop\上位机\Project\BL12上位机\WinformBL12上位机\BL12\bin\Debug\Config\.ini.请检查!
+2024-08-17 11:23:39:680  收到来自 127.0.0.1:65495 的消息: <?xml version="1.0" encoding="UTF-8"?><Request><StreamNo>1</StreamNo><Timeout>10000</Timeout><Command>SET_LOT_NO</Command><Param1></Param1><Param2></Param2><Param3></Param3><Param4></Param4><Param5></Param5><Param6></Param6><Param7></Param7><Param8></Param8><Param9></Param9></Request>
+2024-08-17 11:24:39:759  发送内容：<?xml version="1.0" encoding="utf-8"?><Response><StreamNo></StreamNo>
+<Result>OK</Result>
+<Param1></Param1>
+<Param2></Param2>
+<Param3></Param3>
+<Param4></Param4>
+<Param5></Param5>
+<Param6></Param6>
+<Param7></Param7>
+<Param8></Param8>
+<Param9></Param9>
+</Response>
+
+2024-08-17 11:24:39:764  没有找到对应名称的配置文件:C:\Users\Administrator\Desktop\上位机\Project\BL12上位机\WinformBL12上位机\BL12\bin\Debug\Config\.ini.请检查!
+2024-08-17 11:24:39:788  收到来自 127.0.0.1:65495 的消息: <?xml version="1.0" encoding="UTF-8"?><Request><StreamNo>1</StreamNo><Timeout>10000</Timeout><Command>SET_LOT_NO</Command><Param1></Param1><Param2></Param2><Param3></Param3><Param4></Param4><Param5></Param5><Param6></Param6><Param7></Param7><Param8></Param8><Param9></Param9></Request>
+2024-08-17 11:25:32:054  发送内容：<?xml version="1.0" encoding="utf-8"?><Response><StreamNo></StreamNo>
+<Result>OK</Result>
+<Param1></Param1>
+<Param2></Param2>
+<Param3></Param3>
+<Param4></Param4>
+<Param5></Param5>
+<Param6></Param6>
+<Param7></Param7>
+<Param8></Param8>
+<Param9></Param9>
+</Response>
+
+2024-08-17 11:25:36:157  选择配置文件:C:\Users\Administrator\Desktop\上位机\Project\BL12上位机\WinformBL12上位机\BL12\bin\Debug\Config\C1234.ini
+2024-08-17 11:25:36:163  配置文件参数正在写入中........................
+2024-08-17 11:25:38:257  配置文件参数写入成功
+2024-08-17 11:25:46:149  收到来自 127.0.0.1:65495 的消息: <?xml version="1.0" encoding="UTF-8"?><Request><StreamNo>1</StreamNo><Timeout>10000</Timeout><Command>SET_LOT_NO</Command><Param1>S1234</Param1><Param2></Param2><Param3></Param3><Param4>C1234</Param4><Param5></Param5><Param6></Param6><Param7></Param7><Param8></Param8><Param9></Param9></Request>
+2024-08-17 11:26:50:678  发送内容：<?xml version="1.0" encoding="utf-8"?><Response><StreamNo></StreamNo>
+<Result>OK</Result>
+<Param1></Param1>
+<Param2></Param2>
+<Param3></Param3>
+<Param4></Param4>
+<Param5></Param5>
+<Param6></Param6>
+<Param7></Param7>
+<Param8></Param8>
+<Param9></Param9>
+</Response>
+
+2024-08-17 11:26:50:680  选择配置文件:C:\Users\Administrator\Desktop\上位机\Project\BL12上位机\WinformBL12上位机\BL12\bin\Debug\Config\C1234.ini
+2024-08-17 11:26:50:685  配置文件参数正在写入中........................
+2024-08-17 11:26:52:723  配置文件参数写入成功
+2024-08-17 11:26:52:730  收到来自 127.0.0.1:65495 的消息: <?xml version="1.0" encoding="UTF-8"?><Request><StreamNo>1</StreamNo><Timeout>10000</Timeout><Command>SET_LOT_NO</Command><Param1>S1234</Param1><Param2></Param2><Param3></Param3><Param4>C1234</Param4><Param5></Param5><Param6></Param6><Param7></Param7><Param8></Param8><Param9></Param9></Request>
+2024-08-17 11:27:06:437  收到来自 127.0.0.1:65495 的消息: <?xml version="1.0" encoding="UTF-8"?><Request><StreamNo>1</StreamNo><Timeout>10000</Timeout><Command>SET_LOT_NO</Command><Param1>S1234</Param1><Param2></Param2><Param3></Param3><Param4>C1234</Param4><Param5></Param5><Param6></Param6><Param7></Param7><Param8></Param8><Param9></Param9></Request>
+2024-08-17 11:27:52:235  收到来自 127.0.0.1:65495 的消息: <?xml version="1.0" encoding="UTF-8"?><Request><StreamNo>1</StreamNo><Timeout>10000</Timeout><Command>SET_LOT_NO</Command><Param1>S1234</Param1><Param2></Param2><Param3></Param3><Param4>C1234</Param4><Param5></Param5><Param6></Param6><Param7></Param7><Param8></Param8><Param9></Param9></Request>
+2024-08-17 13:01:26:744  *******配置参数加载成功*******
+2024-08-17 13:01:26:756  连接COM14成功
+2024-08-17 13:01:26:849  加载C1234.ini型号阻值温度配置文件成功
+2024-08-17 13:01:26:901  服务器监听端口开启成功:127.0.0.2:7600
+2024-08-17 13:01:26:904  连接MCMQ服务器成功:127.0.0.1:7600
+2024-08-17 13:01:27:054  成功开启发送消息队列:S17MES.CCD,成功开启回复查询队列:renuknows
+2024-08-17 13:01:43:339  客户端:127.0.0.1:54101连接成功
+2024-08-17 13:02:13:933  发送内容：<?xml version="1.0" encoding="utf-8"?><Response><StreamNo></StreamNo>
+<Result>OK</Result>
+<Param1></Param1>
+<Param2></Param2>
+<Param3></Param3>
+<Param4></Param4>
+<Param5></Param5>
+<Param6></Param6>
+<Param7></Param7>
+<Param8></Param8>
+<Param9></Param9>
+</Response>
+
+2024-08-17 13:02:13:939  没有找到对应名称的配置文件:C:\Users\Administrator\Desktop\上位机\Project\BL12上位机\WinformBL12上位机\BL12\bin\Debug\Config\.ini.请检查!
+2024-08-17 13:02:13:942  收到来自 127.0.0.1:54101 的消息: <?xml version="1.0" encoding="UTF-8"?><Request><StreamNo>1</StreamNo><Timeout>10000</Timeout><Command>SET_LOT_NO</Command><Param1></Param1><Param2></Param2><Param3></Param3><Param4></Param4><Param5></Param5><Param6></Param6><Param7></Param7><Param8></Param8><Param9></Param9></Request>
+2024-08-17 13:02:54:490  发送内容：<?xml version="1.0" encoding="utf-8"?><Response><StreamNo></StreamNo>
+<Result>OK</Result>
+<Param1></Param1>
+<Param2></Param2>
+<Param3></Param3>
+<Param4></Param4>
+<Param5></Param5>
+<Param6></Param6>
+<Param7></Param7>
+<Param8></Param8>
+<Param9></Param9>
+</Response>
+
+2024-08-17 13:02:54:491  没有找到对应名称的配置文件:C:\Users\Administrator\Desktop\上位机\Project\BL12上位机\WinformBL12上位机\BL12\bin\Debug\Config\.ini.请检查!
+2024-08-17 13:02:54:499  收到来自 127.0.0.1:54101 的消息: <?xml version="1.0" encoding="UTF-8"?><Request><StreamNo>1</StreamNo><Timeout>10000</Timeout><Command>SET_LOT_NO</Command><Param1></Param1><Param2></Param2><Param3></Param3><Param4></Param4><Param5></Param5><Param6></Param6><Param7></Param7><Param8></Param8><Param9></Param9></Request>
+2024-08-17 13:03:27:053  收到来自 127.0.0.1:54101 的消息: <?xml version="1.0" encoding="UTF-8"?><Request><StreamNo>1</StreamNo><Timeout>10000</Timeout><Command>SET_LOT_NO</Command><Param1>11111</Param1><Param2></Param2><Param3></Param3><Param4>C1234</Param4><Param5></Param5><Param6></Param6><Param7></Param7><Param8></Param8><Param9></Param9></Request>
+2024-08-17 13:03:36:989  收到来自 127.0.0.1:54101 的消息: <?xml version="1.0" encoding="UTF-8"?><Request><StreamNo>1</StreamNo><Timeout>10000</Timeout><Command>SET_LOT_NO</Command><Param1>11111</Param1><Param2></Param2><Param3></Param3><Param4>C1234</Param4><Param5></Param5><Param6></Param6><Param7></Param7><Param8></Param8><Param9></Param9></Request>
+2024-08-17 13:03:38:652  收到来自 127.0.0.1:54101 的消息: <?xml version="1.0" encoding="UTF-8"?><Request><StreamNo>1</StreamNo><Timeout>10000</Timeout><Command>SET_LOT_NO</Command><Param1>11111</Param1><Param2></Param2><Param3></Param3><Param4>C1234</Param4><Param5></Param5><Param6></Param6><Param7></Param7><Param8></Param8><Param9></Param9></Request>
+2024-08-17 13:03:57:885  收到来自 127.0.0.1:54101 的消息: <?xml version="1.0" encoding="UTF-8"?><Request><StreamNo>1</StreamNo><Timeout>10000</Timeout><Command>SET_LOT_NO</Command><Param1>11111</Param1><Param2></Param2><Param3></Param3><Param4>C1234</Param4><Param5></Param5><Param6></Param6><Param7></Param7><Param8></Param8><Param9></Param9></Request>
+2024-08-17 13:04:32:650  收到来自 127.0.0.1:54101 的消息: <?xml version="1.0" encoding="UTF-8"?><Request><StreamNo>1</StreamNo><Timeout>10000</Timeout><Command>SET_LOT_NO</Command><Param1>11111</Param1><Param2></Param2><Param3></Param3><Param4>C1234</Param4><Param5></Param5><Param6></Param6><Param7></Param7><Param8></Param8><Param9></Param9></Request>
+2024-08-17 13:04:54:513  收到来自 127.0.0.1:54101 的消息: <?xml version="1.0" encoding="UTF-8"?><Request><StreamNo>1</StreamNo><Timeout>10000</Timeout><Command>SET_LOT_NO</Command><Param1>11111</Param1><Param2></Param2><Param3></Param3><Param4>C1234</Param4><Param5></Param5><Param6></Param6><Param7></Param7><Param8></Param8><Param9></Param9></Request>
+2024-08-17 13:04:59:739  收到来自 127.0.0.1:54101 的消息: <?xml version="1.0" encoding="UTF-8"?><Request><StreamNo>1</StreamNo><Timeout>10000</Timeout><Command>SET_LOT_NO</Command><Param1>11111</Param1><Param2></Param2><Param3></Param3><Param4>C1234</Param4><Param5></Param5><Param6></Param6><Param7></Param7><Param8></Param8><Param9></Param9></Request>
+2024-08-17 13:05:04:026  收到来自 127.0.0.1:54101 的消息: <?xml version="1.0" encoding="UTF-8"?><Request><StreamNo>1</StreamNo><Timeout>10000</Timeout><Command>SET_LOT_NO</Command><Param1>11111</Param1><Param2></Param2><Param3></Param3><Param4>C1234</Param4><Param5></Param5><Param6></Param6><Param7></Param7><Param8></Param8><Param9></Param9></Request>
+2024-08-17 13:05:08:685  收到来自 127.0.0.1:54101 的消息: <?xml version="1.0" encoding="UTF-8"?><Request><StreamNo>1</StreamNo><Timeout>10000</Timeout><Command>SET_LOT_NO</Command><Param1>11111</Param1><Param2></Param2><Param3></Param3><Param4>C1234</Param4><Param5></Param5><Param6></Param6><Param7></Param7><Param8></Param8><Param9></Param9></Request>
+2024-08-17 13:05:44:586  *******配置参数加载成功*******
+2024-08-17 13:05:44:597  连接COM14成功
+2024-08-17 13:05:44:695  加载C1234.ini型号阻值温度配置文件成功
+2024-08-17 13:05:44:737  服务器监听端口开启成功:127.0.0.2:7600
+2024-08-17 13:05:44:870  连接MCMQ服务器成功:127.0.0.1:7600
+2024-08-17 13:05:44:878  成功开启发送消息队列:S17MES.CCD,成功开启回复查询队列:renuknows
+2024-08-17 13:05:58:475  客户端:127.0.0.1:54310连接成功
+2024-08-17 13:06:25:105  收到来自 127.0.0.1:54310 的消息: <?xml version="1.0" encoding="UTF-8"?><Request><StreamNo>1</StreamNo><Timeout>10000</Timeout><Command>SET_LOT_NO</Command><Param1>123</Param1><Param2></Param2><Param3></Param3><Param4>C1234</Param4><Param5></Param5><Param6></Param6><Param7></Param7><Param8></Param8><Param9></Param9></Request>
+2024-08-17 13:06:38:076  收到来自 127.0.0.1:54310 的消息: <?xml version="1.0" encoding="UTF-8"?><Request><StreamNo>1</StreamNo><Timeout>10000</Timeout><Command>SET_LOT_NO</Command><Param1>123</Param1><Param2></Param2><Param3></Param3><Param4>C1234</Param4><Param5></Param5><Param6></Param6><Param7></Param7><Param8></Param8><Param9></Param9></Request>
+2024-08-17 13:06:45:399  收到来自 127.0.0.1:54310 的消息: <?xml version="1.0" encoding="UTF-8"?><Request><StreamNo>1</StreamNo><Timeout>10000</Timeout><Command>SET_LOT_NO</Command><Param1>1</Param1><Param2></Param2><Param3></Param3><Param4>C1234</Param4><Param5></Param5><Param6></Param6><Param7></Param7><Param8></Param8><Param9></Param9></Request>
+2024-08-17 13:08:00:968  *******配置参数加载成功*******
+2024-08-17 13:08:00:981  连接COM14成功
+2024-08-17 13:08:01:072  加载C1234.ini型号阻值温度配置文件成功
+2024-08-17 13:08:01:112  服务器监听端口开启成功:127.0.0.2:7600
+2024-08-17 13:08:01:246  连接MCMQ服务器成功:127.0.0.1:7600
+2024-08-17 13:08:01:294  成功开启发送消息队列:S17MES.CCD,成功开启回复查询队列:renuknows
+2024-08-17 13:08:06:731  客户端:127.0.0.1:54441连接成功
+2024-08-17 13:08:55:721  收到来自 127.0.0.1:54441 的消息: <?xml version="1.0" encoding="UTF-8"?><Request><StreamNo>1</StreamNo><Timeout>10000</Timeout><Command>SET_LOT_NO</Command><Param1>1</Param1><Param2></Param2><Param3></Param3><Param4>C1234</Param4><Param5></Param5><Param6></Param6><Param7></Param7><Param8></Param8><Param9></Param9></Request>
+2024-08-17 13:09:13:468  收到来自 127.0.0.1:54441 的消息: <?xml version="1.0" encoding="UTF-8"?><Request><StreamNo>1</StreamNo><Timeout>10000</Timeout><Command>SET_LOT_NO</Command><Param1>1</Param1><Param2></Param2><Param3></Param3><Param4>C1234</Param4><Param5></Param5><Param6></Param6><Param7></Param7><Param8></Param8><Param9></Param9></Request>
+2024-08-17 13:09:30:012  *******配置参数加载成功*******
+2024-08-17 13:09:30:022  连接COM14成功
+2024-08-17 13:09:30:152  加载C1234.ini型号阻值温度配置文件成功
+2024-08-17 13:09:30:194  服务器监听端口开启成功:127.0.0.2:7600
+2024-08-17 13:09:30:339  连接MCMQ服务器成功:127.0.0.1:7600
+2024-08-17 13:09:30:395  成功开启发送消息队列:S17MES.CCD,成功开启回复查询队列:renuknows
+2024-08-17 13:09:42:884  客户端:127.0.0.1:54511连接成功
+2024-08-17 13:10:02:663  收到来自 127.0.0.1:54511 的消息: <?xml version="1.0" encoding="UTF-8"?><Request><StreamNo>1</StreamNo><Timeout>10000</Timeout><Command>SET_LOT_NO</Command><Param1>1</Param1><Param2></Param2><Param3></Param3><Param4>C1234</Param4><Param5></Param5><Param6></Param6><Param7></Param7><Param8></Param8><Param9></Param9></Request>
+2024-08-17 13:12:18:127  收到来自 127.0.0.1:54511 的消息: <?xml version="1.0" encoding="UTF-8"?><Request><StreamNo>1</StreamNo><Timeout>10000</Timeout><Command>SET_LOT_NO</Command><Param1>1</Param1><Param2></Param2><Param3></Param3><Param4>C1234</Param4><Param5></Param5><Param6></Param6><Param7></Param7><Param8></Param8><Param9></Param9></Request>
+2024-08-17 13:12:18:130  客户端:127.0.0.1:54511断开连接
+2024-08-17 13:12:24:605  客户端:127.0.0.1:54632连接成功
+2024-08-17 13:13:29:769  *******配置参数加载成功*******
+2024-08-17 13:13:29:802  连接COM14成功
+2024-08-17 13:13:29:902  加载C1234.ini型号阻值温度配置文件成功
+2024-08-17 13:13:29:945  服务器监听端口开启成功:127.0.0.2:7600
+2024-08-17 13:13:30:100  连接MCMQ服务器成功:127.0.0.1:7600
+2024-08-17 13:13:30:112  成功开启发送消息队列:S17MES.CCD,成功开启回复查询队列:renuknows
+2024-08-17 13:13:53:838  客户端:127.0.0.1:54705连接成功
+2024-08-17 13:14:25:859  收到来自 127.0.0.1:54705 的消息: <?xml version="1.0" encoding="UTF-8"?><Request><StreamNo>1</StreamNo><Timeout>10000</Timeout><Command>SET_LOT_NO</Command><Param1>2</Param1><Param2></Param2><Param3></Param3><Param4>C1234</Param4><Param5></Param5><Param6></Param6><Param7></Param7><Param8></Param8><Param9></Param9></Request>
+2024-08-17 13:15:25:919  收到来自 127.0.0.1:54705 的消息: <?xml version="1.0" encoding="UTF-8"?><Request><StreamNo>1</StreamNo><Timeout>10000</Timeout><Command>SET_LOT_NO</Command><Param1>3</Param1><Param2></Param2><Param3></Param3><Param4>C1234</Param4><Param5></Param5><Param6></Param6><Param7></Param7><Param8></Param8><Param9></Param9></Request>
+2024-08-17 13:15:36:906  收到来自 127.0.0.1:54705 的消息: <?xml version="1.0" encoding="UTF-8"?><Request><StreamNo>1</StreamNo><Timeout>10000</Timeout><Command>SET_LOT_NO</Command><Param1>4</Param1><Param2></Param2><Param3></Param3><Param4>C1234</Param4><Param5></Param5><Param6></Param6><Param7></Param7><Param8></Param8><Param9></Param9></Request>
+2024-08-17 13:15:48:771  收到来自 127.0.0.1:54705 的消息: <?xml version="1.0" encoding="UTF-8"?><Request><StreamNo>1</StreamNo><Timeout>10000</Timeout><Command>SET_LOT_NO</Command><Param1>5</Param1><Param2></Param2><Param3></Param3><Param4>C1234</Param4><Param5></Param5><Param6></Param6><Param7></Param7><Param8></Param8><Param9></Param9></Request>
+2024-08-17 13:15:53:985  收到来自 127.0.0.1:54705 的消息: <?xml version="1.0" encoding="UTF-8"?><Request><StreamNo>1</StreamNo><Timeout>10000</Timeout><Command>SET_LOT_NO</Command><Param1>7</Param1><Param2></Param2><Param3></Param3><Param4>C1234</Param4><Param5></Param5><Param6></Param6><Param7></Param7><Param8></Param8><Param9></Param9></Request>
+2024-08-17 13:16:03:470  收到来自 127.0.0.1:54705 的消息: <?xml version="1.0" encoding="UTF-8"?><Request><StreamNo>1</StreamNo><Timeout>10000</Timeout><Command>SET_LOT_NO</Command><Param1>8</Param1><Param2></Param2><Param3></Param3><Param4>C1234</Param4><Param5></Param5><Param6></Param6><Param7></Param7><Param8></Param8><Param9></Param9></Request>
+2024-08-17 13:16:45:591  收到来自 127.0.0.1:54705 的消息: <?xml version="1.0" encoding="UTF-8"?><Request><StreamNo>1</StreamNo><Timeout>10000</Timeout><Command>SET_LOT_NO</Command><Param1>8</Param1><Param2></Param2><Param3></Param3><Param4>C1234</Param4><Param5></Param5><Param6></Param6><Param7></Param7><Param8></Param8><Param9></Param9></Request>
+2024-08-17 13:19:40:390  没有找到对应的名称配置参数,请检查是否存在.ini配置参数
+2024-08-17 13:19:40:408  收到来自 127.0.0.1:54705 的消息: <?xml version="1.0" encoding="UTF-8"?><Request><StreamNo>2</StreamNo><Timeout>10000</Timeout><Command>BL12</Command><Param1></Param1><Param2></Param2><Param3></Param3><Param4></Param4><Param5></Param5><Param6></Param6><Param7></Param7><Param8></Param8><Param9></Param9></Request>
+2024-08-17 13:19:44:591  加载C1234.ini型号阻值温度配置文件成功
+2024-08-17 13:20:17:187  当前阻值在限定范围内,当前NTC阻值为: 12.01KΩ
+2024-08-17 13:20:17:191  当前阻值在限定范围内,当前NTC阻值为: 12.03KΩ
+2024-08-17 13:20:17:294  点检完成
+2024-08-17 13:20:17:306  发送内容：<?xml version="1.0" encoding="utf-8"?><Response><StreamNo></StreamNo>
+<Result>PASS</Result>
+<Param1></Param1>
+<Param2></Param2>
+<Param3></Param3>
+<Param4></Param4>
+<Param5></Param5>
+<Param6></Param6>
+<Param7></Param7>
+<Param8></Param8>
+<Param9></Param9>
+</Response>
+
+2024-08-17 13:22:20:905  *******配置参数加载成功*******
+2024-08-17 13:22:20:916  连接COM14成功
+2024-08-17 13:22:21:012  加载C1234.ini型号阻值温度配置文件成功
+2024-08-17 13:22:21:051  服务器监听端口开启成功:127.0.0.2:7600
+2024-08-17 13:22:21:200  连接MCMQ服务器成功:127.0.0.1:7600
+2024-08-17 13:22:21:250  成功开启发送消息队列:S17MES.CCD,成功开启回复查询队列:renuknows
+2024-08-17 13:22:24:059  当前阻值在限定范围内,当前NTC阻值为: 12.01KΩ
+2024-08-17 13:22:24:065  当前阻值在限定范围内,当前NTC阻值为: 12.03KΩ
+2024-08-17 13:22:24:168  点检完成
+2024-08-17 13:22:24:177  MCMQ CCD QueueName = S17MES.CCD
+2024-08-17 13:22:24:202  发送消息到队列:S17MES.CCD,消息内容:
+<?xml version="1.0" encoding="utf-8"?><trx><trx_name>CCDDataRepor</trx_name>
+<lot_no>1</lot_no>
+<type_id>I</type_id>
+<log_id>202408170122</log_id>
+<iary_infos><iary><ccd_type>ResistValue1</ccd_type>
+<max_lumi></max_lumi>
+<unifomity>12.01</unifomity>
+<judge>PASS</judge>
+</iary>
+<iary><ccd_type>Temperature1</ccd_type>
+<max_lumi></max_lumi>
+<unifomity>21</unifomity>
+<judge>PASS</judge>
+</iary>
+<iary><ccd_type>ResistValue2</ccd_type>
+<max_lumi></max_lumi>
+<unifomity>12.03</unifomity>
+<judge>PASS</judge>
+</iary>
+<iary><ccd_type>Temperature2</ccd_type>
+<max_lumi></max_lumi>
+<unifomity>21</unifomity>
+<judge>PASS</judge>
+</iary>
+</iary_infos>
+<lm_user>DESKTOP-CJIIOBE</lm_user>
+<lm_time>2024-08-17 01:22</lm_time>
+</trx>
+
+2024-08-17 13:23:02:773  客户端:127.0.0.1:55157连接成功
+2024-08-17 13:23:32:348  当前阻值在限定范围内,当前NTC阻值为: 12.03KΩ
+2024-08-17 13:23:32:344  当前阻值在限定范围内,当前NTC阻值为: 12.01KΩ
+2024-08-17 13:23:32:465  点检完成
+2024-08-17 13:23:32:485  发送内容：<?xml version="1.0" encoding="utf-8"?><Response><StreamNo></StreamNo>
+<Result>PASS</Result>
+<Param1></Param1>
+<Param2></Param2>
+<Param3></Param3>
+<Param4></Param4>
+<Param5></Param5>
+<Param6></Param6>
+<Param7></Param7>
+<Param8></Param8>
+<Param9></Param9>
+</Response>
+
+2024-08-17 13:23:32:486  MCMQ CCD QueueName = S17MES.CCD
+2024-08-17 13:23:32:488  收到来自 127.0.0.1:55157 的消息: <?xml version="1.0" encoding="UTF-8"?><Request><StreamNo>2</StreamNo><Timeout>10000</Timeout><Command>BL12</Command><Param1></Param1><Param2></Param2><Param3></Param3><Param4></Param4><Param5></Param5><Param6></Param6><Param7></Param7><Param8></Param8><Param9></Param9></Request>
+2024-08-17 13:23:32:489  发送消息到队列:S17MES.CCD,消息内容:
+<?xml version="1.0" encoding="utf-8"?><trx><trx_name>CCDDataRepor</trx_name>
+<lot_no>1</lot_no>
+<type_id>I</type_id>
+<log_id>202408170123</log_id>
+<iary_infos><iary><ccd_type>ResistValue1</ccd_type>
+<max_lumi></max_lumi>
+<unifomity>12.01</unifomity>
+<judge>PASS</judge>
+</iary>
+<iary><ccd_type>Temperature1</ccd_type>
+<max_lumi></max_lumi>
+<unifomity>21</unifomity>
+<judge>PASS</judge>
+</iary>
+<iary><ccd_type>ResistValue2</ccd_type>
+<max_lumi></max_lumi>
+<unifomity>12.03</unifomity>
+<judge>PASS</judge>
+</iary>
+<iary><ccd_type>Temperature2</ccd_type>
+<max_lumi></max_lumi>
+<unifomity>21</unifomity>
+<judge>PASS</judge>
+</iary>
+</iary_infos>
+<lm_user>DESKTOP-CJIIOBE</lm_user>
+<lm_time>2024-08-17 01:23</lm_time>
+</trx>
+
+2024-08-17 13:23:45:726  成功关闭服务器:
+2024-08-17 13:24:03:504  *******配置参数加载成功*******
+2024-08-17 13:24:03:520  连接COM14成功
+2024-08-17 13:24:03:611  加载C1234.ini型号阻值温度配置文件成功
+2024-08-17 13:24:03:654  服务器监听端口开启成功:127.0.0.2:7600
+2024-08-17 13:24:03:656  连接MCMQ服务器成功:127.0.0.1:7600
+2024-08-17 13:24:03:792  成功开启发送消息队列:S17MES.CCD,成功开启回复查询队列:renuknows
+2024-08-17 13:24:23:897  客户端:127.0.0.1:55230连接成功
+2024-08-17 13:24:37:184  当前阻值在限定范围内,当前NTC阻值为: 12.01KΩ
+2024-08-17 13:24:37:190  当前阻值在限定范围内,当前NTC阻值为: 12.03KΩ
+2024-08-17 13:24:37:307  点检完成
+2024-08-17 13:24:37:348  发送内容：<?xml version="1.0" encoding="utf-8"?><Response><StreamNo></StreamNo>
+<Result>PASS</Result>
+<Param1></Param1>
+<Param2></Param2>
+<Param3></Param3>
+<Param4></Param4>
+<Param5></Param5>
+<Param6></Param6>
+<Param7></Param7>
+<Param8></Param8>
+<Param9></Param9>
+</Response>
+
+2024-08-17 13:24:37:350  MCMQ CCD QueueName = S17MES.CCD
+2024-08-17 13:24:37:365  收到来自 127.0.0.1:55230 的消息: <?xml version="1.0" encoding="UTF-8"?><Request><StreamNo>2</StreamNo><Timeout>10000</Timeout><Command>BL12</Command><Param1></Param1><Param2></Param2><Param3></Param3><Param4></Param4><Param5></Param5><Param6></Param6><Param7></Param7><Param8></Param8><Param9></Param9></Request>
+2024-08-17 13:24:37:366  发送消息到队列:S17MES.CCD,消息内容:
+<?xml version="1.0" encoding="utf-8"?><trx><trx_name>CCDDataRepor</trx_name>
+<lot_no>1</lot_no>
+<type_id>I</type_id>
+<log_id>202408170124</log_id>
+<iary_infos><iary><ccd_type>ResistValue1</ccd_type>
+<max_lumi></max_lumi>
+<unifomity>12.01</unifomity>
+<judge>PASS</judge>
+</iary>
+<iary><ccd_type>Temperature1</ccd_type>
+<max_lumi></max_lumi>
+<unifomity>21</unifomity>
+<judge>PASS</judge>
+</iary>
+<iary><ccd_type>ResistValue2</ccd_type>
+<max_lumi></max_lumi>
+<unifomity>12.03</unifomity>
+<judge>PASS</judge>
+</iary>
+<iary><ccd_type>Temperature2</ccd_type>
+<max_lumi></max_lumi>
+<unifomity>21</unifomity>
+<judge>PASS</judge>
+</iary>
+</iary_infos>
+<lm_user>DESKTOP-CJIIOBE</lm_user>
+<lm_time>2024-08-17 01:24</lm_time>
+</trx>
+
+2024-08-17 13:24:50:435  成功关闭服务器:
+2024-08-17 13:25:03:175  *******配置参数加载成功*******
+2024-08-17 13:25:03:187  连接COM14成功
+2024-08-17 13:25:03:278  加载C1234.ini型号阻值温度配置文件成功
+2024-08-17 13:25:03:323  服务器监听端口开启成功:127.0.0.2:7600
+2024-08-17 13:25:03:485  连接MCMQ服务器成功:127.0.0.1:7600
+2024-08-17 13:25:03:494  成功开启发送消息队列:S17MES.CCD,成功开启回复查询队列:renuknows
+2024-08-17 13:25:57:168  客户端:127.0.0.1:55299连接成功
+2024-08-17 13:25:59:067  收到来自 127.0.0.1:55299 的消息: <?xml version="1.0" encoding="UTF-8"?><Request><StreamNo>1</StreamNo><Timeout>10000</Timeout><Command>SET_LOT_NO</Command><Param1>123321</Param1><Param2></Param2><Param3></Param3><Param4>C1234</Param4><Param5></Param5><Param6></Param6><Param7></Param7><Param8></Param8><Param9></Param9></Request>
+2024-08-17 13:26:17:810  当前阻值在限定范围内,当前NTC阻值为: 12.01KΩ
+2024-08-17 13:26:17:814  当前阻值在限定范围内,当前NTC阻值为: 12.03KΩ
+2024-08-17 13:26:17:930  点检完成
+2024-08-17 13:26:17:947  发送内容：<?xml version="1.0" encoding="utf-8"?><Response><StreamNo></StreamNo>
+<Result>PASS</Result>
+<Param1></Param1>
+<Param2></Param2>
+<Param3></Param3>
+<Param4></Param4>
+<Param5></Param5>
+<Param6></Param6>
+<Param7></Param7>
+<Param8></Param8>
+<Param9></Param9>
+</Response>
+
+2024-08-17 13:26:17:950  MCMQ CCD QueueName = S17MES.CCD
+2024-08-17 13:26:17:966  收到来自 127.0.0.1:55299 的消息: <?xml version="1.0" encoding="UTF-8"?><Request><StreamNo>2</StreamNo><Timeout>10000</Timeout><Command>BL12</Command><Param1></Param1><Param2></Param2><Param3></Param3><Param4></Param4><Param5></Param5><Param6></Param6><Param7></Param7><Param8></Param8><Param9></Param9></Request>
+2024-08-17 13:26:17:968  发送消息到队列:S17MES.CCD,消息内容:
+<?xml version="1.0" encoding="utf-8"?><trx><trx_name>CCDDataRepor</trx_name>
+<lot_no>123321</lot_no>
+<type_id>I</type_id>
+<log_id>202408170126</log_id>
+<iary_infos><iary><ccd_type>ResistValue1</ccd_type>
+<max_lumi></max_lumi>
+<unifomity>12.01</unifomity>
+<judge>PASS</judge>
+</iary>
+<iary><ccd_type>Temperature1</ccd_type>
+<max_lumi></max_lumi>
+<unifomity>21</unifomity>
+<judge>PASS</judge>
+</iary>
+<iary><ccd_type>ResistValue2</ccd_type>
+<max_lumi></max_lumi>
+<unifomity>12.03</unifomity>
+<judge>PASS</judge>
+</iary>
+<iary><ccd_type>Temperature2</ccd_type>
+<max_lumi></max_lumi>
+<unifomity>21</unifomity>
+<judge>PASS</judge>
+</iary>
+</iary_infos>
+<lm_user>DESKTOP-CJIIOBE</lm_user>
+<lm_time>2024-08-17 01:26</lm_time>
+</trx>
+
+2024-08-17 13:28:06:244  当前阻值在限定范围内,当前NTC阻值为: 12.01KΩ
+2024-08-17 13:28:06:247  当前阻值在限定范围内,当前NTC阻值为: 12.03KΩ
+2024-08-17 13:28:06:364  点检完成
+2024-08-17 13:28:06:368  发送内容：<?xml version="1.0" encoding="utf-8"?><Response><StreamNo></StreamNo>
+<Result>PASS</Result>
+<Param1></Param1>
+<Param2></Param2>
+<Param3></Param3>
+<Param4></Param4>
+<Param5></Param5>
+<Param6></Param6>
+<Param7></Param7>
+<Param8></Param8>
+<Param9></Param9>
+</Response>
+
+2024-08-17 13:28:06:369  MCMQ CCD QueueName = S17MES.CCD
+2024-08-17 13:28:06:372  收到来自 127.0.0.1:55299 的消息: <?xml version="1.0" encoding="UTF-8"?><Request><StreamNo>2</StreamNo><Timeout>10000</Timeout><Command>BL12</Command><Param1></Param1><Param2></Param2><Param3></Param3><Param4></Param4><Param5></Param5><Param6></Param6><Param7></Param7><Param8></Param8><Param9></Param9></Request>
+2024-08-17 13:28:06:373  发送消息到队列:S17MES.CCD,消息内容:
+<?xml version="1.0" encoding="utf-8"?><trx><trx_name>CCDDataRepor</trx_name>
+<lot_no>123321</lot_no>
+<type_id>I</type_id>
+<log_id>202408170128</log_id>
+<iary_infos><iary><ccd_type>ResistValue1</ccd_type>
+<max_lumi></max_lumi>
+<unifomity>12.01</unifomity>
+<judge>PASS</judge>
+</iary>
+<iary><ccd_type>Temperature1</ccd_type>
+<max_lumi></max_lumi>
+<unifomity>21</unifomity>
+<judge>PASS</judge>
+</iary>
+<iary><ccd_type>ResistValue2</ccd_type>
+<max_lumi></max_lumi>
+<unifomity>12.03</unifomity>
+<judge>PASS</judge>
+</iary>
+<iary><ccd_type>Temperature2</ccd_type>
+<max_lumi></max_lumi>
+<unifomity>21</unifomity>
+<judge>PASS</judge>
+</iary>
+</iary_infos>
+<lm_user>DESKTOP-CJIIOBE</lm_user>
+<lm_time>2024-08-17 01:28</lm_time>
+</trx>
+
+2024-08-17 13:28:14:083  当前阻值在限定范围内,当前NTC阻值为: 12.01KΩ
+2024-08-17 13:28:14:086  当前阻值在限定范围内,当前NTC阻值为: 12.03KΩ
+2024-08-17 13:28:14:192  点检完成
+2024-08-17 13:28:14:197  发送内容：<?xml version="1.0" encoding="utf-8"?><Response><StreamNo></StreamNo>
+<Result>PASS</Result>
+<Param1></Param1>
+<Param2></Param2>
+<Param3></Param3>
+<Param4></Param4>
+<Param5></Param5>
+<Param6></Param6>
+<Param7></Param7>
+<Param8></Param8>
+<Param9></Param9>
+</Response>
+
+2024-08-17 13:28:14:198  MCMQ CCD QueueName = S17MES.CCD
+2024-08-17 13:28:14:199  收到来自 127.0.0.1:55299 的消息: <?xml version="1.0" encoding="UTF-8"?><Request><StreamNo>2</StreamNo><Timeout>10000</Timeout><Command>BL12</Command><Param1></Param1><Param2></Param2><Param3></Param3><Param4></Param4><Param5></Param5><Param6></Param6><Param7></Param7><Param8></Param8><Param9></Param9></Request>
+2024-08-17 13:28:14:205  发送消息到队列:S17MES.CCD,消息内容:
+<?xml version="1.0" encoding="utf-8"?><trx><trx_name>CCDDataRepor</trx_name>
+<lot_no>123321</lot_no>
+<type_id>I</type_id>
+<log_id>202408170128</log_id>
+<iary_infos><iary><ccd_type>ResistValue1</ccd_type>
+<max_lumi></max_lumi>
+<unifomity>12.01</unifomity>
+<judge>PASS</judge>
+</iary>
+<iary><ccd_type>Temperature1</ccd_type>
+<max_lumi></max_lumi>
+<unifomity>21</unifomity>
+<judge>PASS</judge>
+</iary>
+<iary><ccd_type>ResistValue2</ccd_type>
+<max_lumi></max_lumi>
+<unifomity>12.03</unifomity>
+<judge>PASS</judge>
+</iary>
+<iary><ccd_type>Temperature2</ccd_type>
+<max_lumi></max_lumi>
+<unifomity>21</unifomity>
+<judge>PASS</judge>
+</iary>
+</iary_infos>
+<lm_user>DESKTOP-CJIIOBE</lm_user>
+<lm_time>2024-08-17 01:28</lm_time>
+</trx>
+
+2024-08-17 13:28:22:376  客户端:127.0.0.1:55299断开连接
+2024-08-17 13:28:23:744  成功关闭服务器:
+2024-08-17 13:28:40:055  *******配置参数加载成功*******
+2024-08-17 13:28:40:067  连接COM14成功
+2024-08-17 13:28:40:169  加载C1234.ini型号阻值温度配置文件成功
+2024-08-17 13:28:40:207  服务器监听端口开启成功:127.0.0.2:7600
+2024-08-17 13:28:40:364  连接MCMQ服务器成功:127.0.0.1:7600
+2024-08-17 13:28:40:376  成功开启发送消息队列:S17MES.CCD,成功开启回复查询队列:renuknows
+2024-08-17 13:28:43:288  成功关闭服务器:
+2024-08-17 13:29:05:421  *******配置参数加载成功*******
+2024-08-17 13:29:05:434  连接COM14成功
+2024-08-17 13:29:05:541  加载C1234.ini型号阻值温度配置文件成功
+2024-08-17 13:29:05:596  服务器监听端口开启成功:127.0.0.2:7600
+2024-08-17 13:29:05:599  连接MCMQ服务器成功:127.0.0.1:7600
+2024-08-17 13:29:05:787  成功开启发送消息队列:S17MES.CCD,成功开启回复查询队列:renuknows
+2024-08-17 13:29:23:235  客户端:127.0.0.1:55519连接成功
+2024-08-17 13:29:30:160  客户端:127.0.0.1:55519断开连接
+2024-08-17 13:29:32:502  成功关闭服务器:
+2024-08-17 13:38:24:540  *******配置参数加载成功*******
+2024-08-17 13:38:24:550  连接COM14成功
+2024-08-17 13:38:24:653  加载C1234.ini型号阻值温度配置文件成功
+2024-08-17 13:38:24:691  服务器监听端口开启成功:127.0.0.2:7600
+2024-08-17 13:38:24:693  连接MCMQ服务器成功:127.0.0.1:7600
+2024-08-17 13:38:24:825  成功开启发送消息队列:S17MES.CCD,成功开启回复查询队列:renuknows
+2024-08-17 13:38:26:387  读取背光参数中
+2024-08-17 13:38:44:724  点亮背光参数已储存
+2024-08-17 13:42:46:702  请求失败,请重新开启背光
+2024-08-17 13:43:02:492  成功关闭服务器:
+2024-08-17 13:44:21:150  *******配置参数加载成功*******
+2024-08-17 13:44:21:162  连接COM14成功
+2024-08-17 13:44:21:256  加载C1234.ini型号阻值温度配置文件成功
+2024-08-17 13:44:21:295  服务器监听端口开启成功:127.0.0.2:7600
+2024-08-17 13:44:21:297  连接MCMQ服务器成功:127.0.0.1:7600
+2024-08-17 13:44:21:444  成功开启发送消息队列:S17MES.CCD,成功开启回复查询队列:renuknows
+2024-08-17 13:44:22:464  读取背光参数中
+2024-08-17 13:44:36:000  点亮背光参数已储存
+2024-08-17 13:44:58:369  成功关闭服务器:
+2024-08-17 13:45:10:178  *******配置参数加载成功*******
+2024-08-17 13:45:10:220  连接COM14成功
+2024-08-17 13:45:10:322  加载C1234.ini型号阻值温度配置文件成功
+2024-08-17 13:45:10:363  服务器监听端口开启成功:127.0.0.2:7600
+2024-08-17 13:45:17:890  连接MCMQ服务器成功:127.0.0.1:7600
+2024-08-17 13:45:17:900  成功开启发送消息队列:S17MES.CCD,成功开启回复查询队列:renuknows
+2024-08-17 13:45:25:199  读取背光参数中
+2024-08-17 13:45:38:092  客户端:127.0.0.1:56394连接成功
+2024-08-17 13:45:56:755  收到来自 127.0.0.1:56394 的消息: <?xml version="1.0" encoding="UTF-8"?><Request><StreamNo>1</StreamNo><Timeout>10000</Timeout><Command>SET_LOT_NO</Command><Param1>123321</Param1><Param2></Param2><Param3></Param3><Param4>C1234</Param4><Param5></Param5><Param6></Param6><Param7></Param7><Param8></Param8><Param9></Param9></Request>
+2024-08-17 13:46:12:560  当前阻值在限定范围内,当前NTC阻值为: 12.03KΩ
+2024-08-17 13:46:12:564  当前阻值在限定范围内,当前NTC阻值为: 12.01KΩ
+2024-08-17 13:46:12:669  点检完成
+2024-08-17 13:46:12:684  发送内容：<?xml version="1.0" encoding="utf-8"?><Response><StreamNo></StreamNo>
+<Result>PASS</Result>
+<Param1></Param1>
+<Param2></Param2>
+<Param3></Param3>
+<Param4></Param4>
+<Param5></Param5>
+<Param6></Param6>
+<Param7></Param7>
+<Param8></Param8>
+<Param9></Param9>
+</Response>
+
+2024-08-17 13:46:12:686  MCMQ CCD QueueName = S17MES.CCD
+2024-08-17 13:46:12:698  收到来自 127.0.0.1:56394 的消息: <?xml version="1.0" encoding="UTF-8"?><Request><StreamNo>2</StreamNo><Timeout>10000</Timeout><Command>BL12</Command><Param1></Param1><Param2></Param2><Param3></Param3><Param4></Param4><Param5></Param5><Param6></Param6><Param7></Param7><Param8></Param8><Param9></Param9></Request>
+2024-08-17 13:46:12:699  发送消息到队列:S17MES.CCD,消息内容:
+<?xml version="1.0" encoding="utf-8"?><trx><trx_name>CCDDataRepor</trx_name>
+<lot_no>123321</lot_no>
+<type_id>I</type_id>
+<log_id>202408170146</log_id>
+<iary_infos><iary><ccd_type>ResistValue1</ccd_type>
+<max_lumi></max_lumi>
+<unifomity>12.03</unifomity>
+<judge>PASS</judge>
+</iary>
+<iary><ccd_type>Temperature1</ccd_type>
+<max_lumi></max_lumi>
+<unifomity>21</unifomity>
+<judge>PASS</judge>
+</iary>
+<iary><ccd_type>ResistValue2</ccd_type>
+<max_lumi></max_lumi>
+<unifomity>12.01</unifomity>
+<judge>PASS</judge>
+</iary>
+<iary><ccd_type>Temperature2</ccd_type>
+<max_lumi></max_lumi>
+<unifomity>21</unifomity>
+<judge>PASS</judge>
+</iary>
+</iary_infos>
+<lm_user>DESKTOP-CJIIOBE</lm_user>
+<lm_time>2024-08-17 01:46</lm_time>
+</trx>
+
+2024-08-17 13:46:33:960  当前阻值在限定范围内,当前NTC阻值为: 12.03KΩ
+2024-08-17 13:46:33:961  当前阻值在限定范围内,当前NTC阻值为: 12.01KΩ
+2024-08-17 13:46:34:067  点检完成
+2024-08-17 13:46:34:069  发送内容：<?xml version="1.0" encoding="utf-8"?><Response><StreamNo></StreamNo>
+<Result>PASS</Result>
+<Param1></Param1>
+<Param2></Param2>
+<Param3></Param3>
+<Param4></Param4>
+<Param5></Param5>
+<Param6></Param6>
+<Param7></Param7>
+<Param8></Param8>
+<Param9></Param9>
+</Response>
+
+2024-08-17 13:46:34:070  MCMQ CCD QueueName = S17MES.CCD
+2024-08-17 13:46:34:072  收到来自 127.0.0.1:56394 的消息: <?xml version="1.0" encoding="UTF-8"?><Request><StreamNo>2</StreamNo><Timeout>10000</Timeout><Command>BL12</Command><Param1></Param1><Param2></Param2><Param3></Param3><Param4></Param4><Param5></Param5><Param6></Param6><Param7></Param7><Param8></Param8><Param9></Param9></Request>
+2024-08-17 13:46:34:073  发送消息到队列:S17MES.CCD,消息内容:
+<?xml version="1.0" encoding="utf-8"?><trx><trx_name>CCDDataRepor</trx_name>
+<lot_no>123321</lot_no>
+<type_id>I</type_id>
+<log_id>202408170146</log_id>
+<iary_infos><iary><ccd_type>ResistValue1</ccd_type>
+<max_lumi></max_lumi>
+<unifomity>12.03</unifomity>
+<judge>PASS</judge>
+</iary>
+<iary><ccd_type>Temperature1</ccd_type>
+<max_lumi></max_lumi>
+<unifomity>21</unifomity>
+<judge>PASS</judge>
+</iary>
+<iary><ccd_type>ResistValue2</ccd_type>
+<max_lumi></max_lumi>
+<unifomity>12.01</unifomity>
+<judge>PASS</judge>
+</iary>
+<iary><ccd_type>Temperature2</ccd_type>
+<max_lumi></max_lumi>
+<unifomity>21</unifomity>
+<judge>PASS</judge>
+</iary>
+</iary_infos>
+<lm_user>DESKTOP-CJIIOBE</lm_user>
+<lm_time>2024-08-17 01:46</lm_time>
+</trx>
+
+2024-08-17 13:46:49:072  成功关闭服务器:

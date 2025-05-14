@@ -1,0 +1,9 @@
+C:\Users\Administrator\Desktop\上位机\Project\BL12上位机\WinformBL12上位机\CurrentVariable\bin\Debug\EntityClass.dll
+C:\Users\Administrator\Desktop\上位机\Project\BL12上位机\WinformBL12上位机\CurrentVariable\bin\Debug\EntityClass.pdb
+C:\Users\Administrator\Desktop\上位机\Project\BL12上位机\WinformBL12上位机\CurrentVariable\bin\Debug\thinger.DataConvertLib.dll
+C:\Users\Administrator\Desktop\上位机\Project\BL12上位机\WinformBL12上位机\CurrentVariable\bin\Debug\thinger.DataConvertLib.xml
+C:\Users\Administrator\Desktop\上位机\Project\BL12上位机\WinformBL12上位机\CurrentVariable\obj\Debug\EntityClass.csproj.AssemblyReference.cache
+C:\Users\Administrator\Desktop\上位机\Project\BL12上位机\WinformBL12上位机\CurrentVariable\obj\Debug\EntityClass.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\上位机\Project\BL12上位机\WinformBL12上位机\CurrentVariable\obj\Debug\EntityCl.20D450AD.Up2Date
+C:\Users\Administrator\Desktop\上位机\Project\BL12上位机\WinformBL12上位机\CurrentVariable\obj\Debug\EntityClass.dll
+C:\Users\Administrator\Desktop\上位机\Project\BL12上位机\WinformBL12上位机\CurrentVariable\obj\Debug\EntityClass.pdb

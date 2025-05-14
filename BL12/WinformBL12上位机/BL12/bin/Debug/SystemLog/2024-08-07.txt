@@ -1,0 +1,14 @@
+2024-08-07 10:15:57:323  *******配置参数加载成功*******
+2024-08-07 10:15:58:696  加载NTC温度阻值表成功: C:\Users\Administrator\Desktop\上位机\Project\BL12上位机\WinformBL12上位机\BL12\bin\Debug\TempResistance\NTC.xlsx
+2024-08-07 10:15:59:355  连接MCMQ服务器失败:127.0.0.1:7600
+2024-08-07 10:16:02:931  *******配置参数加载成功*******
+2024-08-07 10:16:03:559  加载NTC温度阻值表成功: C:\Users\Administrator\Desktop\上位机\Project\BL12上位机\WinformBL12上位机\BL12\bin\Debug\TempResistance\NTC.xlsx
+2024-08-07 10:16:04:953  连接MCMQ服务器失败:127.0.0.1:7600
+2024-08-07 10:16:07:609  未连接MCMQ服务器与队列发送与队列查询
+2024-08-07 10:16:34:876  *******配置参数加载成功*******
+2024-08-07 10:16:36:157  加载NTC温度阻值表成功: C:\Users\Administrator\Desktop\上位机\Project\BL12上位机\WinformBL12上位机\BL12\bin\Debug\TempResistance\NTC.xlsx
+2024-08-07 15:52:25:001  *******配置参数加载成功*******
+2024-08-07 15:52:26:649  加载NTC温度阻值表成功: C:\Users\Administrator\Desktop\上位机\Project\BL12上位机\WinformBL12上位机\BL12\bin\Debug\TempResistance\NTC.xlsx
+2024-08-07 15:52:35:882  连接COM9成功
+2024-08-07 15:53:06:413  *******配置参数加载成功*******
+2024-08-07 15:53:08:109  加载NTC温度阻值表成功: C:\Users\Administrator\Desktop\上位机\Project\BL12上位机\WinformBL12上位机\BL12\bin\Debug\TempResistance\NTC.xlsx

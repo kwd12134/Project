@@ -1,0 +1,14 @@
+C:\Users\Administrator\Desktop\上位机\Project\Danikor\Danikor\Helper\bin\Debug\Helper.dll
+C:\Users\Administrator\Desktop\上位机\Project\Danikor\Danikor\Helper\bin\Debug\Helper.pdb
+C:\Users\Administrator\Desktop\上位机\Project\Danikor\Danikor\Helper\obj\Debug\Helper.csproj.AssemblyReference.cache
+C:\Users\Administrator\Desktop\上位机\Project\Danikor\Danikor\Helper\obj\Debug\Helper.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\上位机\Project\Danikor\Danikor\Helper\obj\Debug\Helper.dll
+C:\Users\Administrator\Desktop\上位机\Project\Danikor\Danikor\Helper\obj\Debug\Helper.pdb
+C:\Users\Administrator\Desktop\上位机\Project\Danikor\Danikor\Helper\obj\Debug\Helper.csproj.Up2Date
+F:\Learning\C#上位机\Project\Danikor\Danikor\Helper\bin\Debug\Helper.dll
+F:\Learning\C#上位机\Project\Danikor\Danikor\Helper\bin\Debug\Helper.pdb
+F:\Learning\C#上位机\Project\Danikor\Danikor\Helper\obj\Debug\Helper.csproj.AssemblyReference.cache
+F:\Learning\C#上位机\Project\Danikor\Danikor\Helper\obj\Debug\Helper.csproj.CoreCompileInputs.cache
+F:\Learning\C#上位机\Project\Danikor\Danikor\Helper\obj\Debug\Helper.csproj.Up2Date
+F:\Learning\C#上位机\Project\Danikor\Danikor\Helper\obj\Debug\Helper.dll
+F:\Learning\C#上位机\Project\Danikor\Danikor\Helper\obj\Debug\Helper.pdb

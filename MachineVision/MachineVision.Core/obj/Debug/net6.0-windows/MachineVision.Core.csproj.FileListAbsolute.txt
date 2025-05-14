@@ -1,0 +1,14 @@
+F:\Learning\HalconLearning\MachineVision-main\MachineVision\MachineVision.Core\bin\Debug\net6.0-windows\MachineVision.Core.deps.json
+F:\Learning\HalconLearning\MachineVision-main\MachineVision\MachineVision.Core\bin\Debug\net6.0-windows\MachineVision.Core.dll
+F:\Learning\HalconLearning\MachineVision-main\MachineVision\MachineVision.Core\bin\Debug\net6.0-windows\MachineVision.Core.pdb
+F:\Learning\HalconLearning\MachineVision-main\MachineVision\MachineVision.Core\bin\Debug\net6.0-windows\halcondotnet.dll
+F:\Learning\HalconLearning\MachineVision-main\MachineVision\MachineVision.Core\obj\Debug\net6.0-windows\MachineVision.Core.csproj.AssemblyReference.cache
+F:\Learning\HalconLearning\MachineVision-main\MachineVision\MachineVision.Core\obj\Debug\net6.0-windows\MachineVision.Core.GeneratedMSBuildEditorConfig.editorconfig
+F:\Learning\HalconLearning\MachineVision-main\MachineVision\MachineVision.Core\obj\Debug\net6.0-windows\MachineVision.Core.AssemblyInfoInputs.cache
+F:\Learning\HalconLearning\MachineVision-main\MachineVision\MachineVision.Core\obj\Debug\net6.0-windows\MachineVision.Core.AssemblyInfo.cs
+F:\Learning\HalconLearning\MachineVision-main\MachineVision\MachineVision.Core\obj\Debug\net6.0-windows\MachineVision.Core.csproj.CoreCompileInputs.cache
+F:\Learning\HalconLearning\MachineVision-main\MachineVision\MachineVision.Core\obj\Debug\net6.0-windows\MachineV.B2B04570.Up2Date
+F:\Learning\HalconLearning\MachineVision-main\MachineVision\MachineVision.Core\obj\Debug\net6.0-windows\MachineVision.Core.dll
+F:\Learning\HalconLearning\MachineVision-main\MachineVision\MachineVision.Core\obj\Debug\net6.0-windows\refint\MachineVision.Core.dll
+F:\Learning\HalconLearning\MachineVision-main\MachineVision\MachineVision.Core\obj\Debug\net6.0-windows\MachineVision.Core.pdb
+F:\Learning\HalconLearning\MachineVision-main\MachineVision\MachineVision.Core\obj\Debug\net6.0-windows\ref\MachineVision.Core.dll

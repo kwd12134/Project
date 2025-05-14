@@ -1,0 +1,12 @@
+C:\Users\Administrator\Desktop\上位机\Project\BL12上位机\WinformBL12上位机\XmlCollection\bin\Debug\XmlCollection.dll
+C:\Users\Administrator\Desktop\上位机\Project\BL12上位机\WinformBL12上位机\XmlCollection\bin\Debug\XmlCollection.pdb
+C:\Users\Administrator\Desktop\上位机\Project\BL12上位机\WinformBL12上位机\XmlCollection\obj\Debug\XmlCollection.csproj.AssemblyReference.cache
+C:\Users\Administrator\Desktop\上位机\Project\BL12上位机\WinformBL12上位机\XmlCollection\obj\Debug\XmlCollection.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\上位机\Project\BL12上位机\WinformBL12上位机\XmlCollection\obj\Debug\XmlCollection.dll
+C:\Users\Administrator\Desktop\上位机\Project\BL12上位机\WinformBL12上位机\XmlCollection\obj\Debug\XmlCollection.pdb
+F:\Learning\C#上位机\BL12上位机\WinformBL12上位机\XmlCollection\bin\Debug\XmlCollection.dll
+F:\Learning\C#上位机\BL12上位机\WinformBL12上位机\XmlCollection\bin\Debug\XmlCollection.pdb
+F:\Learning\C#上位机\BL12上位机\WinformBL12上位机\XmlCollection\obj\Debug\XmlCollection.csproj.AssemblyReference.cache
+F:\Learning\C#上位机\BL12上位机\WinformBL12上位机\XmlCollection\obj\Debug\XmlCollection.csproj.CoreCompileInputs.cache
+F:\Learning\C#上位机\BL12上位机\WinformBL12上位机\XmlCollection\obj\Debug\XmlCollection.dll
+F:\Learning\C#上位机\BL12上位机\WinformBL12上位机\XmlCollection\obj\Debug\XmlCollection.pdb
