@@ -1,0 +1,214 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{3BBD8E51-A3A9-490E-880C-244177380339}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>BL12</RootNamespace>
+    <AssemblyName>BL12</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>akuay-o1mqs-001.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>BL12.Program</StartupObject>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Bcl.AsyncInterfaces, Version=8.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.Bcl.AsyncInterfaces.8.0.0\lib\net462\Microsoft.Bcl.AsyncInterfaces.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.DependencyInjection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.Extensions.DependencyInjection.8.0.0\lib\net462\Microsoft.Extensions.DependencyInjection.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.DependencyInjection.Abstractions, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.Extensions.DependencyInjection.Abstractions.8.0.0\lib\net462\Microsoft.Extensions.DependencyInjection.Abstractions.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.IO.Compression" />
+    <Reference Include="System.Runtime.CompilerServices.Unsafe, Version=4.0.4.1, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>packages\System.Runtime.CompilerServices.Unsafe.4.5.3\lib\net461\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Tasks.Extensions, Version=4.2.0.1, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>packages\System.Threading.Tasks.Extensions.4.5.4\lib\net461\System.Threading.Tasks.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="thinger.DataConvertLib, Version=6.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>packages\thinger.DataConvertLib.4.0.1\lib\net46\thinger.DataConvertLib.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AddLog.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="AddLog.Designer.cs">
+      <DependentUpon>AddLog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmAdmin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmAdmin.Designer.cs">
+      <DependentUpon>FrmAdmin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Model\DataExtract.cs" />
+    <Compile Include="Model\DataGridViewHelper.cs" />
+    <Compile Include="FrmConfigSelect.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmConfigSelect.Designer.cs">
+      <DependentUpon>FrmConfigSelect.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmSpotCheck.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmSpotCheck.Designer.cs">
+      <DependentUpon>FrmSpotCheck.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmChangePwd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmChangePwd.Designer.cs">
+      <DependentUpon>FrmChangePwd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmMain.Designer.cs">
+      <DependentUpon>FrmMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmOperatorLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmOperatorLogin.Designer.cs">
+      <DependentUpon>FrmOperatorLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmSetting.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmSetting.Designer.cs">
+      <DependentUpon>FrmSetting.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Model\Helper.cs" />
+    <Compile Include="Model\IsConfigHelper.cs" />
+    <Compile Include="Model\ServiceLocator.cs" />
+    <Compile Include="Model\StaticMethod.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ResistSpec.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ResistSpec.Designer.cs">
+      <DependentUpon>ResistSpec.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="FrmAdmin.resx">
+      <DependentUpon>FrmAdmin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmSpotCheck.resx">
+      <DependentUpon>FrmSpotCheck.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmChangePwd.resx">
+      <DependentUpon>FrmChangePwd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmMain.resx">
+      <DependentUpon>FrmMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmOperatorLogin.resx">
+      <DependentUpon>FrmOperatorLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmSetting.resx">
+      <DependentUpon>FrmSetting.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmConfigSelect.resx">
+      <DependentUpon>FrmConfigSelect.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="ResistSpec.resx">
+      <DependentUpon>ResistSpec.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="packages.config" />
+    <None Include="Properties\DataSources\CurrentVariable.StatuVariable.datasource" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Communication\Communication.csproj">
+      <Project>{a69266c4-912f-438c-8624-43e44dedeeb0}</Project>
+      <Name>Communication</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CurrentVariable\CurrentVariable.csproj">
+      <Project>{54be6c9d-7065-4d8a-a621-b6c266682a43}</Project>
+      <Name>CurrentVariable</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\XmlCollection\XmlCollection.csproj">
+      <Project>{bc5df904-4892-49a5-9cee-0cfab8c601fc}</Project>
+      <Name>XmlCollection</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\XmlUpper\MCMQ.csproj">
+      <Project>{32afc194-18a7-44c6-9599-b388fa3ecefb}</Project>
+      <Name>MCMQ</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Icon1.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\akuay-o1mqs-001.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="akuay-o1mqs-001.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

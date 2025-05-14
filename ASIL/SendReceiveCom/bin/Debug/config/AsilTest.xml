@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding='UTF-8'?>
+<si300_interface>
+        <message_id>clear_mlp</message_id>
+        <line>ASM_3C01</line>
+        <mlp_id>12345</mlp_id>
+        <operation>ASSY-TEST</operation>
+</si300_interface>

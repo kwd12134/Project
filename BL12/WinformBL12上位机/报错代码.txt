@@ -1,0 +1,48 @@
+{
+	
+	if(ERROR_Code == LED_open_circuit)
+	{
+//			LCD_ShowString(164,192,"LED_open_circuit",Background_color,Color_Red,16);
+			sendBytes((u8*)"LED_Alarm$-49$背光串数异常\r\n",strlen("LED_Alarm$-49$背光串数异常\r\n"));
+			Beep(500);
+			delay_ms(100);
+			Beep(1000);
+			delay_ms(100);
+	}
+	else if(ERROR_Code == LED_short_circuit)
+	{
+//			LCD_ShowString(164,192,"LED_short_circuit",Background_color,Color_Red,16);
+			sendBytes((u8*)"LED_Alarm$-49$背光灯珠短路\r\n",strlen("LED_Alarm$-49$背光灯珠短路\r\n"));
+			Beep(1000);
+			delay_ms(100);
+			Beep(1000);
+			delay_ms(100);
+	}
+	else if(ERROR_Code == LED_not_loaded)
+	{
+//			LCD_ShowString(164,192,"LED_not_loaded",Background_color,Color_Red,16);
+			sendBytes((u8*)"LED_Alarm$-49$未检测到背光\r\n",strlen("LED_Alarm$-49$未检测到背光\r\n"));
+			Beep(500);
+			delay_ms(100);
+			Beep(500);
+			delay_ms(100);
+	}
+	else if(ERROR_Code == LED_over_voltage)
+	{
+//			LCD_ShowString(164,192,"LED_over_voltage",Background_color,0xf800,16);
+			sendBytes((u8*)"LED_Alarm$-49$电压超限\r\n",strlen("LED_Alarm$-49$电压超限\r\n"));
+			Beep(1000);
+			delay_ms(100);
+			Beep(500);
+			delay_ms(100);
+	}
+	
+	else if(ERROR_Code == LED_over_current)
+	{
+			sendBytes((u8*)"LED_Alarm$-49$电流超限\r\n",strlen("LED_Alarm$-49$电流超限\r\n"));
+			Beep(1000);
+			delay_ms(100);
+			Beep(500);
+			delay_ms(100);
+	}
+}

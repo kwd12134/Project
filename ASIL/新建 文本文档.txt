@@ -1,0 +1,103 @@
+交互报文如下，在测试中Log也有记录
+recivejince:<?xml version="1.0" encoding="UTF-8"?>   收到精测机SET_LOT_NO指令
+                                                                        <Request>
+                                                                                   <StreamNo>7</StreamNo>
+                                                                                   <Timeout>5000</Timeout>
+                                                                                   <Command>SET_LOT_NO</Command>
+                                                                                   <Param1>SET_LOT_NO</Param1>       
+                                                                                   <Param2></Param2>
+                                                                                   <Param3> </Param3>
+                                                                                   <Param4></Param4>
+                                                                                   <Param5></Param5>
+                                                                                   <Param6></Param6>
+                                                                                   <Param7></Param7>
+                                                                                   <Param8></Param8>
+                                                                                   <Param9></Param9>
+                                                                      </Request>
+
+send to jince:<?xml version="1.0" encoding="UTF-8"?>  回复精测机
+                                                                            <Response>
+                                                                                 <Result>OK</Result>
+                                                                                 <Param1></Param1>
+                                                                                 <Param2></Param2>
+                                                                                 <Param3></Param3>
+                                                                                 <Param4></Param4>
+                                                                                 <Param5></Param5>
+                                                                                 <Param6></Param6>
+                                                                                 <Param7></Param7>
+                                                                                 <Param8></Param8>
+                                                                                 <Param9></Param9>
+                                                                           </Response>
+
+2024_05_13_20:02:56:346:recive jince:<?xml version="1.0" encoding="UTF-8"?>  收到精测机ASIL指令
+                                                                        <Request>
+                                                                             <StreamNo>8</StreamNo>
+                                                                              <Timeout>5000</Timeout>
+                                                                              <Command>ASIL</Command>
+                                                                              <Param1>SET_LOT_NO</Param1>
+                                                                              <Param2></Param2>
+                                                                              <Param3></Param3>
+                                                                              <Param4></Param4>
+                                                                              <Param5></Param5>
+                                                                              <Param6></Param6>
+                                                                              <Param7></Param7>
+                                                                              <Param8></Param8>
+                                                                              <Param9></Param9>
+                                                                       </Request>
+
+2024_05_13_20:02:57:351:recive ASIL:T3.54A2.37A1.92A1.81A1.43A1.27A1A0E   接收ASIL板采集报文
+
+2024_05_13_20:02:57:352:send to jince:<?xml version="1.0" encoding="UTF-8"?>    回复判断结果给精测机
+                                                                          <Response>
+                                                                            <Result>OK</Result>
+                                                                           <Param1></Param1>
+                                                                           <Param2></Param2>
+                                                                           <Param3></Param3>
+                                                                           <Param4></Param4>
+                                                                          <Param5></Param5>
+                                                                          <Param6></Param6>
+                                                                          <Param7></Param7>
+                                                                          <Param8></Param8>
+                                                                          <Param9></Param9>
+                                                                       </Response>
+
+Send MCMQ:<?xml version="1.0" encoding="utf-8"?>      上报MCMQ
+                           <trx>
+                                   <message_id>ictest_result_report</message_id>
+                                   <type_id>I</type_id>
+                                   <log_id>0202405181007</log_id>
+                                   <unique_id>00000000000</unique_id>
+                                   <station_id>FINAL-DISPLAY</station_id>
+                                   <test_result>FAIL</test_result>
+                                   <test_time>2024-05-18 10:04:07</test_time>
+                                   <measure_type>ASIL_FBIO</measure_type>
+                                   <fw_version>V108</fw_version>
+                                  <spc_control_result>
+                                       <part_no>97.10C28.100</part_no>
+                                       <feedback_io_01>3.54</feedback_io_01>
+                                       <feedback_io_02>2.37</feedback_io_02>
+                                       <feedback_io_03>1.92</feedback_io_03>
+                                       <feedback_io_04>1.81</feedback_io_04>
+                                       <feedback_io_05>1.43</feedback_io_05>
+                                       <feedback_io_06>1.27</feedback_io_06>
+                                       <feedback_io_07>1</feedback_io_07>
+                                       <feedback_io_08> </feedback_io_08>
+                                       <status>NG</status>
+                                 </spc_control_result>
+                                 <port_id>JCF6MA1100</port_id>
+                                 <user_id>etcaf</user_id>
+                          </trx>
+2024_05_18_10:04:15:012:Recive MCMQ returnCode:0000
+2024_05_18_10:04:15:012:Recive MCMQ returnMessage:<?xml version='1.0' encoding='UTF-8'?>    回复MCMQ
+                                                                                                          <trx>
+                                                                                                             <log_id>0202405181007</log_id>
+                                                                                                             <rtn_code_msg></rtn_code_msg>
+                                                                                                             <rtn_code>0000000</rtn_code>
+                                                                                                             <rtn_param></rtn_param>
+                                                                                                             <rtn_action></rtn_action>
+                                                                                                             <rtn_msg></rtn_msg>
+                                                                                                             <message_id>ictest_result_report</message_id>
+                                                                                                             <type_id>O</type_id>
+                                                                                                          </trx>
+
+

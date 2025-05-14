@@ -1,0 +1,456 @@
+2024-05-29 08:15:46  登录成功
+2024-05-29 08:15:50  Connected to 192.168.2.32:5000
+2024-05-29 08:15:50  Connected to 192.168.2.32:5000
+2024-05-29 08:15:51  Connected to 192.168.2.32:5000
+2024-05-29 08:15:51  成功
+2024-05-29 08:15:53  Received:ResultData
+2024-05-29 08:15:55  Received:ResultData
+2024-05-29 08:15:56  Received:ResultData
+2024-05-29 08:15:56  Connected to 192.168.2.32:5000
+2024-05-29 08:15:56  成功
+2024-05-29 08:15:57  该设备完成装配
+2024-05-29 08:15:57  Connected to 192.168.2.32:5000
+2024-05-29 08:16:03  Connected to 192.168.2.32:5000
+2024-05-29 08:16:03  成功
+2024-05-29 08:16:05  Received:ResultData
+2024-05-29 08:16:06  Received:ResultData
+2024-05-29 08:16:08  Received:ResultData
+2024-05-29 08:16:08  Connected to 192.168.2.32:5000
+2024-05-29 08:16:08  成功
+2024-05-29 08:16:09  该设备完成装配
+2024-05-29 08:16:09  Connected to 192.168.2.32:5000
+2024-05-29 08:16:14  Connected to 192.168.2.32:5000
+2024-05-29 08:16:14  成功
+2024-05-29 08:16:17  Received:ResultData
+2024-05-29 08:16:18  Received:ResultData
+2024-05-29 08:16:19  Received:ResultData
+2024-05-29 08:16:20  Received:ResultData
+2024-05-29 08:16:22  Received:ResultData
+2024-05-29 08:16:24  Received:ResultData
+2024-05-29 08:16:26  Received:ResultData
+2024-05-29 08:16:53  登录成功
+2024-05-29 08:16:55  Connected to 192.168.2.32:5000
+2024-05-29 08:16:56  Connected to 192.168.2.32:5000
+2024-05-29 08:16:56  成功
+2024-05-29 08:16:56  Connected to 192.168.2.32:5000
+2024-05-29 08:16:58  Received:ResultData
+2024-05-29 08:16:59  Received:ResultData
+2024-05-29 08:17:00  Received:ResultData
+2024-05-29 08:17:01  Received:ResultData
+2024-05-29 08:17:02  Received:ResultData
+2024-05-29 08:17:03  Received:ResultData
+2024-05-29 08:17:05  Received:ResultData
+2024-05-29 08:17:05  Connected to 192.168.2.32:5000
+2024-05-29 08:17:05  GeneralWriteState:Client DisConnected.
+2024-05-29 08:17:06  该设备完成装配
+2024-05-29 08:17:06  Connected to 192.168.2.32:5000
+2024-05-29 08:17:06  Client DisConnected.
+2024-05-29 08:17:08  Connected to 192.168.2.32:5000
+2024-05-29 08:17:08  GeneralWriteState:Client DisConnected.
+2024-05-29 08:17:09  Received:ResultData
+2024-05-29 08:17:12  Received:ResultData
+2024-05-29 08:17:13  Received:ResultData
+2024-05-29 08:17:13  Connected to 192.168.2.32:5000
+2024-05-29 08:17:13  GeneralWriteState:Client DisConnected.
+2024-05-29 08:17:14  该设备完成装配
+2024-05-29 08:17:14  Connected to 192.168.2.32:5000
+2024-05-29 08:17:14  Client DisConnected.
+2024-05-29 08:17:15  Received:ResultData
+2024-05-29 08:17:16  Received:ResultData
+2024-05-29 08:17:18  Received:ResultData
+2024-05-29 08:17:18  Connected to 192.168.2.32:5000
+2024-05-29 08:17:18  GeneralWriteState:Client DisConnected.
+2024-05-29 08:17:19  该设备完成装配
+2024-05-29 08:17:19  Connected to 192.168.2.32:5000
+2024-05-29 08:17:19  Client DisConnected.
+2024-05-29 08:17:20  Received:ResultData
+2024-05-29 08:17:30  Received:ResultData
+2024-05-29 08:17:32  Received:ResultData
+2024-05-29 08:17:32  Connected to 192.168.2.32:5000
+2024-05-29 08:17:32  成功
+2024-05-29 08:17:33  该设备完成装配
+2024-05-29 08:17:33  Connected to 192.168.2.32:5000
+2024-05-29 08:23:57  HandleClientAsyncResultDataReadError: 无法从传输连接中读取数据: 你的主机中的软件中止了一个已建立的连接。。
+2024-05-29 08:23:57  HandleClientAsyncRealTimeData: 无法从传输连接中读取数据: 你的主机中的软件中止了一个已建立的连接。。
+2024-05-29 08:24:24  Connected to 192.168.2.32:5000
+2024-05-29 08:24:25  成功
+2024-05-29 08:24:42  登录成功
+2024-05-29 08:24:46  Connected to 192.168.2.32:5000
+2024-05-29 08:24:47  Connected to 192.168.2.32:5000
+2024-05-29 08:24:47  成功
+2024-05-29 08:24:47  Connected to 192.168.2.32:5000
+2024-05-29 08:25:09  Received:ResultData
+2024-05-29 08:25:12  Received:ResultData
+2024-05-29 08:25:16  Received:ResultData
+2024-05-29 08:25:16  Connected to 192.168.2.32:5000
+2024-05-29 08:25:16  成功
+2024-05-29 08:25:17  该设备完成装配
+2024-05-29 08:25:17  Connected to 192.168.2.32:5000
+2024-05-29 08:25:18  Connected to 192.168.2.32:5000
+2024-05-29 08:25:18  成功
+2024-05-29 08:25:21  Received:ResultData
+2024-05-29 08:25:23  Received:ResultData
+2024-05-29 08:25:24  Received:ResultData
+2024-05-29 08:25:24  Connected to 192.168.2.32:5000
+2024-05-29 08:25:24  成功
+2024-05-29 08:25:25  该设备完成装配
+2024-05-29 08:25:25  Connected to 192.168.2.32:5000
+2024-05-29 08:25:29  Connected to 192.168.2.32:5000
+2024-05-29 08:25:29  成功
+2024-05-29 08:25:31  Received:ResultData
+2024-05-29 08:25:32  Received:ResultData
+2024-05-29 08:25:34  Received:ResultData
+2024-05-29 08:25:34  Connected to 192.168.2.32:5000
+2024-05-29 08:25:34  成功
+2024-05-29 08:25:35  该设备完成装配
+2024-05-29 08:25:35  Connected to 192.168.2.32:5000
+2024-05-29 08:26:33  Connected to 192.168.2.32:5000
+2024-05-29 08:26:33  成功
+2024-05-29 08:26:35  Received:ResultData
+2024-05-29 08:26:36  Received:ResultData
+2024-05-29 08:26:38  Received:ResultData
+2024-05-29 08:26:38  Connected to 192.168.2.32:5000
+2024-05-29 08:26:38  成功
+2024-05-29 08:26:39  该设备完成装配
+2024-05-29 08:26:39  Connected to 192.168.2.32:5000
+2024-05-29 08:26:42  Connected to 192.168.2.32:5000
+2024-05-29 08:26:42  成功
+2024-05-29 08:26:44  Received:ResultData
+2024-05-29 08:26:45  Received:ResultData
+2024-05-29 08:26:46  Received:ResultData
+2024-05-29 08:26:46  Connected to 192.168.2.32:5000
+2024-05-29 08:26:46  成功
+2024-05-29 08:26:47  该设备完成装配
+2024-05-29 08:26:47  Connected to 192.168.2.32:5000
+2024-05-29 08:27:14  Connected to 192.168.2.32:5000
+2024-05-29 08:27:14  成功
+2024-05-29 08:27:16  Received:ResultData
+2024-05-29 08:27:18  Received:ResultData
+2024-05-29 08:27:19  Received:ResultData
+2024-05-29 08:27:19  Connected to 192.168.2.32:5000
+2024-05-29 08:27:19  成功
+2024-05-29 08:27:20  该设备完成装配
+2024-05-29 08:27:20  Connected to 192.168.2.32:5000
+2024-05-29 08:29:22  Connected to 192.168.2.32:5000
+2024-05-29 08:29:22  成功
+2024-05-29 08:33:16  Received:ResultData
+2024-05-29 08:33:18  Received:ResultData
+2024-05-29 08:33:20  Received:ResultData
+2024-05-29 08:33:21  Received:ResultData
+2024-05-29 08:33:22  Connected to 192.168.2.32:5000
+2024-05-29 08:33:22  成功
+2024-05-29 08:33:22  该设备完成装配
+2024-05-29 08:33:22  Connected to 192.168.2.32:5000
+2024-05-29 08:33:30  Connected to 192.168.2.32:5000
+2024-05-29 08:33:30  成功
+2024-05-29 08:33:33  Received:ResultData
+2024-05-29 08:33:34  Received:ResultData
+2024-05-29 08:33:35  Received:ResultData
+2024-05-29 08:33:36  Connected to 192.168.2.32:5000
+2024-05-29 08:33:36  成功
+2024-05-29 08:33:37  该设备完成装配
+2024-05-29 08:33:37  Connected to 192.168.2.32:5000
+2024-05-29 08:33:38  Connected to 192.168.2.32:5000
+2024-05-29 08:33:39  成功
+2024-05-29 08:33:40  Received:ResultData
+2024-05-29 08:33:41  Received:ResultData
+2024-05-29 08:33:42  Received:ResultData
+2024-05-29 08:33:43  Received:ResultData
+2024-05-29 08:33:46  Received:ResultData
+2024-05-29 08:33:47  Received:ResultData
+2024-05-29 08:33:49  Received:ResultData
+2024-05-29 08:33:51  Received:ResultData
+2024-05-29 08:33:55  Received:ResultData
+2024-05-29 08:33:58  Received:ResultData
+2024-05-29 08:34:03  Received:ResultData
+2024-05-29 08:34:07  Received:ResultData
+2024-05-29 08:34:07  Connected to 192.168.2.32:5000
+2024-05-29 08:34:07  成功
+2024-05-29 08:34:08  该设备完成装配
+2024-05-29 08:34:08  Connected to 192.168.2.32:5000
+2024-05-29 08:45:14  登录成功
+2024-05-29 08:45:21  Connected to 192.168.2.32:5000
+2024-05-29 08:45:21  Connected to 192.168.2.32:5000
+2024-05-29 08:45:21  成功
+2024-05-29 08:45:22  Connected to 192.168.2.32:5000
+2024-05-29 08:45:24  Received:ResultData
+2024-05-29 08:45:25  Received:ResultData
+2024-05-29 08:45:27  Received:ResultData
+2024-05-29 08:45:27  Connected to 192.168.2.32:5000
+2024-05-29 08:45:27  成功
+2024-05-29 08:45:28  该设备完成装配
+2024-05-29 08:45:28  Connected to 192.168.2.32:5000
+2024-05-29 08:45:30  Connected to 192.168.2.32:5000
+2024-05-29 08:45:30  成功
+2024-05-29 08:45:32  Received:ResultData
+2024-05-29 08:45:33  Received:ResultData
+2024-05-29 08:45:35  Received:ResultData
+2024-05-29 08:45:35  Connected to 192.168.2.32:5000
+2024-05-29 08:45:36  成功
+2024-05-29 08:45:36  该设备完成装配
+2024-05-29 08:45:36  Connected to 192.168.2.32:5000
+2024-05-29 08:49:05  登录成功
+2024-05-29 08:49:09  Connected to 192.168.2.32:5000
+2024-05-29 08:49:09  Connected to 192.168.2.32:5000
+2024-05-29 08:49:09  成功
+2024-05-29 08:49:10  Connected to 192.168.2.32:5000
+2024-05-29 08:49:11  Received:ResultData
+2024-05-29 08:49:14  Received:ResultData
+2024-05-29 08:49:17  Received:ResultData
+2024-05-29 08:49:22  Received:ResultData
+2024-05-29 08:49:22  Connected to 192.168.2.32:5000
+2024-05-29 08:49:22  成功
+2024-05-29 08:49:23  该设备完成装配
+2024-05-29 08:49:23  Connected to 192.168.2.32:5000
+2024-05-29 08:52:59  登录成功
+2024-05-29 08:53:07  Connected to 192.168.2.32:5000
+2024-05-29 08:53:07  Connected to 192.168.2.32:5000
+2024-05-29 08:53:08  Connected to 192.168.2.32:5000
+2024-05-29 08:53:08  成功
+2024-05-29 08:53:10  Received:ResultData
+2024-05-29 08:53:12  Received:ResultData
+2024-05-29 08:53:13  Received:ResultData
+2024-05-29 08:53:13  Connected to 192.168.2.32:5000
+2024-05-29 08:53:14  成功
+2024-05-29 08:53:14  该设备完成装配
+2024-05-29 08:53:14  Connected to 192.168.2.32:5000
+2024-05-29 08:54:42  登录成功
+2024-05-29 08:56:38  登录成功
+2024-05-29 09:02:27  登录成功
+2024-05-29 09:02:28  Connected to 192.168.2.32:5000
+2024-05-29 09:02:28  Execute GeneralWriteState SuccessFull
+2024-05-29 09:02:29  Execute GeneralWriteState SuccessFull
+2024-05-29 09:02:29  Execute GeneralWriteState SuccessFull
+2024-05-29 09:02:30  Execute GeneralWriteState SuccessFull
+2024-05-29 09:02:32  Execute GeneralWriteState SuccessFull
+2024-05-29 09:02:34  Execute GeneralWriteState SuccessFull
+2024-05-29 09:02:36  Execute GeneralWriteState SuccessFull
+2024-05-29 09:02:37  Execute GeneralWriteState SuccessFull
+2024-05-29 09:02:39  Execute GeneralWriteState SuccessFull
+2024-05-29 09:02:40  Execute GeneralWriteState SuccessFull
+2024-05-29 09:02:41  Execute GeneralWriteState SuccessFull
+2024-05-29 09:02:42  Execute GeneralWriteState SuccessFull
+2024-05-29 09:02:46  Connected to 192.168.2.32:5000
+2024-05-29 09:02:46  Client DisConnected.
+2024-05-29 09:02:46  Connected to 192.168.2.32:5000
+2024-05-29 09:02:46  GeneralWriteState:Client DisConnected.
+2024-05-29 09:02:47  Connected to 192.168.2.32:5000
+2024-05-29 09:02:47  Client DisConnected.
+2024-05-29 09:02:54  登录成功
+2024-05-29 09:02:57  Connected to 192.168.2.32:5000
+2024-05-29 09:02:57  Execute GeneralWriteState SuccessFull
+2024-05-29 09:02:57  Connected to 192.168.2.32:5000
+2024-05-29 09:02:58  Connected to 192.168.2.32:5000
+2024-05-29 09:03:00  Received:ResultData
+2024-05-29 09:03:02  Received:ResultData
+2024-05-29 09:03:02  Execute GeneralWriteState SuccessFull
+2024-05-29 09:03:03  该设备完成装配
+2024-05-29 09:03:03  Connected to 192.168.2.32:5000
+2024-05-29 09:03:04  Client DisConnected.
+2024-05-29 09:03:11  Connected to 192.168.2.32:5000
+2024-05-29 09:03:11  GeneralWriteState:Client DisConnected.
+2024-05-29 09:04:24  登录成功
+2024-05-29 09:04:26  Connected to 192.168.2.32:5000
+2024-05-29 09:04:27  Connected to 192.168.2.32:5000
+2024-05-29 09:04:27  Connected to 192.168.2.32:5000
+2024-05-29 09:04:27  Execute GeneralWriteState SuccessFull
+2024-05-29 09:04:37  Execute GeneralWriteState SuccessFull
+2024-05-29 09:04:37  Execute GeneralWriteState SuccessFull
+2024-05-29 09:04:37  Execute GeneralWriteState SuccessFull
+2024-05-29 09:04:38  Execute GeneralWriteState SuccessFull
+2024-05-29 09:04:42  Received:ResultData
+2024-05-29 09:04:43  Received:ResultData
+2024-05-29 09:04:45  Received:ResultData
+2024-05-29 09:04:45  Execute GeneralWriteState SuccessFull
+2024-05-29 09:04:46  该设备完成装配
+2024-05-29 09:04:46  Connected to 192.168.2.32:5000
+2024-05-29 09:04:46  Client DisConnected.
+2024-05-29 09:07:12  登录成功
+2024-05-29 09:07:15  Connected to 192.168.2.32:5000
+2024-05-29 09:07:15  Connected to 192.168.2.32:5000
+2024-05-29 09:07:16  Connected to 192.168.2.32:5000
+2024-05-29 09:07:16  Execute GeneralWriteState SuccessFull
+2024-05-29 09:07:18  Received:ResultData
+2024-05-29 09:07:19  Received:ResultData
+2024-05-29 09:07:20  Received:ResultData
+2024-05-29 09:07:20  Execute GeneralWriteState SuccessFull
+2024-05-29 09:07:21  该设备完成装配
+2024-05-29 09:07:21  Connected to 192.168.2.32:5000
+2024-05-29 09:07:21  Client DisConnected.
+2024-05-29 09:08:28  登录成功
+2024-05-29 09:08:31  Connected to 192.168.2.32:5000
+2024-05-29 09:08:31  Execute GeneralWriteState SuccessFull
+2024-05-29 09:08:31  Execute GeneralWriteState SuccessFull
+2024-05-29 09:08:31  Execute GeneralWriteState SuccessFull
+2024-05-29 09:08:32  Execute GeneralWriteState SuccessFull
+2024-05-29 09:08:32  Execute GeneralWriteState SuccessFull
+2024-05-29 09:08:33  Execute GeneralWriteState SuccessFull
+2024-05-29 09:08:33  Execute GeneralWriteState SuccessFull
+2024-05-29 09:08:33  Execute GeneralWriteState SuccessFull
+2024-05-29 09:08:33  Execute GeneralWriteState SuccessFull
+2024-05-29 09:08:33  Execute GeneralWriteState SuccessFull
+2024-05-29 09:08:34  Execute GeneralWriteState SuccessFull
+2024-05-29 09:08:34  Execute GeneralWriteState SuccessFull
+2024-05-29 09:08:34  Execute GeneralWriteState SuccessFull
+2024-05-29 09:08:34  Execute GeneralWriteState SuccessFull
+2024-05-29 09:08:34  Execute GeneralWriteState SuccessFull
+2024-05-29 09:08:35  Execute GeneralWriteState SuccessFull
+2024-05-29 09:08:39  Connected to 192.168.2.32:5000
+2024-05-29 09:08:39  Connected to 192.168.2.32:5000
+2024-05-29 09:08:40  Connected to 192.168.2.32:5000
+2024-05-29 09:08:40  GeneralWriteState:Client DisConnected.
+2024-05-29 09:08:52  Received:ResultData
+2024-05-29 09:08:53  Received:ResultData
+2024-05-29 09:08:54  Received:ResultData
+2024-05-29 09:08:55  Received:ResultData
+2024-05-29 09:08:55  GeneralWriteState Error: 无法从传输连接中读取数据: 你的主机中的软件中止了一个已建立的连接。。
+2024-05-29 09:08:55  GeneralWriteState:Client DisConnected.
+2024-05-29 09:08:56  该设备完成装配
+2024-05-29 09:08:56  Connected to 192.168.2.32:5000
+2024-05-29 09:08:57  Client DisConnected.
+2024-05-29 09:08:59  Received:ResultData
+2024-05-29 09:09:02  登录成功
+2024-05-29 09:09:04  Connected to 192.168.2.32:5000
+2024-05-29 09:09:05  Connected to 192.168.2.32:5000
+2024-05-29 09:09:05  Execute GeneralWriteState SuccessFull
+2024-05-29 09:09:05  Connected to 192.168.2.32:5000
+2024-05-29 09:09:07  Received:ResultData
+2024-05-29 09:09:08  Received:ResultData
+2024-05-29 09:09:08  Execute GeneralWriteState SuccessFull
+2024-05-29 09:09:09  该设备完成装配
+2024-05-29 09:09:09  Connected to 192.168.2.32:5000
+2024-05-29 09:09:09  Client DisConnected.
+2024-05-29 09:09:12  Connected to 192.168.2.32:5000
+2024-05-29 09:09:12  GeneralWriteState:Client DisConnected.
+2024-05-29 09:16:33  登录成功
+2024-05-29 09:16:34  Connected to 192.168.2.32:5000
+2024-05-29 09:16:34  Execute GeneralWriteState SuccessFull
+2024-05-29 09:16:35  Execute GeneralWriteState SuccessFull
+2024-05-29 09:16:35  Execute GeneralWriteState SuccessFull
+2024-05-29 09:16:36  Execute GeneralWriteState SuccessFull
+2024-05-29 09:16:36  Execute GeneralWriteState SuccessFull
+2024-05-29 09:16:37  Execute GeneralWriteState SuccessFull
+2024-05-29 09:16:37  Execute GeneralWriteState SuccessFull
+2024-05-29 09:16:38  Execute GeneralWriteState SuccessFull
+2024-05-29 09:16:42  Execute GeneralWriteState SuccessFull
+2024-05-29 09:16:44  Connected to 192.168.2.32:5000
+2024-05-29 09:16:45  Connected to 192.168.2.32:5000
+2024-05-29 09:16:45  Execute GeneralWriteState SuccessFull
+2024-05-29 09:16:45  Connected to 192.168.2.32:5000
+2024-05-29 09:16:45  HandleClientAsyncResultDataRead,Client DisConnected.
+2024-05-29 09:16:56  登录成功
+2024-05-29 09:17:00  Connected to 192.168.2.32:5000
+2024-05-29 09:17:01  Connected to 192.168.2.32:5000
+2024-05-29 09:17:01  Execute GeneralWriteState SuccessFull
+2024-05-29 09:17:01  Connected to 192.168.2.32:5000
+2024-05-29 09:17:04  Received:ResultData
+2024-05-29 09:17:06  Received:ResultData
+2024-05-29 09:17:08  Received:ResultData
+2024-05-29 09:17:08  Execute GeneralWriteState SuccessFull
+2024-05-29 09:17:09  该设备完成装配
+2024-05-29 09:17:09  Connected to 192.168.2.32:5000
+2024-05-29 09:17:09  Client DisConnected.
+2024-05-29 09:17:11  Connected to 192.168.2.32:5000
+2024-05-29 09:17:11  GeneralWriteState:Client DisConnected.
+2024-05-29 09:18:08  登录成功
+2024-05-29 09:18:11  Connected to 192.168.2.32:5000
+2024-05-29 09:18:11  Connected to 192.168.2.32:5000
+2024-05-29 09:18:12  Connected to 192.168.2.32:5000
+2024-05-29 09:18:12  Execute GeneralWriteState SuccessFull
+2024-05-29 09:18:14  Received:ResultData
+2024-05-29 09:18:16  Received:ResultData
+2024-05-29 09:18:17  Received:ResultData
+2024-05-29 09:18:17  Connected to 192.168.2.32:5000
+2024-05-29 09:18:17  Execute GeneralWriteState SuccessFull
+2024-05-29 09:18:18  该设备完成装配
+2024-05-29 09:18:18  Connected to 192.168.2.32:5000
+2024-05-29 09:18:20  Connected to 192.168.2.32:5000
+2024-05-29 09:18:21  Execute GeneralWriteState SuccessFull
+2024-05-29 09:18:22  Received:ResultData
+2024-05-29 09:18:23  Received:ResultData
+2024-05-29 09:18:24  Received:ResultData
+2024-05-29 09:18:25  Received:ResultData
+2024-05-29 09:18:29  Received:ResultData
+2024-05-29 09:18:34  Received:ResultData
+2024-05-29 09:18:36  Received:ResultData
+2024-05-29 09:18:36  Connected to 192.168.2.32:5000
+2024-05-29 09:18:36  Execute GeneralWriteState SuccessFull
+2024-05-29 09:18:37  该设备完成装配
+2024-05-29 09:18:37  Connected to 192.168.2.32:5000
+2024-05-29 09:19:02  登录成功
+2024-05-29 09:20:20  登录成功
+2024-05-29 09:22:05  登录成功
+2024-05-29 09:22:14  Connected to 192.168.2.32:5000
+2024-05-29 09:22:14  Connected to 192.168.2.32:5000
+2024-05-29 09:22:15  Connected to 192.168.2.32:5000
+2024-05-29 09:22:15  Execute GeneralWriteState SuccessFull
+2024-05-29 09:22:17  Received:ResultData
+2024-05-29 09:22:19  Received:ResultData
+2024-05-29 09:22:21  Received:ResultData
+2024-05-29 09:22:23  Received:ResultData
+2024-05-29 09:22:25  Received:ResultData
+2024-05-29 09:22:26  Received:ResultData
+2024-05-29 09:22:29  Received:ResultData
+2024-05-29 09:24:52  登录成功
+2024-05-29 09:24:55  Connected to 192.168.2.32:5000
+2024-05-29 09:24:56  Connected to 192.168.2.32:5000
+2024-05-29 09:24:56  Connected to 192.168.2.32:5000
+2024-05-29 09:24:56  Execute GeneralWriteState SuccessFull
+2024-05-29 09:24:58  Received:ResultData
+2024-05-29 09:24:58  Connected to 192.168.2.32:5000
+2024-05-29 09:24:58  Execute GeneralWriteState SuccessFull
+2024-05-29 09:24:59  该设备完成装配
+2024-05-29 09:24:59  Connected to 192.168.2.32:5000
+2024-05-29 09:25:04  Connected to 192.168.2.32:5000
+2024-05-29 09:25:04  Execute GeneralWriteState SuccessFull
+2024-05-29 09:25:06  Received:ResultData
+2024-05-29 09:25:08  Received:ResultData
+2024-05-29 09:25:09  Received:ResultData
+2024-05-29 09:25:09  Connected to 192.168.2.32:5000
+2024-05-29 09:25:09  Execute GeneralWriteState SuccessFull
+2024-05-29 09:25:10  该设备完成装配
+2024-05-29 09:25:10  Connected to 192.168.2.32:5000
+2024-05-29 09:29:03  登录成功
+2024-05-29 09:29:47  登录成功
+2024-05-29 09:34:39  Connected to 192.168.2.32:5000
+2024-05-29 09:34:39  Connected to 192.168.2.32:5000
+2024-05-29 09:34:39  Execute GeneralWriteState SuccessFull
+2024-05-29 09:34:40  Connected to 192.168.2.32:5000
+2024-05-29 09:34:41  Received:ResultData
+2024-05-29 09:34:41  Execute WriteProduct_Log Error:文件“C:\Users\Administrator\Desktop\上位机\Project\Danikor\Danikor\Danikor\bin\Debug\Product_Log\2024-05--29.csv”正由另一进程使用，因此该进程无法访问此文件。
+2024-05-29 09:34:43  Received:ResultData
+2024-05-29 09:34:43  Execute WriteProduct_Log Error:文件“C:\Users\Administrator\Desktop\上位机\Project\Danikor\Danikor\Danikor\bin\Debug\Product_Log\2024-05--29.csv”正由另一进程使用，因此该进程无法访问此文件。
+2024-05-29 09:34:58  Received:ResultData
+2024-05-29 09:34:59  Execute WriteProduct_Log Error:文件“C:\Users\Administrator\Desktop\上位机\Project\Danikor\Danikor\Danikor\bin\Debug\Product_Log\2024-05--29.csv”正由另一进程使用，因此该进程无法访问此文件。
+2024-05-29 09:40:20  登录成功
+2024-05-29 10:29:21  登录成功
+2024-05-29 10:29:45  登录成功
+2024-05-29 10:34:09  登录成功
+2024-05-29 10:36:18  登录成功
+2024-05-29 10:47:13  登录成功
+2024-05-29 10:48:40  登录成功
+2024-05-29 10:56:01  登录成功
+2024-05-29 13:38:06  登录成功
+2024-05-29 13:38:42  登录成功
+2024-05-29 13:40:06  登录成功
+2024-05-29 13:41:17  登录成功
+2024-05-29 13:42:40  登录成功
+2024-05-29 13:42:57  登录成功
+2024-05-29 13:43:30  登录成功
+2024-05-29 14:48:32  登录成功
+2024-05-29 14:54:29  登录成功
+2024-05-29 15:00:11  登录成功
+2024-05-29 15:15:59  登录成功
+2024-05-29 15:16:45  登录成功
+2024-05-29 15:30:27  登录成功
+2024-05-29 15:36:45  登录成功
+2024-05-29 15:50:29  登录成功
+2024-05-29 16:23:28  登录成功
+2024-05-29 16:24:28  登录成功
+2024-05-29 16:25:45  登录成功
+2024-05-29 16:51:23  登录成功
+2024-05-29 16:54:00  登录成功
+2024-05-29 16:54:38  登录成功
+2024-05-29 17:07:28  登录成功
+2024-05-29 17:07:46  登录成功
+2024-05-29 17:09:19  登录成功

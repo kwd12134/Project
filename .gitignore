@@ -1,0 +1,22 @@
+﻿.vs/
+packages/
+[Oo]bj/
+[Rr]elease/
+[Rr]eleases/
+[Ww][Ii][Nn]32/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+
+*.cs text eol=lf
+*.xml text eol=lf
+
+# NuGet v3's project.json files produces more ignorable files
+*.nuget.props
+*.nuget.targets
+
+# User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates

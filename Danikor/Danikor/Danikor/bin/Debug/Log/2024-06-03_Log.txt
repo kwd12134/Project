@@ -1,0 +1,8 @@
+2024-06-03 11:14:32  登录成功
+2024-06-03 11:14:41  Connected to 192.168.2.32:5000
+2024-06-03 11:14:41  Connected to 192.168.2.32:5000
+2024-06-03 11:14:42  Connected to 192.168.2.32:5000
+2024-06-03 11:14:42  Execute GeneralWriteState SuccessFull
+2024-06-03 11:14:53  Received:ResultData
+2024-06-03 11:15:07  Received:ResultData
+2024-06-03 11:15:09  Received:ResultData

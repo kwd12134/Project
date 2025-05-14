@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<trx>
+  <message_id>ictest_result_report</message_id>
+  <type_id>I</type_id>
+  <log_id>0202408100203</log_id>
+  <unique_id>11111111111</unique_id>
+  <station_id>FINAL-DISPLAY</station_id>
+  <test_result>FAIL</test_result>
+  <test_time>2024-08-10 02:30:03</test_time>
+  <measure_type>ASIL_FBIO</measure_type>
+  <fw_version>V120</fw_version>
+  <spc_control_result>
+    <part_no>ASIL_FB_IO</part_no>
+    <feedback_io_01>0.63</feedback_io_01>
+    <feedback_io_02>0.54</feedback_io_02>
+    <feedback_io_03>0.49</feedback_io_03>
+    <feedback_io_04>0.49</feedback_io_04>
+    <feedback_io_05>0.5</feedback_io_05>
+    <feedback_io_06>0.46</feedback_io_06>
+    <feedback_io_07>0.52</feedback_io_07>
+    <feedback_io_08>0.86</feedback_io_08>
+    <status>NG</status>
+  </spc_control_result>
+  <port_id>JCF6MA1100</port_id>
+  <user_id>etcaf</user_id>
+</trx>

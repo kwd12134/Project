@@ -1,0 +1,67 @@
+LED_GetNTC_R   读取电阻
+LED_GetNTC_R$%dL$%dL$0L\r\n
+
+LED_GetLEDV    读取电压     读两次数据太长  A高端的电压   K是底端电压   VF是LED的压差   VF=A-K  DV是压差
+LED_GetLEDV:A$%.2f,K$%.2f,$%.2f,$%.2f,$%.2f,$%.2f,$%.2f,$%.2f,$%.2f,$%.2f,$%.2f,
+$%.2f,$%.2f,VF$%.2f,$%.2f,$%.2f,$%.2f,$%.2f,$%.2f,$%.2f,$%.2f,$%.2f,$%.2f,$%.2f,$%.2f\r\n
+
+LED_GetLEDI    读取电流
+LED_GetLEDI$%.1f,$%.1f,$%.1f,$%.1f,$%.1f,$%.1f,$%.1f,$%.1f,$%.1f,$%.1f,$%.1f,$%.1f\r\n
+
+LED_GetDVal     DV压差
+LED_GetDVal$%.2f\r\n
+
+LED_Get_ChNum    通道数量，特指开发板上有几个
+LED_Get_ChNum$%d\r\n
+
+LED_clear_maxmin    清楚限位     具体没用到
+LED_clear_maxmin$OK\r\n
+
+LED_ON                  开启
+LED_ON$OK\r\n
+
+LED_OFF                关闭
+LED_OFF$OK\r\n
+
+LED_GetAlarmState    读取有无故障
+LED_GetAlarmState$0$无故障\r\n
+
+带参数
+LED_Set_PrjNames$C070EAT01.0     ini配置文件
+LED_Set_PrjNames$OK\r\n
+
+LED_SHorL$
+LED_SHorL$OK\r\n
+
+LED_Set_ChNum
+LED_Set_ChNum$OK\r\n
+
+LED_Set_I
+LED_Set_I$OK\r\n
+
+LED_Set_Imaxmin
+LED_Set_Imaxmin$OK\r\n
+
+LED_Set_Vmaxmin
+LED_Set_Vmaxmin$OK\r\n
+
+LED_DVal_maxmin
+LED_DVal_maxmin$OK\r\n
+
+LED_Set_NTC_Ch                 设置电阻
+LED_Set_NTC_Ch$OK\r\n
+
+LED_SNTC_maxmin                        
+LED_SNTC_maxmin$OK\r\n
+
+NTC_MODEL
+NTC_MODEL$OK\r\n
+
+Set_Current_Gain
+Set_Current_Gain$OK\r\n
+
+
+
+
+
+

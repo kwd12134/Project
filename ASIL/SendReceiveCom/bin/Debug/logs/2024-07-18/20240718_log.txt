@@ -1,0 +1,31 @@
+﻿2024_07_18_08:38:07:609:******************START********************
+2024_07_18_08:38:07:852:ASIL板连接中...
+2024_07_18_08:38:07:858:ASIL板已连接
+2024_07_18_08:38:08:869:精测机通信侦听中...
+2024_07_18_08:38:11:098:精测机启动侦听
+2024_07_18_08:38:11:099:PIS2通信连接中...
+2024_07_18_08:38:11:101:start to Connect MCMQ
+2024_07_18_08:38:11:113:Connect MCMQ Success, returnCode =0
+2024_07_18_08:38:11:116:Connect MCMQ Success, returnCode =0
+2024_07_18_08:38:11:121:OpenreplyQueue AL585058returnCode=0
+2024_07_18_08:38:11:121:OpensendQueue S17MES.CCDreturnCode=0
+2024_07_18_08:38:11:124:Send MCMQ sendQueue=S17MES.CCD replyQueue =AL585058returnCode=0
+2024_07_18_08:38:11:124:Send MCMQ:<?xml version="1.0" encoding='UTF-8'?><si300_interface><message_id>clear_mlp</message_id><line>ASM_3C01</line><mlp_id>12345</mlp_id><operation>ASSY-TEST</operation></si300_interface>
+2024_07_18_08:38:15:239:Recive MCMQ returnCode:0
+2024_07_18_08:38:15:240:Recive MCMQ returnMessage:
+2024_07_18_08:38:15:241:MCMQ disconnect
+2024_07_18_08:38:55:045:无法访问已释放的对象。
+对象名:“ComAssistance”。
+2024_07_18_08:45:07:292:******************START********************
+2024_07_18_08:45:07:461:ASIL板连接中...
+2024_07_18_08:45:07:469:ASIL板已连接
+2024_07_18_08:45:08:510:精测机通信侦听中...
+2024_07_18_08:45:08:515:精测机启动侦听
+2024_07_18_08:45:08:515:PIS2通信连接中...
+2024_07_18_08:45:08:516:start to Connect MCMQ
+2024_07_18_08:45:08:524:Connect MCMQ Success, returnCode =0
+2024_07_18_08:45:08:526:Connect MCMQ Success, returnCode =0
+2024_07_18_08:45:08:530:OpenreplyQueue AL310300returnCode=0
+2024_07_18_08:45:08:530:OpensendQueue S17MES.CCDreturnCode=0
+2024_07_18_08:45:08:532:Send MCMQ sendQueue=S17MES.CCD replyQueue =AL310300returnCode=0
+2024_07_18_08:45:08:532:Send MCMQ:<?xml version="1.0" encoding='UTF-8'?><si300_interface><message_id>clear_mlp</message_id><line>ASM_3C01</line><mlp_id>12345</mlp_id><operation>ASSY-TEST</operation></si300_interface>

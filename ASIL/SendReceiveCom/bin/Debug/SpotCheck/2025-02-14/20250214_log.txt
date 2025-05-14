@@ -1,0 +1,2 @@
+﻿2025_02_14_19:05:58:609:SN:111 LowerUpper:0/3 Value:0.81 Status:OK
+2025_02_14_19:12:01:336:SN:111 LowerUpper:0/3 Value:1.05 Status:OK

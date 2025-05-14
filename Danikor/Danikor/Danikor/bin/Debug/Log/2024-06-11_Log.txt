@@ -1,0 +1,192 @@
+2024-06-11 08:02:49  登录成功
+2024-06-11 08:57:28  登录成功
+2024-06-11 08:58:30  登录成功
+2024-06-11 08:59:43  登录成功
+2024-06-11 09:02:51  登录成功
+2024-06-11 09:03:39  登录成功
+2024-06-11 09:04:34  登录成功
+2024-06-11 09:04:36  连接MCMQ服务器失败:127.0.0.1:5000
+2024-06-11 09:05:24  登录成功
+2024-06-11 09:05:24  连接MCMQ服务器成功:127.0.0.1:7600
+2024-06-11 09:05:24  成功开启发送消息队列:unknow,成功开启回复查询队列:unknow
+2024-06-11 09:05:46  发送消息到队列:unknow,接收队列:unknow,消息内容:<?xml version="1.0" encoding="utf-8"?><trx><message_id>ictest_result_report</message_id>
+<type_id>I</type_id>
+<log_id>0240520S2X45NI000K</log_id>
+<unique_id>S2X45NI000K</unique_id>
+<test_result>OK</test_result>
+<measure_type>TORQUE</measure_type>
+<spc_control_result><line_id>Line1</line_id>
+<eqp_id>2X01SCREW1</eqp_id>
+<start_time>2024-05-20 08:22:34</start_time>
+<iron_start_time>2024-05-20 08:22:34</iron_start_time>
+<screw_time>74</screw_time>
+<spec>Standard</spec>
+<unit>kgf.cm</unit>
+<test_result><t>1.9898</t>
+<angle_value>1260</angle_value>
+<rst>OK</rst>
+</test_result>
+<test_result><t>2.0001</t>
+<angle_value>1326</angle_value>
+<rst>OK</rst>
+</test_result>
+<test_result><t>1.978</t>
+<angle_value>1369</angle_value>
+<rst>OK</rst>
+</test_result>
+<screw_result>OK</screw_result>
+<rejudge_result>OK</rejudge_result>
+</spc_control_result>
+<port_id>2X01SCREW1</port_id>
+<user_id>x2434476</user_id>
+</trx>
+
+2024-06-11 09:05:46  接收到消息:
+<?xml version="1.0" encoding="utf-8"?>
+<trx>
+<message_id>ictest_result_report</message_id>
+<type_id>I</type_id>
+<log_id>0240520S2X45NI000K</log_id>
+<unique_id>S2X45NI000K</unique_id>
+<test_result>OK</test_result>
+<measure_type>TORQUE</measure_type>
+<spc_control_result><line_id>Line1</line_id>
+<eqp_id>2X01SCREW1</eqp_id>
+<start_time>2024-05-20 08:22:34</start_time>
+<iron_start_time>2024-05-20 08:22:34</iron_start_time>
+<screw_time>74</screw_time>
+<spec>Standard</spec>
+<unit>kgf.cm</unit>
+<test_result><t>1.9898</t>
+<angle_value>1260</angle_value>
+<rst>OK</rst>
+</test_result>
+<test_result><t>2.0001</t>
+<angle_value>1326</angle_value>
+<rst>OK</rst>
+</test_result>
+<test_result><t>1.978</t>
+<angle_value>1369</angle_value>
+<rst>OK</rst>
+</test_result>
+<screw_result>OK</screw_result>
+<rejudge_result>OK</rejudge_result>
+</spc_control_result>
+<port_id>2X01SCREW1</port_id>
+<user_id>x2434476</user_id>
+</trx>
+
+2024-06-11 09:14:13  登录成功
+2024-06-11 09:14:13  连接MCMQ服务器成功:127.0.0.1:7600
+2024-06-11 09:14:13  成功开启发送消息队列:unknow,成功开启回复查询队列:unknow
+2024-06-11 09:14:37  登录成功
+2024-06-11 09:14:37  连接MCMQ服务器成功:127.0.0.1:7600
+2024-06-11 09:14:37  成功开启发送消息队列:unknow,成功开启回复查询队列:unknow
+2024-06-11 09:15:36  登录成功
+2024-06-11 09:15:37  连接MCMQ服务器成功:127.0.0.1:7600
+2024-06-11 09:15:37  成功开启发送消息队列:unknow,成功开启回复查询队列:unknow
+2024-06-11 09:16:40  登录成功
+2024-06-11 09:16:41  连接MCMQ服务器成功:127.0.0.1:7600
+2024-06-11 09:16:41  成功开启发送消息队列:unknow,成功开启回复查询队列:unknow
+2024-06-11 09:17:59  登录成功
+2024-06-11 09:17:59  连接MCMQ服务器成功:127.0.0.1:7600
+2024-06-11 09:17:59  成功开启发送消息队列:unknow,成功开启回复查询队列:unknow
+2024-06-11 10:18:00  登录成功
+2024-06-11 10:18:00  连接MCMQ服务器成功:127.0.0.1:7600
+2024-06-11 10:18:00  成功开启发送消息队列:unknow,成功开启回复查询队列:unknow
+2024-06-11 10:18:01  发送消息到队列:unknow,接收队列:unknow,消息内容:<?xml version="1.0" encoding="utf-8"?><si300_interface><message_id>validate_lot</message_id>
+<ver>1.6.7</ver>
+<function>validate_lot</function>
+<user_id>x2434476</user_id>
+<sys_para>2XASSY01</sys_para>
+<p_area>2X</p_area>
+<area>S17</area>
+<operation>P-SCREW</operation>
+<lot_no>S2X45NI000L</lot_no>
+</si300_interface>
+
+2024-06-11 10:18:01  发送消息到队列:unknow,接收队列:unknow,消息内容:<?xml version="1.0" encoding="utf-8"?><trx><message_id>ictest_result_report</message_id>
+<type_id>I</type_id>
+<log_id>0240520S2X45NI000K</log_id>
+<unique_id>S2X45NI000K</unique_id>
+<test_result>OK</test_result>
+<measure_type>TORQUE</measure_type>
+<spc_control_result><line_id>Line1</line_id>
+<eqp_id>2X01SCREW1</eqp_id>
+<start_time>2024-05-20 08:22:34</start_time>
+<iron_start_time>2024-05-20 08:22:34</iron_start_time>
+<screw_time>74</screw_time>
+<spec>Standard</spec>
+<unit>kgf.cm</unit>
+<test_result><t>1.9898</t>
+<angle_value>1260</angle_value>
+<rst>OK</rst>
+</test_result>
+<test_result><t>2.0001</t>
+<angle_value>1326</angle_value>
+<rst>OK</rst>
+</test_result>
+<test_result><t>1.978</t>
+<angle_value>1369</angle_value>
+<rst>OK</rst>
+</test_result>
+<screw_result>OK</screw_result>
+<rejudge_result>OK</rejudge_result>
+</spc_control_result>
+<port_id>2X01SCREW1</port_id>
+<user_id>x2434476</user_id>
+</trx>
+
+2024-06-11 10:18:02  接收到消息:<?xml version="1.0" encoding="utf-8"?><si300_interface><message_id>validate_lot</message_id>
+<ver>1.6.7</ver>
+<function>validate_lot</function>
+<user_id>x2434476</user_id>
+<sys_para>2XASSY01</sys_para>
+<p_area>2X</p_area>
+<area>S17</area>
+<operation>P-SCREW</operation>
+<lot_no>S2X45NI000L</lot_no>
+</si300_interface>
+
+2024-06-11 10:18:02  接收到消息:<?xml version="1.0" encoding="utf-8"?><trx><message_id>ictest_result_report</message_id>
+<type_id>I</type_id>
+<log_id>0240520S2X45NI000K</log_id>
+<unique_id>S2X45NI000K</unique_id>
+<test_result>OK</test_result>
+<measure_type>TORQUE</measure_type>
+<spc_control_result><line_id>Line1</line_id>
+<eqp_id>2X01SCREW1</eqp_id>
+<start_time>2024-05-20 08:22:34</start_time>
+<iron_start_time>2024-05-20 08:22:34</iron_start_time>
+<screw_time>74</screw_time>
+<spec>Standard</spec>
+<unit>kgf.cm</unit>
+<test_result><t>1.9898</t>
+<angle_value>1260</angle_value>
+<rst>OK</rst>
+</test_result>
+<test_result><t>2.0001</t>
+<angle_value>1326</angle_value>
+<rst>OK</rst>
+</test_result>
+<test_result><t>1.978</t>
+<angle_value>1369</angle_value>
+<rst>OK</rst>
+</test_result>
+<screw_result>OK</screw_result>
+<rejudge_result>OK</rejudge_result>
+</spc_control_result>
+<port_id>2X01SCREW1</port_id>
+<user_id>x2434476</user_id>
+</trx>
+
+2024-06-11 10:18:15  登录成功
+2024-06-11 10:18:15  连接MCMQ服务器成功:127.0.0.1:7600
+2024-06-11 10:18:15  成功开启发送消息队列:unknow,成功开启回复查询队列:unknow
+2024-06-11 10:46:27  登录成功
+2024-06-11 10:46:27  连接MCMQ服务器成功:127.0.0.1:7600
+2024-06-11 10:46:27  成功开启发送消息队列:unknow,成功开启回复查询队列:unknow
+2024-06-11 10:49:14  保存通讯配置成功
+2024-06-11 17:30:05  登录成功
+2024-06-11 17:30:05  连接MCMQ服务器成功:127.0.0.1:7600
+2024-06-11 17:30:06  成功开启发送消息队列:unknow,成功开启回复查询队列:unknow

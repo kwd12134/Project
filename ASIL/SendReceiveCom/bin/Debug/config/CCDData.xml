@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<trx>
+  <trx_name>CCDDataReport</trx_name>
+  <lot_no>111111111111111111</lot_no>
+  <iary_infos>
+    <iary>
+      <ccd_type>1111</ccd_type>
+      <max_lumi>0</max_lumi>
+      <unifomity>6</unifomity>
+      <jig_id>S2C1C6I0Q2F</jig_id>
+      <eqp_id>MAJCTESTYH</eqp_id>
+      <judge>1111</judge>
+    </iary>
+  </iary_infos>
+  <lm_user>LAPTOP-91PSF8EC</lm_user>
+  <lm_time>2025-02-24 03:23:20</lm_time>
+</trx>

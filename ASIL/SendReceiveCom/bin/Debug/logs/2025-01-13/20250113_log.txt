@@ -1,0 +1,153 @@
+﻿2025_01_13_19:52:39:883:******************START********************
+2025_01_13_19:52:40:308:ASIL板连接中...
+2025_01_13_19:52:40:351:ASIL板已连接
+2025_01_13_19:52:41:360:测试机通信侦听中...
+2025_01_13_19:52:41:370:测试机启动侦听
+2025_01_13_19:52:41:371:PIS2通信连接中...
+2025_01_13_19:53:43:234:******************START********************
+2025_01_13_19:57:35:024:******************START********************
+2025_01_13_19:57:46:039:ASIL板连接中...
+2025_01_13_19:57:46:064:ASIL板已连接
+2025_01_13_19:57:47:076:测试机通信侦听中...
+2025_01_13_19:57:47:091:测试机启动侦听
+2025_01_13_19:57:47:092:PIS2通信连接中...
+2025_01_13_19:57:56:197:recive spot check ASIL:T0.78ANANANANANANANENendN
+2025_01_13_19:57:59:249:晚班点检成功
+2025_01_13_19:58:03:397:******************START********************
+2025_01_13_19:58:07:086:ASIL板连接中...
+2025_01_13_19:58:07:109:ASIL板已连接
+2025_01_13_19:58:08:115:测试机通信侦听中...
+2025_01_13_19:58:08:124:测试机启动侦听
+2025_01_13_19:58:08:126:PIS2通信连接中...
+2025_01_13_20:02:18:990:******************START********************
+2025_01_13_20:02:19:353:ASIL板连接中...
+2025_01_13_20:02:19:377:ASIL板已连接
+2025_01_13_20:02:20:395:测试机通信侦听中...
+2025_01_13_20:02:20:408:测试机启动侦听
+2025_01_13_20:02:20:410:PIS2通信连接中...
+2025_01_13_20:02:43:367:******************START********************
+2025_01_13_20:02:43:753:ASIL板连接中...
+2025_01_13_20:02:43:778:ASIL板已连接
+2025_01_13_20:02:44:793:测试机通信侦听中...
+2025_01_13_20:02:44:804:测试机启动侦听
+2025_01_13_20:02:44:805:PIS2通信连接中...
+2025_01_13_20:02:51:099:recive spot check ASIL:T0.99ANANANANANANANENendN
+2025_01_13_20:02:53:896:晚班点检成功
+2025_01_13_20:02:57:558:无法访问已释放的对象。
+对象名:“ComAssistance”。
+2025_01_13_20:04:09:683:******************START********************
+2025_01_13_20:04:10:042:ASIL板连接中...
+2025_01_13_20:04:10:066:ASIL板已连接
+2025_01_13_20:04:11:076:测试机通信侦听中...
+2025_01_13_20:04:11:091:测试机启动侦听
+2025_01_13_20:04:11:094:PIS2通信连接中...
+2025_01_13_20:04:20:451:DayShiftSpotCheck:False,NightShiftSpotCheck:True,LastDateTime2025/1/13 20:02:52
+2025_01_13_20:04:23:440:DayShiftSpotCheck:False,NightShiftSpotCheck:True,LastDateTime2025/1/13 20:02:52
+2025_01_13_20:04:24:971:DayShiftSpotCheck:False,NightShiftSpotCheck:True,LastDateTime2025/1/13 20:02:52
+2025_01_13_20:04:26:633:DayShiftSpotCheck:False,NightShiftSpotCheck:True,LastDateTime2025/1/13 20:02:52
+2025_01_13_20:04:28:379:DayShiftSpotCheck:False,NightShiftSpotCheck:True,LastDateTime2025/1/13 20:02:52
+2025_01_13_20:04:30:042:DayShiftSpotCheck:False,NightShiftSpotCheck:True,LastDateTime2025/1/13 20:02:52
+2025_01_13_20:04:38:277:DayShiftSpotCheck:False,NightShiftSpotCheck:True,LastDateTime2025/1/13 20:02:52
+2025_01_13_20:04:53:548:DayShiftSpotCheck:False,NightShiftSpotCheck:True,LastDateTime2025/1/13 20:02:52
+2025_01_13_20:05:01:155:DayShiftSpotCheck:False,NightShiftSpotCheck:True,LastDateTime2025/1/13 20:02:52
+2025_01_13_20:05:01:214:recive ASIL:T1.06ANANANANANANANENEndN
+2025_01_13_20:05:01:215:test resultNGOKOKOKOKOKOKOKOKOK
+2025_01_13_20:05:01:220:start to Connect MCMQ
+2025_01_13_20:05:03:279:Connect MCMQ Error Code=-2002
+2025_01_13_20:05:04:074:DayShiftSpotCheck:False,NightShiftSpotCheck:True,LastDateTime2025/1/13 20:02:52
+2025_01_13_20:05:04:238:recive ASIL:T1.06ANANANANANANANENEndN
+2025_01_13_20:05:04:238:test resultNGOKOKOKOKOKOKOKOKOK
+2025_01_13_20:05:04:240:start to Connect MCMQ
+2025_01_13_20:05:06:202:DayShiftSpotCheck:False,NightShiftSpotCheck:True,LastDateTime2025/1/13 20:02:52
+2025_01_13_20:05:06:239:recive ASIL:T1.06ANANANANANANANENEndN
+2025_01_13_20:05:06:240:test resultNGOKOKOKOKOKOKOKOKOK
+2025_01_13_20:05:06:267:Connect MCMQ Error Code=-2002
+2025_01_13_20:05:06:268:start to Connect MCMQ
+2025_01_13_20:05:08:298:Connect MCMQ Error Code=-2002
+2025_01_13_20:05:10:489:NightShiftSpotCheck Loop Monitor
+2025_01_13_20:05:15:956:recive spot check ASIL:T1.06ANANANANANANANENendN
+2025_01_13_20:05:18:439:晚班点检成功
+2025_01_13_20:05:19:953:DayShiftSpotCheck:False,NightShiftSpotCheck:True,LastDateTime2025/1/13 20:05:17
+2025_01_13_20:05:20:294:recive ASIL:T1.06ANANANANANANANENEndN
+2025_01_13_20:05:20:294:test resultNGOKOKOKOKOKOKOKOKOK
+2025_01_13_20:05:20:296:start to Connect MCMQ
+2025_01_13_20:05:22:185:DayShiftSpotCheck:False,NightShiftSpotCheck:True,LastDateTime2025/1/13 20:05:17
+2025_01_13_20:05:22:309:recive ASIL:T1.06ANANANANANANANENEndN
+2025_01_13_20:05:22:309:test resultNGOKOKOKOKOKOKOKOKOK
+2025_01_13_20:05:22:321:Connect MCMQ Error Code=-2002
+2025_01_13_20:05:22:321:start to Connect MCMQ
+2025_01_13_20:05:24:346:Connect MCMQ Error Code=-2002
+2025_01_13_20:05:24:802:DayShiftSpotCheck:False,NightShiftSpotCheck:True,LastDateTime2025/1/13 20:05:17
+2025_01_13_20:05:25:021:recive ASIL:T1.06ANANANANANANANENEndN
+2025_01_13_20:05:25:022:test resultNGOKOKOKOKOKOKOKOKOK
+2025_01_13_20:05:25:023:start to Connect MCMQ
+2025_01_13_20:05:27:060:Connect MCMQ Error Code=-2002
+2025_01_13_20:05:29:443:DayShiftSpotCheck:False,NightShiftSpotCheck:False,LastDateTime2025/1/13 20:05:17
+2025_01_13_20:05:30:509:NightShiftSpotCheck Loop Monitor
+2025_01_13_20:05:32:563:DayShiftSpotCheck:False,NightShiftSpotCheck:False,LastDateTime2025/1/13 20:05:17
+2025_01_13_20:05:59:458:DayShiftSpotCheck:False,NightShiftSpotCheck:False,LastDateTime2025/1/13 20:05:17
+2025_01_13_20:06:35:201:DayShiftSpotCheck:False,NightShiftSpotCheck:False,LastDateTime2025/1/13 20:05:17
+2025_01_13_22:59:49:657:******************START********************
+2025_01_13_22:59:50:050:ASIL板连接中...
+2025_01_13_22:59:50:074:ASIL板已连接
+2025_01_13_22:59:51:086:测试机通信侦听中...
+2025_01_13_22:59:51:094:测试机启动侦听
+2025_01_13_22:59:51:095:PIS2通信连接中...
+2025_01_13_22:59:51:105:NightShiftSpotCheck Loop Monitor
+2025_01_13_22:59:58:090:recive spot check ASIL:T1.36ANANANANANANANENendN
+2025_01_13_23:00:00:929:晚班点检成功
+2025_01_13_23:00:44:382:recive spot check ASIL:T1.36ANANANANANANANENendN
+2025_01_13_23:00:48:324:晚班点检成功
+2025_01_13_23:00:51:753:recive spot check ASIL:T1.36ANANANANANANANENendN
+2025_01_13_23:00:54:328:晚班点检成功
+2025_01_13_23:03:52:191:******************START********************
+2025_01_13_23:03:52:612:ASIL板连接中...
+2025_01_13_23:03:52:636:ASIL板已连接
+2025_01_13_23:03:53:649:测试机通信侦听中...
+2025_01_13_23:03:53:665:测试机启动侦听
+2025_01_13_23:03:53:665:PIS2通信连接中...
+2025_01_13_23:03:55:596:recive spot check ASIL:T1.36ANANANANANANANENendN
+2025_01_13_23:04:04:871:晚班点检成功
+2025_01_13_23:18:37:418:******************START********************
+2025_01_13_23:18:37:801:ASIL板连接中...
+2025_01_13_23:18:37:825:ASIL板已连接
+2025_01_13_23:18:38:535:DayShiftSpotCheck:False,NightShiftSpotCheck:True,LastDateTime2025/1/13 23:03:57
+2025_01_13_23:18:39:052:测试机通信侦听中...
+2025_01_13_23:18:39:064:测试机启动侦听
+2025_01_13_23:18:39:071:PIS2通信连接中...
+2025_01_13_23:18:40:267:DayShiftSpotCheck:False,NightShiftSpotCheck:True,LastDateTime2025/1/13 23:03:57
+2025_01_13_23:18:42:034:DayShiftSpotCheck:False,NightShiftSpotCheck:True,LastDateTime2025/1/13 23:03:57
+2025_01_13_23:18:43:786:DayShiftSpotCheck:False,NightShiftSpotCheck:True,LastDateTime2025/1/13 23:03:57
+2025_01_13_23:18:45:075:DayShiftSpotCheck:False,NightShiftSpotCheck:True,LastDateTime2025/1/13 23:03:57
+2025_01_13_23:18:46:299:DayShiftSpotCheck:False,NightShiftSpotCheck:True,LastDateTime2025/1/13 23:03:57
+2025_01_13_23:19:15:082:******************START********************
+2025_01_13_23:19:15:465:ASIL板连接中...
+2025_01_13_23:19:15:490:ASIL板已连接
+2025_01_13_23:19:16:501:测试机通信侦听中...
+2025_01_13_23:19:16:513:测试机启动侦听
+2025_01_13_23:19:16:514:PIS2通信连接中...
+2025_01_13_23:19:24:827:recive spot check ASIL:T1.36ANANANANANANANENendN
+2025_01_13_23:19:27:466:晚班点检成功
+2025_01_13_23:19:28:296:无法访问已释放的对象。
+对象名:“ComAssistance”。
+2025_01_13_23:19:31:355:******************START********************
+2025_01_13_23:19:31:769:ASIL板连接中...
+2025_01_13_23:19:31:793:ASIL板已连接
+2025_01_13_23:19:32:806:测试机通信侦听中...
+2025_01_13_23:19:32:819:测试机启动侦听
+2025_01_13_23:19:32:821:PIS2通信连接中...
+2025_01_13_23:20:06:344:******************START********************
+2025_01_13_23:20:06:734:ASIL板连接中...
+2025_01_13_23:20:06:758:ASIL板已连接
+2025_01_13_23:20:07:775:测试机通信侦听中...
+2025_01_13_23:20:07:786:测试机启动侦听
+2025_01_13_23:20:07:786:PIS2通信连接中...
+2025_01_13_23:20:08:324:DayShiftSpotCheck:False,NightShiftSpotCheck:True,LastDateTime2025/1/13 23:19:26
+2025_01_13_23:20:10:300:DayShiftSpotCheck:False,NightShiftSpotCheck:True,LastDateTime2025/1/13 23:19:26
+2025_01_13_23:20:11:810:DayShiftSpotCheck:False,NightShiftSpotCheck:True,LastDateTime2025/1/13 23:19:26
+2025_01_13_23:20:13:298:DayShiftSpotCheck:False,NightShiftSpotCheck:True,LastDateTime2025/1/13 23:19:26
+2025_01_13_23:20:14:692:DayShiftSpotCheck:False,NightShiftSpotCheck:True,LastDateTime2025/1/13 23:19:26
+2025_01_13_23:20:16:204:DayShiftSpotCheck:False,NightShiftSpotCheck:True,LastDateTime2025/1/13 23:19:26
+2025_01_13_23:20:17:602:DayShiftSpotCheck:False,NightShiftSpotCheck:True,LastDateTime2025/1/13 23:19:26
+2025_01_13_23:20:22:900:recive spot check ASIL:T1.36ANANANANANANANENendN
+2025_01_13_23:20:25:900:晚班点检成功

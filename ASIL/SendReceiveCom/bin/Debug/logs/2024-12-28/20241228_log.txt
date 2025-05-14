@@ -1,0 +1,343 @@
+﻿2024_12_28_22:22:38:398:******************START********************
+2024_12_28_22:22:40:113:ASIL板连接中...
+2024_12_28_22:22:40:136:ASIL板已连接
+2024_12_28_22:22:41:146:测试机通信侦听中...
+2024_12_28_22:22:41:156:测试机启动侦听
+2024_12_28_22:22:41:164:PIS2通信连接中...
+2024_12_28_22:22:41:171:NightShiftSpotCheck Loop Monitor
+2024_12_28_22:22:46:242:recive spot check ASIL:T0.87ANANANANANANANENendN
+2024_12_28_22:22:49:124:晚班点检成功
+2024_12_28_00:01:03:283:******************START********************
+2024_12_28_00:01:03:615:ASIL板连接中...
+2024_12_28_00:01:03:641:ASIL板已连接
+2024_12_28_00:01:04:654:测试机通信侦听中...
+2024_12_28_00:01:04:666:测试机启动侦听
+2024_12_28_00:01:04:668:PIS2通信连接中...
+2024_12_28_00:01:10:111:recive spot check ASIL:T1.35ANANANANANANANENendN
+2024_12_28_00:01:13:406:晚班点检成功
+2024_12_28_00:01:23:699:******************START********************
+2024_12_28_00:01:24:036:ASIL板连接中...
+2024_12_28_00:01:24:060:ASIL板已连接
+2024_12_28_00:01:25:075:测试机通信侦听中...
+2024_12_28_00:01:25:084:测试机启动侦听
+2024_12_28_00:01:25:085:PIS2通信连接中...
+2024_12_28_00:01:25:093:DayShiftSpotCheck:False,NightShiftSpotCheck:True,LastDateTime2024/12/28 0:01:11
+2024_12_28_00:01:26:851:DayShiftSpotCheck:False,NightShiftSpotCheck:True,LastDateTime2024/12/28 0:01:11
+2024_12_28_00:01:28:319:无法访问已释放的对象。
+对象名:“ComAssistance”。
+2024_12_28_00:02:34:615:******************START********************
+2024_12_28_00:02:34:955:ASIL板连接中...
+2024_12_28_00:02:34:979:ASIL板已连接
+2024_12_28_00:02:35:994:测试机通信侦听中...
+2024_12_28_00:02:36:002:测试机启动侦听
+2024_12_28_00:02:36:002:PIS2通信连接中...
+2024_12_28_00:02:37:523:DayShiftSpotCheck:False,NightShiftSpotCheck:True,LastDateTime2024/12/28 0:01:11
+2024_12_28_00:02:47:391:******************START********************
+2024_12_28_00:02:47:725:ASIL板连接中...
+2024_12_28_00:02:47:748:ASIL板已连接
+2024_12_28_00:02:48:756:测试机通信侦听中...
+2024_12_28_00:02:48:764:测试机启动侦听
+2024_12_28_00:02:48:764:PIS2通信连接中...
+2024_12_28_00:03:00:647:******************START********************
+2024_12_28_00:03:00:980:ASIL板连接中...
+2024_12_28_00:03:01:004:ASIL板已连接
+2024_12_28_00:03:02:010:测试机通信侦听中...
+2024_12_28_00:03:02:019:测试机启动侦听
+2024_12_28_00:03:02:021:PIS2通信连接中...
+2024_12_28_00:03:08:564:DayShiftSpotCheck:False,NightShiftSpotCheck:True,LastDateTime2024/12/28 0:01:11
+2024_12_28_00:04:42:784:recive ASIL:T1.35A1.36A1.36A1.36A1.36A2.9A1.6A1.36E End 
+2024_12_28_00:04:42:784:test resultOKOKOKOKOKOKOKOKNGNG
+2024_12_28_00:04:42:785:send to jince:<?xml version="1.0" encoding="UTF-8"?><Response><Result>ERR</Result><Param1></Param1><Param2></Param2><Param3></Param3><Param4></Param4><Param5></Param5><Param6></Param6><Param7></Param7><Param8></Param8><Param9></Param9></Response>
+2024_12_28_00:04:42:787:start to Connect MCMQ
+2024_12_28_00:04:44:815:Connect MCMQ Error Code=-2002
+2024_12_28_00:04:52:736:DayShiftSpotCheck:False,NightShiftSpotCheck:True,LastDateTime2024/12/28 0:01:11
+2024_12_28_00:04:55:242:recive ASIL:T1.35A1.36A1.36A1.36A1.36A2.53A1.66A1.37E End 
+2024_12_28_00:04:55:243:test resultOKOKOKOKOKOKOKOKNGNG
+2024_12_28_00:04:55:243:send to jince:<?xml version="1.0" encoding="UTF-8"?><Response><Result>ERR</Result><Param1></Param1><Param2></Param2><Param3></Param3><Param4></Param4><Param5></Param5><Param6></Param6><Param7></Param7><Param8></Param8><Param9></Param9></Response>
+2024_12_28_00:04:55:471:start to Connect MCMQ
+2024_12_28_00:04:57:291:Connect MCMQ Error Code=-2002
+2024_12_28_00:04:57:632:DayShiftSpotCheck:False,NightShiftSpotCheck:True,LastDateTime2024/12/28 0:01:11
+2024_12_28_00:04:58:633:recive ASIL:T1.35A1.36A1.36A1.36A1.36A2.51A1.66A1.37E End 
+2024_12_28_00:04:58:634:test resultOKOKOKOKOKOKOKOKNGNG
+2024_12_28_00:04:58:635:send to jince:<?xml version="1.0" encoding="UTF-8"?><Response><Result>ERR</Result><Param1></Param1><Param2></Param2><Param3></Param3><Param4></Param4><Param5></Param5><Param6></Param6><Param7></Param7><Param8></Param8><Param9></Param9></Response>
+2024_12_28_00:04:58:636:start to Connect MCMQ
+2024_12_28_00:05:00:681:Connect MCMQ Error Code=-2002
+2024_12_28_00:05:08:567:DayShiftSpotCheck:False,NightShiftSpotCheck:False,LastDateTime2024/12/28 0:01:11
+2024_12_28_00:05:09:719:NightShiftSpotCheck Loop Monitor
+2024_12_28_00:05:13:293:recive spot check ASIL:T1.35ANANANANANANANENendN
+2024_12_28_00:05:16:057:晚班点检成功
+2024_12_28_00:05:17:008:DayShiftSpotCheck:False,NightShiftSpotCheck:True,LastDateTime2024/12/28 0:05:14
+2024_12_28_00:05:18:010:recive ASIL:T1.35A1.36A1.36A1.36A1.36A2.47A1.66A1.37E End 
+2024_12_28_00:05:18:010:test resultOKOKOKOKOKOKOKOKNGNG
+2024_12_28_00:05:18:011:send to jince:<?xml version="1.0" encoding="UTF-8"?><Response><Result>ERR</Result><Param1></Param1><Param2></Param2><Param3></Param3><Param4></Param4><Param5></Param5><Param6></Param6><Param7></Param7><Param8></Param8><Param9></Param9></Response>
+2024_12_28_00:05:18:013:start to Connect MCMQ
+2024_12_28_00:05:20:056:Connect MCMQ Error Code=-2002
+2024_12_28_00:12:00:727:******************START********************
+2024_12_28_00:12:01:083:ASIL板连接中...
+2024_12_28_00:12:01:108:ASIL板已连接
+2024_12_28_00:12:02:120:测试机通信侦听中...
+2024_12_28_00:12:02:128:测试机启动侦听
+2024_12_28_00:12:02:129:PIS2通信连接中...
+2024_12_28_00:12:03:174:DayShiftSpotCheck:False,NightShiftSpotCheck:True,LastDateTime2024/12/28 0:05:14
+2024_12_28_00:12:05:917:recive ASIL:T1.36A1.36A1.36A1.35A1.35A1.88A1.66A1.37E End 
+2024_12_28_00:12:05:918:test resultOKOKOKOKOKOKOKOKOKOK
+2024_12_28_00:12:05:918:send to jince:<?xml version="1.0" encoding="UTF-8"?><Response><Result>OK</Result><Param1></Param1><Param2></Param2><Param3></Param3><Param4></Param4><Param5></Param5><Param6></Param6><Param7></Param7><Param8></Param8><Param9></Param9></Response>
+2024_12_28_00:12:05:919:start to Connect MCMQ
+2024_12_28_00:12:07:968:Connect MCMQ Error Code=-2002
+2024_12_28_00:15:05:627:******************START********************
+2024_12_28_00:15:06:004:ASIL板连接中...
+2024_12_28_00:15:06:027:ASIL板已连接
+2024_12_28_00:15:07:031:测试机通信侦听中...
+2024_12_28_00:15:07:041:测试机启动侦听
+2024_12_28_00:15:07:042:PIS2通信连接中...
+2024_12_28_00:15:10:227:recive spot check ASIL:T1.36ANANANANANANANENendN
+2024_12_28_00:15:14:179:晚班点检成功
+2024_12_28_00:15:45:894:成功保存123配方参数!
+2024_12_28_00:15:49:079:成功保存C313RAM01.0配方参数!
+2024_12_28_00:15:52:821:recive spot check ASIL:T1.36ANANANANANANANENendN
+2024_12_28_00:16:09:576:recive ASIL:T1.36ANANANANANANANENEndN
+2024_12_28_00:16:09:577:test resultOKOKOKOKOKOKOKOKOKOK
+2024_12_28_00:16:09:585:start to Connect MCMQ
+2024_12_28_00:16:11:629:Connect MCMQ Error Code=-2002
+2024_12_28_00:16:29:704:成功保存C313RAM01.0配方参数!
+2024_12_28_00:16:30:984:成功保存C313RAM01.0配方参数!
+2024_12_28_00:16:39:103:recive ASIL:T1.36A1.36ANANANANANANENEndN
+2024_12_28_00:16:39:103:test resultOKOKOKOKOKOKOKOKOKOK
+2024_12_28_00:16:39:105:start to Connect MCMQ
+2024_12_28_00:16:41:136:Connect MCMQ Error Code=-2002
+2024_12_28_00:16:41:137:start to Connect MCMQ
+2024_12_28_00:16:43:167:Connect MCMQ Error Code=-2002
+2024_12_28_00:16:50:552:test resultOKOKOKOKOKOKOKOKOKOK
+2024_12_28_00:16:50:553:recive ASIL:T1.36A1.36ANANANANANANENEndN
+2024_12_28_00:16:50:554:start to Connect MCMQ
+2024_12_28_00:16:52:608:Connect MCMQ Error Code=-2002
+2024_12_28_00:16:52:609:start to Connect MCMQ
+2024_12_28_00:16:54:645:Connect MCMQ Error Code=-2002
+2024_12_28_00:16:56:292:recive spot check ASIL:T1.36ANANANANANANANENendN
+2024_12_28_00:17:07:063:成功保存123配方参数!
+2024_12_28_00:17:11:053:recive spot check ASIL:T1.36ANANANANANANANENendN
+2024_12_28_00:17:12:063:晚班点检成功
+2024_12_28_08:18:46:372:dateTimeDayShift >= LastDateTime(2024/12/28 0:17:12)
+2024_12_28_08:18:52:196:DayShiftSpotCheck:False,NightShiftSpotCheck:True,LastDateTime2024/12/28 0:17:12
+2024_12_28_08:18:53:032:dateTimeDayShift >= LastDateTime(2024/12/28 0:17:12)
+2024_12_28_08:19:15:688:成功保存C313RAM01.0配方参数!
+2024_12_28_08:19:16:874:成功保存C313RAM01.0配方参数!
+2024_12_28_08:19:33:788:recive spot check ASIL:T1.36ANANANANANANANENendN
+2024_12_28_08:19:37:142:早班点检成功
+2024_12_28_08:19:45:256:DayShiftSpotCheck:True,NightShiftSpotCheck:False,LastDateTime2024/12/28 8:19:35
+2024_12_28_08:19:48:001:recive ASIL:T1.36A1.36A1.36A1.36A1.36A1.62A1.66A1.37E End 
+2024_12_28_08:19:48:002:test resultNGOKOKOKOKOKOKOKOKOK
+2024_12_28_08:19:48:003:send to jince:<?xml version="1.0" encoding="UTF-8"?><Response><Result>ERR</Result><Param1></Param1><Param2></Param2><Param3></Param3><Param4></Param4><Param5></Param5><Param6></Param6><Param7></Param7><Param8></Param8><Param9></Param9></Response>
+2024_12_28_08:19:48:003:start to Connect MCMQ
+2024_12_28_08:19:50:037:Connect MCMQ Error Code=-2002
+2024_12_28_08:20:10:673:DayShiftSpotCheck:True,NightShiftSpotCheck:False,LastDateTime2024/12/28 8:19:35
+2024_12_28_08:20:13:406:recive ASIL:T1.36A1.36A1.36A1.36A1.36A1.61A1.66A1.37E End 
+2024_12_28_08:20:13:406:test resultNGOKOKOKOKOKOKOKOKOK
+2024_12_28_08:20:13:406:send to jince:<?xml version="1.0" encoding="UTF-8"?><Response><Result>ERR</Result><Param1></Param1><Param2></Param2><Param3></Param3><Param4></Param4><Param5></Param5><Param6></Param6><Param7></Param7><Param8></Param8><Param9></Param9></Response>
+2024_12_28_08:20:13:407:start to Connect MCMQ
+2024_12_28_08:20:15:429:Connect MCMQ Error Code=-2002
+2024_12_28_08:20:30:089:DayShiftSpotCheck:True,NightShiftSpotCheck:False,LastDateTime2024/12/28 8:19:35
+2024_12_28_08:22:08:558:recive ASIL:T1.36A1.36A1.36A1.36A1.36A1.61A1.66A1.37E End 
+2024_12_28_08:22:08:559:test resultNGOKOKOKOKOKOKOKOKOK
+2024_12_28_08:22:08:559:send to jince:<?xml version="1.0" encoding="UTF-8"?><Response><Result>ERR</Result><Param1></Param1><Param2></Param2><Param3></Param3><Param4></Param4><Param5></Param5><Param6></Param6><Param7></Param7><Param8></Param8><Param9></Param9></Response>
+2024_12_28_08:22:08:560:start to Connect MCMQ
+2024_12_28_08:22:10:600:Connect MCMQ Error Code=-2002
+2024_12_28_08:22:17:346:DayShiftSpotCheck:False,NightShiftSpotCheck:False,LastDateTime2024/12/28 8:19:35
+2024_12_28_08:22:18:331:DayShiftSpotCheck Loop Monitor
+2024_12_28_08:22:22:530:DayShiftSpotCheck:True,NightShiftSpotCheck:False,LastDateTime2024/12/28 8:19:35
+2024_12_28_08:22:27:615:recive ASIL:T1.36A1.36A1.36A1.36A1.36A1.59A1.66A1.37E End 
+2024_12_28_08:22:27:617:test resultNGOKOKOKOKOKOKOKOKOK
+2024_12_28_08:22:27:623:send to jince:<?xml version="1.0" encoding="UTF-8"?><Response><Result>ERR</Result><Param1></Param1><Param2></Param2><Param3></Param3><Param4></Param4><Param5></Param5><Param6></Param6><Param7></Param7><Param8></Param8><Param9></Param9></Response>
+2024_12_28_08:22:27:625:start to Connect MCMQ
+2024_12_28_08:22:29:660:Connect MCMQ Error Code=-2002
+2024_12_28_08:22:33:712:DayShiftSpotCheck:True,NightShiftSpotCheck:False,LastDateTime2024/12/28 8:19:35
+2024_12_28_08:22:34:715:recive ASIL:T1.36A1.36A1.36A1.36A1.36A1.59A1.66A1.37E End 
+2024_12_28_08:22:34:715:test resultNGOKOKOKOKOKOKOKOKOK
+2024_12_28_08:22:34:715:send to jince:<?xml version="1.0" encoding="UTF-8"?><Response><Result>ERR</Result><Param1></Param1><Param2></Param2><Param3></Param3><Param4></Param4><Param5></Param5><Param6></Param6><Param7></Param7><Param8></Param8><Param9></Param9></Response>
+2024_12_28_08:22:34:717:start to Connect MCMQ
+2024_12_28_08:22:36:735:Connect MCMQ Error Code=-2002
+2024_12_28_08:23:34:697:******************START********************
+2024_12_28_08:23:35:078:ASIL板连接中...
+2024_12_28_08:23:35:102:ASIL板已连接
+2024_12_28_08:23:36:119:测试机通信侦听中...
+2024_12_28_08:23:36:130:测试机启动侦听
+2024_12_28_08:23:36:131:PIS2通信连接中...
+2024_12_28_08:24:32:846:******************START********************
+2024_12_28_08:24:33:246:ASIL板连接中...
+2024_12_28_08:24:33:271:ASIL板已连接
+2024_12_28_08:24:34:289:测试机通信侦听中...
+2024_12_28_08:24:34:301:测试机启动侦听
+2024_12_28_08:24:34:302:PIS2通信连接中...
+2024_12_28_08:24:41:924:DayShiftSpotCheck:True,NightShiftSpotCheck:False,LastDateTime2024/12/28 8:19:35
+2024_12_28_08:24:44:687:recive ASIL:T1.36A1.36A1.36A1.36A1.36A1.58A1.66A1.37E End 
+2024_12_28_08:24:44:687:test resultNGOKOKOKOKOKOKOKOKOK
+2024_12_28_08:24:44:688:send to jince:<?xml version="1.0" encoding="UTF-8"?><Response><Result>ERR</Result><Param1></Param1><Param2></Param2><Param3></Param3><Param4></Param4><Param5></Param5><Param6></Param6><Param7></Param7><Param8></Param8><Param9></Param9></Response>
+2024_12_28_08:24:44:689:start to Connect MCMQ
+2024_12_28_08:24:46:515:DayShiftSpotCheck:True,NightShiftSpotCheck:False,LastDateTime2024/12/28 8:19:35
+2024_12_28_08:24:46:731:Connect MCMQ Error Code=-2002
+2024_12_28_08:24:49:049:recive ASIL:T1.36A1.36A1.36A1.36A1.36A1.57A1.66A1.37E End 
+2024_12_28_08:24:49:050:test resultNGOKOKOKOKOKOKOKOKOK
+2024_12_28_08:24:49:051:send to jince:<?xml version="1.0" encoding="UTF-8"?><Response><Result>ERR</Result><Param1></Param1><Param2></Param2><Param3></Param3><Param4></Param4><Param5></Param5><Param6></Param6><Param7></Param7><Param8></Param8><Param9></Param9></Response>
+2024_12_28_08:24:49:265:start to Connect MCMQ
+2024_12_28_08:24:49:817:DayShiftSpotCheck:True,NightShiftSpotCheck:False,LastDateTime2024/12/28 8:19:35
+2024_12_28_08:24:50:827:recive ASIL:T1.36A1.36A1.36A1.36A1.36A1.57A1.66A1.37E End 
+2024_12_28_08:24:50:827:test resultNGOKOKOKOKOKOKOKOKOK
+2024_12_28_08:24:50:828:send to jince:<?xml version="1.0" encoding="UTF-8"?><Response><Result>ERR</Result><Param1></Param1><Param2></Param2><Param3></Param3><Param4></Param4><Param5></Param5><Param6></Param6><Param7></Param7><Param8></Param8><Param9></Param9></Response>
+2024_12_28_08:24:52:341:Connect MCMQ Error Code=-2002
+2024_12_28_08:24:52:576:start to Connect MCMQ
+2024_12_28_08:24:54:387:Connect MCMQ Error Code=-2002
+2024_12_28_08:24:54:467:DayShiftSpotCheck Loop Monitor
+2024_12_28_08:24:55:697:DayShiftSpotCheck:False,NightShiftSpotCheck:False,LastDateTime2024/12/28 8:19:35
+2024_12_28_08:24:59:002:DayShiftSpotCheck:True,NightShiftSpotCheck:False,LastDateTime2024/12/28 8:19:35
+2024_12_28_08:25:01:436:recive ASIL:T1.36A1.36A1.36A1.36A1.36A1.57A1.66A1.37E End 
+2024_12_28_08:25:01:436:test resultNGOKOKOKOKOKOKOKOKOK
+2024_12_28_08:25:01:436:send to jince:<?xml version="1.0" encoding="UTF-8"?><Response><Result>ERR</Result><Param1></Param1><Param2></Param2><Param3></Param3><Param4></Param4><Param5></Param5><Param6></Param6><Param7></Param7><Param8></Param8><Param9></Param9></Response>
+2024_12_28_08:25:01:732:start to Connect MCMQ
+2024_12_28_08:25:03:462:Connect MCMQ Error Code=-2002
+2024_12_28_08:25:53:591:******************START********************
+2024_12_28_08:25:54:014:ASIL板连接中...
+2024_12_28_08:25:54:045:ASIL板已连接
+2024_12_28_08:25:55:053:测试机通信侦听中...
+2024_12_28_08:25:55:068:测试机启动侦听
+2024_12_28_08:25:55:069:PIS2通信连接中...
+2024_12_28_08:25:56:584:DayShiftSpotCheck:True,NightShiftSpotCheck:False,LastDateTime2024/12/28 8:19:35
+2024_12_28_08:25:59:348:recive ASIL:T1.36A1.36A1.36A1.36A1.36A1.56A1.66A1.37E End 
+2024_12_28_08:25:59:349:test resultNGOKOKOKOKOKOKOKOKOK
+2024_12_28_08:25:59:349:send to jince:<?xml version="1.0" encoding="UTF-8"?><Response><Result>ERR</Result><Param1></Param1><Param2></Param2><Param3></Param3><Param4></Param4><Param5></Param5><Param6></Param6><Param7></Param7><Param8></Param8><Param9></Param9></Response>
+2024_12_28_08:25:59:350:start to Connect MCMQ
+2024_12_28_08:26:01:377:Connect MCMQ Error Code=-2002
+2024_12_28_08:26:02:726:DayShiftSpotCheck:True,NightShiftSpotCheck:False,LastDateTime2024/12/28 8:19:35
+2024_12_28_08:26:05:250:recive ASIL:T1.36A1.36A1.36A1.36A1.36A1.56A1.66A1.37E End 
+2024_12_28_08:26:05:251:test resultNGOKOKOKOKOKOKOKOKOK
+2024_12_28_08:26:05:252:send to jince:<?xml version="1.0" encoding="UTF-8"?><Response><Result>ERR</Result><Param1></Param1><Param2></Param2><Param3></Param3><Param4></Param4><Param5></Param5><Param6></Param6><Param7></Param7><Param8></Param8><Param9></Param9></Response>
+2024_12_28_08:26:05:466:start to Connect MCMQ
+2024_12_28_08:26:06:567:DayShiftSpotCheck:True,NightShiftSpotCheck:False,LastDateTime2024/12/28 8:19:35
+2024_12_28_08:26:07:287:Connect MCMQ Error Code=-2002
+2024_12_28_08:26:09:319:test resultNGOKOKOKOKOKOKOKOKOK
+2024_12_28_08:26:09:320:recive ASIL:T1.36A1.36A1.36A1.36A1.36A1.56A1.66A1.37E End 
+2024_12_28_08:26:09:320:send to jince:<?xml version="1.0" encoding="UTF-8"?><Response><Result>ERR</Result><Param1></Param1><Param2></Param2><Param3></Param3><Param4></Param4><Param5></Param5><Param6></Param6><Param7></Param7><Param8></Param8><Param9></Param9></Response>
+2024_12_28_08:26:09:321:start to Connect MCMQ
+2024_12_28_08:26:11:341:Connect MCMQ Error Code=-2002
+2024_12_28_08:26:12:926:DayShiftSpotCheck:False,NightShiftSpotCheck:False,LastDateTime2024/12/28 8:19:35
+2024_12_28_08:26:14:862:DayShiftSpotCheck:False,NightShiftSpotCheck:False,LastDateTime2024/12/28 8:19:35
+2024_12_28_08:26:15:264:DayShiftSpotCheck Loop Monitor
+2024_12_28_08:26:16:790:DayShiftSpotCheck:False,NightShiftSpotCheck:False,LastDateTime2024/12/28 8:19:35
+2024_12_28_08:26:18:607:DayShiftSpotCheck:False,NightShiftSpotCheck:False,LastDateTime2024/12/28 8:19:35
+2024_12_28_08:26:20:823:DayShiftSpotCheck:False,NightShiftSpotCheck:False,LastDateTime2024/12/28 8:19:35
+2024_12_28_08:26:22:646:DayShiftSpotCheck:False,NightShiftSpotCheck:False,LastDateTime2024/12/28 8:19:35
+2024_12_28_08:27:03:857:******************START********************
+2024_12_28_08:27:04:203:ASIL板连接中...
+2024_12_28_08:27:04:227:ASIL板已连接
+2024_12_28_08:27:05:245:测试机通信侦听中...
+2024_12_28_08:27:05:253:测试机启动侦听
+2024_12_28_08:27:05:264:PIS2通信连接中...
+2024_12_28_08:27:05:279:DayShiftSpotCheck Loop Monitor
+2024_12_28_08:27:08:126:DayShiftSpotCheck:False,NightShiftSpotCheck:False,LastDateTime2024/12/28 8:19:35
+2024_12_28_08:27:09:716:DayShiftSpotCheck:False,NightShiftSpotCheck:False,LastDateTime2024/12/28 8:19:35
+2024_12_28_08:27:16:446:recive spot check ASIL:T1.36ANANANANANANANENendN
+2024_12_28_08:27:18:861:早班点检成功
+2024_12_28_08:27:20:349:DayShiftSpotCheck:True,NightShiftSpotCheck:False,LastDateTime2024/12/28 8:27:17
+2024_12_28_08:27:23:120:recive ASIL:T1.36A1.36A1.36A1.36A1.36A1.55A1.66A1.37E End 
+2024_12_28_08:27:23:121:test resultNGOKOKOKOKOKOKOKOKOK
+2024_12_28_08:27:23:121:send to jince:<?xml version="1.0" encoding="UTF-8"?><Response><Result>ERR</Result><Param1></Param1><Param2></Param2><Param3></Param3><Param4></Param4><Param5></Param5><Param6></Param6><Param7></Param7><Param8></Param8><Param9></Param9></Response>
+2024_12_28_08:27:23:122:start to Connect MCMQ
+2024_12_28_08:27:23:437:DayShiftSpotCheck:True,NightShiftSpotCheck:False,LastDateTime2024/12/28 8:27:17
+2024_12_28_08:27:25:958:Connect MCMQ Error Code=-2002
+2024_12_28_08:27:26:180:recive ASIL:T1.36A1.36A1.36A1.36A1.36A1.55A1.66A1.37E End 
+2024_12_28_08:27:26:180:test resultNGOKOKOKOKOKOKOKOKOK
+2024_12_28_08:27:26:181:send to jince:<?xml version="1.0" encoding="UTF-8"?><Response><Result>ERR</Result><Param1></Param1><Param2></Param2><Param3></Param3><Param4></Param4><Param5></Param5><Param6></Param6><Param7></Param7><Param8></Param8><Param9></Param9></Response>
+2024_12_28_08:27:26:181:start to Connect MCMQ
+2024_12_28_08:27:26:349:DayShiftSpotCheck:True,NightShiftSpotCheck:False,LastDateTime2024/12/28 8:27:17
+2024_12_28_08:27:28:872:Connect MCMQ Error Code=-2002
+2024_12_28_08:27:28:872:recive ASIL:T1.36A1.36A1.36A1.36A1.36A1.55A1.66A1.37E End 
+2024_12_28_08:27:28:873:test resultNGOKOKOKOKOKOKOKOKOK
+2024_12_28_08:27:28:873:send to jince:<?xml version="1.0" encoding="UTF-8"?><Response><Result>ERR</Result><Param1></Param1><Param2></Param2><Param3></Param3><Param4></Param4><Param5></Param5><Param6></Param6><Param7></Param7><Param8></Param8><Param9></Param9></Response>
+2024_12_28_08:27:29:109:start to Connect MCMQ
+2024_12_28_08:27:30:908:Connect MCMQ Error Code=-2002
+2024_12_28_08:27:31:636:DayShiftSpotCheck:False,NightShiftSpotCheck:False,LastDateTime2024/12/28 8:27:17
+2024_12_28_08:27:33:717:DayShiftSpotCheck:False,NightShiftSpotCheck:False,LastDateTime2024/12/28 8:27:17
+2024_12_28_08:27:35:340:DayShiftSpotCheck:False,NightShiftSpotCheck:False,LastDateTime2024/12/28 8:27:17
+2024_12_28_08:27:35:976:DayShiftSpotCheck Loop Monitor
+2024_12_28_08:27:37:309:DayShiftSpotCheck:False,NightShiftSpotCheck:False,LastDateTime2024/12/28 8:27:17
+2024_12_28_08:27:39:357:DayShiftSpotCheck:False,NightShiftSpotCheck:False,LastDateTime2024/12/28 8:27:17
+2024_12_28_08:27:41:189:DayShiftSpotCheck:False,NightShiftSpotCheck:False,LastDateTime2024/12/28 8:27:17
+2024_12_28_08:27:52:696:recive ASIL:T1.36ANANANANANANANENEndN
+2024_12_28_08:27:52:696:test resultNGOKOKOKOKOKOKOKOKOK
+2024_12_28_08:27:52:697:start to Connect MCMQ
+2024_12_28_08:27:54:722:Connect MCMQ Error Code=-2002
+2024_12_28_08:27:57:427:recive ASIL:T1.36ANANANANANANANENEndN
+2024_12_28_08:27:57:428:test resultNGOKOKOKOKOKOKOKOKOK
+2024_12_28_08:27:57:430:start to Connect MCMQ
+2024_12_28_08:27:59:478:Connect MCMQ Error Code=-2002
+2024_12_28_08:28:03:480:recive ASIL:T1.36ANANANANANANANENEndN
+2024_12_28_08:28:03:480:test resultNGOKOKOKOKOKOKOKOKOK
+2024_12_28_08:28:03:482:start to Connect MCMQ
+2024_12_28_08:28:05:520:Connect MCMQ Error Code=-2002
+2024_12_28_08:28:12:893:recive ASIL:T1.36ANANANANANANANENEndN
+2024_12_28_08:28:12:894:test resultNGOKOKOKOKOKOKOKOKOK
+2024_12_28_08:28:12:895:start to Connect MCMQ
+2024_12_28_08:28:14:930:Connect MCMQ Error Code=-2002
+2024_12_28_08:29:41:444:******************START********************
+2024_12_28_08:29:41:775:ASIL板连接中...
+2024_12_28_08:29:41:799:ASIL板已连接
+2024_12_28_08:29:42:803:测试机通信侦听中...
+2024_12_28_08:29:42:814:测试机启动侦听
+2024_12_28_08:29:42:817:PIS2通信连接中...
+2024_12_28_08:29:42:823:DayShiftSpotCheck Loop Monitor
+2024_12_28_08:29:48:895:recive ASIL:T1.36ANANANANANANANENEndN
+2024_12_28_08:29:48:895:test resultNGOKOKOKOKOKOKOKOKOK
+2024_12_28_08:29:48:903:start to Connect MCMQ
+2024_12_28_08:29:50:925:Connect MCMQ Error Code=-2002
+2024_12_28_08:29:53:926:recive ASIL:T1.36ANANANANANANANENEndN
+2024_12_28_08:29:53:927:test resultNGOKOKOKOKOKOKOKOKOK
+2024_12_28_08:29:53:930:start to Connect MCMQ
+2024_12_28_08:29:55:970:Connect MCMQ Error Code=-2002
+2024_12_28_08:29:58:311:recive ASIL:T1.36ANANANANANANANENEndN
+2024_12_28_08:29:58:312:test resultNGOKOKOKOKOKOKOKOKOK
+2024_12_28_08:29:58:316:start to Connect MCMQ
+2024_12_28_08:30:00:357:Connect MCMQ Error Code=-2002
+2024_12_28_08:31:04:083:recive ASIL:T1.36ANANANANANANANENEndN
+2024_12_28_08:31:04:083:test resultNGOKOKOKOKOKOKOKOKOK
+2024_12_28_08:31:04:085:start to Connect MCMQ
+2024_12_28_08:31:06:119:Connect MCMQ Error Code=-2002
+2024_12_28_08:31:09:485:DayShiftSpotCheck:False,NightShiftSpotCheck:False,LastDateTime2024/12/28 8:27:17
+2024_12_28_08:31:16:196:recive spot check ASIL:T1.36ANANANANANANANENendN
+2024_12_28_08:31:17:201:早班点检成功
+2024_12_28_08:31:35:461:DayShiftSpotCheck:True,NightShiftSpotCheck:False,LastDateTime2024/12/28 8:31:17
+2024_12_28_08:31:36:471:recive ASIL:T1.36A1.36A1.36A1.36A1.36A1.53A1.66A1.37E End 
+2024_12_28_08:31:36:472:test resultNGOKOKOKOKOKOKOKOKOK
+2024_12_28_08:31:36:472:send to jince:<?xml version="1.0" encoding="UTF-8"?><Response><Result>ERR</Result><Param1></Param1><Param2></Param2><Param3></Param3><Param4></Param4><Param5></Param5><Param6></Param6><Param7></Param7><Param8></Param8><Param9></Param9></Response>
+2024_12_28_08:31:36:473:start to Connect MCMQ
+2024_12_28_08:31:38:530:Connect MCMQ Error Code=-2002
+2024_12_28_08:31:42:893:DayShiftSpotCheck:True,NightShiftSpotCheck:False,LastDateTime2024/12/28 8:31:17
+2024_12_28_08:31:43:899:recive ASIL:T1.36A1.36A1.36A1.36A1.36A1.53A1.66A1.37E End 
+2024_12_28_08:31:43:900:test resultNGOKOKOKOKOKOKOKOKOK
+2024_12_28_08:31:43:900:send to jince:<?xml version="1.0" encoding="UTF-8"?><Response><Result>ERR</Result><Param1></Param1><Param2></Param2><Param3></Param3><Param4></Param4><Param5></Param5><Param6></Param6><Param7></Param7><Param8></Param8><Param9></Param9></Response>
+2024_12_28_08:31:43:901:start to Connect MCMQ
+2024_12_28_08:31:45:939:Connect MCMQ Error Code=-2002
+2024_12_28_08:31:54:446:recive spot check ASIL:T1.36ANANANANANANANENendN
+2024_12_28_08:31:55:412:DayShiftSpotCheck Loop Monitor
+2024_12_28_08:31:55:461:早班点检成功
+2024_12_28_08:31:59:116:DayShiftSpotCheck:True,NightShiftSpotCheck:False,LastDateTime2024/12/28 8:31:55
+2024_12_28_08:32:00:124:recive ASIL:T1.36A1.36A1.36A1.36A1.36A1.52A1.66A1.37E End 
+2024_12_28_08:32:00:125:test resultNGOKOKOKOKOKOKOKOKOK
+2024_12_28_08:32:00:126:send to jince:<?xml version="1.0" encoding="UTF-8"?><Response><Result>ERR</Result><Param1></Param1><Param2></Param2><Param3></Param3><Param4></Param4><Param5></Param5><Param6></Param6><Param7></Param7><Param8></Param8><Param9></Param9></Response>
+2024_12_28_08:32:00:127:start to Connect MCMQ
+2024_12_28_08:32:02:169:Connect MCMQ Error Code=-2002
+2024_12_28_08:32:02:813:DayShiftSpotCheck:True,NightShiftSpotCheck:False,LastDateTime2024/12/28 8:31:55
+2024_12_28_08:32:03:823:recive ASIL:T1.36A1.36A1.36A1.36A1.36A1.52A1.66A1.37E End 
+2024_12_28_08:32:03:824:test resultNGOKOKOKOKOKOKOKOKOK
+2024_12_28_08:32:03:824:send to jince:<?xml version="1.0" encoding="UTF-8"?><Response><Result>ERR</Result><Param1></Param1><Param2></Param2><Param3></Param3><Param4></Param4><Param5></Param5><Param6></Param6><Param7></Param7><Param8></Param8><Param9></Param9></Response>
+2024_12_28_08:32:03:826:start to Connect MCMQ
+2024_12_28_08:32:05:856:Connect MCMQ Error Code=-2002
+2024_12_28_08:32:06:388:DayShiftSpotCheck:True,NightShiftSpotCheck:False,LastDateTime2024/12/28 8:31:55
+2024_12_28_08:32:07:398:recive ASIL:T1.36A1.36A1.36A1.36A1.36A1.52A1.66A1.37E End 
+2024_12_28_08:32:07:398:test resultNGOKOKOKOKOKOKOKOKOK
+2024_12_28_08:32:07:399:send to jince:<?xml version="1.0" encoding="UTF-8"?><Response><Result>ERR</Result><Param1></Param1><Param2></Param2><Param3></Param3><Param4></Param4><Param5></Param5><Param6></Param6><Param7></Param7><Param8></Param8><Param9></Param9></Response>
+2024_12_28_08:32:07:400:start to Connect MCMQ
+2024_12_28_08:32:09:442:Connect MCMQ Error Code=-2002
+2024_12_28_08:32:14:260:recive ASIL:T1.36ANANANANANANANENEndN
+2024_12_28_08:32:14:262:test resultNGOKOKOKOKOKOKOKOKOK
+2024_12_28_08:32:14:263:start to Connect MCMQ
+2024_12_28_08:32:15:442:DayShiftSpotCheck Loop Monitor
+2024_12_28_08:32:16:314:Connect MCMQ Error Code=-2002

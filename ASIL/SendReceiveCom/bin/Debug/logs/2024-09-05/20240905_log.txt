@@ -1,0 +1,64 @@
+﻿2024_09_05_13:11:14:019:******************START********************
+2024_09_05_13:11:14:337:ASIL板连接中...
+2024_09_05_13:11:14:343:ASIL板已连接
+2024_09_05_13:11:15:354:精测机通信侦听中...
+2024_09_05_13:11:15:360:精测机启动侦听
+2024_09_05_13:11:15:361:PIS2通信连接中...
+2024_09_05_13:15:40:735:******************START********************
+2024_09_05_13:15:40:954:ASIL板连接中...
+2024_09_05_13:15:40:961:ASIL板已连接
+2024_09_05_13:15:41:964:精测机通信侦听中...
+2024_09_05_13:15:41:969:精测机启动侦听
+2024_09_05_13:15:41:969:PIS2通信连接中...
+2024_09_05_13:16:09:853:recive spot check ASIL:T6.53ANANANANANANANE
+2024_09_05_13:16:26:156:无法访问已释放的对象。
+对象名:“ComAssistance”。
+2024_09_05_13:27:28:976:******************START********************
+2024_09_05_13:27:29:289:ASIL板连接中...
+2024_09_05_13:27:29:296:ASIL板已连接
+2024_09_05_13:27:30:307:精测机通信侦听中...
+2024_09_05_13:27:30:312:精测机启动侦听
+2024_09_05_13:27:30:312:PIS2通信连接中...
+2024_09_05_13:27:35:954:recive spot check ASIL:T6.53ANANANANANANANE
+2024_09_05_13:27:42:798:recive ASIL:T6.53ANANANANANANANE
+2024_09_05_13:27:42:803:start to Connect MCMQ
+2024_09_05_13:27:42:824:Connect MCMQ Success, returnCode =0
+2024_09_05_13:27:42:826:Connect MCMQ Success, returnCode =0
+2024_09_05_13:27:42:829:OpenreplyQueue AL72493returnCode=0
+2024_09_05_13:27:42:829:OpensendQueue S17MES.CCDreturnCode=0
+2024_09_05_13:27:42:833:Send MCMQ sendQueue=S17MES.CCD replyQueue =AL72493returnCode=0
+2024_09_05_13:27:42:833:Send MCMQ:<?xml version="1.0" encoding="UTF-8"?><trx><trx_name>CCDDataReport</trx_name><lot_no>11111111111</lot_no><iary_infos><iary><ccd_type>ASIL_FB_IO</ccd_type><max_lumi>0</max_lumi><unifomity>6.53</unifomity><jig_id>S2C1C6I0Q2F</jig_id><eqp_id>MAJCTESTYH</eqp_id><judge>NG</judge></iary></iary_infos><lm_user>DESKTOP-CJIIOBE</lm_user><lm_time>2024-09-05 01:27:42</lm_time></trx>
+2024_09_05_13:27:45:531:Recive MCMQ returnCode:0
+2024_09_05_13:27:45:532:Recive MCMQ returnMessage:
+2024_09_05_13:27:45:533:MCMQ disconnect
+2024_09_05_13:28:10:790:recive ASIL:T6.52ANANANANANANANE
+2024_09_05_13:28:10:792:start to Connect MCMQ
+2024_09_05_13:28:10:792:Connect MCMQ Success, returnCode =0
+2024_09_05_13:28:10:794:Connect MCMQ Success, returnCode =0
+2024_09_05_13:28:10:794:OpenreplyQueue AL72493returnCode=0
+2024_09_05_13:28:10:795:OpensendQueue S17MES.CCDreturnCode=0
+2024_09_05_13:28:10:797:Send MCMQ sendQueue=S17MES.CCD replyQueue =AL72493returnCode=0
+2024_09_05_13:28:10:798:Send MCMQ:<?xml version="1.0" encoding="UTF-8"?><trx><trx_name>CCDDataReport</trx_name><lot_no>11111111111</lot_no><iary_infos><iary><ccd_type>ASIL_FB_IO</ccd_type><max_lumi>0</max_lumi><unifomity>6.52</unifomity><jig_id>S2C1C6I0Q2F</jig_id><eqp_id>MAJCTESTYH</eqp_id><judge>NG</judge></iary></iary_infos><lm_user>DESKTOP-CJIIOBE</lm_user><lm_time>2024-09-05 01:28:10</lm_time></trx>
+2024_09_05_13:28:15:893:Recive MCMQ returnCode:0
+2024_09_05_13:28:15:893:Recive MCMQ returnMessage:
+2024_09_05_13:28:15:894:MCMQ disconnect
+2024_09_05_13:29:15:214:******************START********************
+2024_09_05_13:29:15:391:ASIL板连接中...
+2024_09_05_13:29:15:396:ASIL板已连接
+2024_09_05_13:29:16:410:精测机通信侦听中...
+2024_09_05_13:29:16:416:精测机启动侦听
+2024_09_05_13:29:16:416:PIS2通信连接中...
+2024_09_05_13:29:27:935:recive spot check ASIL:T6.52ANANANANANANANE
+2024_09_05_13:29:34:436:recive ASIL:T6.53ANANANANANANANE
+2024_09_05_13:29:34:440:start to Connect MCMQ
+2024_09_05_13:29:34:449:Connect MCMQ Success, returnCode =0
+2024_09_05_13:29:34:451:Connect MCMQ Success, returnCode =0
+2024_09_05_13:29:34:454:OpenreplyQueue AL99879returnCode=0
+2024_09_05_13:29:34:454:OpensendQueue S17MES.CCDreturnCode=0
+2024_09_05_13:29:34:457:Send MCMQ sendQueue=S17MES.CCD replyQueue =AL99879returnCode=0
+2024_09_05_13:29:34:457:Send MCMQ:<?xml version="1.0" encoding="UTF-8"?><trx><trx_name>CCDDataReport</trx_name><lot_no>11111111111</lot_no><iary_infos><iary><ccd_type>ASIL_FB_IO</ccd_type><max_lumi>0</max_lumi><unifomity>6.53</unifomity><jig_id>S2C1C6I0Q2F</jig_id><eqp_id>MAJCTESTYH</eqp_id><judge>NG</judge></iary></iary_infos><lm_user>DESKTOP-CJIIOBE</lm_user><lm_time>2024-09-05 01:29:34</lm_time></trx>
+2024_09_05_13:29:39:814:Recive MCMQ returnCode:0
+2024_09_05_13:29:39:815:Recive MCMQ returnMessage:
+2024_09_05_13:29:39:816:MCMQ disconnect
+2024_09_05_13:30:17:163:无法访问已释放的对象。
+对象名:“ComAssistance”。
