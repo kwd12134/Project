@@ -1,0 +1,382 @@
+﻿2024_07_26_08:08:24:405:******************START********************
+2024_07_26_08:08:24:690:ASIL板连接中...
+2024_07_26_08:08:26:000:精测机通信侦听中...
+2024_07_26_08:08:26:008:精测机启动侦听
+2024_07_26_08:08:26:009:PIS2通信连接中...
+2024_07_26_08:08:26:037:start to Connect MCMQ
+2024_07_26_08:08:28:081:Connect MCMQ Error Code=-2002
+2024_07_26_13:10:28:860:******************START********************
+2024_07_26_13:10:29:119:ASIL板连接中...
+2024_07_26_13:10:29:128:ASIL板已连接
+2024_07_26_13:10:30:142:精测机通信侦听中...
+2024_07_26_13:10:30:148:精测机启动侦听
+2024_07_26_13:10:30:149:PIS2通信连接中...
+2024_07_26_13:10:30:151:start to Connect MCMQ
+2024_07_26_13:10:32:184:Connect MCMQ Error Code=-2002
+2024_07_26_13:23:16:663:******************START********************
+2024_07_26_13:23:16:846:ASIL板连接中...
+2024_07_26_13:23:16:851:ASIL板已连接
+2024_07_26_13:23:17:864:精测机通信侦听中...
+2024_07_26_13:23:17:869:精测机启动侦听
+2024_07_26_13:23:17:878:PIS2通信连接中...
+2024_07_26_13:23:17:895:start to Connect MCMQ
+2024_07_26_13:23:19:940:Connect MCMQ Error Code=-2002
+2024_07_26_13:23:46:931:******************START********************
+2024_07_26_13:23:47:115:ASIL板连接中...
+2024_07_26_13:23:47:121:ASIL板已连接
+2024_07_26_13:23:48:132:精测机通信侦听中...
+2024_07_26_13:23:48:136:精测机启动侦听
+2024_07_26_13:23:48:137:PIS2通信连接中...
+2024_07_26_13:23:48:139:start to Connect MCMQ
+2024_07_26_13:23:50:184:Connect MCMQ Error Code=-2002
+2024_07_26_13:32:41:979:******************START********************
+2024_07_26_13:32:42:130:ASIL板连接中...
+2024_07_26_13:32:42:134:ASIL板已连接
+2024_07_26_13:32:43:151:精测机通信侦听中...
+2024_07_26_13:32:43:158:精测机启动侦听
+2024_07_26_13:32:43:159:PIS2通信连接中...
+2024_07_26_13:32:43:163:start to Connect MCMQ
+2024_07_26_13:32:45:198:Connect MCMQ Error Code=-2002
+2024_07_26_13:49:30:580:******************START********************
+2024_07_26_13:49:30:730:ASIL板连接中...
+2024_07_26_13:49:30:736:ASIL板已连接
+2024_07_26_13:49:31:755:精测机通信侦听中...
+2024_07_26_13:49:31:761:精测机启动侦听
+2024_07_26_13:49:31:761:PIS2通信连接中...
+2024_07_26_13:49:31:763:start to Connect MCMQ
+2024_07_26_13:49:33:809:Connect MCMQ Error Code=-2002
+2024_07_26_13:50:22:763:******************START********************
+2024_07_26_13:50:22:986:ASIL板连接中...
+2024_07_26_13:50:22:992:ASIL板已连接
+2024_07_26_13:50:24:006:精测机通信侦听中...
+2024_07_26_13:50:24:010:精测机启动侦听
+2024_07_26_13:50:24:011:PIS2通信连接中...
+2024_07_26_13:50:24:016:start to Connect MCMQ
+2024_07_26_13:50:26:053:Connect MCMQ Error Code=-2002
+2024_07_26_13:51:36:609:******************START********************
+2024_07_26_13:51:36:842:ASIL板连接中...
+2024_07_26_13:51:36:850:ASIL板已连接
+2024_07_26_13:51:37:866:精测机通信侦听中...
+2024_07_26_13:51:37:868:精测机启动侦听
+2024_07_26_13:51:37:869:PIS2通信连接中...
+2024_07_26_13:51:37:870:start to Connect MCMQ
+2024_07_26_13:51:39:913:Connect MCMQ Error Code=-2002
+2024_07_26_13:56:42:663:******************START********************
+2024_07_26_13:56:42:841:ASIL板连接中...
+2024_07_26_13:56:42:846:ASIL板已连接
+2024_07_26_13:56:43:864:精测机通信侦听中...
+2024_07_26_13:56:43:882:精测机启动侦听
+2024_07_26_13:56:43:882:PIS2通信连接中...
+2024_07_26_13:56:43:883:start to Connect MCMQ
+2024_07_26_13:56:45:915:Connect MCMQ Error Code=-2002
+2024_07_26_13:57:26:213:******************START********************
+2024_07_26_13:57:26:483:ASIL板连接中...
+2024_07_26_13:57:26:488:ASIL板已连接
+2024_07_26_13:57:27:501:精测机通信侦听中...
+2024_07_26_13:57:27:508:精测机启动侦听
+2024_07_26_13:57:27:509:PIS2通信连接中...
+2024_07_26_13:57:27:510:start to Connect MCMQ
+2024_07_26_13:57:29:549:Connect MCMQ Error Code=-2002
+2024_07_26_14:00:08:571:******************START********************
+2024_07_26_14:00:08:778:ASIL板连接中...
+2024_07_26_14:00:08:785:ASIL板已连接
+2024_07_26_14:00:09:791:精测机通信侦听中...
+2024_07_26_14:00:09:796:精测机启动侦听
+2024_07_26_14:00:09:797:PIS2通信连接中...
+2024_07_26_14:00:09:798:start to Connect MCMQ
+2024_07_26_14:00:11:835:Connect MCMQ Error Code=-2002
+2024_07_26_14:03:55:673:******************START********************
+2024_07_26_14:03:55:886:ASIL板连接中...
+2024_07_26_14:03:55:892:ASIL板已连接
+2024_07_26_14:03:56:905:精测机通信侦听中...
+2024_07_26_14:03:56:911:精测机启动侦听
+2024_07_26_14:03:56:911:PIS2通信连接中...
+2024_07_26_14:03:56:913:start to Connect MCMQ
+2024_07_26_14:03:58:960:Connect MCMQ Error Code=-2002
+2024_07_26_14:05:07:232:******************START********************
+2024_07_26_14:05:07:461:ASIL板连接中...
+2024_07_26_14:05:07:469:ASIL板已连接
+2024_07_26_14:05:08:477:精测机通信侦听中...
+2024_07_26_14:05:08:482:精测机启动侦听
+2024_07_26_14:05:08:483:PIS2通信连接中...
+2024_07_26_14:05:08:485:start to Connect MCMQ
+2024_07_26_14:05:10:513:Connect MCMQ Error Code=-2002
+2024_07_26_14:12:56:631:******************START********************
+2024_07_26_14:12:56:798:ASIL板连接中...
+2024_07_26_14:12:56:802:ASIL板已连接
+2024_07_26_14:12:57:806:精测机通信侦听中...
+2024_07_26_14:12:57:811:精测机启动侦听
+2024_07_26_14:12:57:811:PIS2通信连接中...
+2024_07_26_14:12:57:812:start to Connect MCMQ
+2024_07_26_14:12:59:841:Connect MCMQ Error Code=-2002
+2024_07_26_14:13:24:235:无法访问已释放的对象。
+对象名:“ComAssistance”。
+2024_07_26_14:13:26:114:******************START********************
+2024_07_26_14:13:26:501:ASIL板连接中...
+2024_07_26_14:13:26:506:ASIL板已连接
+2024_07_26_14:13:27:539:精测机通信侦听中...
+2024_07_26_14:13:27:546:精测机启动侦听
+2024_07_26_14:13:27:547:PIS2通信连接中...
+2024_07_26_14:13:27:548:start to Connect MCMQ
+2024_07_26_14:13:29:583:Connect MCMQ Error Code=-2002
+2024_07_26_14:14:20:690:recive ASIL:T1.41A1.42A1.45A1.42A1.42A1.4A1.42A1.81E
+2024_07_26_14:14:20:695:start to Connect MCMQ
+2024_07_26_14:14:22:723:Connect MCMQ Error Code=-2002
+2024_07_26_14:14:55:427:******************START********************
+2024_07_26_14:14:55:620:ASIL板连接中...
+2024_07_26_14:14:55:624:ASIL板已连接
+2024_07_26_14:14:56:635:精测机通信侦听中...
+2024_07_26_14:14:56:640:精测机启动侦听
+2024_07_26_14:14:56:640:PIS2通信连接中...
+2024_07_26_14:14:56:641:start to Connect MCMQ
+2024_07_26_14:14:56:650:Connect MCMQ Success, returnCode =0
+2024_07_26_14:14:56:652:Connect MCMQ Success, returnCode =0
+2024_07_26_14:14:56:658:OpenreplyQueue AL41213returnCode=0
+2024_07_26_14:14:56:658:OpensendQueue S17MES.CCDreturnCode=0
+2024_07_26_14:14:56:662:Send MCMQ sendQueue=S17MES.CCD replyQueue =AL41213returnCode=0
+2024_07_26_14:14:56:662:Send MCMQ:<?xml version="1.0" encoding='UTF-8'?><si300_interface><message_id>clear_mlp</message_id><line>ASM_3C01</line><mlp_id>12345</mlp_id><operation>ASSY-TEST</operation></si300_interface>
+2024_07_26_14:15:01:026:Recive MCMQ returnCode:0
+2024_07_26_14:15:01:118:Recive MCMQ returnMessage:
+2024_07_26_14:15:01:120:MCMQ disconnect
+2024_07_26_14:15:53:548:recive ASIL:T1.41A1.42A1.45A1.42A1.42A1.4A1.42A1.81E
+2024_07_26_14:15:53:554:start to Connect MCMQ
+2024_07_26_14:15:53:554:Connect MCMQ Success, returnCode =0
+2024_07_26_14:15:53:556:Connect MCMQ Success, returnCode =0
+2024_07_26_14:15:53:557:OpenreplyQueue AL41213returnCode=0
+2024_07_26_14:15:53:558:OpensendQueue S17MES.CCDreturnCode=0
+2024_07_26_14:15:53:559:Send MCMQ sendQueue= replyQueue =AL41213returnCode=9036
+2024_07_26_14:15:53:559:Send MCMQ:<?xml version="1.0" encoding="utf-8"?><trx><message_id>ictest_result_report</message_id><type_id>I</type_id><log_id>0202407260253</log_id><unique_id>11111111111</unique_id><station_id>FINAL-DISPLAY</station_id><test_result>FAIL</test_result><test_time>2024-07-26 02:15:53</test_time><measure_type>ASIL_FBIO</measure_type><fw_version>V120</fw_version><spc_control_result><part_no>ASIL_FB_IO</part_no><feedback_io_01>1.41</feedback_io_01><feedback_io_02>1.42</feedback_io_02><feedback_io_03>1.45</feedback_io_03><feedback_io_04>1.42</feedback_io_04><feedback_io_05>1.42</feedback_io_05><feedback_io_06>1.4</feedback_io_06><feedback_io_07>1.42</feedback_io_07><feedback_io_08>1.81</feedback_io_08><status>NG</status></spc_control_result><port_id>JCF6MA1100</port_id><user_id>etcaf</user_id></trx>
+2024_07_26_14:15:58:165:Recive MCMQ returnCode:0
+2024_07_26_14:15:58:165:Recive MCMQ returnMessage:
+2024_07_26_14:15:58:166:Send MCMQ sendQueue=S17MES.CCD replyQueue =AL41213returnCode=0
+2024_07_26_14:15:58:166:Send MCMQ:<?xml version="1.0" encoding="UTF-8"?><trx><trx_name>CCDDataReport</trx_name><lot_no>11111111111</lot_no><iary_infos><iary><ccd_type>ASIL_FB_IO</ccd_type><max_lumi>0</max_lumi><unifomity>6</unifomity><jig_id>S2C1C6I0Q2F</jig_id><eqp_id>MAJCTESTYH</eqp_id><judge>NG</judge></iary></iary_infos><lm_user>X1234567</lm_user><lm_time>2024-07-26 02:15:53</lm_time></trx>
+2024_07_26_14:15:58:588:recive ASIL:T1.41A1.42A1.45A1.42A1.42A1.4A1.42A1.81E
+2024_07_26_14:16:01:170:Recive MCMQ returnCode:0
+2024_07_26_14:16:01:171:Recive MCMQ returnMessage:
+2024_07_26_14:16:01:171:MCMQ disconnect
+2024_07_26_14:16:01:173:start to Connect MCMQ
+2024_07_26_14:16:01:173:Connect MCMQ Success, returnCode =0
+2024_07_26_14:16:01:175:Connect MCMQ Success, returnCode =0
+2024_07_26_14:16:01:176:OpenreplyQueue AL41213returnCode=0
+2024_07_26_14:16:01:176:OpensendQueue S17MES.CCDreturnCode=0
+2024_07_26_14:16:01:184:Send MCMQ sendQueue= replyQueue =AL41213returnCode=9036
+2024_07_26_14:16:01:185:Send MCMQ:<?xml version="1.0" encoding="utf-8"?><trx><message_id>ictest_result_report</message_id><type_id>I</type_id><log_id>0202407260258</log_id><unique_id>11111111111</unique_id><station_id>FINAL-DISPLAY</station_id><test_result>FAIL</test_result><test_time>2024-07-26 02:15:58</test_time><measure_type>ASIL_FBIO</measure_type><fw_version>V120</fw_version><spc_control_result><part_no>ASIL_FB_IO</part_no><feedback_io_01>1.41</feedback_io_01><feedback_io_02>1.42</feedback_io_02><feedback_io_03>1.45</feedback_io_03><feedback_io_04>1.42</feedback_io_04><feedback_io_05>1.42</feedback_io_05><feedback_io_06>1.4</feedback_io_06><feedback_io_07>1.42</feedback_io_07><feedback_io_08>1.81</feedback_io_08><status>NG</status></spc_control_result><port_id>JCF6MA1100</port_id><user_id>etcaf</user_id></trx>
+2024_07_26_14:16:04:176:Recive MCMQ returnCode:0
+2024_07_26_14:16:04:176:Recive MCMQ returnMessage:
+2024_07_26_14:16:04:177:Send MCMQ sendQueue=S17MES.CCD replyQueue =AL41213returnCode=0
+2024_07_26_14:16:04:177:Send MCMQ:<?xml version="1.0" encoding="UTF-8"?><trx><trx_name>CCDDataReport</trx_name><lot_no>11111111111</lot_no><iary_infos><iary><ccd_type>ASIL_FB_IO</ccd_type><max_lumi>0</max_lumi><unifomity>6</unifomity><jig_id>S2C1C6I0Q2F</jig_id><eqp_id>MAJCTESTYH</eqp_id><judge>NG</judge></iary></iary_infos><lm_user>X1234567</lm_user><lm_time>2024-07-26 02:15:58</lm_time></trx>
+2024_07_26_14:16:06:258:recive ASIL:T1.41A1.42A1.45A1.42A1.42A1.4A1.42A1.81E
+2024_07_26_14:16:07:181:Recive MCMQ returnCode:0
+2024_07_26_14:16:07:184:Recive MCMQ returnMessage:
+2024_07_26_14:16:07:184:MCMQ disconnect
+2024_07_26_14:16:07:186:start to Connect MCMQ
+2024_07_26_14:16:07:186:Connect MCMQ Success, returnCode =0
+2024_07_26_14:16:07:199:Connect MCMQ Success, returnCode =0
+2024_07_26_14:16:07:200:OpenreplyQueue AL41213returnCode=0
+2024_07_26_14:16:07:201:OpensendQueue S17MES.CCDreturnCode=0
+2024_07_26_14:16:07:242:Send MCMQ sendQueue= replyQueue =AL41213returnCode=9036
+2024_07_26_14:16:07:242:Send MCMQ:<?xml version="1.0" encoding="utf-8"?><trx><message_id>ictest_result_report</message_id><type_id>I</type_id><log_id>0202407260206</log_id><unique_id>11111111111</unique_id><station_id>FINAL-DISPLAY</station_id><test_result>FAIL</test_result><test_time>2024-07-26 02:16:06</test_time><measure_type>ASIL_FBIO</measure_type><fw_version>V120</fw_version><spc_control_result><part_no>ASIL_FB_IO</part_no><feedback_io_01>1.41</feedback_io_01><feedback_io_02>1.42</feedback_io_02><feedback_io_03>1.45</feedback_io_03><feedback_io_04>1.42</feedback_io_04><feedback_io_05>1.42</feedback_io_05><feedback_io_06>1.4</feedback_io_06><feedback_io_07>1.42</feedback_io_07><feedback_io_08>1.81</feedback_io_08><status>NG</status></spc_control_result><port_id>JCF6MA1100</port_id><user_id>etcaf</user_id></trx>
+2024_07_26_14:16:10:184:Recive MCMQ returnCode:0
+2024_07_26_14:16:10:184:Recive MCMQ returnMessage:
+2024_07_26_14:16:10:185:Send MCMQ sendQueue=S17MES.CCD replyQueue =AL41213returnCode=0
+2024_07_26_14:16:10:186:Send MCMQ:<?xml version="1.0" encoding="UTF-8"?><trx><trx_name>CCDDataReport</trx_name><lot_no>11111111111</lot_no><iary_infos><iary><ccd_type>ASIL_FB_IO</ccd_type><max_lumi>0</max_lumi><unifomity>6</unifomity><jig_id>S2C1C6I0Q2F</jig_id><eqp_id>MAJCTESTYH</eqp_id><judge>NG</judge></iary></iary_infos><lm_user>X1234567</lm_user><lm_time>2024-07-26 02:16:06</lm_time></trx>
+2024_07_26_14:16:12:293:recive ASIL:T1.41A1.41A1.44A1.42A1.42A1.39A1.42A1.81E
+2024_07_26_14:16:13:189:Recive MCMQ returnCode:0
+2024_07_26_14:16:13:200:Recive MCMQ returnMessage:
+2024_07_26_14:16:13:201:MCMQ disconnect
+2024_07_26_14:16:13:202:start to Connect MCMQ
+2024_07_26_14:16:13:202:Connect MCMQ Success, returnCode =0
+2024_07_26_14:16:13:208:Connect MCMQ Success, returnCode =0
+2024_07_26_14:16:13:208:OpenreplyQueue AL41213returnCode=0
+2024_07_26_14:16:13:209:OpensendQueue S17MES.CCDreturnCode=0
+2024_07_26_14:16:13:210:Send MCMQ sendQueue= replyQueue =AL41213returnCode=9036
+2024_07_26_14:16:13:210:Send MCMQ:<?xml version="1.0" encoding="utf-8"?><trx><message_id>ictest_result_report</message_id><type_id>I</type_id><log_id>0202407260212</log_id><unique_id>11111111111</unique_id><station_id>FINAL-DISPLAY</station_id><test_result>FAIL</test_result><test_time>2024-07-26 02:16:12</test_time><measure_type>ASIL_FBIO</measure_type><fw_version>V120</fw_version><spc_control_result><part_no>ASIL_FB_IO</part_no><feedback_io_01>1.41</feedback_io_01><feedback_io_02>1.41</feedback_io_02><feedback_io_03>1.44</feedback_io_03><feedback_io_04>1.42</feedback_io_04><feedback_io_05>1.42</feedback_io_05><feedback_io_06>1.39</feedback_io_06><feedback_io_07>1.42</feedback_io_07><feedback_io_08>1.81</feedback_io_08><status>NG</status></spc_control_result><port_id>JCF6MA1100</port_id><user_id>etcaf</user_id></trx>
+2024_07_26_14:16:16:204:Recive MCMQ returnCode:0
+2024_07_26_14:16:16:213:Recive MCMQ returnMessage:
+2024_07_26_14:16:16:214:Send MCMQ sendQueue=S17MES.CCD replyQueue =AL41213returnCode=0
+2024_07_26_14:16:16:215:Send MCMQ:<?xml version="1.0" encoding="UTF-8"?><trx><trx_name>CCDDataReport</trx_name><lot_no>11111111111</lot_no><iary_infos><iary><ccd_type>ASIL_FB_IO</ccd_type><max_lumi>0</max_lumi><unifomity>6</unifomity><jig_id>S2C1C6I0Q2F</jig_id><eqp_id>MAJCTESTYH</eqp_id><judge>NG</judge></iary></iary_infos><lm_user>X1234567</lm_user><lm_time>2024-07-26 02:16:12</lm_time></trx>
+2024_07_26_14:16:19:206:Recive MCMQ returnCode:0
+2024_07_26_14:16:19:213:Recive MCMQ returnMessage:
+2024_07_26_14:16:19:214:MCMQ disconnect
+2024_07_26_14:16:25:367:recive ASIL:T1.41A1.42A1.45A1.42A1.42A1.4ANANE
+2024_07_26_14:16:25:370:start to Connect MCMQ
+2024_07_26_14:16:25:371:Connect MCMQ Success, returnCode =0
+2024_07_26_14:16:25:373:Connect MCMQ Success, returnCode =0
+2024_07_26_14:16:25:373:OpenreplyQueue AL41213returnCode=0
+2024_07_26_14:16:25:373:OpensendQueue S17MES.CCDreturnCode=0
+2024_07_26_14:16:25:375:Send MCMQ sendQueue= replyQueue =AL41213returnCode=9036
+2024_07_26_14:16:25:375:Send MCMQ:<?xml version="1.0" encoding="utf-8"?><trx><message_id>ictest_result_report</message_id><type_id>I</type_id><log_id>0202407260225</log_id><unique_id>11111111111</unique_id><station_id>FINAL-DISPLAY</station_id><test_result>PASS</test_result><test_time>2024-07-26 02:16:25</test_time><measure_type>ASIL_FBIO</measure_type><fw_version>V120</fw_version><spc_control_result><part_no>ASIL_FB_IO</part_no><feedback_io_01>1.41</feedback_io_01><feedback_io_02>1.42</feedback_io_02><feedback_io_03>1.45</feedback_io_03><feedback_io_04>1.42</feedback_io_04><feedback_io_05>1.42</feedback_io_05><feedback_io_06>1.4</feedback_io_06><feedback_io_07>N</feedback_io_07><feedback_io_08>N</feedback_io_08><status>OK</status></spc_control_result><port_id>JCF6MA1100</port_id><user_id>etcaf</user_id></trx>
+2024_07_26_14:16:28:247:Recive MCMQ returnCode:0
+2024_07_26_14:16:28:253:Recive MCMQ returnMessage:
+2024_07_26_14:16:28:254:Send MCMQ sendQueue=S17MES.CCD replyQueue =AL41213returnCode=0
+2024_07_26_14:16:28:254:Send MCMQ:<?xml version="1.0" encoding="UTF-8"?><trx><trx_name>CCDDataReport</trx_name><lot_no>11111111111</lot_no><iary_infos><iary><ccd_type>ASIL_FB_IO</ccd_type><max_lumi>0</max_lumi><unifomity>6</unifomity><jig_id>S2C1C6I0Q2F</jig_id><eqp_id>MAJCTESTYH</eqp_id><judge>OK</judge></iary></iary_infos><lm_user>X1234567</lm_user><lm_time>2024-07-26 02:16:25</lm_time></trx>
+2024_07_26_14:16:29:474:recive ASIL:T1.41A1.42A1.45A1.42A1.42A1.4ANANE
+2024_07_26_14:16:31:334:MCMQ disconnect
+2024_07_26_14:16:31:334:Recive MCMQ returnMessage:
+2024_07_26_14:16:31:334:Recive MCMQ returnCode:0
+2024_07_26_14:16:31:693:start to Connect MCMQ
+2024_07_26_14:16:31:693:Connect MCMQ Success, returnCode =0
+2024_07_26_14:16:31:693:Connect MCMQ Success, returnCode =0
+2024_07_26_14:16:31:694:OpenreplyQueue AL41213returnCode=0
+2024_07_26_14:16:31:694:OpensendQueue S17MES.CCDreturnCode=0
+2024_07_26_14:16:31:694:Send MCMQ sendQueue= replyQueue =AL41213returnCode=9036
+2024_07_26_14:16:31:694:Send MCMQ:<?xml version="1.0" encoding="utf-8"?><trx><message_id>ictest_result_report</message_id><type_id>I</type_id><log_id>0202407260229</log_id><unique_id>11111111111</unique_id><station_id>FINAL-DISPLAY</station_id><test_result>PASS</test_result><test_time>2024-07-26 02:16:29</test_time><measure_type>ASIL_FBIO</measure_type><fw_version>V120</fw_version><spc_control_result><part_no>ASIL_FB_IO</part_no><feedback_io_01>1.41</feedback_io_01><feedback_io_02>1.42</feedback_io_02><feedback_io_03>1.45</feedback_io_03><feedback_io_04>1.42</feedback_io_04><feedback_io_05>1.42</feedback_io_05><feedback_io_06>1.4</feedback_io_06><feedback_io_07>N</feedback_io_07><feedback_io_08>N</feedback_io_08><status>OK</status></spc_control_result><port_id>JCF6MA1100</port_id><user_id>etcaf</user_id></trx>
+2024_07_26_14:16:34:265:Recive MCMQ returnCode:0
+2024_07_26_14:16:34:267:Recive MCMQ returnMessage:
+2024_07_26_14:16:34:267:Send MCMQ sendQueue=S17MES.CCD replyQueue =AL41213returnCode=0
+2024_07_26_14:16:34:268:Send MCMQ:<?xml version="1.0" encoding="UTF-8"?><trx><trx_name>CCDDataReport</trx_name><lot_no>11111111111</lot_no><iary_infos><iary><ccd_type>ASIL_FB_IO</ccd_type><max_lumi>0</max_lumi><unifomity>6</unifomity><jig_id>S2C1C6I0Q2F</jig_id><eqp_id>MAJCTESTYH</eqp_id><judge>OK</judge></iary></iary_infos><lm_user>X1234567</lm_user><lm_time>2024-07-26 02:16:29</lm_time></trx>
+2024_07_26_14:16:37:271:Recive MCMQ returnCode:0
+2024_07_26_14:16:37:272:Recive MCMQ returnMessage:
+2024_07_26_14:16:37:273:MCMQ disconnect
+2024_07_26_14:16:38:090:recive ASIL:T1.41A1.42A1.45A1.42A1.42A1.4ANANE
+2024_07_26_14:16:38:092:start to Connect MCMQ
+2024_07_26_14:16:38:092:Connect MCMQ Success, returnCode =0
+2024_07_26_14:16:38:096:Connect MCMQ Success, returnCode =0
+2024_07_26_14:16:38:098:OpenreplyQueue AL41213returnCode=0
+2024_07_26_14:16:38:098:OpensendQueue S17MES.CCDreturnCode=0
+2024_07_26_14:16:38:100:Send MCMQ sendQueue= replyQueue =AL41213returnCode=9036
+2024_07_26_14:16:38:100:Send MCMQ:<?xml version="1.0" encoding="utf-8"?><trx><message_id>ictest_result_report</message_id><type_id>I</type_id><log_id>0202407260238</log_id><unique_id>11111111111</unique_id><station_id>FINAL-DISPLAY</station_id><test_result>PASS</test_result><test_time>2024-07-26 02:16:38</test_time><measure_type>ASIL_FBIO</measure_type><fw_version>V120</fw_version><spc_control_result><part_no>ASIL_FB_IO</part_no><feedback_io_01>1.41</feedback_io_01><feedback_io_02>1.42</feedback_io_02><feedback_io_03>1.45</feedback_io_03><feedback_io_04>1.42</feedback_io_04><feedback_io_05>1.42</feedback_io_05><feedback_io_06>1.4</feedback_io_06><feedback_io_07>N</feedback_io_07><feedback_io_08>N</feedback_io_08><status>OK</status></spc_control_result><port_id>JCF6MA1100</port_id><user_id>etcaf</user_id></trx>
+2024_07_26_14:16:42:101:recive ASIL:T1.41A1.42A1.45A1.42A1.42A1.4ANANE
+2024_07_26_14:16:44:314:Recive MCMQ returnCode:0
+2024_07_26_14:16:44:315:Recive MCMQ returnMessage:
+2024_07_26_14:16:44:315:Send MCMQ sendQueue=S17MES.CCD replyQueue =AL41213returnCode=0
+2024_07_26_14:16:44:315:Send MCMQ:<?xml version="1.0" encoding="UTF-8"?><trx><trx_name>CCDDataReport</trx_name><lot_no>11111111111</lot_no><iary_infos><iary><ccd_type>ASIL_FB_IO</ccd_type><max_lumi>0</max_lumi><unifomity>6</unifomity><jig_id>S2C1C6I0Q2F</jig_id><eqp_id>MAJCTESTYH</eqp_id><judge>OK</judge></iary></iary_infos><lm_user>X1234567</lm_user><lm_time>2024-07-26 02:16:38</lm_time></trx>
+2024_07_26_14:16:46:358:Recive MCMQ returnCode:0
+2024_07_26_14:16:46:358:Recive MCMQ returnMessage:
+2024_07_26_14:16:46:359:MCMQ disconnect
+2024_07_26_14:16:46:360:start to Connect MCMQ
+2024_07_26_14:16:46:360:Connect MCMQ Success, returnCode =0
+2024_07_26_14:16:46:361:Connect MCMQ Success, returnCode =0
+2024_07_26_14:16:46:398:OpenreplyQueue AL41213returnCode=0
+2024_07_26_14:16:46:399:OpensendQueue S17MES.CCDreturnCode=0
+2024_07_26_14:16:46:400:Send MCMQ sendQueue= replyQueue =AL41213returnCode=9036
+2024_07_26_14:16:46:400:Send MCMQ:<?xml version="1.0" encoding="utf-8"?><trx><message_id>ictest_result_report</message_id><type_id>I</type_id><log_id>0202407260242</log_id><unique_id>11111111111</unique_id><station_id>FINAL-DISPLAY</station_id><test_result>PASS</test_result><test_time>2024-07-26 02:16:42</test_time><measure_type>ASIL_FBIO</measure_type><fw_version>V120</fw_version><spc_control_result><part_no>ASIL_FB_IO</part_no><feedback_io_01>1.41</feedback_io_01><feedback_io_02>1.42</feedback_io_02><feedback_io_03>1.45</feedback_io_03><feedback_io_04>1.42</feedback_io_04><feedback_io_05>1.42</feedback_io_05><feedback_io_06>1.4</feedback_io_06><feedback_io_07>N</feedback_io_07><feedback_io_08>N</feedback_io_08><status>OK</status></spc_control_result><port_id>JCF6MA1100</port_id><user_id>etcaf</user_id></trx>
+2024_07_26_14:16:47:135:recive ASIL:T1.41A1.42A1.45A1.42A1.42A1.4ANANE
+2024_07_26_14:16:49:369:Recive MCMQ returnCode:0
+2024_07_26_14:16:49:369:Recive MCMQ returnMessage:
+2024_07_26_14:16:49:370:Send MCMQ sendQueue=S17MES.CCD replyQueue =AL41213returnCode=0
+2024_07_26_14:16:49:370:Send MCMQ:<?xml version="1.0" encoding="UTF-8"?><trx><trx_name>CCDDataReport</trx_name><lot_no>11111111111</lot_no><iary_infos><iary><ccd_type>ASIL_FB_IO</ccd_type><max_lumi>0</max_lumi><unifomity>6</unifomity><jig_id>S2C1C6I0Q2F</jig_id><eqp_id>MAJCTESTYH</eqp_id><judge>OK</judge></iary></iary_infos><lm_user>X1234567</lm_user><lm_time>2024-07-26 02:16:42</lm_time></trx>
+2024_07_26_14:16:51:825:recive ASIL:T1.41A1.42A1.45A1.42A1.42A1.4ANANE
+2024_07_26_14:16:52:380:Recive MCMQ returnCode:0
+2024_07_26_14:16:52:386:Recive MCMQ returnMessage:
+2024_07_26_14:16:52:388:MCMQ disconnect
+2024_07_26_14:16:52:390:start to Connect MCMQ
+2024_07_26_14:16:52:390:Connect MCMQ Success, returnCode =0
+2024_07_26_14:16:52:391:Connect MCMQ Success, returnCode =0
+2024_07_26_14:16:52:392:OpenreplyQueue AL41213returnCode=0
+2024_07_26_14:16:52:393:OpensendQueue S17MES.CCDreturnCode=0
+2024_07_26_14:16:52:394:Send MCMQ sendQueue= replyQueue =AL41213returnCode=9036
+2024_07_26_14:16:52:394:Send MCMQ:<?xml version="1.0" encoding="utf-8"?><trx><message_id>ictest_result_report</message_id><type_id>I</type_id><log_id>0202407260247</log_id><unique_id>11111111111</unique_id><station_id>FINAL-DISPLAY</station_id><test_result>PASS</test_result><test_time>2024-07-26 02:16:47</test_time><measure_type>ASIL_FBIO</measure_type><fw_version>V120</fw_version><spc_control_result><part_no>ASIL_FB_IO</part_no><feedback_io_01>1.41</feedback_io_01><feedback_io_02>1.42</feedback_io_02><feedback_io_03>1.45</feedback_io_03><feedback_io_04>1.42</feedback_io_04><feedback_io_05>1.42</feedback_io_05><feedback_io_06>1.4</feedback_io_06><feedback_io_07>N</feedback_io_07><feedback_io_08>N</feedback_io_08><status>OK</status></spc_control_result><port_id>JCF6MA1100</port_id><user_id>etcaf</user_id></trx>
+2024_07_26_14:16:55:384:Recive MCMQ returnCode:0
+2024_07_26_14:16:55:386:Recive MCMQ returnMessage:
+2024_07_26_14:16:55:386:Send MCMQ sendQueue=S17MES.CCD replyQueue =AL41213returnCode=0
+2024_07_26_14:16:55:387:Send MCMQ:<?xml version="1.0" encoding="UTF-8"?><trx><trx_name>CCDDataReport</trx_name><lot_no>11111111111</lot_no><iary_infos><iary><ccd_type>ASIL_FB_IO</ccd_type><max_lumi>0</max_lumi><unifomity>6</unifomity><jig_id>S2C1C6I0Q2F</jig_id><eqp_id>MAJCTESTYH</eqp_id><judge>OK</judge></iary></iary_infos><lm_user>X1234567</lm_user><lm_time>2024-07-26 02:16:47</lm_time></trx>
+2024_07_26_14:21:50:213:******************START********************
+2024_07_26_14:21:50:608:ASIL板连接中...
+2024_07_26_14:21:50:630:ASIL板已连接
+2024_07_26_14:21:51:666:精测机通信侦听中...
+2024_07_26_14:21:51:747:精测机启动侦听
+2024_07_26_14:21:51:756:PIS2通信连接中...
+2024_07_26_14:21:51:756:start to Connect MCMQ
+2024_07_26_14:21:51:769:Connect MCMQ Success, returnCode =0
+2024_07_26_14:21:51:771:Connect MCMQ Success, returnCode =0
+2024_07_26_14:21:51:775:OpenreplyQueue AL348314returnCode=0
+2024_07_26_14:21:51:776:OpensendQueue S17MES.CCDreturnCode=0
+2024_07_26_14:21:51:782:Send MCMQ sendQueue=S17MES.CCD replyQueue =AL348314returnCode=0
+2024_07_26_14:21:51:783:Send MCMQ:<?xml version="1.0" encoding='UTF-8'?><si300_interface><message_id>clear_mlp</message_id><line>ASM_3C01</line><mlp_id>12345</mlp_id><operation>ASSY-TEST</operation></si300_interface>
+2024_07_26_14:21:54:145:无法访问已释放的对象。
+对象名:“ComAssistance”。
+2024_07_26_14:22:52:263:******************START********************
+2024_07_26_14:22:52:621:ASIL板连接中...
+2024_07_26_14:22:52:626:ASIL板已连接
+2024_07_26_14:22:53:642:精测机通信侦听中...
+2024_07_26_14:22:53:648:精测机启动侦听
+2024_07_26_14:22:53:649:PIS2通信连接中...
+2024_07_26_14:22:59:139:start to Connect MCMQ
+2024_07_26_14:22:59:161:Connect MCMQ Success, returnCode =0
+2024_07_26_14:22:59:166:Connect MCMQ Success, returnCode =0
+2024_07_26_14:22:59:175:OpenreplyQueue AL907332returnCode=0
+2024_07_26_14:22:59:177:OpensendQueue S17MES.CCDreturnCode=0
+2024_07_26_14:22:59:180:Send MCMQ sendQueue=S17MES.CCD replyQueue =AL907332returnCode=0
+2024_07_26_14:22:59:181:Send MCMQ:<?xml version="1.0" encoding='UTF-8'?><si300_interface><message_id>clear_mlp</message_id><line>ASM_3C01</line><mlp_id>12345</mlp_id><operation>ASSY-TEST</operation></si300_interface>
+2024_07_26_14:23:02:436:Recive MCMQ returnCode:0
+2024_07_26_14:23:02:452:Recive MCMQ returnMessage:
+2024_07_26_14:23:02:514:MCMQ disconnect
+2024_07_26_14:31:09:262:******************START********************
+2024_07_26_14:31:09:468:ASIL板连接中...
+2024_07_26_14:31:09:475:ASIL板已连接
+2024_07_26_14:31:10:499:精测机通信侦听中...
+2024_07_26_14:31:10:503:精测机启动侦听
+2024_07_26_14:31:10:523:PIS2通信连接中...
+2024_07_26_14:31:33:623:start to Connect MCMQ
+2024_07_26_14:31:33:647:Connect MCMQ Success, returnCode =0
+2024_07_26_14:31:33:651:Connect MCMQ Success, returnCode =0
+2024_07_26_14:31:33:655:OpenreplyQueue AL156524returnCode=0
+2024_07_26_14:31:33:655:OpensendQueue S17MES.CCDreturnCode=0
+2024_07_26_14:31:33:659:Send MCMQ sendQueue=S17MES.CCD replyQueue =AL156524returnCode=0
+2024_07_26_14:31:33:659:Send MCMQ:<?xml version="1.0" encoding='UTF-8'?><si300_interface><message_id>clear_mlp</message_id><line>ASM_3C01</line><mlp_id>12345</mlp_id><operation>ASSY-TEST</operation></si300_interface>
+2024_07_26_14:31:37:009:Recive MCMQ returnCode:0
+2024_07_26_14:31:37:010:Recive MCMQ returnMessage:
+2024_07_26_14:31:37:010:MCMQ disconnect
+2024_07_26_14:39:08:091:******************START********************
+2024_07_26_14:39:08:416:ASIL板连接中...
+2024_07_26_14:39:08:423:ASIL板已连接
+2024_07_26_14:39:09:440:精测机通信侦听中...
+2024_07_26_14:39:09:444:精测机启动侦听
+2024_07_26_14:39:09:444:PIS2通信连接中...
+2024_07_26_14:39:09:445:start to Connect MCMQ
+2024_07_26_14:39:09:456:Connect MCMQ Success, returnCode =0
+2024_07_26_14:39:09:458:Connect MCMQ Success, returnCode =0
+2024_07_26_14:39:09:464:OpenreplyQueue AL961099returnCode=0
+2024_07_26_14:39:09:465:OpensendQueue S17MES.CCDreturnCode=0
+2024_07_26_14:39:09:471:Send MCMQ sendQueue=S17MES.CCD replyQueue =AL961099returnCode=0
+2024_07_26_14:39:09:471:Send MCMQ:<?xml version="1.0" encoding='UTF-8'?><si300_interface><message_id>clear_mlp</message_id><line>ASM_3C01</line><mlp_id>12345</mlp_id><operation>ASSY-TEST</operation></si300_interface>
+2024_07_26_14:39:14:139:Recive MCMQ returnCode:0
+2024_07_26_14:39:14:139:Recive MCMQ returnMessage:
+2024_07_26_14:39:14:140:MCMQ disconnect
+2024_07_26_14:39:20:710:******************START********************
+2024_07_26_14:39:21:063:ASIL板连接中...
+2024_07_26_14:39:21:069:ASIL板已连接
+2024_07_26_14:39:22:128:精测机通信侦听中...
+2024_07_26_14:39:22:149:精测机启动侦听
+2024_07_26_14:39:22:150:PIS2通信连接中...
+2024_07_26_14:39:22:158:start to Connect MCMQ
+2024_07_26_14:39:22:170:Connect MCMQ Success, returnCode =0
+2024_07_26_14:39:22:173:Connect MCMQ Success, returnCode =0
+2024_07_26_14:39:22:176:OpenreplyQueue AL777727returnCode=0
+2024_07_26_14:39:22:177:OpensendQueue S17MES.CCDreturnCode=0
+2024_07_26_14:39:22:180:Send MCMQ sendQueue=S17MES.CCD replyQueue =AL777727returnCode=0
+2024_07_26_14:39:22:181:Send MCMQ:<?xml version="1.0" encoding='UTF-8'?><si300_interface><message_id>clear_mlp</message_id><line>ASM_3C01</line><mlp_id>12345</mlp_id><operation>ASSY-TEST</operation></si300_interface>
+2024_07_26_14:39:26:149:Recive MCMQ returnCode:0
+2024_07_26_14:39:26:150:Recive MCMQ returnMessage:
+2024_07_26_14:39:26:151:MCMQ disconnect
+2024_07_26_15:08:35:753:******************START********************
+2024_07_26_15:08:35:998:ASIL板连接中...
+2024_07_26_15:08:36:005:ASIL板已连接
+2024_07_26_15:08:37:031:精测机通信侦听中...
+2024_07_26_15:08:37:036:精测机启动侦听
+2024_07_26_15:08:37:038:PIS2通信连接中...
+2024_07_26_15:08:37:040:start to Connect MCMQ
+2024_07_26_15:08:37:053:Connect MCMQ Success, returnCode =0
+2024_07_26_15:08:37:056:Connect MCMQ Success, returnCode =0
+2024_07_26_15:08:37:062:OpenreplyQueue AL458183returnCode=0
+2024_07_26_15:08:37:063:OpensendQueue S17MES.CCDreturnCode=0
+2024_07_26_15:08:37:068:Send MCMQ sendQueue=S17MES.CCD replyQueue =AL458183returnCode=0
+2024_07_26_15:08:37:069:Send MCMQ:<?xml version="1.0" encoding='UTF-8'?><si300_interface><message_id>clear_mlp</message_id><line>ASM_3C01</line><mlp_id>12345</mlp_id><operation>ASSY-TEST</operation></si300_interface>
+2024_07_26_15:08:40:677:Recive MCMQ returnCode:0
+2024_07_26_15:08:40:677:Recive MCMQ returnMessage:
+2024_07_26_15:08:40:677:MCMQ disconnect
+2024_07_26_15:08:43:174:无法访问已释放的对象。
+对象名:“ComAssistance”。
+2024_07_26_17:11:35:594:******************START********************
+2024_07_26_17:11:35:967:ASIL板连接中...
+2024_07_26_17:11:37:299:精测机通信侦听中...
+2024_07_26_17:11:37:310:精测机启动侦听
+2024_07_26_17:11:37:311:PIS2通信连接中...
+2024_07_26_17:11:37:313:start to Connect MCMQ
+2024_07_26_17:11:37:327:Connect MCMQ Success, returnCode =0
+2024_07_26_17:11:37:334:Connect MCMQ Success, returnCode =0
+2024_07_26_17:11:37:340:OpenreplyQueue AL720261returnCode=0
+2024_07_26_17:11:37:341:OpensendQueue S17MES.CCDreturnCode=0
+2024_07_26_17:11:37:345:Send MCMQ sendQueue=S17MES.CCD replyQueue =AL720261returnCode=0
+2024_07_26_17:11:37:346:Send MCMQ:<?xml version="1.0" encoding='UTF-8'?><si300_interface><message_id>clear_mlp</message_id><line>ASM_3C01</line><mlp_id>12345</mlp_id><operation>ASSY-TEST</operation></si300_interface>

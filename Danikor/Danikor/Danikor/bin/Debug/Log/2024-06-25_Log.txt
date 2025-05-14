@@ -1,0 +1,866 @@
+2024-06-25 08:51:09  登录成功
+2024-06-25 08:51:11  连接MCMQ服务器失败:127.0.0.1:7600
+2024-06-25 08:52:56  登录成功
+2024-06-25 08:52:56  连接MCMQ服务器成功:127.0.0.1:7600
+2024-06-25 08:52:56  成功开启发送消息队列:reunknow,成功开启回复查询队列:reunknow
+2024-06-25 08:54:00  保存通讯配置成功
+2024-06-25 08:54:19  操作员:x1111111 登录成功 
+2024-06-25 08:54:22  发送消息到队列:reunknow,消息内容:
+<?xml version="1.0" encoding="utf-8"?><si300_interface><message_id>validate_lot</message_id>
+<ver>1.6.7</ver>
+<function>test_record</function>
+<user_id>x1111111</user_id>
+<sys_para>2XASSY01</sys_para>
+<p_area>2X</p_area>
+<area>S17</area>
+<line></line>
+<operation>P-SCREW</operation>
+<lot_no>5343</lot_no>
+</si300_interface>
+
+2024-06-25 08:54:22  接收队列:reunknow,接收到消息:
+<?xml version="1.0" encoding="utf-8"?><si300_interface><message_id>validate_lot</message_id>
+<ver>1.6.7</ver>
+<function>test_record</function>
+<user_id>x1111111</user_id>
+<sys_para>2XASSY01</sys_para>
+<p_area>2X</p_area>
+<area>S17</area>
+<line></line>
+<operation>P-SCREW</operation>
+<lot_no>5343</lot_no>
+</si300_interface>
+
+2024-06-25 08:54:22  Connected to 192.168.2.32:5000
+2024-06-25 08:54:23  Connected to 192.168.2.32:5000
+2024-06-25 08:54:23  Execute GeneralWriteState SuccessFull:02 00 00 00 0a 57 30 33 30 31 30 30 31 3d 34 03
+2024-06-25 08:54:23  Connected to 192.168.2.32:5000
+2024-06-25 08:54:27  Received:ResultData
+2024-06-25 08:54:27  拧紧合格
+2024-06-25 08:54:29  Received:ResultData
+2024-06-25 08:54:29  拧紧错误,请重新拧紧! 
+2024-06-25 08:54:32  Received:ResultData
+2024-06-25 08:54:32  拧紧错误,请重新拧紧! 
+2024-06-25 08:54:33  接收消息失败: 0
+2024-06-25 08:54:40  Received:ResultData
+2024-06-25 08:54:40  拧紧错误,请重新拧紧! 
+2024-06-25 08:54:41  Received:ResultData
+2024-06-25 08:54:41  拧紧错误,请重新拧紧! 
+2024-06-25 08:54:59  Connected to 192.168.2.32:5000
+2024-06-25 08:54:59  Execute GeneralWriteState SuccessFull: 02 00 00 00 A9 52 30 31 30 33 30 30 31 3D 38 2C 31 3B 30 30 32 3D 31 2c 38 2c 32 2c 31 2c 34 2c 31 2c 35 2c 30 2c 36 2c 39 39 39 39 39 2c 37 2c 33 30 2E 30 30 30 30 2c 31 34 2c 31 2c 31 35 2c 31 2c 31 37 2c 30  3b 30 30 33 3d 31 2c 31 32 2c 32 2c 32 35 39 2c 33 2c 30 2c 34 2c 30 2E 30 31 30 30 2c 35 2c 30 2E 30 36 30 30 2c 37 2c 30 2E 30 32 30 30 2c 38 2c 33 30 2E 30 30 30 30 2c 39 2c 30 2c 31 30 2c 39 39 39 39 39 2c 31 31 2c 30 2E 30 30 30 30 2c 31 32 2c 30 2c 31 33 2c 39 39 39 39 38 2c 32 36 2c 30 2E 30 30 30 30  3b 03
+2024-06-25 08:54:59  Connected to 192.168.2.32:5000
+2024-06-25 08:54:59  Execute GeneralWriteState SuccessFull:02 00 00 00 83 57 30 31 30 37 30 30 31 3D 39 2c 31 3b 30 30 32 3D 35 2c 32 2c 31 37 2c 30  2c 31 36 2c 30 3b 30 30 33 3D 31 2c 33 2c 31 2c 30 2c 32 2c 38 2c 33 2c 31 3b 30 30 34 3D 31 2c 33 2c 31 2c 30 2c 32 2c 38 2c 33 2c 31 3b 30 30 35 3D 31 2c 33 2c 31 2c 30 2c 32 2c 38 2c 33 2c 31 3b 30 30 36 3D 31 2c 33 2c 31 2c 30 2c 32 2c 38 2c 33 2c 31 3b 30 30 37 3D 31 2c 33 2c 31 2c 30 2c 32 2c 38 2c 33 2c 31 3b 03
+2024-06-25 08:55:04  发送消息到队列:reunknow,消息内容:
+<?xml version="1.0" encoding="utf-8"?><si300_interface><message_id>validate_lot</message_id>
+<ver>1.6.7</ver>
+<function>test_record</function>
+<user_id>x1111111</user_id>
+<sys_para>2XASSY01</sys_para>
+<p_area>2X</p_area>
+<area>S17</area>
+<line></line>
+<operation>P-SCREW</operation>
+<lot_no>5343</lot_no>
+</si300_interface>
+
+2024-06-25 08:55:04  接收队列:reunknow,接收到消息:
+<?xml version="1.0" encoding="utf-8"?><si300_interface><message_id>validate_lot</message_id>
+<ver>1.6.7</ver>
+<function>test_record</function>
+<user_id>x1111111</user_id>
+<sys_para>2XASSY01</sys_para>
+<p_area>2X</p_area>
+<area>S17</area>
+<line></line>
+<operation>P-SCREW</operation>
+<lot_no>5343</lot_no>
+</si300_interface>
+
+2024-06-25 08:55:04  Connected to 192.168.2.32:5000
+2024-06-25 08:55:04  Execute GeneralWriteState SuccessFull:02 00 00 00 0a 57 30 33 30 31 30 30 31 3d 34 03
+2024-06-25 08:55:07  Received:ResultData
+2024-06-25 08:55:07  拧紧合格
+2024-06-25 08:55:09  Received:ResultData
+2024-06-25 08:55:09  Connected to 192.168.2.32:5000
+2024-06-25 08:55:13  Execute GeneralWriteState SuccessFull:02 00 00 00 0D 52 30 31 31 31 30 30 31 3D 32 2C 39 3B 03
+2024-06-25 08:55:13  发送消息到队列:reunknow,消息内容:
+<?xml version="1.0" encoding="utf-8"?><trx><trx_name>BUGlassTraceDataRpt</trx_name>
+<type_id>I</type_id>
+<abbr_no></abbr_no>
+<chamber_id>2X01SCREW1</chamber_id>
+<data_clock></data_clock>
+<eqp_id>2X01SCREW1</eqp_id>
+<eqp_run_id>2X01SCREW1</eqp_run_id>
+<glass_start_time>.000</glass_start_time>
+<glass_end_time>2024-06-25 08:55:13</glass_end_time>
+<lm_time>2024-06-25 08:55:13</lm_time>
+<logon_time>.000</logon_time>
+<lot_id>5343</lot_id>
+<lot_run_id></lot_run_id>
+<model_no>Model</model_no>
+<op_id></op_id>
+<product_code></product_code>
+<recipe_id>5343</recipe_id>
+<foup_id></foup_id>
+<seq_recipe_id></seq_recipe_id>
+<slot_count></slot_count>
+<sheet_id>5343</sheet_id>
+<slot_no></slot_no>
+<RunSummary_Str><SCREW_RESULT>NG</SCREW_RESULT>
+<SCREW_UNIT>Nm</SCREW_UNIT>
+<TIME_UNIT>s</TIME_UNIT>
+</RunSummary_Str>
+<RunSummary><TORQUE_P1>0.0204</TORQUE_P1>
+<ANGLE_P1>225.5</ANGLE_P1>
+<TORQUE_P2>0.0058</TORQUE_P2>
+<ANGLE_P2>119.7</ANGLE_P2>
+</RunSummary>
+</trx>
+
+2024-06-25 08:55:13  该设备完成装配
+2024-06-25 08:55:13  发送消息到队列:reunknow,消息内容:
+<?xml version="1.0" encoding="utf-8"?><trx><message_id>track_out_request</message_id>
+<type_id>I</type_id>
+<log_id>48EF3AC4CEC744B156BC</log_id>
+<panel_id>5343</panel_id>
+<station>Station</station>
+<user_id>x1111111</user_id>
+<grade>Z</grade>
+<is_scrap>N</is_scrap>
+<is_repair>N</is_repair>
+<full_test_flag>N</full_test_flag>
+<is_ng_without_trackout>N</is_ng_without_trackout>
+<result>good</result>
+<mlp_id>mlp_id</mlp_id>
+<jig_id>jig_id</jig_id>
+<port_id>2X01SCREW1</port_id>
+<sys_para>2XASSY01</sys_para>
+<p_area>2X</p_area>
+<area>S17</area>
+<line></line>
+<chip_info></chip_info>
+<operation>P-SCREW</operation>
+<next_operation>next_opt_ok</next_operation>
+<panel_edid_data></panel_edid_data>
+</trx>
+
+2024-06-25 08:55:13  Connected to 192.168.2.32:5000
+2024-06-25 08:55:13  拧紧错误,未开启返修策略请重新输入SN码! 
+2024-06-25 08:55:13  拧紧错误,请重新拧紧! 
+2024-06-25 08:55:13  发送消息到队列:reunknow,消息内容:
+<?xml version="1.0" encoding="utf-8"?><trx><trx_name>BUGlassTraceDataRpt</trx_name>
+<type_id>I</type_id>
+<abbr_no></abbr_no>
+<chamber_id>2X01SCREW1</chamber_id>
+<data_clock></data_clock>
+<eqp_id>2X01SCREW1</eqp_id>
+<eqp_run_id>2X01SCREW1</eqp_run_id>
+<glass_start_time>.000</glass_start_time>
+<glass_end_time>2024-06-25 08:55:13</glass_end_time>
+<lm_time>2024-06-25 08:55:13</lm_time>
+<logon_time>.000</logon_time>
+<lot_id>5343</lot_id>
+<lot_run_id></lot_run_id>
+<model_no>Model</model_no>
+<op_id></op_id>
+<product_code></product_code>
+<recipe_id>5343</recipe_id>
+<foup_id></foup_id>
+<seq_recipe_id></seq_recipe_id>
+<slot_count></slot_count>
+<sheet_id>5343</sheet_id>
+<slot_no></slot_no>
+<RunSummary_Str><SCREW_RESULT>NG</SCREW_RESULT>
+<SCREW_UNIT>Nm</SCREW_UNIT>
+<TIME_UNIT>s</TIME_UNIT>
+</RunSummary_Str>
+<RunSummary><TORQUE_P1>0.0204</TORQUE_P1>
+<ANGLE_P1>225.5</ANGLE_P1>
+<TORQUE_P2>0.0058</TORQUE_P2>
+<ANGLE_P2>119.7</ANGLE_P2>
+</RunSummary>
+</trx>
+
+2024-06-25 08:55:13  发送消息到队列:reunknow,消息内容:
+<?xml version="1.0" encoding="utf-8"?><trx><message_id>track_out_request</message_id>
+<type_id>I</type_id>
+<log_id>48EF3AC4CEC744B156BC</log_id>
+<panel_id>5343</panel_id>
+<station>Station</station>
+<user_id>x1111111</user_id>
+<grade>Z</grade>
+<is_scrap>N</is_scrap>
+<is_repair>N</is_repair>
+<full_test_flag>N</full_test_flag>
+<is_ng_without_trackout>N</is_ng_without_trackout>
+<result>good</result>
+<mlp_id>mlp_id</mlp_id>
+<jig_id>jig_id</jig_id>
+<port_id>2X01SCREW1</port_id>
+<sys_para>2XASSY01</sys_para>
+<p_area>2X</p_area>
+<area>S17</area>
+<line></line>
+<chip_info></chip_info>
+<operation>P-SCREW</operation>
+<next_operation>next_opt_ok</next_operation>
+<panel_edid_data></panel_edid_data>
+</trx>
+
+2024-06-25 08:55:13  接收队列:reunknow,接收到消息:
+<?xml version="1.0" encoding="utf-8"?><trx><trx_name>BUGlassTraceDataRpt</trx_name>
+<type_id>I</type_id>
+<abbr_no></abbr_no>
+<chamber_id>2X01SCREW1</chamber_id>
+<data_clock></data_clock>
+<eqp_id>2X01SCREW1</eqp_id>
+<eqp_run_id>2X01SCREW1</eqp_run_id>
+<glass_start_time>.000</glass_start_time>
+<glass_end_time>2024-06-25 08:55:13</glass_end_time>
+<lm_time>2024-06-25 08:55:13</lm_time>
+<logon_time>.000</logon_time>
+<lot_id>5343</lot_id>
+<lot_run_id></lot_run_id>
+<model_no>Model</model_no>
+<op_id></op_id>
+<product_code></product_code>
+<recipe_id>5343</recipe_id>
+<foup_id></foup_id>
+<seq_recipe_id></seq_recipe_id>
+<slot_count></slot_count>
+<sheet_id>5343</sheet_id>
+<slot_no></slot_no>
+<RunSummary_Str><SCREW_RESULT>NG</SCREW_RESULT>
+<SCREW_UNIT>Nm</SCREW_UNIT>
+<TIME_UNIT>s</TIME_UNIT>
+</RunSummary_Str>
+<RunSummary><TORQUE_P1>0.0204</TORQUE_P1>
+<ANGLE_P1>225.5</ANGLE_P1>
+<TORQUE_P2>0.0058</TORQUE_P2>
+<ANGLE_P2>119.7</ANGLE_P2>
+</RunSummary>
+</trx>
+
+2024-06-25 08:55:19  登录成功
+2024-06-25 08:55:19  连接MCMQ服务器成功:127.0.0.1:7600
+2024-06-25 08:55:19  成功开启发送消息队列:reunknow,成功开启回复查询队列:reunknow
+2024-06-25 08:55:27  操作员:x1111111 登录成功 
+2024-06-25 08:55:31  发送消息到队列:reunknow,消息内容:
+<?xml version="1.0" encoding="utf-8"?><si300_interface><message_id>validate_lot</message_id>
+<ver>1.6.7</ver>
+<function>test_record</function>
+<user_id>x1111111</user_id>
+<sys_para>2XASSY01</sys_para>
+<p_area>2X</p_area>
+<area>S17</area>
+<line></line>
+<operation>P-SCREW</operation>
+<lot_no>09090</lot_no>
+</si300_interface>
+
+2024-06-25 08:55:31  接收队列:reunknow,接收到消息:
+<?xml version="1.0" encoding="utf-8"?><trx><message_id>track_out_request</message_id>
+<type_id>I</type_id>
+<log_id>48EF3AC4CEC744B156BC</log_id>
+<panel_id>5343</panel_id>
+<station>Station</station>
+<user_id>x1111111</user_id>
+<grade>Z</grade>
+<is_scrap>N</is_scrap>
+<is_repair>N</is_repair>
+<full_test_flag>N</full_test_flag>
+<is_ng_without_trackout>N</is_ng_without_trackout>
+<result>good</result>
+<mlp_id>mlp_id</mlp_id>
+<jig_id>jig_id</jig_id>
+<port_id>2X01SCREW1</port_id>
+<sys_para>2XASSY01</sys_para>
+<p_area>2X</p_area>
+<area>S17</area>
+<line></line>
+<chip_info></chip_info>
+<operation>P-SCREW</operation>
+<next_operation>next_opt_ok</next_operation>
+<panel_edid_data></panel_edid_data>
+</trx>
+
+2024-06-25 09:00:43  登录成功
+2024-06-25 09:00:43  连接MCMQ服务器成功:127.0.0.1:7600
+2024-06-25 09:00:43  成功开启发送消息队列:reunknow,成功开启回复查询队列:reunknow
+2024-06-25 09:01:09  Connected to 192.168.2.32:5000
+2024-06-25 09:01:09  Execute GeneralWriteState SuccessFull: 02 00 00 00 A7 52 30 31 30 33 30 30 31 3D 38 2C 31 3B 30 30 32 3D 31 2c 38 2c 32 2c 31 2c 34 2c 31 2c 35 2c 30 2c 36 2c 31 30 30 30 2c 37 2c 33 30 2E 30 30 30 30 2c 31 34 2c 31 2c 31 35 2c 31 2c 31 37 2c 31  3b 30 30 33 3d 31 2c 31 32 2c 32 2c 32 35 39 2c 33 2c 30 2c 34 2c 30 2E 30 31 30 30 2c 35 2c 30 2E 30 36 30 30 2c 37 2c 30 2E 30 32 30 30 2c 38 2c 33 30 2E 30 30 30 30 2c 39 2c 30 2c 31 30 2c 31 30 30 30 2c 31 31 2c 30 2E 30 30 30 30 2c 31 32 2c 30 2c 31 33 2c 39 39 39 39 38 2c 32 36 2c 30 2E 30 30 30 30  3b 03
+2024-06-25 09:01:10  Connected to 192.168.2.32:5000
+2024-06-25 09:01:10  Execute GeneralWriteState SuccessFull:02 00 00 00 83 57 30 31 30 37 30 30 31 3D 39 2c 31 3b 30 30 32 3D 35 2c 32 2c 31 37 2c 31  2c 31 36 2c 30 3b 30 30 33 3D 31 2c 33 2c 31 2c 30 2c 32 2c 38 2c 33 2c 31 3b 30 30 34 3D 31 2c 33 2c 31 2c 30 2c 32 2c 38 2c 33 2c 31 3b 30 30 35 3D 31 2c 33 2c 31 2c 30 2c 32 2c 38 2c 33 2c 31 3b 30 30 36 3D 31 2c 33 2c 31 2c 30 2c 32 2c 38 2c 33 2c 31 3b 30 30 37 3D 31 2c 33 2c 31 2c 30 2c 32 2c 38 2c 33 2c 31 3b 03
+2024-06-25 09:01:18  操作员:x1111111 登录成功 
+2024-06-25 09:01:20  发送消息到队列:reunknow,消息内容:
+<?xml version="1.0" encoding="utf-8"?><si300_interface><message_id>validate_lot</message_id>
+<ver>1.6.7</ver>
+<function>test_record</function>
+<user_id>x1111111</user_id>
+<sys_para>2XASSY01</sys_para>
+<p_area>2X</p_area>
+<area>S17</area>
+<line></line>
+<operation>P-SCREW</operation>
+<lot_no>5</lot_no>
+</si300_interface>
+
+2024-06-25 09:01:20  接收队列:reunknow,接收到消息:
+<?xml version="1.0" encoding="utf-8"?><trx><trx_name>BUGlassTraceDataRpt</trx_name>
+<type_id>I</type_id>
+<abbr_no></abbr_no>
+<chamber_id>2X01SCREW1</chamber_id>
+<data_clock></data_clock>
+<eqp_id>2X01SCREW1</eqp_id>
+<eqp_run_id>2X01SCREW1</eqp_run_id>
+<glass_start_time>.000</glass_start_time>
+<glass_end_time>2024-06-25 08:55:13</glass_end_time>
+<lm_time>2024-06-25 08:55:13</lm_time>
+<logon_time>.000</logon_time>
+<lot_id>5343</lot_id>
+<lot_run_id></lot_run_id>
+<model_no>Model</model_no>
+<op_id></op_id>
+<product_code></product_code>
+<recipe_id>5343</recipe_id>
+<foup_id></foup_id>
+<seq_recipe_id></seq_recipe_id>
+<slot_count></slot_count>
+<sheet_id>5343</sheet_id>
+<slot_no></slot_no>
+<RunSummary_Str><SCREW_RESULT>NG</SCREW_RESULT>
+<SCREW_UNIT>Nm</SCREW_UNIT>
+<TIME_UNIT>s</TIME_UNIT>
+</RunSummary_Str>
+<RunSummary><TORQUE_P1>0.0204</TORQUE_P1>
+<ANGLE_P1>225.5</ANGLE_P1>
+<TORQUE_P2>0.0058</TORQUE_P2>
+<ANGLE_P2>119.7</ANGLE_P2>
+</RunSummary>
+</trx>
+
+2024-06-25 09:01:58  登录成功
+2024-06-25 09:01:58  连接MCMQ服务器成功:127.0.0.1:7600
+2024-06-25 09:01:58  成功开启发送消息队列:reunknow,成功开启回复查询队列:reunknow
+2024-06-25 09:02:06  操作员:x1111111 登录成功 
+2024-06-25 09:02:08  发送消息到队列:reunknow,消息内容:
+<?xml version="1.0" encoding="utf-8"?><si300_interface><message_id>validate_lot</message_id>
+<ver>1.6.7</ver>
+<function>test_record</function>
+<user_id>x1111111</user_id>
+<sys_para>2XASSY01</sys_para>
+<p_area>2X</p_area>
+<area>S17</area>
+<line></line>
+<operation>P-SCREW</operation>
+<lot_no>2</lot_no>
+</si300_interface>
+
+2024-06-25 09:02:08  接收队列:reunknow,接收到消息:
+<?xml version="1.0" encoding="utf-8"?><trx><message_id>track_out_request</message_id>
+<type_id>I</type_id>
+<log_id>48EF3AC4CEC744B156BC</log_id>
+<panel_id>5343</panel_id>
+<station>Station</station>
+<user_id>x1111111</user_id>
+<grade>Z</grade>
+<is_scrap>N</is_scrap>
+<is_repair>N</is_repair>
+<full_test_flag>N</full_test_flag>
+<is_ng_without_trackout>N</is_ng_without_trackout>
+<result>good</result>
+<mlp_id>mlp_id</mlp_id>
+<jig_id>jig_id</jig_id>
+<port_id>2X01SCREW1</port_id>
+<sys_para>2XASSY01</sys_para>
+<p_area>2X</p_area>
+<area>S17</area>
+<line></line>
+<chip_info></chip_info>
+<operation>P-SCREW</operation>
+<next_operation>next_opt_ok</next_operation>
+<panel_edid_data></panel_edid_data>
+</trx>
+
+2024-06-25 09:02:15  发送消息到队列:reunknow,消息内容:
+<?xml version="1.0" encoding="utf-8"?><si300_interface><message_id>validate_lot</message_id>
+<ver>1.6.7</ver>
+<function>test_record</function>
+<user_id>x1111111</user_id>
+<sys_para>2XASSY01</sys_para>
+<p_area>2X</p_area>
+<area>S17</area>
+<line></line>
+<operation>P-SCREW</operation>
+<lot_no>2</lot_no>
+</si300_interface>
+
+2024-06-25 09:02:15  接收队列:reunknow,接收到消息:
+<?xml version="1.0" encoding="utf-8"?><si300_interface><message_id>validate_lot</message_id>
+<ver>1.6.7</ver>
+<function>test_record</function>
+<user_id>x1111111</user_id>
+<sys_para>2XASSY01</sys_para>
+<p_area>2X</p_area>
+<area>S17</area>
+<line></line>
+<operation>P-SCREW</operation>
+<lot_no>09090</lot_no>
+</si300_interface>
+
+2024-06-25 09:03:03  登录成功
+2024-06-25 09:03:03  连接MCMQ服务器成功:127.0.0.1:7600
+2024-06-25 09:03:03  成功开启发送消息队列:reunknow,成功开启回复查询队列:reunknow
+2024-06-25 09:03:09  操作员:x1111111 登录成功 
+2024-06-25 09:03:11  发送消息到队列:reunknow,消息内容:
+<?xml version="1.0" encoding="utf-8"?><si300_interface><message_id>validate_lot</message_id>
+<ver>1.6.7</ver>
+<function>test_record</function>
+<user_id>x1111111</user_id>
+<sys_para>2XASSY01</sys_para>
+<p_area>2X</p_area>
+<area>S17</area>
+<line></line>
+<operation>P-SCREW</operation>
+<lot_no>s</lot_no>
+</si300_interface>
+
+2024-06-25 09:03:11  接收队列:reunknow,接收到消息:
+<?xml version="1.0" encoding="utf-8"?><si300_interface><message_id>validate_lot</message_id>
+<ver>1.6.7</ver>
+<function>test_record</function>
+<user_id>x1111111</user_id>
+<sys_para>2XASSY01</sys_para>
+<p_area>2X</p_area>
+<area>S17</area>
+<line></line>
+<operation>P-SCREW</operation>
+<lot_no>5</lot_no>
+</si300_interface>
+
+2024-06-25 09:03:11  Connected to 192.168.2.32:5000
+2024-06-25 09:03:11  接收队列:reunknow,接收到消息:
+<?xml version="1.0" encoding="utf-8"?><si300_interface><message_id>validate_lot</message_id>
+<ver>1.6.7</ver>
+<function>test_record</function>
+<user_id>x1111111</user_id>
+<sys_para>2XASSY01</sys_para>
+<p_area>2X</p_area>
+<area>S17</area>
+<line></line>
+<operation>P-SCREW</operation>
+<lot_no>2</lot_no>
+</si300_interface>
+
+2024-06-25 09:03:11  接收队列:reunknow,接收到消息:
+<?xml version="1.0" encoding="utf-8"?><si300_interface><message_id>validate_lot</message_id>
+<ver>1.6.7</ver>
+<function>test_record</function>
+<user_id>x1111111</user_id>
+<sys_para>2XASSY01</sys_para>
+<p_area>2X</p_area>
+<area>S17</area>
+<line></line>
+<operation>P-SCREW</operation>
+<lot_no>2</lot_no>
+</si300_interface>
+
+2024-06-25 09:03:11  Connected to 192.168.2.32:5000
+2024-06-25 09:03:11  Execute GeneralWriteState SuccessFull:02 00 00 00 0a 57 30 33 30 31 30 30 31 3d 34 03
+2024-06-25 09:03:11  接收队列:reunknow,接收到消息:
+<?xml version="1.0" encoding="utf-8"?><si300_interface><message_id>validate_lot</message_id>
+<ver>1.6.7</ver>
+<function>test_record</function>
+<user_id>x1111111</user_id>
+<sys_para>2XASSY01</sys_para>
+<p_area>2X</p_area>
+<area>S17</area>
+<line></line>
+<operation>P-SCREW</operation>
+<lot_no>s</lot_no>
+</si300_interface>
+
+2024-06-25 09:03:11  Connected to 192.168.2.32:5000
+2024-06-25 09:03:12  Connected to 192.168.2.32:5000
+2024-06-25 09:03:12  Execute GeneralWriteState SuccessFull:02 00 00 00 0a 57 30 33 30 31 30 30 31 3d 34 03
+2024-06-25 09:03:12  Connected to 192.168.2.32:5000
+2024-06-25 09:03:12  Execute GeneralWriteState SuccessFull:02 00 00 00 0a 57 30 33 30 31 30 30 31 3d 34 03
+2024-06-25 09:03:12  Connected to 192.168.2.32:5000
+2024-06-25 09:03:12  Execute GeneralWriteState SuccessFull:02 00 00 00 0a 57 30 33 30 31 30 30 31 3d 34 03
+2024-06-25 09:03:20  接收消息失败: 0
+2024-06-25 09:03:28  Received:ResultData
+2024-06-25 09:03:29  拧紧错误,请重新拧紧! 
+2024-06-25 09:03:30  Execute WriteProduct_Log Error:文件“C:\Users\Administrator\Desktop\上位机\Project\Danikor\Danikor\Danikor\bin\Debug\Product_Log\2024-06-25.csv”正由另一进程使用，因此该进程无法访问此文件。
+2024-06-25 09:11:24  Connected to 192.168.2.32:5000
+2024-06-25 09:11:24  Execute GeneralWriteState SuccessFull: 02 00 00 00 A9 52 30 31 30 33 30 30 31 3D 38 2C 31 3B 30 30 32 3D 31 2c 38 2c 32 2c 31 2c 34 2c 31 2c 35 2c 30 2c 36 2c 39 39 39 39 39 2c 37 2c 32 30 2E 30 30 30 31 2c 31 34 2c 30 2c 31 35 2c 30 2c 31 37 2c 31  3b 30 30 33 3d 31 2c 31 32 2c 32 2c 32 36 31 2c 33 2c 30 2c 34 2c 30 2E 30 31 30 30 2c 35 2c 30 2E 30 36 30 30 2c 37 2c 30 2E 30 32 30 30 2c 38 2c 32 30 2E 30 30 30 31 2c 39 2c 30 2c 31 30 2c 39 39 39 39 39 2c 31 31 2c 30 2E 30 30 30 30 2c 31 32 2c 30 2c 31 33 2c 39 39 39 39 38 2c 32 36 2c 30 2E 30 30 30 30  3b 03
+2024-06-25 09:11:24  Connected to 192.168.2.32:5000
+2024-06-25 09:11:24  Execute GeneralWriteState SuccessFull:02 00 00 00 97 57 30 31 30 37 30 30 31 3D 39 2c 31 3b 30 30 32 3D 36 2c 32 2c 31 37 2c 31  2c 31 36 2c 30 3b 30 30 33 3D 31 2c 33 2c 31 2c 30 2c 32 2c 38 2c 33 2c 31 3b 30 30 34 3D 31 2c 33 2c 31 2c 30 2c 32 2c 38 2c 33 2c 31 3b 30 30 35 3D 31 2c 33 2c 31 2c 30 2c 32 2c 38 2c 33 2c 31 3b 30 30 36 3D 31 2c 33 2c 31 2c 30 2c 32 2c 38 2c 33 2c 31 3b 30 30 37 3D 31 2c 33 2c 31 2c 30 2c 32 2c 38 2c 33 2c 31 3b 30 30 38 3D 31 2c 33 2c 31 2c 30 2c 32 2c 38 2c 33 2c 31 3b 03
+2024-06-25 09:18:36  登录成功
+2024-06-25 09:18:36  连接MCMQ服务器成功:127.0.0.1:7600
+2024-06-25 09:18:36  成功开启发送消息队列:reunknow,成功开启回复查询队列:reunknow
+2024-06-25 09:18:53  保存通讯配置成功
+2024-06-25 09:18:56  保存通讯配置成功
+2024-06-25 09:39:43  登录成功
+2024-06-25 09:39:43  连接MCMQ服务器成功:127.0.0.1:7600
+2024-06-25 09:39:43  成功开启发送消息队列:reunknow,成功开启回复查询队列:reunknow
+2024-06-25 09:39:49  操作员:x1111111 登录成功 
+2024-06-25 09:39:51  发送消息到队列:reunknow,消息内容:
+<?xml version="1.0" encoding="utf-8"?><si300_interface><message_id>validate_lot</message_id>
+<ver>1.6.7</ver>
+<function>test_record</function>
+<user_id>x1111111</user_id>
+<sys_para>2XASSY01</sys_para>
+<p_area>2X</p_area>
+<area>S17</area>
+<line></line>
+<operation>P-SCREW</operation>
+<lot_no>1</lot_no>
+</si300_interface>
+
+2024-06-25 09:40:11  接收队列:reunknow,接收到消息:
+<?xml version="1.0" encoding="utf-8"?><si300_interface><message_id>validate_lot</message_id>
+<ver>1.6.7</ver>
+<function>test_record</function>
+<user_id>x1111111</user_id>
+<sys_para>2XASSY01</sys_para>
+<p_area>2X</p_area>
+<area>S17</area>
+<line></line>
+<operation>P-SCREW</operation>
+<lot_no>1</lot_no>
+</si300_interface>
+
+2024-06-25 09:42:16  登录成功
+2024-06-25 09:42:16  连接MCMQ服务器成功:127.0.0.1:7600
+2024-06-25 09:42:16  成功开启发送消息队列:reunknow,成功开启回复查询队列:reunknow
+2024-06-25 09:42:22  操作员:x1111111 登录成功 
+2024-06-25 09:42:39  发送消息到队列:reunknow,消息内容:
+<?xml version="1.0" encoding="utf-8"?><si300_interface><message_id>validate_lot</message_id>
+<ver>1.6.7</ver>
+<function>test_record</function>
+<user_id>x1111111</user_id>
+<sys_para>2XASSY01</sys_para>
+<p_area>2X</p_area>
+<area>S17</area>
+<line></line>
+<operation>P-SCREW</operation>
+<lot_no>1</lot_no>
+</si300_interface>
+
+2024-06-25 09:42:39  接收队列:reunknow,接收到消息:
+<?xml version="1.0" encoding="utf-8"?><si300_interface><message_id>validate_lot</message_id>
+<ver>1.6.7</ver>
+<function>test_record</function>
+<user_id>x1111111</user_id>
+<sys_para>2XASSY01</sys_para>
+<p_area>2X</p_area>
+<area>S17</area>
+<line></line>
+<operation>P-SCREW</operation>
+<lot_no>1</lot_no>
+</si300_interface>
+
+2024-06-25 09:42:40  Connected to 192.168.2.32:5000
+2024-06-25 09:42:40  Connected to 192.168.2.32:5000
+2024-06-25 09:42:40  Execute GeneralWriteState SuccessFull:02 00 00 00 0a 57 30 33 30 31 30 30 31 3d 34 03
+2024-06-25 09:42:41  Connected to 192.168.2.32:5000
+2024-06-25 09:42:51  接收消息失败: 0
+2024-06-25 09:44:21  登录成功
+2024-06-25 09:44:21  连接MCMQ服务器成功:127.0.0.1:7600
+2024-06-25 09:44:22  成功开启发送消息队列:reunknow,成功开启回复查询队列:reunknow
+2024-06-25 09:44:32  保存通讯配置成功
+2024-06-25 09:47:24  登录成功
+2024-06-25 09:47:24  连接MCMQ服务器成功:127.0.0.1:7600
+2024-06-25 09:47:24  成功开启发送消息队列:reunknow,成功开启回复查询队列:reunknow
+2024-06-25 09:47:36  保存通讯配置成功
+2024-06-25 09:47:43  操作员:x1222222 登录成功 
+2024-06-25 09:47:45  发送消息到队列:unknow,消息内容:
+<?xml version="1.0" encoding="utf-8"?><si300_interface><message_id>validate_lot</message_id>
+<ver>1.6.7</ver>
+<function>test_record</function>
+<user_id>x1222222</user_id>
+<sys_para>2XASSY01</sys_para>
+<p_area>2X</p_area>
+<area>S17</area>
+<line></line>
+<operation>P-SCREW</operation>
+<lot_no>1</lot_no>
+</si300_interface>
+
+2024-06-25 09:47:55  接收消息失败: 0
+2024-06-25 10:02:24  登录成功
+2024-06-25 10:02:24  连接MCMQ服务器成功:127.0.0.1:7600
+2024-06-25 10:02:24  成功开启发送消息队列:unknow,成功开启回复查询队列:reunknow
+2024-06-25 10:02:29  操作员:x1111111 登录成功 
+2024-06-25 10:02:31  发送消息到队列:unknow,消息内容:
+<?xml version="1.0" encoding="utf-8"?><si300_interface><message_id>validate_lot</message_id>
+<ver>1.6.7</ver>
+<function>test_record</function>
+<user_id>x1111111</user_id>
+<sys_para>2XASSY01</sys_para>
+<p_area>2X</p_area>
+<area>S17</area>
+<line></line>
+<operation>P-SCREW</operation>
+<lot_no>1</lot_no>
+</si300_interface>
+
+2024-06-25 10:02:31  接收队列:reunknow,接收到消息:
+<?xml version="1.0" encoding="utf-8"?><si300_interface><message_id>validate_lot</message_id>
+<ver>1.6.7</ver>
+<function>test_record</function>
+<user_id>x1222222</user_id>
+<sys_para>2XASSY01</sys_para>
+<p_area>2X</p_area>
+<area>S17</area>
+<line></line>
+<operation>P-SCREW</operation>
+<lot_no>1</lot_no>
+</si300_interface>
+
+2024-06-25 10:02:31  Connected to 192.168.2.32:5000
+2024-06-25 10:02:31  接收队列:unknow,接收到消息:
+<?xml version="1.0" encoding="utf-8"?><si300_interface><message_id>validate_lot</message_id>
+<ver>1.6.7</ver>
+<function>test_record</function>
+<user_id>x1111111</user_id>
+<sys_para>2XASSY01</sys_para>
+<p_area>2X</p_area>
+<area>S17</area>
+<line></line>
+<operation>P-SCREW</operation>
+<lot_no>1</lot_no>
+</si300_interface>
+
+2024-06-25 10:02:31  Connected to 192.168.2.32:5000
+2024-06-25 10:02:32  Execute GeneralWriteState SuccessFull:02 00 00 00 0a 57 30 33 30 31 30 30 31 3d 34 03
+2024-06-25 10:02:32  Connected to 192.168.2.32:5000
+2024-06-25 10:02:33  Connected to 192.168.2.32:5000
+2024-06-25 10:02:33  Execute GeneralWriteState SuccessFull:02 00 00 00 0a 57 30 33 30 31 30 30 31 3d 34 03
+2024-06-25 10:02:42  接收消息失败: 0
+2024-06-25 10:04:08  登录成功
+2024-06-25 10:04:08  连接MCMQ服务器成功:127.0.0.1:7600
+2024-06-25 10:04:08  成功开启发送消息队列:unknow,成功开启回复查询队列:reunknow
+2024-06-25 10:04:21  操作员:x1111111 登录成功 
+2024-06-25 10:04:22  发送消息到队列:unknow,消息内容:
+<?xml version="1.0" encoding="utf-8"?><si300_interface><message_id>validate_lot</message_id>
+<ver>1.6.7</ver>
+<function>test_record</function>
+<user_id>x1111111</user_id>
+<sys_para>2XASSY01</sys_para>
+<p_area>2X</p_area>
+<area>S17</area>
+<line></line>
+<operation>P-SCREW</operation>
+<lot_no>1</lot_no>
+</si300_interface>
+
+2024-06-25 10:04:22  接收队列:reunknow,接收到消息:
+<?xml version="1.0" encoding="utf-8"?><si300_interface><message_id>validate_lot</message_id>
+<ver>1.6.7</ver>
+<function>test_record</function>
+<user_id>x1111111</user_id>
+<sys_para>2XASSY01</sys_para>
+<p_area>2X</p_area>
+<area>S17</area>
+<line></line>
+<operation>P-SCREW</operation>
+<lot_no>1</lot_no>
+</si300_interface>
+
+2024-06-25 10:04:22  Connected to 192.168.2.32:5000
+2024-06-25 10:04:23  Connected to 192.168.2.32:5000
+2024-06-25 10:04:23  Connected to 192.168.2.32:5000
+2024-06-25 10:04:23  Execute GeneralWriteState SuccessFull:02 00 00 00 0a 57 30 33 30 31 30 30 31 3d 34 03
+2024-06-25 10:05:51  登录成功
+2024-06-25 10:05:51  连接MCMQ服务器成功:127.0.0.1:7600
+2024-06-25 10:05:51  成功开启发送消息队列:unknow,成功开启回复查询队列:reunknow
+2024-06-25 10:05:55  操作员:x1111111 登录成功 
+2024-06-25 10:05:57  发送消息到队列:unknow,消息内容:
+<?xml version="1.0" encoding="utf-8"?><si300_interface><message_id>validate_lot</message_id>
+<ver>1.6.7</ver>
+<function>test_record</function>
+<user_id>x1111111</user_id>
+<sys_para>2XASSY01</sys_para>
+<p_area>2X</p_area>
+<area>S17</area>
+<line></line>
+<operation>P-SCREW</operation>
+<lot_no>d</lot_no>
+</si300_interface>
+
+2024-06-25 10:06:07  接收消息失败: 0
+2024-06-25 10:17:57  登录成功
+2024-06-25 10:17:57  连接MCMQ服务器成功:127.0.0.1:7600
+2024-06-25 10:17:57  成功开启发送消息队列:unknow,成功开启回复查询队列:reunknow
+2024-06-25 10:33:50  登录成功
+2024-06-25 10:33:50  连接MCMQ服务器成功:127.0.0.1:7600
+2024-06-25 10:33:50  成功开启发送消息队列:unknow,成功开启回复查询队列:reunknow
+2024-06-25 10:33:58  关闭发送消息队列:7929860
+2024-06-25 10:33:58  关闭回复查询队列:7929859
+2024-06-25 10:33:58  断开MCMQ服务器
+2024-06-25 10:33:59  连接MCMQ服务器成功:127.0.0.1:7600
+2024-06-25 10:33:59  成功开启发送消息队列:unknow,成功开启回复查询队列:reunknow
+2024-06-25 10:34:00  关闭发送消息队列:7995396
+2024-06-25 10:34:00  关闭回复查询队列:7995395
+2024-06-25 10:34:00  断开MCMQ服务器
+2024-06-25 10:34:00  连接MCMQ服务器成功:127.0.0.1:7600
+2024-06-25 10:34:00  成功开启发送消息队列:unknow,成功开启回复查询队列:reunknow
+2024-06-25 10:34:01  关闭发送消息队列:8060932
+2024-06-25 10:34:01  关闭回复查询队列:8060931
+2024-06-25 10:34:01  断开MCMQ服务器
+2024-06-25 10:34:01  连接MCMQ服务器成功:127.0.0.1:7600
+2024-06-25 10:34:01  成功开启发送消息队列:unknow,成功开启回复查询队列:reunknow
+2024-06-25 10:34:01  关闭发送消息队列:8126468
+2024-06-25 10:34:01  关闭回复查询队列:8126467
+2024-06-25 10:34:01  断开MCMQ服务器
+2024-06-25 10:34:01  连接MCMQ服务器成功:127.0.0.1:7600
+2024-06-25 10:34:01  成功开启发送消息队列:unknow,成功开启回复查询队列:reunknow
+2024-06-25 10:34:02  关闭发送消息队列:8192004
+2024-06-25 10:34:02  关闭回复查询队列:8192003
+2024-06-25 10:34:02  断开MCMQ服务器
+2024-06-25 10:34:02  连接MCMQ服务器成功:127.0.0.1:7600
+2024-06-25 10:34:02  成功开启发送消息队列:unknow,成功开启回复查询队列:reunknow
+2024-06-25 10:34:03  关闭发送消息队列:8257540
+2024-06-25 10:34:03  关闭回复查询队列:8257539
+2024-06-25 10:34:03  断开MCMQ服务器
+2024-06-25 10:34:03  连接MCMQ服务器成功:127.0.0.1:7600
+2024-06-25 10:34:03  成功开启发送消息队列:unknow,成功开启回复查询队列:reunknow
+2024-06-25 10:34:07  保存通讯配置成功
+2024-06-25 10:34:10  关闭发送消息队列:8323076
+2024-06-25 10:34:10  关闭回复查询队列:8323075
+2024-06-25 10:34:10  断开MCMQ服务器
+2024-06-25 10:34:10  保存通讯配置成功
+2024-06-25 10:34:15  登录成功
+2024-06-25 10:35:07  登录成功
+2024-06-25 10:36:08  登录成功
+2024-06-25 10:40:34  登录成功
+2024-06-25 10:42:56  登录成功
+2024-06-25 10:43:05  未连接MCMQ服务器与队列发送与队列查询
+2024-06-25 10:43:08  连接MCMQ服务器成功:127.0.0.1:7600
+2024-06-25 10:43:08  成功开启发送消息队列:unknow,成功开启回复查询队列:reunknow
+2024-06-25 10:43:09  关闭发送消息队列:8388612
+2024-06-25 10:43:09  关闭回复查询队列:8388611
+2024-06-25 10:43:09  断开MCMQ服务器
+2024-06-25 10:43:11  连接MCMQ服务器成功:127.0.0.1:7600
+2024-06-25 10:43:11  成功开启发送消息队列:unknow,成功开启回复查询队列:reunknow
+2024-06-25 10:43:13  关闭发送消息队列:8454148
+2024-06-25 10:43:13  关闭回复查询队列:8454147
+2024-06-25 10:43:13  断开MCMQ服务器
+2024-06-25 13:42:37  登录成功
+2024-06-25 13:42:49  操作员:x2222222 登录成功 
+2024-06-25 13:43:49  Connected to 192.168.2.32:5000
+2024-06-25 13:43:49  Connected to 192.168.2.32:5000
+2024-06-25 13:43:50  Connected to 192.168.2.32:5000
+2024-06-25 13:43:50  Execute GeneralWriteState SuccessFull:02 00 00 00 0a 57 30 33 30 31 30 30 31 3d 34 03
+2024-06-25 13:43:59  Received:ResultData
+2024-06-25 13:43:59  拧紧错误,请重新拧紧! 
+2024-06-25 13:44:00  Received:ResultData
+2024-06-25 13:44:00  拧紧错误,请重新拧紧! 
+2024-06-25 13:44:05  Received:ResultData
+2024-06-25 13:44:05  拧紧错误,请重新拧紧! 
+2024-06-25 13:44:07  Received:ResultData
+2024-06-25 13:44:07  拧紧合格
+2024-06-25 13:44:09  Received:ResultData
+2024-06-25 13:44:09  拧紧合格
+2024-06-25 13:44:11  Received:ResultData
+2024-06-25 13:44:11  拧紧错误,请重新拧紧! 
+2024-06-25 13:44:12  Received:ResultData
+2024-06-25 13:44:12  拧紧错误,请重新拧紧! 
+2024-06-25 13:44:30  Connected to 192.168.2.32:5000
+2024-06-25 13:44:30  Execute GeneralWriteState SuccessFull: 02 00 00 00 A7 52 30 31 30 33 30 30 31 3D 38 2C 31 3B 30 30 32 3D 31 2c 38 2c 32 2c 31 2c 34 2c 31 2c 35 2c 30 2c 36 2c 31 30 30 30 2c 37 2c 33 30 2E 30 30 30 30 2c 31 34 2c 31 2c 31 35 2c 31 2c 31 37 2c 30  3b 30 30 33 3d 31 2c 31 32 2c 32 2c 32 35 39 2c 33 2c 30 2c 34 2c 30 2E 30 31 30 30 2c 35 2c 30 2E 30 36 30 30 2c 37 2c 30 2E 30 32 30 30 2c 38 2c 33 30 2E 30 30 30 30 2c 39 2c 30 2c 31 30 2c 31 30 30 30 2c 31 31 2c 30 2E 30 30 30 30 2c 31 32 2c 30 2c 31 33 2c 39 39 39 39 38 2c 32 36 2c 30 2E 30 30 30 30  3b 03
+2024-06-25 13:44:31  Connected to 192.168.2.32:5000
+2024-06-25 13:44:31  Execute GeneralWriteState SuccessFull:02 00 00 00 83 57 30 31 30 37 30 30 31 3D 39 2c 31 3b 30 30 32 3D 35 2c 32 2c 31 37 2c 30  2c 31 36 2c 30 3b 30 30 33 3D 31 2c 33 2c 31 2c 30 2c 32 2c 38 2c 33 2c 31 3b 30 30 34 3D 31 2c 33 2c 31 2c 30 2c 32 2c 38 2c 33 2c 31 3b 30 30 35 3D 31 2c 33 2c 31 2c 30 2c 32 2c 38 2c 33 2c 31 3b 30 30 36 3D 31 2c 33 2c 31 2c 30 2c 32 2c 38 2c 33 2c 31 3b 30 30 37 3D 31 2c 33 2c 31 2c 30 2c 32 2c 38 2c 33 2c 31 3b 03
+2024-06-25 13:44:38  Received:ResultData
+2024-06-25 13:44:38  拧紧合格
+2024-06-25 13:44:40  Received:ResultData
+2024-06-25 13:44:40  该设备完成装配
+2024-06-25 13:44:40  拧紧错误,未开启返修策略请重新输入SN码! 
+2024-06-25 13:44:40  拧紧错误,请重新拧紧! 
+2024-06-25 13:44:40  Connected to 192.168.2.32:5000
+2024-06-25 13:44:40  未连接MCMQ服务器与队列发送与队列查询
+2024-06-25 13:44:40  未连接MCMQ服务器与队列发送与队列查询
+2024-06-25 13:44:40  未连接MCMQ服务器与队列发送与队列查询
+2024-06-25 13:44:40  Execute GeneralWriteState SuccessFull:02 00 00 00 0D 52 30 31 31 31 30 30 31 3D 32 2C 39 3B 03
+2024-06-25 13:44:40  Connected to 192.168.2.32:5000
+2024-06-25 13:44:40  Execute GeneralWriteState SuccessFull:02 00 00 00 0a 57 30 33 30 31 30 30 31 3d 33 03
+2024-06-25 13:49:12  登录成功
+2024-06-25 13:49:17  操作员:x1111111 登录成功 
+2024-06-25 13:49:19  Connected to 192.168.2.32:5000
+2024-06-25 13:49:19  Connected to 192.168.2.32:5000
+2024-06-25 13:49:20  Execute GeneralWriteState SuccessFull:02 00 00 00 0a 57 30 33 30 31 30 30 31 3d 34 03
+2024-06-25 13:49:20  Connected to 192.168.2.32:5000
+2024-06-25 13:49:21  Received:ResultData
+2024-06-25 13:49:21  该设备完成装配
+2024-06-25 13:49:21  拧紧错误,未开启返修策略请重新输入SN码! 
+2024-06-25 13:49:21  拧紧错误,请重新拧紧! 
+2024-06-25 13:49:21  Connected to 192.168.2.32:5000
+2024-06-25 13:49:21  未连接MCMQ服务器与队列发送与队列查询
+2024-06-25 13:49:21  未连接MCMQ服务器与队列发送与队列查询
+2024-06-25 13:49:21  未连接MCMQ服务器与队列发送与队列查询
+2024-06-25 13:49:21  Execute GeneralWriteState SuccessFull:02 00 00 00 0D 52 30 31 31 31 30 30 31 3D 32 2C 39 3B 03
+2024-06-25 13:49:22  Connected to 192.168.2.32:5000
+2024-06-25 13:49:22  Execute GeneralWriteState SuccessFull:02 00 00 00 0a 57 30 33 30 31 30 30 31 3d 33 03
+2024-06-25 14:31:56  登录成功
+2024-06-25 14:32:46  操作员:x1111111 登录成功 
+2024-06-25 14:32:49  Connected to 192.168.2.32:5000
+2024-06-25 14:32:49  Connected to 192.168.2.32:5000
+2024-06-25 14:32:50  Connected to 192.168.2.32:5000
+2024-06-25 14:32:50  Execute GeneralWriteState SuccessFull:02 00 00 00 0a 57 30 33 30 31 30 30 31 3d 34 03
+2024-06-25 14:32:52  Received:ResultData
+2024-06-25 14:32:52  拧紧合格
+2024-06-25 14:32:53  Received:ResultData
+2024-06-25 14:33:38  该设备完成装配
+2024-06-25 14:33:39  拧紧错误,未开启返修策略请重新输入SN码! 
+2024-06-25 14:33:44  拧紧错误,请重新拧紧! 
+2024-06-25 14:33:44  Connected to 192.168.2.32:5000
+2024-06-25 14:33:44  Connected to 192.168.2.32:5000
+2024-06-25 14:33:44  GeneralWriteState Error: 无法从传输连接中读取数据: 你的主机中的软件中止了一个已建立的连接。。
+2024-06-25 14:33:44  GeneralWriteState:Client DisConnected.
+2024-06-25 14:33:44  Execute GeneralWriteState SuccessFull:02 00 00 00 0D 52 30 31 31 31 30 30 31 3D 32 2C 39 3B 03
+2024-06-25 14:33:58  Received:ResultData
+2024-06-25 14:34:01  该设备完成装配
+2024-06-25 14:34:01  拧紧错误,未开启返修策略请重新输入SN码! 
+2024-06-25 14:34:01  拧紧错误,请重新拧紧! 
+2024-06-25 14:34:01  Connected to 192.168.2.32:5000
+2024-06-25 14:34:01  Execute GeneralWriteState SuccessFull:02 00 00 00 0D 52 30 31 31 31 30 30 31 3D 32 2C 39 3B 03
+2024-06-25 14:34:01  Connected to 192.168.2.32:5000
+2024-06-25 14:34:01  Execute GeneralWriteState SuccessFull:02 00 00 00 0a 57 30 33 30 31 30 30 31 3d 33 03
+2024-06-25 14:34:14  Connected to 192.168.2.32:5000
+2024-06-25 14:34:14  Execute GeneralWriteState SuccessFull:02 00 00 00 0a 57 30 33 30 31 30 30 31 3d 34 03
+2024-06-25 14:34:16  Received:ResultData
+2024-06-25 14:34:16  该设备完成装配
+2024-06-25 14:34:16  拧紧错误,未开启返修策略请重新输入SN码! 
+2024-06-25 14:34:16  拧紧错误,请重新拧紧! 
+2024-06-25 14:34:16  Connected to 192.168.2.32:5000
+2024-06-25 14:34:16  Execute GeneralWriteState SuccessFull:02 00 00 00 0D 52 30 31 31 31 30 30 31 3D 32 2C 39 3B 03
+2024-06-25 14:34:17  Connected to 192.168.2.32:5000
+2024-06-25 14:34:17  Execute GeneralWriteState SuccessFull:02 00 00 00 0a 57 30 33 30 31 30 30 31 3d 33 03
+2024-06-25 15:22:39  登录成功
+2024-06-25 15:22:51  操作员:x1111111 登录成功 
+2024-06-25 15:22:53  Connected to 192.168.2.32:5000
+2024-06-25 15:22:54  Connected to 192.168.2.32:5000
+2024-06-25 15:22:54  Connected to 192.168.2.32:5000
+2024-06-25 15:22:55  Execute GeneralWriteState SuccessFull:02 00 00 00 0a 57 30 33 30 31 30 30 31 3d 34 03
+2024-06-25 15:22:59  Received:ResultData
+2024-06-25 15:22:59  拧紧合格
+2024-06-25 15:23:00  Received:ResultData
+2024-06-25 15:23:00  该设备完成装配
+2024-06-25 15:23:00  拧紧错误,未开启返修策略请重新输入SN码! 
+2024-06-25 15:23:00  拧紧错误,请重新拧紧! 
+2024-06-25 15:23:00  Connected to 192.168.2.32:5000
+2024-06-25 15:23:00  Execute GeneralWriteState SuccessFull:02 00 00 00 0D 52 30 31 31 31 30 30 31 3D 32 2C 39 3B 03
+2024-06-25 15:23:00  Connected to 192.168.2.32:5000
+2024-06-25 15:23:00  Execute GeneralWriteState SuccessFull:02 00 00 00 0a 57 30 33 30 31 30 30 31 3d 33 03
+2024-06-25 15:56:11  登录成功
+2024-06-25 15:56:54  登录成功
+2024-06-25 16:22:29  登录成功
+2024-06-25 16:25:54  登录成功
+2024-06-25 16:26:03  操作员:x111111w 登录成功 
+2024-06-25 16:26:13  操作员:xxxxxxxx 登录成功 
+2024-06-25 16:40:23  登录成功
+2024-06-25 16:40:38  Connected to 192.168.2.32:5000
+2024-06-25 16:40:38  Execute GeneralWriteState SuccessFull: 02 00 00 00 A7 52 30 31 30 33 30 30 31 3D 38 2C 31 3B 30 30 32 3D 31 2c 38 2c 32 2c 31 2c 34 2c 31 2c 35 2c 30 2c 36 2c 31 30 30 30 2c 37 2c 33 30 2E 30 30 30 30 2c 31 34 2c 31 2c 31 35 2c 31 2c 31 37 2c 30  3b 30 30 33 3d 31 2c 31 32 2c 32 2c 32 35 39 2c 33 2c 30 2c 34 2c 30 2E 30 31 30 30 2c 35 2c 30 2E 30 36 30 30 2c 37 2c 30 2E 30 32 30 30 2c 38 2c 33 30 2E 30 30 30 30 2c 39 2c 30 2c 31 30 2c 31 30 30 30 2c 31 31 2c 30 2E 30 30 30 30 2c 31 32 2c 30 2c 31 33 2c 39 39 39 39 38 2c 32 36 2c 30 2E 30 30 30 30  3b 03
+2024-06-25 16:40:39  Connected to 192.168.2.32:5000
+2024-06-25 16:40:39  Execute GeneralWriteState SuccessFull:02 00 00 00 83 57 30 31 30 37 30 30 31 3D 39 2c 31 3b 30 30 32 3D 35 2c 32 2c 31 37 2c 30  2c 31 36 2c 30 3b 30 30 33 3D 31 2c 33 2c 31 2c 30 2c 32 2c 38 2c 33 2c 31 3b 30 30 34 3D 31 2c 33 2c 31 2c 30 2c 32 2c 38 2c 33 2c 31 3b 30 30 35 3D 31 2c 33 2c 31 2c 30 2c 32 2c 38 2c 33 2c 31 3b 30 30 36 3D 31 2c 33 2c 31 2c 30 2c 32 2c 38 2c 33 2c 31 3b 30 30 37 3D 31 2c 33 2c 31 2c 30 2c 32 2c 38 2c 33 2c 31 3b 03
+2024-06-25 16:41:32  登录成功

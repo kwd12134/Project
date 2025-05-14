@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<trx>
+  <message_id>ictest_result_report</message_id>
+  <type_id>I</type_id>
+  <log_id>0202307110949</log_id>
+  <unique_id>S2C1C6I0Q2F</unique_id>
+  <station_id>222A</station_id>
+  <test_result>PASS</test_result>
+  <test_time>2023-07-11 09:23:49</test_time>
+  <measure_type>ASIL_FBIO</measure_type>
+  <fw_version>v1.03</fw_version>
+  <model_no>AAAAAA</model_no>
+  <spc_control_result>
+    <part_no>97.10C28.100</part_no>
+    <feedback_io_01> </feedback_io_01>
+    <feedback_io_02> </feedback_io_02>
+    <feedback_io_03> </feedback_io_03>
+    <feedback_io_04> </feedback_io_04>
+    <feedback_io_05> </feedback_io_05>
+    <feedback_io_06> </feedback_io_06>
+    <feedback_io_07> </feedback_io_07>
+    <feedback_io_08> </feedback_io_08>
+    <status>OK</status>
+  </spc_control_result>
+  <trx_name>225A</trx_name>
+  <lot_no>
+  </lot_no>
+  <iary_infos>
+    <iary>
+      <ccd_type>226A</ccd_type>
+      <max_lumi>2</max_lumi>
+      <unifomity>AAA</unifomity>
+      <jig_id>223A</jig_id>
+      <eqp_id>224A</eqp_id>
+      <judge>OK</judge>
+    </iary>
+  </iary_infos>
+  <lm_user>221AAAA</lm_user>
+  <lm_time>20230711_09:23:49:449</lm_time>
+</trx>

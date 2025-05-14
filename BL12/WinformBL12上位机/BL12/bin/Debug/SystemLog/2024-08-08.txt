@@ -1,0 +1,45 @@
+2024-08-08 11:12:23:330  *******配置参数加载成功*******
+2024-08-08 11:12:24:818  加载NTC温度阻值表成功: C:\Users\Administrator\Desktop\上位机\Project\BL12上位机\WinformBL12上位机\BL12\bin\Debug\TempResistance\NTC.xlsx
+2024-08-08 11:13:21:902  *******配置参数加载成功*******
+2024-08-08 11:13:23:562  加载NTC温度阻值表成功: C:\Users\Administrator\Desktop\上位机\Project\BL12上位机\WinformBL12上位机\BL12\bin\Debug\TempResistance\NTC.xlsx
+2024-08-08 11:15:01:254  *******配置参数加载成功*******
+2024-08-08 11:15:02:999  加载NTC温度阻值表成功: C:\Users\Administrator\Desktop\上位机\Project\BL12上位机\WinformBL12上位机\BL12\bin\Debug\TempResistance\NTC.xlsx
+2024-08-08 11:15:39:462  *******配置参数加载成功*******
+2024-08-08 11:15:41:172  加载NTC温度阻值表成功: C:\Users\Administrator\Desktop\上位机\Project\BL12上位机\WinformBL12上位机\BL12\bin\Debug\TempResistance\NTC.xlsx
+2024-08-08 11:16:45:514  *******配置参数加载成功*******
+2024-08-08 11:16:46:777  加载NTC温度阻值表成功: C:\Users\Administrator\Desktop\上位机\Project\BL12上位机\WinformBL12上位机\BL12\bin\Debug\TempResistance\NTC.xlsx
+2024-08-08 15:02:18:753  *******配置参数加载成功*******
+2024-08-08 15:02:20:656  加载NTC温度阻值表成功: C:\Users\Administrator\Desktop\上位机\Project\BL12上位机\WinformBL12上位机\BL12\bin\Debug\TempResistance\NTC.xlsx
+2024-08-08 15:03:38:150  *******配置参数加载成功*******
+2024-08-08 15:03:38:901  加载NTC温度阻值表成功: C:\Users\Administrator\Desktop\上位机\Project\BL12上位机\WinformBL12上位机\BL12\bin\Debug\TempResistance\NTC.xlsx
+2024-08-08 15:04:40:972  *******配置参数加载成功*******
+2024-08-08 15:04:42:492  加载NTC温度阻值表成功: C:\Users\Administrator\Desktop\上位机\Project\BL12上位机\WinformBL12上位机\BL12\bin\Debug\TempResistance\NTC.xlsx
+2024-08-08 15:04:42:540  服务器开启成功
+2024-08-08 15:07:46:870  *******配置参数加载成功*******
+2024-08-08 15:07:48:112  加载NTC温度阻值表成功: C:\Users\Administrator\Desktop\上位机\Project\BL12上位机\WinformBL12上位机\BL12\bin\Debug\TempResistance\NTC.xlsx
+2024-08-08 15:07:48:184  服务器开启成功:127.0.0.1:7600
+2024-08-08 15:08:17:343  连接COM11成功
+2024-08-08 15:50:38:959  *******配置参数加载成功*******
+2024-08-08 15:50:38:987  连接COM11成功
+2024-08-08 15:50:39:028  加载NTC温度阻值表成功: C:\Users\Administrator\Desktop\上位机\Project\BL12上位机\WinformBL12上位机\BL12\bin\Debug\TempResistance\NTC.xlsx
+2024-08-08 15:50:39:067  服务器开启成功:127.0.0.1:7600
+2024-08-08 16:08:27:377  *******配置参数加载成功*******
+2024-08-08 16:08:27:404  连接COM11成功
+2024-08-08 16:08:27:448  加载NTC温度阻值表成功: C:\Users\Administrator\Desktop\上位机\Project\BL12上位机\WinformBL12上位机\BL12\bin\Debug\TempResistance\NTC.xlsx
+2024-08-08 16:08:27:494  服务器开启成功:127.0.0.1:7600
+2024-08-08 16:10:09:538  *******配置参数加载成功*******
+2024-08-08 16:10:09:603  连接COM11成功
+2024-08-08 16:10:09:645  加载NTC温度阻值表成功: C:\Users\Administrator\Desktop\上位机\Project\BL12上位机\WinformBL12上位机\BL12\bin\Debug\TempResistance\NTC.xlsx
+2024-08-08 16:10:09:685  服务器开启成功:127.0.0.1:7600
+2024-08-08 16:58:38:201  *******配置参数加载成功*******
+2024-08-08 16:58:38:222  连接COM11成功
+2024-08-08 16:58:38:253  加载NTC温度阻值表成功: C:\Users\Administrator\Desktop\上位机\Project\BL12上位机\WinformBL12上位机\BL12\bin\Debug\TempResistance\NTC.xlsx
+2024-08-08 16:58:38:278  服务器开启成功:127.0.0.1:7600
+2024-08-08 16:58:50:776  *******配置参数加载成功*******
+2024-08-08 16:58:50:806  连接COM11成功
+2024-08-08 16:58:50:852  加载NTC温度阻值表成功: C:\Users\Administrator\Desktop\上位机\Project\BL12上位机\WinformBL12上位机\BL12\bin\Debug\TempResistance\NTC.xlsx
+2024-08-08 16:58:50:908  服务器开启成功:127.0.0.1:7600
+2024-08-08 17:02:14:810  *******配置参数加载成功*******
+2024-08-08 17:02:14:869  连接COM11成功
+2024-08-08 17:02:14:910  加载NTC温度阻值表成功: C:\Users\Administrator\Desktop\上位机\Project\BL12上位机\WinformBL12上位机\BL12\bin\Debug\TempResistance\NTC.xlsx
+2024-08-08 17:02:14:954  服务器开启成功:127.0.0.1:7600

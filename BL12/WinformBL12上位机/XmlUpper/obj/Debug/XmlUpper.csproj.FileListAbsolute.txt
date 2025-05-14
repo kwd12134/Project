@@ -1,0 +1,6 @@
+C:\Users\Administrator\Desktop\上位机\Project\BL12上位机\WinformBL12上位机\XmlUpper\bin\Debug\XmlUpper.dll
+C:\Users\Administrator\Desktop\上位机\Project\BL12上位机\WinformBL12上位机\XmlUpper\bin\Debug\XmlUpper.pdb
+C:\Users\Administrator\Desktop\上位机\Project\BL12上位机\WinformBL12上位机\XmlUpper\obj\Debug\XmlUpper.csproj.AssemblyReference.cache
+C:\Users\Administrator\Desktop\上位机\Project\BL12上位机\WinformBL12上位机\XmlUpper\obj\Debug\XmlUpper.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\上位机\Project\BL12上位机\WinformBL12上位机\XmlUpper\obj\Debug\XmlUpper.dll
+C:\Users\Administrator\Desktop\上位机\Project\BL12上位机\WinformBL12上位机\XmlUpper\obj\Debug\XmlUpper.pdb

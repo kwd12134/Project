@@ -1,0 +1,230 @@
+﻿2024_09_04_14:25:25:354:******************START********************
+2024_09_04_14:25:25:758:ASIL板连接中...
+2024_09_04_14:25:25:764:ASIL板已连接
+2024_09_04_14:25:26:772:精测机通信侦听中...
+2024_09_04_14:25:26:786:精测机启动侦听
+2024_09_04_14:25:26:790:PIS2通信连接中...
+2024_09_04_17:00:29:224:******************START********************
+2024_09_04_17:00:29:427:ASIL板连接中...
+2024_09_04_17:00:31:608:精测机通信侦听中...
+2024_09_04_17:00:31:618:精测机启动侦听
+2024_09_04_17:00:31:618:PIS2通信连接中...
+2024_09_04_17:01:15:093:添加配方123成功
+2024_09_04_17:01:23:164:成功保存C313RAM01.0配方参数!
+2024_09_04_17:01:31:839:成功保存C313RAM01.0配方参数!
+2024_09_04_17:01:46:865:成功保存C313RAM01.0配方参数!
+2024_09_04_17:01:52:843:ASIL板连接中...
+2024_09_04_17:01:52:848:ASIL板已连接
+2024_09_04_17:04:43:825:******************START********************
+2024_09_04_17:04:44:197:ASIL板连接中...
+2024_09_04_17:04:44:202:ASIL板已连接
+2024_09_04_17:04:45:211:精测机通信侦听中...
+2024_09_04_17:04:45:217:精测机启动侦听
+2024_09_04_17:04:45:217:PIS2通信连接中...
+2024_09_04_17:04:55:190:成功保存C313RAM01.0配方参数!
+2024_09_04_17:06:19:397:******************START********************
+2024_09_04_17:06:19:628:ASIL板连接中...
+2024_09_04_17:06:19:636:ASIL板已连接
+2024_09_04_17:06:20:650:精测机通信侦听中...
+2024_09_04_17:06:20:656:精测机启动侦听
+2024_09_04_17:06:20:656:PIS2通信连接中...
+2024_09_04_17:07:00:695:recive spot check ASIL:T6.55ANANANANANANANE
+2024_09_04_17:07:49:750:******************START********************
+2024_09_04_17:07:50:002:ASIL板连接中...
+2024_09_04_17:07:50:009:ASIL板已连接
+2024_09_04_17:07:51:023:精测机通信侦听中...
+2024_09_04_17:07:51:030:精测机启动侦听
+2024_09_04_17:07:51:033:PIS2通信连接中...
+2024_09_04_17:08:16:168:recive spot check ASIL:T6.57ANANANANANANANE
+2024_09_04_17:09:40:831:recive spot check ASIL:T6.54ANANANANANANANE
+2024_09_04_17:09:45:759:recive ASIL:T6.56ANANANANANANANE
+2024_09_04_17:09:45:788:start to Connect MCMQ
+2024_09_04_17:10:06:870:Connect MCMQ Error Code=-2002
+2024_09_04_17:17:35:248:******************START********************
+2024_09_04_17:17:35:555:ASIL板连接中...
+2024_09_04_17:17:35:562:ASIL板已连接
+2024_09_04_17:17:36:566:精测机通信侦听中...
+2024_09_04_17:17:36:572:精测机启动侦听
+2024_09_04_17:17:36:572:PIS2通信连接中...
+2024_09_04_17:18:21:925:成功保存C313RAM01.0配方参数!
+2024_09_04_17:18:51:098:recive spot check ASIL:T6.54ANANANANANANANE
+2024_09_04_17:19:13:740:recive ASIL:T6.57ANANANANANANANE
+2024_09_04_17:19:13:763:start to Connect MCMQ
+2024_09_04_17:19:34:807:Connect MCMQ Error Code=-2002
+2024_09_04_17:22:01:807:******************START********************
+2024_09_04_17:22:02:053:ASIL板连接中...
+2024_09_04_17:22:02:061:ASIL板已连接
+2024_09_04_17:22:03:071:精测机通信侦听中...
+2024_09_04_17:22:03:077:精测机启动侦听
+2024_09_04_17:22:03:078:PIS2通信连接中...
+2024_09_04_17:22:09:978:recive spot check ASIL:T6.58ANANANANANANANE
+2024_09_04_17:22:10:010:线程间操作无效: 从不是创建控件“but_spotCheck”的线程访问它。
+2024_09_04_17:23:31:055:******************START********************
+2024_09_04_17:23:31:295:ASIL板连接中...
+2024_09_04_17:23:31:302:ASIL板已连接
+2024_09_04_17:23:32:314:精测机通信侦听中...
+2024_09_04_17:23:32:320:精测机启动侦听
+2024_09_04_17:23:32:320:PIS2通信连接中...
+2024_09_04_17:23:36:304:recive spot check ASIL:T6.57ANANANANANANANE
+2024_09_04_17:23:52:059:recive ASIL:T6.55ANANANANANANANE
+2024_09_04_17:23:52:086:start to Connect MCMQ
+2024_09_04_17:24:13:127:Connect MCMQ Error Code=-2002
+2024_09_04_17:34:47:717:******************START********************
+2024_09_04_17:34:47:994:ASIL板连接中...
+2024_09_04_17:34:47:999:ASIL板已连接
+2024_09_04_17:34:49:030:精测机通信侦听中...
+2024_09_04_17:34:49:036:精测机启动侦听
+2024_09_04_17:34:49:037:PIS2通信连接中...
+2024_09_04_17:35:38:185:成功保存C313RAM01.0配方参数!
+2024_09_04_17:35:53:706:recive spot check ASIL:T6.55ANANANANANANANE
+2024_09_04_17:36:49:262:start to Connect MCMQ
+2024_09_04_17:36:49:262:recive ASIL:T6.59ANANANANANANANE
+2024_09_04_17:36:49:262:Connect MCMQ Success, returnCode =0
+2024_09_04_17:36:49:263:Connect MCMQ Success, returnCode =0
+2024_09_04_17:36:49:263:OpenreplyQueue AL994176returnCode=0
+2024_09_04_17:36:49:263:OpensendQueue S17MES.CCDreturnCode=0
+2024_09_04_17:36:49:263:Send MCMQ sendQueue=S17MES.CCD replyQueue =AL994176returnCode=0
+2024_09_04_17:36:49:263:Send MCMQ:<?xml version="1.0" encoding="UTF-8"?><trx><trx_name>CCDDataReport</trx_name><lot_no>11111111111</lot_no><iary_infos><iary><ccd_type>ASIL_FB_IO</ccd_type><max_lumi>0</max_lumi><unifomity>6.59</unifomity><jig_id>S2C1C6I0Q2F</jig_id><eqp_id>MAJCTESTYH</eqp_id><judge>NG</judge></iary></iary_infos><lm_user>DESKTOP-CJIIOBE</lm_user><lm_time>2024-09-04 05:36:44</lm_time></trx>
+2024_09_04_17:36:54:233:Recive MCMQ returnCode:0
+2024_09_04_17:36:54:234:Recive MCMQ returnMessage:
+2024_09_04_17:36:54:235:MCMQ disconnect
+2024_09_04_17:37:02:964:recive spot check ASIL:T6.56ANANANANANANANE
+2024_09_04_17:38:27:271:recive spot check ASIL:T6.54ANANANANANANANE
+2024_09_04_17:38:45:660:成功保存123配方参数!
+2024_09_04_17:38:51:817:recive spot check ASIL:T6.55ANANANANANANANE
+2024_09_04_17:39:35:029:成功保存123配方参数!
+2024_09_04_17:39:50:860:recive spot check ASIL:T6.54ANANANANANANANE
+2024_09_04_17:40:52:555:recive ASIL:T6.59ANANANANANANANE
+2024_09_04_17:40:52:576:start to Connect MCMQ
+2024_09_04_17:40:52:576:Connect MCMQ Success, returnCode =0
+2024_09_04_17:40:52:577:Connect MCMQ Success, returnCode =0
+2024_09_04_17:40:52:578:OpenreplyQueue AL994176returnCode=0
+2024_09_04_17:40:52:578:OpensendQueue S17MES.CCDreturnCode=0
+2024_09_04_17:40:52:580:Send MCMQ sendQueue=S17MES.CCD replyQueue =AL994176returnCode=0
+2024_09_04_17:40:52:580:Send MCMQ:<?xml version="1.0" encoding="UTF-8"?><trx><trx_name>CCDDataReport</trx_name><lot_no>11111111111</lot_no><iary_infos><iary><ccd_type>ASIL_FB_IO</ccd_type><max_lumi>0</max_lumi><unifomity>6.59</unifomity><jig_id>S2C1C6I0Q2F</jig_id><eqp_id>MAJCTESTYH</eqp_id><judge>OK</judge></iary></iary_infos><lm_user>DESKTOP-CJIIOBE</lm_user><lm_time>2024-09-04 05:40:52</lm_time></trx>
+2024_09_04_17:40:55:537:Recive MCMQ returnCode:0
+2024_09_04_17:40:55:538:Recive MCMQ returnMessage:
+2024_09_04_17:40:55:539:MCMQ disconnect
+2024_09_04_17:41:31:442:成功保存C313RAM01.0配方参数!
+2024_09_04_17:42:13:370:成功保存C313RAM01.0配方参数!
+2024_09_04_17:42:22:495:recive spot check ASIL:T6.56ANANANANANANANE
+2024_09_04_17:42:32:349:recive ASIL:T6.59ANANANANANANANE
+2024_09_04_17:42:32:377:start to Connect MCMQ
+2024_09_04_17:42:32:377:Connect MCMQ Success, returnCode =0
+2024_09_04_17:42:32:378:Connect MCMQ Success, returnCode =0
+2024_09_04_17:42:32:380:OpenreplyQueue AL994176returnCode=0
+2024_09_04_17:42:32:381:OpensendQueue S17MES.CCDreturnCode=0
+2024_09_04_17:42:32:383:Send MCMQ sendQueue=S17MES.CCD replyQueue =AL994176returnCode=0
+2024_09_04_17:42:32:383:Send MCMQ:<?xml version="1.0" encoding="UTF-8"?><trx><trx_name>CCDDataReport</trx_name><lot_no>11111111111</lot_no><iary_infos><iary><ccd_type>ASIL_FB_IO</ccd_type><max_lumi>0</max_lumi><unifomity>6.59</unifomity><jig_id>S2C1C6I0Q2F</jig_id><eqp_id>MAJCTESTYH</eqp_id><judge>NG</judge></iary></iary_infos><lm_user>DESKTOP-CJIIOBE</lm_user><lm_time>2024-09-04 05:42:32</lm_time></trx>
+2024_09_04_17:42:34:950:MCMQ disconnect
+2024_09_04_17:42:34:950:Recive MCMQ returnMessage:
+2024_09_04_17:42:34:950:Recive MCMQ returnCode:0
+2024_09_04_17:42:49:110:成功保存123配方参数!
+2024_09_04_17:42:54:029:recive spot check ASIL:T6.54ANANANANANANANE
+2024_09_04_18:26:44:479:******************START********************
+2024_09_04_18:26:44:753:ASIL板连接中...
+2024_09_04_18:26:44:760:ASIL板已连接
+2024_09_04_18:26:45:772:精测机通信侦听中...
+2024_09_04_18:26:45:779:精测机启动侦听
+2024_09_04_18:26:45:779:PIS2通信连接中...
+2024_09_04_18:26:57:829:recive spot check ASIL:T6.43ANANANANANANANE
+2024_09_04_18:27:16:744:成功保存123配方参数!
+2024_09_04_18:27:23:340:recive spot check ASIL:T6.5ANANANANANANANE
+2024_09_04_18:27:32:823:recive ASIL:T6.44ANANANANANANANE
+2024_09_04_18:27:32:844:start to Connect MCMQ
+2024_09_04_18:27:32:854:Connect MCMQ Success, returnCode =0
+2024_09_04_18:27:32:855:Connect MCMQ Success, returnCode =0
+2024_09_04_18:27:32:858:OpenreplyQueue AL929211returnCode=0
+2024_09_04_18:27:32:858:OpensendQueue S17MES.CCDreturnCode=0
+2024_09_04_18:27:32:861:Send MCMQ sendQueue=S17MES.CCD replyQueue =AL929211returnCode=0
+2024_09_04_18:27:32:861:Send MCMQ:<?xml version="1.0" encoding="UTF-8"?><trx><trx_name>CCDDataReport</trx_name><lot_no>11111111111</lot_no><iary_infos><iary><ccd_type>ASIL_FB_IO</ccd_type><max_lumi>0</max_lumi><unifomity>6.44</unifomity><jig_id>S2C1C6I0Q2F</jig_id><eqp_id>MAJCTESTYH</eqp_id><judge>NG</judge></iary></iary_infos><lm_user>DESKTOP-CJIIOBE</lm_user><lm_time>2024-09-04 06:27:32</lm_time></trx>
+2024_09_04_18:27:37:646:Recive MCMQ returnCode:0
+2024_09_04_18:27:37:646:Recive MCMQ returnMessage:
+2024_09_04_18:27:37:647:MCMQ disconnect
+2024_09_04_18:27:42:975:recive ASIL:T6.38ANANANANANANANE
+2024_09_04_18:27:42:996:start to Connect MCMQ
+2024_09_04_18:27:42:996:Connect MCMQ Success, returnCode =0
+2024_09_04_18:27:42:999:Connect MCMQ Success, returnCode =0
+2024_09_04_18:27:43:000:OpenreplyQueue AL929211returnCode=0
+2024_09_04_18:27:43:001:OpensendQueue S17MES.CCDreturnCode=0
+2024_09_04_18:27:43:007:Send MCMQ sendQueue=S17MES.CCD replyQueue =AL929211returnCode=0
+2024_09_04_18:27:43:007:Send MCMQ:<?xml version="1.0" encoding="UTF-8"?><trx><trx_name>CCDDataReport</trx_name><lot_no>11111111111</lot_no><iary_infos><iary><ccd_type>ASIL_FB_IO</ccd_type><max_lumi>0</max_lumi><unifomity>6.38</unifomity><jig_id>S2C1C6I0Q2F</jig_id><eqp_id>MAJCTESTYH</eqp_id><judge>NG</judge></iary></iary_infos><lm_user>DESKTOP-CJIIOBE</lm_user><lm_time>2024-09-04 06:27:42</lm_time></trx>
+2024_09_04_18:27:46:669:Recive MCMQ returnCode:0
+2024_09_04_18:27:46:669:Recive MCMQ returnMessage:
+2024_09_04_18:27:46:670:MCMQ disconnect
+2024_09_04_18:27:47:586:recive ASIL:T6.43ANANANANANANANE
+2024_09_04_18:27:47:605:start to Connect MCMQ
+2024_09_04_18:27:47:605:Connect MCMQ Success, returnCode =0
+2024_09_04_18:27:47:607:Connect MCMQ Success, returnCode =0
+2024_09_04_18:27:47:607:OpenreplyQueue AL929211returnCode=0
+2024_09_04_18:27:47:608:OpensendQueue S17MES.CCDreturnCode=0
+2024_09_04_18:27:47:610:Send MCMQ sendQueue=S17MES.CCD replyQueue =AL929211returnCode=0
+2024_09_04_18:27:47:610:Send MCMQ:<?xml version="1.0" encoding="UTF-8"?><trx><trx_name>CCDDataReport</trx_name><lot_no>11111111111</lot_no><iary_infos><iary><ccd_type>ASIL_FB_IO</ccd_type><max_lumi>0</max_lumi><unifomity>6.43</unifomity><jig_id>S2C1C6I0Q2F</jig_id><eqp_id>MAJCTESTYH</eqp_id><judge>NG</judge></iary></iary_infos><lm_user>DESKTOP-CJIIOBE</lm_user><lm_time>2024-09-04 06:27:47</lm_time></trx>
+2024_09_04_18:27:52:681:Recive MCMQ returnCode:0
+2024_09_04_18:27:52:682:Recive MCMQ returnMessage:
+2024_09_04_18:27:52:683:MCMQ disconnect
+2024_09_04_18:27:54:804:recive ASIL:T6.43ANANANANANANANE
+2024_09_04_18:27:54:826:start to Connect MCMQ
+2024_09_04_18:27:54:827:Connect MCMQ Success, returnCode =0
+2024_09_04_18:27:54:828:Connect MCMQ Success, returnCode =0
+2024_09_04_18:27:54:829:OpenreplyQueue AL929211returnCode=0
+2024_09_04_18:27:54:830:OpensendQueue S17MES.CCDreturnCode=0
+2024_09_04_18:27:54:832:Send MCMQ sendQueue=S17MES.CCD replyQueue =AL929211returnCode=0
+2024_09_04_18:27:54:832:Send MCMQ:<?xml version="1.0" encoding="UTF-8"?><trx><trx_name>CCDDataReport</trx_name><lot_no>11111111111</lot_no><iary_infos><iary><ccd_type>ASIL_FB_IO</ccd_type><max_lumi>0</max_lumi><unifomity>6.43</unifomity><jig_id>S2C1C6I0Q2F</jig_id><eqp_id>MAJCTESTYH</eqp_id><judge>NG</judge></iary></iary_infos><lm_user>DESKTOP-CJIIOBE</lm_user><lm_time>2024-09-04 06:27:54</lm_time></trx>
+2024_09_04_18:27:58:701:MCMQ disconnect
+2024_09_04_18:27:58:701:Recive MCMQ returnMessage:
+2024_09_04_18:27:58:701:Recive MCMQ returnCode:0
+2024_09_04_18:28:29:173:recive spot check ASIL:T6.45ANANANANANANANE
+2024_09_04_18:28:36:396:recive ASIL:T6.5ANANANANANANANE
+2024_09_04_18:28:47:441:Connect MCMQ Success, returnCode =0
+2024_09_04_18:28:47:442:start to Connect MCMQ
+2024_09_04_18:28:47:616:Connect MCMQ Success, returnCode =0
+2024_09_04_18:28:47:616:OpenreplyQueue AL929211returnCode=0
+2024_09_04_18:28:47:616:OpensendQueue S17MES.CCDreturnCode=0
+2024_09_04_18:28:48:388:Send MCMQ sendQueue=S17MES.CCD replyQueue =AL929211returnCode=0
+2024_09_04_18:28:48:390:Send MCMQ:<?xml version="1.0" encoding="UTF-8"?><trx><trx_name>CCDDataReport</trx_name><lot_no>11111111111</lot_no><iary_infos><iary><ccd_type>ASIL_FB_IO</ccd_type><max_lumi>0</max_lumi><unifomity>6.5</unifomity><jig_id>S2C1C6I0Q2F</jig_id><eqp_id>MAJCTESTYH</eqp_id><judge>NG</judge></iary></iary_infos><lm_user>DESKTOP-CJIIOBE</lm_user><lm_time>2024-09-04 06:28:46</lm_time></trx>
+2024_09_04_18:43:34:807:******************START********************
+2024_09_04_18:43:35:006:ASIL板连接中...
+2024_09_04_18:43:36:351:精测机通信侦听中...
+2024_09_04_18:43:36:367:精测机启动侦听
+2024_09_04_18:43:36:368:PIS2通信连接中...
+2024_09_04_18:43:54:571:ASIL板连接中...
+2024_09_04_18:43:56:577:ASIL板连接中...
+2024_09_04_18:44:07:920:ASIL板连接中...
+2024_09_04_18:44:07:923:ASIL板已连接
+2024_09_04_18:44:12:863:recive spot check ASIL:T6.52ANANANANANANANE
+2024_09_04_18:44:21:360:recive ASIL:T6.51ANANANANANANANE
+2024_09_04_18:44:21:384:start to Connect MCMQ
+2024_09_04_18:44:21:393:Connect MCMQ Success, returnCode =0
+2024_09_04_18:44:21:395:Connect MCMQ Success, returnCode =0
+2024_09_04_18:44:21:398:OpenreplyQueue AL111134returnCode=0
+2024_09_04_18:44:21:398:OpensendQueue S17MES.CCDreturnCode=0
+2024_09_04_18:44:21:400:Send MCMQ sendQueue=S17MES.CCD replyQueue =AL111134returnCode=0
+2024_09_04_18:44:21:400:Send MCMQ:<?xml version="1.0" encoding="UTF-8"?><trx><trx_name>CCDDataReport</trx_name><lot_no>11111111111</lot_no><iary_infos><iary><ccd_type>ASIL_FB_IO</ccd_type><max_lumi>0</max_lumi><unifomity>6.51</unifomity><jig_id>S2C1C6I0Q2F</jig_id><eqp_id>MAJCTESTYH</eqp_id><judge>NG</judge></iary></iary_infos><lm_user>DESKTOP-CJIIOBE</lm_user><lm_time>2024-09-04 06:44:21</lm_time></trx>
+2024_09_04_18:44:24:644:recive ASIL:T6.42ANANANANANANANE
+2024_09_04_18:44:25:487:Recive MCMQ returnCode:0
+2024_09_04_18:44:25:487:Recive MCMQ returnMessage:
+2024_09_04_18:44:25:488:MCMQ disconnect
+2024_09_04_18:44:25:489:start to Connect MCMQ
+2024_09_04_18:44:25:490:Connect MCMQ Success, returnCode =0
+2024_09_04_18:44:25:491:Connect MCMQ Success, returnCode =0
+2024_09_04_18:44:25:492:OpenreplyQueue AL111134returnCode=0
+2024_09_04_18:44:25:493:OpensendQueue S17MES.CCDreturnCode=0
+2024_09_04_18:44:25:494:Send MCMQ sendQueue=S17MES.CCD replyQueue =AL111134returnCode=0
+2024_09_04_18:44:25:494:Send MCMQ:<?xml version="1.0" encoding="UTF-8"?><trx><trx_name>CCDDataReport</trx_name><lot_no>11111111111</lot_no><iary_infos><iary><ccd_type>ASIL_FB_IO</ccd_type><max_lumi>0</max_lumi><unifomity>6.42</unifomity><jig_id>S2C1C6I0Q2F</jig_id><eqp_id>MAJCTESTYH</eqp_id><judge>NG</judge></iary></iary_infos><lm_user>DESKTOP-CJIIOBE</lm_user><lm_time>2024-09-04 06:44:24</lm_time></trx>
+2024_09_04_18:44:26:950:recive ASIL:T6.52ANANANANANANANE
+2024_09_04_18:44:28:495:MCMQ disconnect
+2024_09_04_18:44:28:496:Recive MCMQ returnMessage:
+2024_09_04_18:44:28:496:Recive MCMQ returnCode:0
+2024_09_04_18:44:31:510:MCMQ disconnect
+2024_09_04_18:44:31:510:Recive MCMQ returnMessage:
+2024_09_04_18:44:31:510:Recive MCMQ returnCode:0
+2024_09_04_18:44:31:510:Send MCMQ:<?xml version="1.0" encoding="UTF-8"?><trx><trx_name>CCDDataReport</trx_name><lot_no>11111111111</lot_no><iary_infos><iary><ccd_type>ASIL_FB_IO</ccd_type><max_lumi>0</max_lumi><unifomity>6.52</unifomity><jig_id>S2C1C6I0Q2F</jig_id><eqp_id>MAJCTESTYH</eqp_id><judge>NG</judge></iary></iary_infos><lm_user>DESKTOP-CJIIOBE</lm_user><lm_time>2024-09-04 06:44:26</lm_time></trx>
+2024_09_04_18:44:31:510:Send MCMQ sendQueue=S17MES.CCD replyQueue =AL111134returnCode=0
+2024_09_04_18:44:31:510:OpensendQueue S17MES.CCDreturnCode=0
+2024_09_04_18:44:31:511:OpenreplyQueue AL111134returnCode=0
+2024_09_04_18:44:31:511:Connect MCMQ Success, returnCode =0
+2024_09_04_18:44:31:511:Connect MCMQ Success, returnCode =0
+2024_09_04_18:44:31:511:start to Connect MCMQ
+2024_09_04_18:44:38:142:无法访问已释放的对象。
+对象名:“ComAssistance”。

@@ -1,0 +1,1048 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\Danikor\\Danikor\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{83C390D4-6C66-4378-8CCF-BB5BF7E9CBAD}|Helper\\Helper.csproj|F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\Danikor\\Danikor\\helper\\queuelock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{83C390D4-6C66-4378-8CCF-BB5BF7E9CBAD}|Helper\\Helper.csproj|solutionrelative:helper\\queuelock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F93EE48-53E6-4025-80A3-146C96FEBEA2}|Data\\Data.csproj|f:\\learning\\c#\u4E0A\u4F4D\u673A\\project\\danikor\\danikor\\data\\variable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F93EE48-53E6-4025-80A3-146C96FEBEA2}|Data\\Data.csproj|solutionrelative:data\\variable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F93EE48-53E6-4025-80A3-146C96FEBEA2}|Data\\Data.csproj|F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\Danikor\\Danikor\\data\\xmldata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F93EE48-53E6-4025-80A3-146C96FEBEA2}|Data\\Data.csproj|solutionrelative:data\\xmldata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83C390D4-6C66-4378-8CCF-BB5BF7E9CBAD}|Helper\\Helper.csproj|F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\Danikor\\Danikor\\helper\\csvhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{83C390D4-6C66-4378-8CCF-BB5BF7E9CBAD}|Helper\\Helper.csproj|solutionrelative:helper\\csvhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F93EE48-53E6-4025-80A3-146C96FEBEA2}|Data\\Data.csproj|F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\Danikor\\Danikor\\data\\deviceparameter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F93EE48-53E6-4025-80A3-146C96FEBEA2}|Data\\Data.csproj|solutionrelative:data\\deviceparameter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F93EE48-53E6-4025-80A3-146C96FEBEA2}|Data\\Data.csproj|F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\Danikor\\Danikor\\data\\devicehistorydata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F93EE48-53E6-4025-80A3-146C96FEBEA2}|Data\\Data.csproj|solutionrelative:data\\devicehistorydata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F93EE48-53E6-4025-80A3-146C96FEBEA2}|Data\\Data.csproj|F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\Danikor\\Danikor\\data\\deviceenums.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F93EE48-53E6-4025-80A3-146C96FEBEA2}|Data\\Data.csproj|solutionrelative:data\\deviceenums.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F93EE48-53E6-4025-80A3-146C96FEBEA2}|Data\\Data.csproj|F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\Danikor\\Danikor\\data\\deviceresultreaddate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F93EE48-53E6-4025-80A3-146C96FEBEA2}|Data\\Data.csproj|solutionrelative:data\\deviceresultreaddate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E91B2EC-517F-43B7-914C-9831D3B5149E}|MCMQ\\MCMQ.csproj|F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\Danikor\\Danikor\\mcmq\\mcmq.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E91B2EC-517F-43B7-914C-9831D3B5149E}|MCMQ\\MCMQ.csproj|solutionrelative:mcmq\\mcmq.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E91B2EC-517F-43B7-914C-9831D3B5149E}|MCMQ\\MCMQ.csproj|F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\Danikor\\Danikor\\mcmq\\mcmqserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E91B2EC-517F-43B7-914C-9831D3B5149E}|MCMQ\\MCMQ.csproj|solutionrelative:mcmq\\mcmqserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E91B2EC-517F-43B7-914C-9831D3B5149E}|MCMQ\\MCMQ.csproj|F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\Danikor\\Danikor\\mcmq\\xmldatareport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E91B2EC-517F-43B7-914C-9831D3B5149E}|MCMQ\\MCMQ.csproj|solutionrelative:mcmq\\xmldatareport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E91B2EC-517F-43B7-914C-9831D3B5149E}|MCMQ\\MCMQ.csproj|F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\Danikor\\Danikor\\mcmq\\xmlsnvalidationrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E91B2EC-517F-43B7-914C-9831D3B5149E}|MCMQ\\MCMQ.csproj|solutionrelative:mcmq\\xmlsnvalidationrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E91B2EC-517F-43B7-914C-9831D3B5149E}|MCMQ\\MCMQ.csproj|F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\Danikor\\Danikor\\mcmq\\xmlsnvalidationresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E91B2EC-517F-43B7-914C-9831D3B5149E}|MCMQ\\MCMQ.csproj|solutionrelative:mcmq\\xmlsnvalidationresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E91B2EC-517F-43B7-914C-9831D3B5149E}|MCMQ\\MCMQ.csproj|F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\Danikor\\Danikor\\mcmq\\xmlstationrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E91B2EC-517F-43B7-914C-9831D3B5149E}|MCMQ\\MCMQ.csproj|solutionrelative:mcmq\\xmlstationrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E91B2EC-517F-43B7-914C-9831D3B5149E}|MCMQ\\MCMQ.csproj|F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\Danikor\\Danikor\\mcmq\\xmlstationresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E91B2EC-517F-43B7-914C-9831D3B5149E}|MCMQ\\MCMQ.csproj|solutionrelative:mcmq\\xmlstationresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD01EBEB-6546-455F-8FA0-13B7FB0B8C60}|Danikor\\Danikor.csproj|F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\Danikor\\Danikor\\danikor\\frmhistory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD01EBEB-6546-455F-8FA0-13B7FB0B8C60}|Danikor\\Danikor.csproj|solutionrelative:danikor\\frmhistory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD01EBEB-6546-455F-8FA0-13B7FB0B8C60}|Danikor\\Danikor.csproj|F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\Danikor\\Danikor\\danikor\\frmhistory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{FD01EBEB-6546-455F-8FA0-13B7FB0B8C60}|Danikor\\Danikor.csproj|solutionrelative:danikor\\frmhistory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD01EBEB-6546-455F-8FA0-13B7FB0B8C60}|Danikor\\Danikor.csproj|F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\Danikor\\Danikor\\danikor\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{FD01EBEB-6546-455F-8FA0-13B7FB0B8C60}|Danikor\\Danikor.csproj|solutionrelative:danikor\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD01EBEB-6546-455F-8FA0-13B7FB0B8C60}|Danikor\\Danikor.csproj|F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\Danikor\\Danikor\\danikor\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD01EBEB-6546-455F-8FA0-13B7FB0B8C60}|Danikor\\Danikor.csproj|solutionrelative:danikor\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD01EBEB-6546-455F-8FA0-13B7FB0B8C60}|Danikor\\Danikor.csproj|F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\Danikor\\Danikor\\danikor\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{FD01EBEB-6546-455F-8FA0-13B7FB0B8C60}|Danikor\\Danikor.csproj|solutionrelative:danikor\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD01EBEB-6546-455F-8FA0-13B7FB0B8C60}|Danikor\\Danikor.csproj|F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\Danikor\\Danikor\\danikor\\frmchangepassword.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{FD01EBEB-6546-455F-8FA0-13B7FB0B8C60}|Danikor\\Danikor.csproj|solutionrelative:danikor\\frmchangepassword.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD01EBEB-6546-455F-8FA0-13B7FB0B8C60}|Danikor\\Danikor.csproj|F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\Danikor\\Danikor\\danikor\\frmcommunicateconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{FD01EBEB-6546-455F-8FA0-13B7FB0B8C60}|Danikor\\Danikor.csproj|solutionrelative:danikor\\frmcommunicateconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|Danikor||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD01EBEB-6546-455F-8FA0-13B7FB0B8C60}|Danikor\\Danikor.csproj|F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\Danikor\\Danikor\\danikor\\frmparamentrecipe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{FD01EBEB-6546-455F-8FA0-13B7FB0B8C60}|Danikor\\Danikor.csproj|solutionrelative:danikor\\frmparamentrecipe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD01EBEB-6546-455F-8FA0-13B7FB0B8C60}|Danikor\\Danikor.csproj|F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\Danikor\\Danikor\\danikor\\frmrefreshparameter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD01EBEB-6546-455F-8FA0-13B7FB0B8C60}|Danikor\\Danikor.csproj|solutionrelative:danikor\\frmrefreshparameter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD01EBEB-6546-455F-8FA0-13B7FB0B8C60}|Danikor\\Danikor.csproj|F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\Danikor\\Danikor\\danikor\\frmrefreshparameter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{FD01EBEB-6546-455F-8FA0-13B7FB0B8C60}|Danikor\\Danikor.csproj|solutionrelative:danikor\\frmrefreshparameter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD01EBEB-6546-455F-8FA0-13B7FB0B8C60}|Danikor\\Danikor.csproj|F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\Danikor\\Danikor\\danikor\\frmparamentrecipe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD01EBEB-6546-455F-8FA0-13B7FB0B8C60}|Danikor\\Danikor.csproj|solutionrelative:danikor\\frmparamentrecipe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD01EBEB-6546-455F-8FA0-13B7FB0B8C60}|Danikor\\Danikor.csproj|F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\Danikor\\Danikor\\danikor\\frmcommunicateconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD01EBEB-6546-455F-8FA0-13B7FB0B8C60}|Danikor\\Danikor.csproj|solutionrelative:danikor\\frmcommunicateconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD01EBEB-6546-455F-8FA0-13B7FB0B8C60}|Danikor\\Danikor.csproj|F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\Danikor\\Danikor\\danikor\\frmchangepassword.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD01EBEB-6546-455F-8FA0-13B7FB0B8C60}|Danikor\\Danikor.csproj|solutionrelative:danikor\\frmchangepassword.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD01EBEB-6546-455F-8FA0-13B7FB0B8C60}|Danikor\\Danikor.csproj|F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\Danikor\\Danikor\\danikor\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD01EBEB-6546-455F-8FA0-13B7FB0B8C60}|Danikor\\Danikor.csproj|solutionrelative:danikor\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83C390D4-6C66-4378-8CCF-BB5BF7E9CBAD}|Helper\\Helper.csproj|F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\Danikor\\Danikor\\helper\\xmlhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{83C390D4-6C66-4378-8CCF-BB5BF7E9CBAD}|Helper\\Helper.csproj|solutionrelative:helper\\xmlhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{295805AA-7B2D-4831-9DBF-F03B53F0201C}|Communication\\Communication.csproj|F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\Danikor\\Danikor\\communication\\tclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{295805AA-7B2D-4831-9DBF-F03B53F0201C}|Communication\\Communication.csproj|solutionrelative:communication\\tclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E91B2EC-517F-43B7-914C-9831D3B5149E}|MCMQ\\MCMQ.csproj|F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\Danikor\\Danikor\\mcmq\\imcmq.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E91B2EC-517F-43B7-914C-9831D3B5149E}|MCMQ\\MCMQ.csproj|solutionrelative:mcmq\\imcmq.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD01EBEB-6546-455F-8FA0-13B7FB0B8C60}|Danikor\\Danikor.csproj|F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\Danikor\\Danikor\\danikor\\servicelocator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD01EBEB-6546-455F-8FA0-13B7FB0B8C60}|Danikor\\Danikor.csproj|solutionrelative:danikor\\servicelocator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83C390D4-6C66-4378-8CCF-BB5BF7E9CBAD}|Helper\\Helper.csproj|F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\Danikor\\Danikor\\helper\\excelhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{83C390D4-6C66-4378-8CCF-BB5BF7E9CBAD}|Helper\\Helper.csproj|solutionrelative:helper\\excelhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD01EBEB-6546-455F-8FA0-13B7FB0B8C60}|Danikor\\Danikor.csproj|F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\Danikor\\Danikor\\danikor\\properties\\resources.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}",
+      "RelativeMoniker": "D:0:0:{FD01EBEB-6546-455F-8FA0-13B7FB0B8C60}|Danikor\\Danikor.csproj|solutionrelative:danikor\\properties\\resources.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD01EBEB-6546-455F-8FA0-13B7FB0B8C60}|Danikor\\Danikor.csproj|F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\Danikor\\Danikor\\danikor\\frmtest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{FD01EBEB-6546-455F-8FA0-13B7FB0B8C60}|Danikor\\Danikor.csproj|solutionrelative:danikor\\frmtest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD01EBEB-6546-455F-8FA0-13B7FB0B8C60}|Danikor\\Danikor.csproj|F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\Danikor\\Danikor\\danikor\\frmuserlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{FD01EBEB-6546-455F-8FA0-13B7FB0B8C60}|Danikor\\Danikor.csproj|solutionrelative:danikor\\frmuserlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83C390D4-6C66-4378-8CCF-BB5BF7E9CBAD}|Helper\\Helper.csproj|F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\Danikor\\Danikor\\helper\\iniconfighelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{83C390D4-6C66-4378-8CCF-BB5BF7E9CBAD}|Helper\\Helper.csproj|solutionrelative:helper\\iniconfighelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83C390D4-6C66-4378-8CCF-BB5BF7E9CBAD}|Helper\\Helper.csproj|F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\Danikor\\Danikor\\helper\\jsonhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{83C390D4-6C66-4378-8CCF-BB5BF7E9CBAD}|Helper\\Helper.csproj|solutionrelative:helper\\jsonhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD01EBEB-6546-455F-8FA0-13B7FB0B8C60}|Danikor\\Danikor.csproj|F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\Danikor\\Danikor\\danikor\\datagridviewhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD01EBEB-6546-455F-8FA0-13B7FB0B8C60}|Danikor\\Danikor.csproj|solutionrelative:danikor\\datagridviewhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F93EE48-53E6-4025-80A3-146C96FEBEA2}|Data\\Data.csproj|F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\Danikor\\Danikor\\data\\devicerealtimedata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F93EE48-53E6-4025-80A3-146C96FEBEA2}|Data\\Data.csproj|solutionrelative:data\\devicerealtimedata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD01EBEB-6546-455F-8FA0-13B7FB0B8C60}|Danikor\\Danikor.csproj|F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\Danikor\\Danikor\\danikor\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD01EBEB-6546-455F-8FA0-13B7FB0B8C60}|Danikor\\Danikor.csproj|solutionrelative:danikor\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{295805AA-7B2D-4831-9DBF-F03B53F0201C}|Communication\\Communication.csproj|F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\Danikor\\Danikor\\communication\\itcpclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{295805AA-7B2D-4831-9DBF-F03B53F0201C}|Communication\\Communication.csproj|solutionrelative:communication\\itcpclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD01EBEB-6546-455F-8FA0-13B7FB0B8C60}|Danikor\\Danikor.csproj|F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\Danikor\\Danikor\\danikor\\properties\\settings.settings||{6D2695F9-5365-4A78-89ED-F205C045BFE6}",
+      "RelativeMoniker": "D:0:0:{FD01EBEB-6546-455F-8FA0-13B7FB0B8C60}|Danikor\\Danikor.csproj|solutionrelative:danikor\\properties\\settings.settings||{6D2695F9-5365-4A78-89ED-F205C045BFE6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F93EE48-53E6-4025-80A3-146C96FEBEA2}|Data\\Data.csproj|F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\Danikor\\Danikor\\data\\recipeparameter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F93EE48-53E6-4025-80A3-146C96FEBEA2}|Data\\Data.csproj|solutionrelative:data\\recipeparameter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{295805AA-7B2D-4831-9DBF-F03B53F0201C}|Communication\\Communication.csproj|F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\Danikor\\Danikor\\communication\\datahelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{295805AA-7B2D-4831-9DBF-F03B53F0201C}|Communication\\Communication.csproj|solutionrelative:communication\\datahelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{295805AA-7B2D-4831-9DBF-F03B53F0201C}|Communication\\Communication.csproj|F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\Danikor\\Danikor\\communication\\tcp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{295805AA-7B2D-4831-9DBF-F03B53F0201C}|Communication\\Communication.csproj|solutionrelative:communication\\tcp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Administrator\\Desktop\\\u4E0A\u4F4D\u673A\\Project\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{295805AA-7B2D-4831-9DBF-F03B53F0201C}|Communication\\Communication.csproj|F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\Danikor\\Danikor\\communication\\rtu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{295805AA-7B2D-4831-9DBF-F03B53F0201C}|Communication\\Communication.csproj|solutionrelative:communication\\rtu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD01EBEB-6546-455F-8FA0-13B7FB0B8C60}|Danikor\\Danikor.csproj|F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\Danikor\\Danikor\\danikor\\frmuserlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD01EBEB-6546-455F-8FA0-13B7FB0B8C60}|Danikor\\Danikor.csproj|solutionrelative:danikor\\frmuserlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD01EBEB-6546-455F-8FA0-13B7FB0B8C60}|Danikor\\Danikor.csproj|F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\Danikor\\Danikor\\danikor\\frmtest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD01EBEB-6546-455F-8FA0-13B7FB0B8C60}|Danikor\\Danikor.csproj|solutionrelative:danikor\\frmtest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD01EBEB-6546-455F-8FA0-13B7FB0B8C60}|Danikor\\Danikor.csproj|F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\Danikor\\Danikor\\danikor\\frmmain.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD01EBEB-6546-455F-8FA0-13B7FB0B8C60}|Danikor\\Danikor.csproj|solutionrelative:danikor\\frmmain.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD01EBEB-6546-455F-8FA0-13B7FB0B8C60}|Danikor\\Danikor.csproj|F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\Danikor\\Danikor\\danikor\\frmtest.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD01EBEB-6546-455F-8FA0-13B7FB0B8C60}|Danikor\\Danikor.csproj|solutionrelative:danikor\\frmtest.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F93EE48-53E6-4025-80A3-146C96FEBEA2}|Data\\Data.csproj|F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\Danikor\\Danikor\\data\\systemsetting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F93EE48-53E6-4025-80A3-146C96FEBEA2}|Data\\Data.csproj|solutionrelative:data\\systemsetting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F93EE48-53E6-4025-80A3-146C96FEBEA2}|Data\\Data.csproj|F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\Danikor\\Danikor\\data\\devicerecipeinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F93EE48-53E6-4025-80A3-146C96FEBEA2}|Data\\Data.csproj|solutionrelative:data\\devicerecipeinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD01EBEB-6546-455F-8FA0-13B7FB0B8C60}|Danikor\\Danikor.csproj|F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\Danikor\\Danikor\\danikor\\frmcommunicateconfig.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD01EBEB-6546-455F-8FA0-13B7FB0B8C60}|Danikor\\Danikor.csproj|solutionrelative:danikor\\frmcommunicateconfig.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Administrator\\Desktop\\\u4E0A\u4F4D\u673A\\Helper\\SunnyUI-master\\SunnyUI\\Charts\\UILineChartOption.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD01EBEB-6546-455F-8FA0-13B7FB0B8C60}|Danikor\\Danikor.csproj|F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\Danikor\\Danikor\\danikor\\frmlogin.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD01EBEB-6546-455F-8FA0-13B7FB0B8C60}|Danikor\\Danikor.csproj|solutionrelative:danikor\\frmlogin.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F93EE48-53E6-4025-80A3-146C96FEBEA2}|Data\\Data.csproj|F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\Danikor\\Danikor\\data\\jobparameter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F93EE48-53E6-4025-80A3-146C96FEBEA2}|Data\\Data.csproj|solutionrelative:data\\jobparameter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F93EE48-53E6-4025-80A3-146C96FEBEA2}|Data\\Data.csproj|F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\Danikor\\Danikor\\data\\devicerunstatusdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F93EE48-53E6-4025-80A3-146C96FEBEA2}|Data\\Data.csproj|solutionrelative:data\\devicerunstatusdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Administrator\\Desktop\\\u4E0A\u4F4D\u673A\\Helper\\FSCADA-\u591A\u5143\u5316\u6846\u67B6\u5E93\u5F00\u53D1\u5B9E\u6218\\\u3010\u65B0\u9601\u6559\u80B2\u30113.01-12\u3010\u5FC5\u5907\u5DE5\u5177\u5E93\u3011\\\u53C2\u8003\u6E90\u7801\\\u53C2\u8003\u6E90\u7801\\thinger.ToolsLibDemo\\thinger.ToolsLib\\JsonHelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Administrator\\Desktop\\\u4E0A\u4F4D\u673A\\Helper\\SunnyUI-master\\SunnyUI\\Common\\UGraphics.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Administrator\\Desktop\\\u4E0A\u4F4D\u673A\\Helper\\SunnyUI-master\\SunnyUI\\Charts\\UILineChart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD01EBEB-6546-455F-8FA0-13B7FB0B8C60}|Danikor\\Danikor.csproj|F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\Danikor\\Danikor\\danikor\\properties\\resources.resx||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{FD01EBEB-6546-455F-8FA0-13B7FB0B8C60}|Danikor\\Danikor.csproj|solutionrelative:danikor\\properties\\resources.resx||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 11,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "FrmMain.cs [\u8BBE\u8BA1]",
+              "DocumentMoniker": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\Danikor\\Danikor\\Danikor\\FrmMain.cs",
+              "RelativeDocumentMoniker": "Danikor\\FrmMain.cs",
+              "ToolTip": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\Danikor\\Danikor\\Danikor\\FrmMain.cs [\u8BBE\u8BA1]*",
+              "RelativeToolTip": "Danikor\\FrmMain.cs [\u8BBE\u8BA1]*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-13T01:03:39.72Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "FrmHistory.cs [\u8BBE\u8BA1]",
+              "DocumentMoniker": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\Danikor\\Danikor\\Danikor\\FrmHistory.cs",
+              "RelativeDocumentMoniker": "Danikor\\FrmHistory.cs",
+              "ToolTip": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\Danikor\\Danikor\\Danikor\\FrmHistory.cs [\u8BBE\u8BA1]",
+              "RelativeToolTip": "Danikor\\FrmHistory.cs [\u8BBE\u8BA1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-16T05:30:28.757Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "FrmCommunicateConfig.cs [\u8BBE\u8BA1]",
+              "DocumentMoniker": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\Danikor\\Danikor\\Danikor\\FrmCommunicateConfig.cs",
+              "RelativeDocumentMoniker": "Danikor\\FrmCommunicateConfig.cs",
+              "ToolTip": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\Danikor\\Danikor\\Danikor\\FrmCommunicateConfig.cs [\u8BBE\u8BA1]",
+              "RelativeToolTip": "Danikor\\FrmCommunicateConfig.cs [\u8BBE\u8BA1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-16T08:45:18.694Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "FrmParamentRecipe.cs [\u8BBE\u8BA1]",
+              "DocumentMoniker": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\Danikor\\Danikor\\Danikor\\FrmParamentRecipe.cs",
+              "RelativeDocumentMoniker": "Danikor\\FrmParamentRecipe.cs",
+              "ToolTip": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\Danikor\\Danikor\\Danikor\\FrmParamentRecipe.cs [\u8BBE\u8BA1]",
+              "RelativeToolTip": "Danikor\\FrmParamentRecipe.cs [\u8BBE\u8BA1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-18T08:22:14.545Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "RecipeParameter.cs",
+              "DocumentMoniker": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\Danikor\\Danikor\\Data\\RecipeParameter.cs",
+              "RelativeDocumentMoniker": "Data\\RecipeParameter.cs",
+              "ToolTip": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\Danikor\\Danikor\\Data\\RecipeParameter.cs",
+              "RelativeToolTip": "Data\\RecipeParameter.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T02:18:31.912Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "XMLData.cs",
+              "DocumentMoniker": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\Danikor\\Danikor\\Data\\XMLData.cs",
+              "RelativeDocumentMoniker": "Data\\XMLData.cs",
+              "ToolTip": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\Danikor\\Danikor\\Data\\XMLData.cs",
+              "RelativeToolTip": "Data\\XMLData.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAawBIAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-13T05:11:21.842Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Variable.cs",
+              "DocumentMoniker": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\Danikor\\Danikor\\Data\\Variable.cs",
+              "RelativeDocumentMoniker": "Data\\Variable.cs",
+              "ToolTip": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\Danikor\\Danikor\\Data\\Variable.cs",
+              "RelativeToolTip": "Data\\Variable.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-14T05:08:49.879Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "QueueLock.cs",
+              "DocumentMoniker": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\Danikor\\Danikor\\Helper\\QueueLock.cs",
+              "RelativeDocumentMoniker": "Helper\\QueueLock.cs",
+              "ToolTip": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\Danikor\\Danikor\\Helper\\QueueLock.cs",
+              "RelativeToolTip": "Helper\\QueueLock.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAlwBQAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T01:05:23.271Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "DeviceEnums.cs",
+              "DocumentMoniker": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\Danikor\\Danikor\\Data\\DeviceEnums.cs",
+              "RelativeDocumentMoniker": "Data\\DeviceEnums.cs",
+              "ToolTip": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\Danikor\\Danikor\\Data\\DeviceEnums.cs",
+              "RelativeToolTip": "Data\\DeviceEnums.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-19T01:12:39.702Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DeviceHistoryData.cs",
+              "DocumentMoniker": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\Danikor\\Danikor\\Data\\DeviceHistoryData.cs",
+              "RelativeDocumentMoniker": "Data\\DeviceHistoryData.cs",
+              "ToolTip": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\Danikor\\Danikor\\Data\\DeviceHistoryData.cs",
+              "RelativeToolTip": "Data\\DeviceHistoryData.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-14T06:01:44.302Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CsvHelper.cs",
+              "DocumentMoniker": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\Danikor\\Danikor\\Helper\\CsvHelper.cs",
+              "RelativeDocumentMoniker": "Helper\\CsvHelper.cs",
+              "ToolTip": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\Danikor\\Danikor\\Helper\\CsvHelper.cs",
+              "RelativeToolTip": "Helper\\CsvHelper.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAAAC0AAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-18T07:05:13.958Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DeviceParameter.cs",
+              "DocumentMoniker": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\Danikor\\Danikor\\Data\\DeviceParameter.cs",
+              "RelativeDocumentMoniker": "Data\\DeviceParameter.cs",
+              "ToolTip": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\Danikor\\Danikor\\Data\\DeviceParameter.cs",
+              "RelativeToolTip": "Data\\DeviceParameter.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAwAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-25T05:11:55.71Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "DeviceResultReadDate.cs",
+              "DocumentMoniker": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\Danikor\\Danikor\\Data\\DeviceResultReadDate.cs",
+              "RelativeDocumentMoniker": "Data\\DeviceResultReadDate.cs",
+              "ToolTip": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\Danikor\\Danikor\\Data\\DeviceResultReadDate.cs",
+              "RelativeToolTip": "Data\\DeviceResultReadDate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-16T08:14:14.729Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Mcmq.cs",
+              "DocumentMoniker": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\Danikor\\Danikor\\MCMQ\\Mcmq.cs",
+              "RelativeDocumentMoniker": "MCMQ\\Mcmq.cs",
+              "ToolTip": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\Danikor\\Danikor\\MCMQ\\Mcmq.cs",
+              "RelativeToolTip": "MCMQ\\Mcmq.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-07T00:52:33.857Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "McmqServer.cs",
+              "DocumentMoniker": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\Danikor\\Danikor\\MCMQ\\McmqServer.cs",
+              "RelativeDocumentMoniker": "MCMQ\\McmqServer.cs",
+              "ToolTip": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\Danikor\\Danikor\\MCMQ\\McmqServer.cs",
+              "RelativeToolTip": "MCMQ\\McmqServer.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAMAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-07T07:04:44.811Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "XmlDataReport.cs",
+              "DocumentMoniker": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\Danikor\\Danikor\\MCMQ\\XmlDataReport.cs",
+              "RelativeDocumentMoniker": "MCMQ\\XmlDataReport.cs",
+              "ToolTip": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\Danikor\\Danikor\\MCMQ\\XmlDataReport.cs",
+              "RelativeToolTip": "MCMQ\\XmlDataReport.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAYwLAAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-07T07:24:21.036Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "XmlSnValidationRequest.cs",
+              "DocumentMoniker": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\Danikor\\Danikor\\MCMQ\\XmlSnValidationRequest.cs",
+              "RelativeDocumentMoniker": "MCMQ\\XmlSnValidationRequest.cs",
+              "ToolTip": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\Danikor\\Danikor\\MCMQ\\XmlSnValidationRequest.cs",
+              "RelativeToolTip": "MCMQ\\XmlSnValidationRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-07T07:29:05.755Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "XmlSnValidationResult.cs",
+              "DocumentMoniker": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\Danikor\\Danikor\\MCMQ\\XmlSnValidationResult.cs",
+              "RelativeDocumentMoniker": "MCMQ\\XmlSnValidationResult.cs",
+              "ToolTip": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\Danikor\\Danikor\\MCMQ\\XmlSnValidationResult.cs",
+              "RelativeToolTip": "MCMQ\\XmlSnValidationResult.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-11T07:49:48.37Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "XmlStationRequest.cs",
+              "DocumentMoniker": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\Danikor\\Danikor\\MCMQ\\XmlStationRequest.cs",
+              "RelativeDocumentMoniker": "MCMQ\\XmlStationRequest.cs",
+              "ToolTip": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\Danikor\\Danikor\\MCMQ\\XmlStationRequest.cs",
+              "RelativeToolTip": "MCMQ\\XmlStationRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAIQAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-07T09:10:11.686Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "XmlStationResponse.cs",
+              "DocumentMoniker": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\Danikor\\Danikor\\MCMQ\\XmlStationResponse.cs",
+              "RelativeDocumentMoniker": "MCMQ\\XmlStationResponse.cs",
+              "ToolTip": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\Danikor\\Danikor\\MCMQ\\XmlStationResponse.cs",
+              "RelativeToolTip": "MCMQ\\XmlStationResponse.cs",
+              "ViewState": "AgIAAF4AAAAAAAAAAAAAAHAAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-11T07:50:20.144Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "FrmHistory.cs",
+              "DocumentMoniker": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\Danikor\\Danikor\\Danikor\\FrmHistory.cs",
+              "RelativeDocumentMoniker": "Danikor\\FrmHistory.cs",
+              "ToolTip": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\Danikor\\Danikor\\Danikor\\FrmHistory.cs",
+              "RelativeToolTip": "Danikor\\FrmHistory.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAAAEYAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-16T05:30:31.133Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "FrmMain.cs",
+              "DocumentMoniker": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\Danikor\\Danikor\\Danikor\\FrmMain.cs",
+              "RelativeDocumentMoniker": "Danikor\\FrmMain.cs",
+              "ToolTip": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\Danikor\\Danikor\\Danikor\\FrmMain.cs*",
+              "RelativeToolTip": "Danikor\\FrmMain.cs*",
+              "ViewState": "AgIAAKkAAAAAAAAAAAAQwOUDAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-13T07:25:31.832Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "FrmLogin.cs [\u8BBE\u8BA1]",
+              "DocumentMoniker": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\Danikor\\Danikor\\Danikor\\FrmLogin.cs",
+              "RelativeDocumentMoniker": "Danikor\\FrmLogin.cs",
+              "ToolTip": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\Danikor\\Danikor\\Danikor\\FrmLogin.cs [\u8BBE\u8BA1]",
+              "RelativeToolTip": "Danikor\\FrmLogin.cs [\u8BBE\u8BA1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-13T07:32:23.046Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "FrmChangePassword.cs [\u8BBE\u8BA1]",
+              "DocumentMoniker": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\Danikor\\Danikor\\Danikor\\FrmChangePassword.cs",
+              "RelativeDocumentMoniker": "Danikor\\FrmChangePassword.cs",
+              "ToolTip": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\Danikor\\Danikor\\Danikor\\FrmChangePassword.cs [\u8BBE\u8BA1]",
+              "RelativeToolTip": "Danikor\\FrmChangePassword.cs [\u8BBE\u8BA1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-28T00:40:12.366Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Danikor",
+              "DocumentMoniker": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\Danikor\\Danikor\\Danikor\\Danikor.csproj",
+              "RelativeDocumentMoniker": "Danikor\\Danikor.csproj",
+              "ToolTip": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\Danikor\\Danikor\\Danikor\\Danikor.csproj",
+              "RelativeToolTip": "Danikor\\Danikor.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-07-05T08:58:21.756Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "FrmRefreshParameter.cs",
+              "DocumentMoniker": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\Danikor\\Danikor\\Danikor\\FrmRefreshParameter.cs",
+              "RelativeDocumentMoniker": "Danikor\\FrmRefreshParameter.cs",
+              "ToolTip": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\Danikor\\Danikor\\Danikor\\FrmRefreshParameter.cs",
+              "RelativeToolTip": "Danikor\\FrmRefreshParameter.cs",
+              "ViewState": "AgIAAEEAAAAAAAAAAAA4wD4AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-25T06:00:42.198Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "FrmRefreshParameter.cs [\u8BBE\u8BA1]",
+              "DocumentMoniker": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\Danikor\\Danikor\\Danikor\\FrmRefreshParameter.cs",
+              "RelativeDocumentMoniker": "Danikor\\FrmRefreshParameter.cs",
+              "ToolTip": "F:\\Learning\\\u4E0A\u4F4D\u673APlus\\Project\\Danikor\\Danikor\\Danikor\\FrmRefreshParameter.cs [\u8BBE\u8BA1]",
+              "RelativeToolTip": "..\\..\\..\\..\\\u4E0A\u4F4D\u673APlus\\Project\\Danikor\\Danikor\\Danikor\\FrmRefreshParameter.cs [\u8BBE\u8BA1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-25T06:00:39.832Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "FrmParamentRecipe.cs",
+              "DocumentMoniker": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\Danikor\\Danikor\\Danikor\\FrmParamentRecipe.cs",
+              "RelativeDocumentMoniker": "Danikor\\FrmParamentRecipe.cs",
+              "ToolTip": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\Danikor\\Danikor\\Danikor\\FrmParamentRecipe.cs",
+              "RelativeToolTip": "Danikor\\FrmParamentRecipe.cs",
+              "ViewState": "AgIAAFMAAAAAAAAAAAAAANYBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-18T08:22:17.865Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "FrmCommunicateConfig.cs",
+              "DocumentMoniker": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\Danikor\\Danikor\\Danikor\\FrmCommunicateConfig.cs",
+              "RelativeDocumentMoniker": "Danikor\\FrmCommunicateConfig.cs",
+              "ToolTip": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\Danikor\\Danikor\\Danikor\\FrmCommunicateConfig.cs",
+              "RelativeToolTip": "Danikor\\FrmCommunicateConfig.cs",
+              "ViewState": "AgIAAKoAAAAAAAAAAAAQwGYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-16T08:45:22.279Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "FrmChangePassword.cs",
+              "DocumentMoniker": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\Danikor\\Danikor\\Danikor\\FrmChangePassword.cs",
+              "RelativeDocumentMoniker": "Danikor\\FrmChangePassword.cs",
+              "ToolTip": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\Danikor\\Danikor\\Danikor\\FrmChangePassword.cs",
+              "RelativeToolTip": "Danikor\\FrmChangePassword.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAowBAAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-28T00:40:14.788Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "FrmLogin.cs",
+              "DocumentMoniker": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\Danikor\\Danikor\\Danikor\\FrmLogin.cs",
+              "RelativeDocumentMoniker": "Danikor\\FrmLogin.cs",
+              "ToolTip": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\Danikor\\Danikor\\Danikor\\FrmLogin.cs",
+              "RelativeToolTip": "Danikor\\FrmLogin.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAIAwwCcAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-13T07:32:27.463Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "XmlHelper.cs",
+              "DocumentMoniker": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\Danikor\\Danikor\\Helper\\XmlHelper.cs",
+              "RelativeDocumentMoniker": "Helper\\XmlHelper.cs",
+              "ToolTip": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\Danikor\\Danikor\\Helper\\XmlHelper.cs",
+              "RelativeToolTip": "Helper\\XmlHelper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAALMAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-14T03:09:31.146Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": ".gitignore",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\\u4E0A\u4F4D\u673A\\Project\\.gitignore",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\\u4E0A\u4F4D\u673A\\Project\\.gitignore",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAF8SURBVDhPjVNLTgJBEG1lwpoFB3GNK9fieA48hD8iwT/ihwgSDAIHgAGXXsEV18CNzL/LquqZdsYM6kteXqcy3fWqpmpNRBgOhyABBEgpAFVKPIMUcYzUyOU\u002BXM/b2qtU3vkSfRjjZTCAMAw1A2LwzdFoBPP5HNqdzuL27n4juibWI\u002BUshBA1DIkhEx9iEorFotgslQqGYbxxAGFEqt1MxmPWJLbLZdZ\u002Bv89q5PMFPiTR6z2zdaxR0fXA0XTBcVywkb4fwHXjRteecIDNQ7UmExVYAdPcxYaqclN46na5WenMKjtlVnTYwcXlVYaDqImW9beD5N/TeGy32QHXm6hZ03ZgiSQHp2fnWQ4oBmJqWSqwAqZpZjt4aLXAD4J0VqyZsmoubfB8H2r1eoaD6NXZ9HcHO\u002BSA3f4AjifXl8rItOETM8ckB9WTWpYD9RdeZ1PWVWAHWXPQaDb59f/w8LiqHeh1pvGkCaP6qB8yXusoxmuNZ7XmII4O9vGuEF86osuDYRkpYQAAAABJRU5ErkJggg==",
+              "WhenOpened": "2024-07-05T08:32:32.465Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 62,
+              "Title": "UGraphics.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\\u4E0A\u4F4D\u673A\\Helper\\SunnyUI-master\\SunnyUI\\Common\\UGraphics.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\\u4E0A\u4F4D\u673A\\Helper\\SunnyUI-master\\SunnyUI\\Common\\UGraphics.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-22T00:36:00.373Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "TClient.cs",
+              "DocumentMoniker": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\Danikor\\Danikor\\Communication\\TClient.cs",
+              "RelativeDocumentMoniker": "Communication\\TClient.cs",
+              "ToolTip": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\Danikor\\Danikor\\Communication\\TClient.cs",
+              "RelativeToolTip": "Communication\\TClient.cs",
+              "ViewState": "AQIAAEYAAAAAAAAAAAAxwGYAAABhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-15T08:47:21.948Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "UILineChartOption.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\\u4E0A\u4F4D\u673A\\Helper\\SunnyUI-master\\SunnyUI\\Charts\\UILineChartOption.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\\u4E0A\u4F4D\u673A\\Helper\\SunnyUI-master\\SunnyUI\\Charts\\UILineChartOption.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-22T07:17:44.479Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 63,
+              "Title": "UILineChart.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\\u4E0A\u4F4D\u673A\\Helper\\SunnyUI-master\\SunnyUI\\Charts\\UILineChart.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\\u4E0A\u4F4D\u673A\\Helper\\SunnyUI-master\\SunnyUI\\Charts\\UILineChart.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-22T07:36:34.246Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "JsonHelper.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\\u4E0A\u4F4D\u673A\\Helper\\FSCADA-\u591A\u5143\u5316\u6846\u67B6\u5E93\u5F00\u53D1\u5B9E\u6218\\\u3010\u65B0\u9601\u6559\u80B2\u30113.01-12\u3010\u5FC5\u5907\u5DE5\u5177\u5E93\u3011\\\u53C2\u8003\u6E90\u7801\\\u53C2\u8003\u6E90\u7801\\thinger.ToolsLibDemo\\thinger.ToolsLib\\JsonHelper.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\\u4E0A\u4F4D\u673A\\Helper\\FSCADA-\u591A\u5143\u5316\u6846\u67B6\u5E93\u5F00\u53D1\u5B9E\u6218\\\u3010\u65B0\u9601\u6559\u80B2\u30113.01-12\u3010\u5FC5\u5907\u5DE5\u5177\u5E93\u3011\\\u53C2\u8003\u6E90\u7801\\\u53C2\u8003\u6E90\u7801\\thinger.ToolsLibDemo\\thinger.ToolsLib\\JsonHelper.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-26T23:50:51.574Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "IMcmq.cs",
+              "DocumentMoniker": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\Danikor\\Danikor\\MCMQ\\IMcmq.cs",
+              "RelativeDocumentMoniker": "MCMQ\\IMcmq.cs",
+              "ToolTip": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\Danikor\\Danikor\\MCMQ\\IMcmq.cs",
+              "RelativeToolTip": "MCMQ\\IMcmq.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-13T07:10:48.713Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "ServiceLocator.cs",
+              "DocumentMoniker": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\Danikor\\Danikor\\Danikor\\ServiceLocator.cs",
+              "RelativeDocumentMoniker": "Danikor\\ServiceLocator.cs",
+              "ToolTip": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\Danikor\\Danikor\\Danikor\\ServiceLocator.cs",
+              "RelativeToolTip": "Danikor\\ServiceLocator.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-25T06:26:12.196Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "ExcelHelper.cs",
+              "DocumentMoniker": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\Danikor\\Danikor\\Helper\\ExcelHelper.cs",
+              "RelativeDocumentMoniker": "Helper\\ExcelHelper.cs",
+              "ToolTip": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\Danikor\\Danikor\\Helper\\ExcelHelper.cs",
+              "RelativeToolTip": "Helper\\ExcelHelper.cs",
+              "ViewState": "AQIAACQCAAAAAAAAAAAlwD4CAABgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-20T05:36:32.403Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "Resources.resx",
+              "DocumentMoniker": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\Danikor\\Danikor\\Danikor\\Properties\\Resources.resx",
+              "RelativeDocumentMoniker": "Danikor\\Properties\\Resources.resx",
+              "ToolTip": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\Danikor\\Danikor\\Danikor\\Properties\\Resources.resx",
+              "RelativeToolTip": "Danikor\\Properties\\Resources.resx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2024-05-22T03:08:20.737Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "FrmTest.cs [\u8BBE\u8BA1]",
+              "DocumentMoniker": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\Danikor\\Danikor\\Danikor\\FrmTest.cs",
+              "RelativeDocumentMoniker": "Danikor\\FrmTest.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\\u4E0A\u4F4D\u673A\\Project\\Danikor\\Danikor\\Danikor\\FrmTest.cs [\u8BBE\u8BA1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-14T01:09:24.835Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "FrmUserLogin.cs [\u8BBE\u8BA1]",
+              "DocumentMoniker": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\Danikor\\Danikor\\Danikor\\FrmUserLogin.cs",
+              "RelativeDocumentMoniker": "Danikor\\FrmUserLogin.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\\u4E0A\u4F4D\u673A\\Project\\Danikor\\Danikor\\Danikor\\FrmUserLogin.cs [\u8BBE\u8BA1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-12T03:13:55.044Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "JsonHelper.cs",
+              "DocumentMoniker": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\Danikor\\Danikor\\Helper\\JsonHelper.cs",
+              "RelativeDocumentMoniker": "Helper\\JsonHelper.cs",
+              "ToolTip": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\Danikor\\Danikor\\Helper\\JsonHelper.cs",
+              "RelativeToolTip": "Helper\\JsonHelper.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T02:12:55.582Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "iniConfigHelper.cs",
+              "DocumentMoniker": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\Danikor\\Danikor\\Helper\\iniConfigHelper.cs",
+              "RelativeDocumentMoniker": "Helper\\iniConfigHelper.cs",
+              "ToolTip": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\Danikor\\Danikor\\Helper\\iniConfigHelper.cs",
+              "RelativeToolTip": "Helper\\iniConfigHelper.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-18T02:27:16.11Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "DataGridViewHelper.cs",
+              "DocumentMoniker": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\Danikor\\Danikor\\Danikor\\DataGridViewHelper.cs",
+              "RelativeDocumentMoniker": "Danikor\\DataGridViewHelper.cs",
+              "ToolTip": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\Danikor\\Danikor\\Danikor\\DataGridViewHelper.cs",
+              "RelativeToolTip": "Danikor\\DataGridViewHelper.cs",
+              "ViewState": "AQIAACMAAAAAAAAAAAAQwEcAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-14T05:37:00.544Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "DeviceRealTimeData.cs",
+              "DocumentMoniker": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\Danikor\\Danikor\\Data\\DeviceRealTimeData.cs",
+              "RelativeDocumentMoniker": "Data\\DeviceRealTimeData.cs",
+              "ToolTip": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\Danikor\\Danikor\\Data\\DeviceRealTimeData.cs",
+              "RelativeToolTip": "Data\\DeviceRealTimeData.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvwgAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T01:46:19.448Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "Program.cs",
+              "DocumentMoniker": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\Danikor\\Danikor\\Danikor\\Program.cs",
+              "RelativeDocumentMoniker": "Danikor\\Program.cs",
+              "ToolTip": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\Danikor\\Danikor\\Danikor\\Program.cs",
+              "RelativeToolTip": "Danikor\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAwwBEAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-15T06:27:42.98Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "ITcpClient.cs",
+              "DocumentMoniker": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\Danikor\\Danikor\\Communication\\ITcpClient.cs",
+              "RelativeDocumentMoniker": "Communication\\ITcpClient.cs",
+              "ToolTip": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\Danikor\\Danikor\\Communication\\ITcpClient.cs",
+              "RelativeToolTip": "Communication\\ITcpClient.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-25T06:03:25.829Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "Settings.settings",
+              "DocumentMoniker": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\Danikor\\Danikor\\Danikor\\Properties\\Settings.settings",
+              "RelativeDocumentMoniker": "Danikor\\Properties\\Settings.settings",
+              "ToolTip": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\Danikor\\Danikor\\Danikor\\Properties\\Settings.settings",
+              "RelativeToolTip": "Danikor\\Properties\\Settings.settings",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002767|",
+              "WhenOpened": "2024-05-22T05:22:28.774Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "DataHelper.cs",
+              "DocumentMoniker": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\Danikor\\Danikor\\Communication\\DataHelper.cs",
+              "RelativeDocumentMoniker": "Communication\\DataHelper.cs",
+              "ToolTip": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\Danikor\\Danikor\\Communication\\DataHelper.cs",
+              "RelativeToolTip": "Communication\\DataHelper.cs",
+              "ViewState": "AQIAAFEAAAAAAAAAAAAWwGcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-17T08:00:42.499Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "TCP.cs",
+              "DocumentMoniker": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\Danikor\\Danikor\\Communication\\TCP.cs",
+              "RelativeDocumentMoniker": "Communication\\TCP.cs",
+              "ToolTip": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\Danikor\\Danikor\\Communication\\TCP.cs",
+              "RelativeToolTip": "Communication\\TCP.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB8AAABjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-14T00:51:40.236Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "RTU.cs",
+              "DocumentMoniker": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\Danikor\\Danikor\\Communication\\RTU.cs",
+              "RelativeDocumentMoniker": "Communication\\RTU.cs",
+              "ToolTip": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\Danikor\\Danikor\\Communication\\RTU.cs",
+              "RelativeToolTip": "Communication\\RTU.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-14T06:28:26.062Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "FrmUserLogin.cs",
+              "DocumentMoniker": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\Danikor\\Danikor\\Danikor\\FrmUserLogin.cs",
+              "RelativeDocumentMoniker": "Danikor\\FrmUserLogin.cs",
+              "ToolTip": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\Danikor\\Danikor\\Danikor\\FrmUserLogin.cs",
+              "RelativeToolTip": "Danikor\\FrmUserLogin.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAxwBgAAACoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-12T03:13:57.687Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "FrmTest.cs",
+              "DocumentMoniker": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\Danikor\\Danikor\\Danikor\\FrmTest.cs",
+              "RelativeDocumentMoniker": "Danikor\\FrmTest.cs",
+              "ToolTip": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\Danikor\\Danikor\\Danikor\\FrmTest.cs",
+              "RelativeToolTip": "Danikor\\FrmTest.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAswDAAAABcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-14T01:09:26.815Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "FrmMain.Designer.cs",
+              "DocumentMoniker": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\Danikor\\Danikor\\Danikor\\FrmMain.Designer.cs",
+              "RelativeDocumentMoniker": "Danikor\\FrmMain.Designer.cs",
+              "ToolTip": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\Danikor\\Danikor\\Danikor\\FrmMain.Designer.cs",
+              "RelativeToolTip": "Danikor\\FrmMain.Designer.cs",
+              "ViewState": "AgIAAFMBAAAAAAAAAAAcwGEBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-14T09:26:27.994Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "FrmTest.Designer.cs",
+              "DocumentMoniker": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\Danikor\\Danikor\\Danikor\\FrmTest.Designer.cs",
+              "RelativeDocumentMoniker": "Danikor\\FrmTest.Designer.cs",
+              "ToolTip": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\Danikor\\Danikor\\Danikor\\FrmTest.Designer.cs",
+              "RelativeToolTip": "Danikor\\FrmTest.Designer.cs",
+              "ViewState": "AQIAAGMAAAAAAAAAAAAAAGUAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-02T05:52:37.309Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "SystemSetting.cs",
+              "DocumentMoniker": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\Danikor\\Danikor\\Data\\SystemSetting.cs",
+              "RelativeDocumentMoniker": "Data\\SystemSetting.cs",
+              "ToolTip": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\Danikor\\Danikor\\Data\\SystemSetting.cs",
+              "RelativeToolTip": "Data\\SystemSetting.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAQwCQAAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-17T01:09:33.558Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "DeviceRecipeInfo.cs",
+              "DocumentMoniker": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\Danikor\\Danikor\\Data\\DeviceRecipeInfo.cs",
+              "RelativeDocumentMoniker": "Data\\DeviceRecipeInfo.cs",
+              "ToolTip": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\Danikor\\Danikor\\Data\\DeviceRecipeInfo.cs",
+              "RelativeToolTip": "Data\\DeviceRecipeInfo.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T02:15:18.419Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "FrmCommunicateConfig.Designer.cs",
+              "DocumentMoniker": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\Danikor\\Danikor\\Danikor\\FrmCommunicateConfig.Designer.cs",
+              "RelativeDocumentMoniker": "Danikor\\FrmCommunicateConfig.Designer.cs",
+              "ToolTip": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\Danikor\\Danikor\\Danikor\\FrmCommunicateConfig.Designer.cs",
+              "RelativeToolTip": "Danikor\\FrmCommunicateConfig.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-22T03:11:25.611Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "FrmLogin.Designer.cs",
+              "DocumentMoniker": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\Danikor\\Danikor\\Danikor\\FrmLogin.Designer.cs",
+              "RelativeDocumentMoniker": "Danikor\\FrmLogin.Designer.cs",
+              "ToolTip": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\Danikor\\Danikor\\Danikor\\FrmLogin.Designer.cs",
+              "RelativeToolTip": "Danikor\\FrmLogin.Designer.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAUwDsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-14T05:26:57.754Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "JobParameter.cs",
+              "DocumentMoniker": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\Danikor\\Danikor\\Data\\JobParameter.cs",
+              "RelativeDocumentMoniker": "Data\\JobParameter.cs",
+              "ToolTip": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\Danikor\\Danikor\\Data\\JobParameter.cs",
+              "RelativeToolTip": "Data\\JobParameter.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvwoAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-25T08:25:24.015Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "DeviceRunStatusData.cs",
+              "DocumentMoniker": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\Danikor\\Danikor\\Data\\DeviceRunStatusData.cs",
+              "RelativeDocumentMoniker": "Data\\DeviceRunStatusData.cs",
+              "ToolTip": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\Danikor\\Danikor\\Data\\DeviceRunStatusData.cs",
+              "RelativeToolTip": "Data\\DeviceRunStatusData.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvxEAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-15T06:19:40.839Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 64,
+              "Title": "Resources.resx",
+              "DocumentMoniker": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\Danikor\\Danikor\\Danikor\\Properties\\Resources.resx",
+              "RelativeDocumentMoniker": "Danikor\\Properties\\Resources.resx",
+              "ToolTip": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\Danikor\\Danikor\\Danikor\\Properties\\Resources.resx",
+              "RelativeToolTip": "Danikor\\Properties\\Resources.resx",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAMwHcAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2024-05-22T03:07:47.4Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

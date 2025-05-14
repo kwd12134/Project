@@ -1,0 +1,985 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\BL12\u4E0A\u4F4D\u673A\\WinformBL12\u4E0A\u4F4D\u673A\\BL12\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3BBD8E51-A3A9-490E-880C-244177380339}|BL12.csproj|f:\\learning\\c#\u4E0A\u4F4D\u673A\\bl12\u4E0A\u4F4D\u673A\\winformbl12\u4E0A\u4F4D\u673A\\bl12\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3BBD8E51-A3A9-490E-880C-244177380339}|BL12.csproj|solutionrelative:frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3BBD8E51-A3A9-490E-880C-244177380339}|BL12.csproj|F:\\Learning\\C#\u4E0A\u4F4D\u673A\\BL12\u4E0A\u4F4D\u673A\\WinformBL12\u4E0A\u4F4D\u673A\\BL12\\frmmain.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3BBD8E51-A3A9-490E-880C-244177380339}|BL12.csproj|solutionrelative:frmmain.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3BBD8E51-A3A9-490E-880C-244177380339}|BL12.csproj|F:\\Learning\\C#\u4E0A\u4F4D\u673A\\BL12\u4E0A\u4F4D\u673A\\WinformBL12\u4E0A\u4F4D\u673A\\BL12\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{3BBD8E51-A3A9-490E-880C-244177380339}|BL12.csproj|solutionrelative:frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3BBD8E51-A3A9-490E-880C-244177380339}|BL12.csproj|F:\\Learning\\C#\u4E0A\u4F4D\u673A\\BL12\u4E0A\u4F4D\u673A\\WinformBL12\u4E0A\u4F4D\u673A\\BL12\\frmadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{3BBD8E51-A3A9-490E-880C-244177380339}|BL12.csproj|solutionrelative:frmadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3BBD8E51-A3A9-490E-880C-244177380339}|BL12.csproj|F:\\Learning\\C#\u4E0A\u4F4D\u673A\\BL12\u4E0A\u4F4D\u673A\\WinformBL12\u4E0A\u4F4D\u673A\\BL12\\frmchangepwd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{3BBD8E51-A3A9-490E-880C-244177380339}|BL12.csproj|solutionrelative:frmchangepwd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3BBD8E51-A3A9-490E-880C-244177380339}|BL12.csproj|F:\\Learning\\C#\u4E0A\u4F4D\u673A\\BL12\u4E0A\u4F4D\u673A\\WinformBL12\u4E0A\u4F4D\u673A\\BL12\\frmconfigselect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{3BBD8E51-A3A9-490E-880C-244177380339}|BL12.csproj|solutionrelative:frmconfigselect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3BBD8E51-A3A9-490E-880C-244177380339}|BL12.csproj|F:\\Learning\\C#\u4E0A\u4F4D\u673A\\BL12\u4E0A\u4F4D\u673A\\WinformBL12\u4E0A\u4F4D\u673A\\BL12\\frmoperatorlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{3BBD8E51-A3A9-490E-880C-244177380339}|BL12.csproj|solutionrelative:frmoperatorlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3BBD8E51-A3A9-490E-880C-244177380339}|BL12.csproj|F:\\Learning\\C#\u4E0A\u4F4D\u673A\\BL12\u4E0A\u4F4D\u673A\\WinformBL12\u4E0A\u4F4D\u673A\\BL12\\frmsetting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{3BBD8E51-A3A9-490E-880C-244177380339}|BL12.csproj|solutionrelative:frmsetting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3BBD8E51-A3A9-490E-880C-244177380339}|BL12.csproj|F:\\Learning\\C#\u4E0A\u4F4D\u673A\\BL12\u4E0A\u4F4D\u673A\\WinformBL12\u4E0A\u4F4D\u673A\\BL12\\frmspotcheck.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{3BBD8E51-A3A9-490E-880C-244177380339}|BL12.csproj|solutionrelative:frmspotcheck.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32AFC194-18A7-44C6-9599-B388FA3ECEFB}|..\\XmlUpper\\MCMQ.csproj|f:\\learning\\c#\u4E0A\u4F4D\u673A\\bl12\u4E0A\u4F4D\u673A\\winformbl12\u4E0A\u4F4D\u673A\\xmlupper\\mcmq.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32AFC194-18A7-44C6-9599-B388FA3ECEFB}|..\\XmlUpper\\MCMQ.csproj|f:\\learning\\c#\u4E0A\u4F4D\u673A\\bl12\u4E0A\u4F4D\u673A\\winformbl12\u4E0A\u4F4D\u673A\\xmlupper\\mcmqserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC5DF904-4892-49A5-9CEE-0CFAB8C601FC}|..\\XmlCollection\\XmlCollection.csproj|f:\\learning\\c#\u4E0A\u4F4D\u673A\\bl12\u4E0A\u4F4D\u673A\\winformbl12\u4E0A\u4F4D\u673A\\xmlcollection\\ccddatareport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32AFC194-18A7-44C6-9599-B388FA3ECEFB}|..\\XmlUpper\\MCMQ.csproj|f:\\learning\\c#\u4E0A\u4F4D\u673A\\bl12\u4E0A\u4F4D\u673A\\winformbl12\u4E0A\u4F4D\u673A\\xmlupper\\imcmq.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54BE6C9D-7065-4D8A-A621-B6C266682A43}|..\\CurrentVariable\\CurrentVariable.csproj|f:\\learning\\c#\u4E0A\u4F4D\u673A\\bl12\u4E0A\u4F4D\u673A\\winformbl12\u4E0A\u4F4D\u673A\\currentvariable\\tempresistance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54BE6C9D-7065-4D8A-A621-B6C266682A43}|..\\CurrentVariable\\CurrentVariable.csproj|f:\\learning\\c#\u4E0A\u4F4D\u673A\\bl12\u4E0A\u4F4D\u673A\\winformbl12\u4E0A\u4F4D\u673A\\currentvariable\\statuvariable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54BE6C9D-7065-4D8A-A621-B6C266682A43}|..\\CurrentVariable\\CurrentVariable.csproj|f:\\learning\\c#\u4E0A\u4F4D\u673A\\bl12\u4E0A\u4F4D\u673A\\winformbl12\u4E0A\u4F4D\u673A\\currentvariable\\ntcvariable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54BE6C9D-7065-4D8A-A621-B6C266682A43}|..\\CurrentVariable\\CurrentVariable.csproj|f:\\learning\\c#\u4E0A\u4F4D\u673A\\bl12\u4E0A\u4F4D\u673A\\winformbl12\u4E0A\u4F4D\u673A\\currentvariable\\mcmqsetting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54BE6C9D-7065-4D8A-A621-B6C266682A43}|..\\CurrentVariable\\CurrentVariable.csproj|f:\\learning\\c#\u4E0A\u4F4D\u673A\\bl12\u4E0A\u4F4D\u673A\\winformbl12\u4E0A\u4F4D\u673A\\currentvariable\\checktime.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A69266C4-912F-438C-8624-43E44DEDEEB0}|..\\Communication\\Communication.csproj|f:\\learning\\c#\u4E0A\u4F4D\u673A\\bl12\u4E0A\u4F4D\u673A\\winformbl12\u4E0A\u4F4D\u673A\\communication\\monitorserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3BBD8E51-A3A9-490E-880C-244177380339}|BL12.csproj|F:\\Learning\\C#\u4E0A\u4F4D\u673A\\BL12\u4E0A\u4F4D\u673A\\WinformBL12\u4E0A\u4F4D\u673A\\BL12\\frmconfigselect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3BBD8E51-A3A9-490E-880C-244177380339}|BL12.csproj|solutionrelative:frmconfigselect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3BBD8E51-A3A9-490E-880C-244177380339}|BL12.csproj|F:\\Learning\\C#\u4E0A\u4F4D\u673A\\BL12\u4E0A\u4F4D\u673A\\WinformBL12\u4E0A\u4F4D\u673A\\BL12\\model\\isconfighelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3BBD8E51-A3A9-490E-880C-244177380339}|BL12.csproj|solutionrelative:model\\isconfighelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3BBD8E51-A3A9-490E-880C-244177380339}|BL12.csproj|F:\\Learning\\C#\u4E0A\u4F4D\u673A\\BL12\u4E0A\u4F4D\u673A\\WinformBL12\u4E0A\u4F4D\u673A\\BL12\\model\\dataextract.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3BBD8E51-A3A9-490E-880C-244177380339}|BL12.csproj|solutionrelative:model\\dataextract.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3BBD8E51-A3A9-490E-880C-244177380339}|BL12.csproj|F:\\Learning\\C#\u4E0A\u4F4D\u673A\\BL12\u4E0A\u4F4D\u673A\\WinformBL12\u4E0A\u4F4D\u673A\\BL12\\model\\datagridviewhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3BBD8E51-A3A9-490E-880C-244177380339}|BL12.csproj|solutionrelative:model\\datagridviewhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3BBD8E51-A3A9-490E-880C-244177380339}|BL12.csproj|F:\\Learning\\C#\u4E0A\u4F4D\u673A\\BL12\u4E0A\u4F4D\u673A\\WinformBL12\u4E0A\u4F4D\u673A\\BL12\\frmadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3BBD8E51-A3A9-490E-880C-244177380339}|BL12.csproj|solutionrelative:frmadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3BBD8E51-A3A9-490E-880C-244177380339}|BL12.csproj|F:\\Learning\\C#\u4E0A\u4F4D\u673A\\BL12\u4E0A\u4F4D\u673A\\WinformBL12\u4E0A\u4F4D\u673A\\BL12\\model\\staticmethod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3BBD8E51-A3A9-490E-880C-244177380339}|BL12.csproj|solutionrelative:model\\staticmethod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|BL12||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3BBD8E51-A3A9-490E-880C-244177380339}|BL12.csproj|F:\\Learning\\C#\u4E0A\u4F4D\u673A\\BL12\u4E0A\u4F4D\u673A\\WinformBL12\u4E0A\u4F4D\u673A\\BL12\\addlog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3BBD8E51-A3A9-490E-880C-244177380339}|BL12.csproj|solutionrelative:addlog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3BBD8E51-A3A9-490E-880C-244177380339}|BL12.csproj|F:\\Learning\\C#\u4E0A\u4F4D\u673A\\BL12\u4E0A\u4F4D\u673A\\WinformBL12\u4E0A\u4F4D\u673A\\BL12\\addlog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{3BBD8E51-A3A9-490E-880C-244177380339}|BL12.csproj|solutionrelative:addlog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3BBD8E51-A3A9-490E-880C-244177380339}|BL12.csproj|F:\\Learning\\C#\u4E0A\u4F4D\u673A\\BL12\u4E0A\u4F4D\u673A\\WinformBL12\u4E0A\u4F4D\u673A\\BL12\\frmspotcheck.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3BBD8E51-A3A9-490E-880C-244177380339}|BL12.csproj|solutionrelative:frmspotcheck.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3BBD8E51-A3A9-490E-880C-244177380339}|BL12.csproj|F:\\Learning\\C#\u4E0A\u4F4D\u673A\\BL12\u4E0A\u4F4D\u673A\\WinformBL12\u4E0A\u4F4D\u673A\\BL12\\resistspec.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{3BBD8E51-A3A9-490E-880C-244177380339}|BL12.csproj|solutionrelative:resistspec.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3BBD8E51-A3A9-490E-880C-244177380339}|BL12.csproj|F:\\Learning\\C#\u4E0A\u4F4D\u673A\\BL12\u4E0A\u4F4D\u673A\\WinformBL12\u4E0A\u4F4D\u673A\\BL12\\frmsetting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3BBD8E51-A3A9-490E-880C-244177380339}|BL12.csproj|solutionrelative:frmsetting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3BBD8E51-A3A9-490E-880C-244177380339}|BL12.csproj|F:\\Learning\\C#\u4E0A\u4F4D\u673A\\BL12\u4E0A\u4F4D\u673A\\WinformBL12\u4E0A\u4F4D\u673A\\BL12\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3BBD8E51-A3A9-490E-880C-244177380339}|BL12.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3BBD8E51-A3A9-490E-880C-244177380339}|BL12.csproj|F:\\Learning\\C#\u4E0A\u4F4D\u673A\\BL12\u4E0A\u4F4D\u673A\\WinformBL12\u4E0A\u4F4D\u673A\\BL12\\resistspec.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3BBD8E51-A3A9-490E-880C-244177380339}|BL12.csproj|solutionrelative:resistspec.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3BBD8E51-A3A9-490E-880C-244177380339}|BL12.csproj|F:\\Learning\\C#\u4E0A\u4F4D\u673A\\BL12\u4E0A\u4F4D\u673A\\WinformBL12\u4E0A\u4F4D\u673A\\BL12\\model\\servicelocator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3BBD8E51-A3A9-490E-880C-244177380339}|BL12.csproj|solutionrelative:model\\servicelocator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3BBD8E51-A3A9-490E-880C-244177380339}|BL12.csproj|F:\\Learning\\C#\u4E0A\u4F4D\u673A\\BL12\u4E0A\u4F4D\u673A\\WinformBL12\u4E0A\u4F4D\u673A\\BL12\\frmoperatorlogin.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3BBD8E51-A3A9-490E-880C-244177380339}|BL12.csproj|solutionrelative:frmoperatorlogin.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3BBD8E51-A3A9-490E-880C-244177380339}|BL12.csproj|F:\\Learning\\C#\u4E0A\u4F4D\u673A\\BL12\u4E0A\u4F4D\u673A\\WinformBL12\u4E0A\u4F4D\u673A\\BL12\\frmoperatorlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3BBD8E51-A3A9-490E-880C-244177380339}|BL12.csproj|solutionrelative:frmoperatorlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3BBD8E51-A3A9-490E-880C-244177380339}|BL12.csproj|F:\\Learning\\C#\u4E0A\u4F4D\u673A\\BL12\u4E0A\u4F4D\u673A\\WinformBL12\u4E0A\u4F4D\u673A\\BL12\\frmchangepwd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3BBD8E51-A3A9-490E-880C-244177380339}|BL12.csproj|solutionrelative:frmchangepwd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3BBD8E51-A3A9-490E-880C-244177380339}|BL12.csproj|F:\\Learning\\C#\u4E0A\u4F4D\u673A\\BL12\u4E0A\u4F4D\u673A\\WinformBL12\u4E0A\u4F4D\u673A\\BL12\\properties\\resources.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}",
+      "RelativeMoniker": "D:0:0:{3BBD8E51-A3A9-490E-880C-244177380339}|BL12.csproj|solutionrelative:properties\\resources.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3BBD8E51-A3A9-490E-880C-244177380339}|BL12.csproj|F:\\Learning\\C#\u4E0A\u4F4D\u673A\\BL12\u4E0A\u4F4D\u673A\\WinformBL12\u4E0A\u4F4D\u673A\\BL12\\packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{3BBD8E51-A3A9-490E-880C-244177380339}|BL12.csproj|solutionrelative:packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3BBD8E51-A3A9-490E-880C-244177380339}|BL12.csproj|F:\\Learning\\C#\u4E0A\u4F4D\u673A\\BL12\u4E0A\u4F4D\u673A\\WinformBL12\u4E0A\u4F4D\u673A\\BL12\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{3BBD8E51-A3A9-490E-880C-244177380339}|BL12.csproj|solutionrelative:app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3BBD8E51-A3A9-490E-880C-244177380339}|BL12.csproj|F:\\Learning\\C#\u4E0A\u4F4D\u673A\\BL12\u4E0A\u4F4D\u673A\\WinformBL12\u4E0A\u4F4D\u673A\\BL12\\frmconfigselect.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3BBD8E51-A3A9-490E-880C-244177380339}|BL12.csproj|solutionrelative:frmconfigselect.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3BBD8E51-A3A9-490E-880C-244177380339}|BL12.csproj|F:\\Learning\\C#\u4E0A\u4F4D\u673A\\BL12\u4E0A\u4F4D\u673A\\WinformBL12\u4E0A\u4F4D\u673A\\BL12\\model\\helper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3BBD8E51-A3A9-490E-880C-244177380339}|BL12.csproj|solutionrelative:model\\helper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3BBD8E51-A3A9-490E-880C-244177380339}|BL12.csproj|F:\\Learning\\C#\u4E0A\u4F4D\u673A\\BL12\u4E0A\u4F4D\u673A\\WinformBL12\u4E0A\u4F4D\u673A\\BL12\\properties\\resources.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3BBD8E51-A3A9-490E-880C-244177380339}|BL12.csproj|solutionrelative:properties\\resources.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3BBD8E51-A3A9-490E-880C-244177380339}|BL12.csproj|F:\\Learning\\C#\u4E0A\u4F4D\u673A\\BL12\u4E0A\u4F4D\u673A\\WinformBL12\u4E0A\u4F4D\u673A\\BL12\\frmadmin.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3BBD8E51-A3A9-490E-880C-244177380339}|BL12.csproj|solutionrelative:frmadmin.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Administrator\\Desktop\\\u4E0A\u4F4D\u673A\\Project\\BL12\u4E0A\u4F4D\u673A\\WinformBL12\u4E0A\u4F4D\u673A\\XmlCollection\\Response.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Administrator\\Desktop\\\u4E0A\u4F4D\u673A\\Project\\BL12\u4E0A\u4F4D\u673A\\WinformBL12\u4E0A\u4F4D\u673A\\Communication\\IMonitorServer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Administrator\\Desktop\\\u4E0A\u4F4D\u673A\\Project\\BL12\u4E0A\u4F4D\u673A\\WinformBL12\u4E0A\u4F4D\u673A\\XmlCollection\\CCDDataReport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Administrator\\Desktop\\\u4E0A\u4F4D\u673A\\Project\\BL12\u4E0A\u4F4D\u673A\\WinformBL12\u4E0A\u4F4D\u673A\\Communication\\MonitorServer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Administrator\\Desktop\\\u4E0A\u4F4D\u673A\\Project\\BL12\u4E0A\u4F4D\u673A\\WinformBL12\u4E0A\u4F4D\u673A\\XmlUpper\\XmlHelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Administrator\\Desktop\\\u4E0A\u4F4D\u673A\\Project\\BL12\u4E0A\u4F4D\u673A\\WinformBL12\u4E0A\u4F4D\u673A\\XmlUpper\\McmqServer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Administrator\\Desktop\\\u4E0A\u4F4D\u673A\\Project\\BL12\u4E0A\u4F4D\u673A\\WinformBL12\u4E0A\u4F4D\u673A\\XmlCollection\\Request.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Administrator\\Desktop\\\u4E0A\u4F4D\u673A\\Project\\BL12\u4E0A\u4F4D\u673A\\WinformBL12\u4E0A\u4F4D\u673A\\XmlUpper\\Mcmq.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Administrator\\Desktop\\\u4E0A\u4F4D\u673A\\Project\\BL12\u4E0A\u4F4D\u673A\\WinformBL12\u4E0A\u4F4D\u673A\\CurrentVariable\\GlobalVariable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Administrator\\Desktop\\\u4E0A\u4F4D\u673A\\Project\\BL12\u4E0A\u4F4D\u673A\\WinformBL12\u4E0A\u4F4D\u673A\\CurrentVariable\\CheckTime.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Administrator\\Desktop\\\u4E0A\u4F4D\u673A\\Project\\BL12\u4E0A\u4F4D\u673A\\WinformBL12\u4E0A\u4F4D\u673A\\CurrentVariable\\TempResistance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Administrator\\Desktop\\\u4E0A\u4F4D\u673A\\Project\\BL12\u4E0A\u4F4D\u673A\\WinformBL12\u4E0A\u4F4D\u673A\\CurrentVariable\\NtcVariable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Administrator\\Desktop\\\u4E0A\u4F4D\u673A\\Project\\BL12\u4E0A\u4F4D\u673A\\WinformBL12\u4E0A\u4F4D\u673A\\CurrentVariable\\StatuVariable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Administrator\\Desktop\\\u4E0A\u4F4D\u673A\\Project\\BL12\u4E0A\u4F4D\u673A\\WinformBL12\u4E0A\u4F4D\u673A\\CurrentVariable\\Variable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Administrator\\Desktop\\\u4E0A\u4F4D\u673A\\Project\\BL12\u4E0A\u4F4D\u673A\\WinformBL12\u4E0A\u4F4D\u673A\\CurrentVariable\\Common_Read.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Administrator\\Desktop\\\u4E0A\u4F4D\u673A\\Project\\BL12\u4E0A\u4F4D\u673A\\WinformBL12\u4E0A\u4F4D\u673A\\CurrentVariable\\LEDxVariable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Administrator\\Desktop\\\u4E0A\u4F4D\u673A\\Project\\BL12\u4E0A\u4F4D\u673A\\WinformBL12\u4E0A\u4F4D\u673A\\CurrentVariable\\Jince.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Administrator\\Desktop\\\u4E0A\u4F4D\u673A\\Project\\BL12\u4E0A\u4F4D\u673A\\WinformBL12\u4E0A\u4F4D\u673A\\CurrentVariable\\packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Administrator\\Desktop\\\u4E0A\u4F4D\u673A\\Project\\BL12\u4E0A\u4F4D\u673A\\WinformBL12\u4E0A\u4F4D\u673A\\XmlCollection\\XmlData.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Administrator\\Desktop\\\u4E0A\u4F4D\u673A\\Project\\BL12\u4E0A\u4F4D\u673A\\WinformBL12\u4E0A\u4F4D\u673A\\CurrentVariable\\McmqSetting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Administrator\\Desktop\\\u4E0A\u4F4D\u673A\\Project\\BL12\u4E0A\u4F4D\u673A\\WinformBL12\u4E0A\u4F4D\u673A\\XmlUpper\\XmlData.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Administrator\\Desktop\\\u4E0A\u4F4D\u673A\\Project\\BL12\u4E0A\u4F4D\u673A\\WinformBL12\u4E0A\u4F4D\u673A\\XmlUpper\\IMcmq.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FrmMain.cs [\u8BBE\u8BA1]",
+              "DocumentMoniker": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\BL12\u4E0A\u4F4D\u673A\\WinformBL12\u4E0A\u4F4D\u673A\\BL12\\FrmMain.cs",
+              "RelativeDocumentMoniker": "FrmMain.cs",
+              "ToolTip": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\BL12\u4E0A\u4F4D\u673A\\WinformBL12\u4E0A\u4F4D\u673A\\BL12\\FrmMain.cs [\u8BBE\u8BA1]",
+              "RelativeToolTip": "FrmMain.cs [\u8BBE\u8BA1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-06T07:41:12.652Z",
+              "IsPinned": true,
+              "EditorCaption": " [\u8BBE\u8BA1]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FrmMain.cs",
+              "DocumentMoniker": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\BL12\u4E0A\u4F4D\u673A\\WinformBL12\u4E0A\u4F4D\u673A\\BL12\\FrmMain.cs",
+              "RelativeDocumentMoniker": "FrmMain.cs",
+              "ToolTip": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\BL12\u4E0A\u4F4D\u673A\\WinformBL12\u4E0A\u4F4D\u673A\\BL12\\FrmMain.cs",
+              "RelativeToolTip": "FrmMain.cs",
+              "ViewState": "AgIAAHoBAAAAAAAAAAAIwBIFAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-06T07:41:13.574Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "FrmSetting.cs",
+              "DocumentMoniker": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\BL12\u4E0A\u4F4D\u673A\\WinformBL12\u4E0A\u4F4D\u673A\\BL12\\FrmSetting.cs",
+              "RelativeDocumentMoniker": "FrmSetting.cs",
+              "ToolTip": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\BL12\u4E0A\u4F4D\u673A\\WinformBL12\u4E0A\u4F4D\u673A\\BL12\\FrmSetting.cs",
+              "RelativeToolTip": "FrmSetting.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAwwDQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-15T01:08:31.148Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "FrmConfigSelect.cs [\u8BBE\u8BA1]",
+              "DocumentMoniker": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\BL12\u4E0A\u4F4D\u673A\\WinformBL12\u4E0A\u4F4D\u673A\\BL12\\FrmConfigSelect.cs",
+              "RelativeDocumentMoniker": "FrmConfigSelect.cs",
+              "ToolTip": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\BL12\u4E0A\u4F4D\u673A\\WinformBL12\u4E0A\u4F4D\u673A\\BL12\\FrmConfigSelect.cs [\u8BBE\u8BA1]",
+              "RelativeToolTip": "FrmConfigSelect.cs [\u8BBE\u8BA1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-02T05:58:18.942Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "FrmChangePwd.cs [\u8BBE\u8BA1]",
+              "DocumentMoniker": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\BL12\u4E0A\u4F4D\u673A\\WinformBL12\u4E0A\u4F4D\u673A\\BL12\\FrmChangePwd.cs",
+              "RelativeDocumentMoniker": "FrmChangePwd.cs",
+              "ToolTip": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\BL12\u4E0A\u4F4D\u673A\\WinformBL12\u4E0A\u4F4D\u673A\\BL12\\FrmChangePwd.cs [\u8BBE\u8BA1]",
+              "RelativeToolTip": "FrmChangePwd.cs [\u8BBE\u8BA1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-13T03:13:50.066Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FrmAdmin.cs [\u8BBE\u8BA1]",
+              "DocumentMoniker": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\BL12\u4E0A\u4F4D\u673A\\WinformBL12\u4E0A\u4F4D\u673A\\BL12\\FrmAdmin.cs",
+              "RelativeDocumentMoniker": "FrmAdmin.cs",
+              "ToolTip": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\BL12\u4E0A\u4F4D\u673A\\WinformBL12\u4E0A\u4F4D\u673A\\BL12\\FrmAdmin.cs [\u8BBE\u8BA1]",
+              "RelativeToolTip": "FrmAdmin.cs [\u8BBE\u8BA1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-03T02:11:19.225Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "FrmSetting.cs [\u8BBE\u8BA1]",
+              "DocumentMoniker": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\BL12\u4E0A\u4F4D\u673A\\WinformBL12\u4E0A\u4F4D\u673A\\BL12\\FrmSetting.cs",
+              "RelativeDocumentMoniker": "FrmSetting.cs",
+              "ToolTip": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\BL12\u4E0A\u4F4D\u673A\\WinformBL12\u4E0A\u4F4D\u673A\\BL12\\FrmSetting.cs [\u8BBE\u8BA1]",
+              "RelativeToolTip": "FrmSetting.cs [\u8BBE\u8BA1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-15T00:44:36.045Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FrmMain.Designer.cs",
+              "DocumentMoniker": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\BL12\u4E0A\u4F4D\u673A\\WinformBL12\u4E0A\u4F4D\u673A\\BL12\\FrmMain.Designer.cs",
+              "RelativeDocumentMoniker": "FrmMain.Designer.cs",
+              "ToolTip": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\BL12\u4E0A\u4F4D\u673A\\WinformBL12\u4E0A\u4F4D\u673A\\BL12\\FrmMain.Designer.cs",
+              "RelativeToolTip": "FrmMain.Designer.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAuwDABAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-15T06:28:37.39Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "FrmOperatorLogin.cs [\u8BBE\u8BA1]",
+              "DocumentMoniker": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\BL12\u4E0A\u4F4D\u673A\\WinformBL12\u4E0A\u4F4D\u673A\\BL12\\FrmOperatorLogin.cs",
+              "RelativeDocumentMoniker": "FrmOperatorLogin.cs",
+              "ToolTip": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\BL12\u4E0A\u4F4D\u673A\\WinformBL12\u4E0A\u4F4D\u673A\\BL12\\FrmOperatorLogin.cs [\u8BBE\u8BA1]",
+              "RelativeToolTip": "FrmOperatorLogin.cs [\u8BBE\u8BA1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-06T07:41:36.512Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "FrmSpotCheck.cs [\u8BBE\u8BA1]",
+              "DocumentMoniker": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\BL12\u4E0A\u4F4D\u673A\\WinformBL12\u4E0A\u4F4D\u673A\\BL12\\FrmSpotCheck.cs",
+              "RelativeDocumentMoniker": "FrmSpotCheck.cs",
+              "ToolTip": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\BL12\u4E0A\u4F4D\u673A\\WinformBL12\u4E0A\u4F4D\u673A\\BL12\\FrmSpotCheck.cs [\u8BBE\u8BA1]",
+              "RelativeToolTip": "FrmSpotCheck.cs [\u8BBE\u8BA1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-15T00:44:33.271Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Mcmq.cs",
+              "DocumentMoniker": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\BL12\u4E0A\u4F4D\u673A\\WinformBL12\u4E0A\u4F4D\u673A\\XmlUpper\\Mcmq.cs",
+              "RelativeDocumentMoniker": "..\\XmlUpper\\Mcmq.cs",
+              "ToolTip": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\BL12\u4E0A\u4F4D\u673A\\WinformBL12\u4E0A\u4F4D\u673A\\XmlUpper\\Mcmq.cs",
+              "RelativeToolTip": "..\\XmlUpper\\Mcmq.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-07T02:50:59.304Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "McmqServer.cs",
+              "DocumentMoniker": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\BL12\u4E0A\u4F4D\u673A\\WinformBL12\u4E0A\u4F4D\u673A\\XmlUpper\\McmqServer.cs",
+              "RelativeDocumentMoniker": "..\\XmlUpper\\McmqServer.cs",
+              "ToolTip": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\BL12\u4E0A\u4F4D\u673A\\WinformBL12\u4E0A\u4F4D\u673A\\XmlUpper\\McmqServer.cs",
+              "RelativeToolTip": "..\\XmlUpper\\McmqServer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-07T02:50:58.378Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "IMcmq.cs",
+              "DocumentMoniker": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\BL12\u4E0A\u4F4D\u673A\\WinformBL12\u4E0A\u4F4D\u673A\\XmlUpper\\IMcmq.cs",
+              "RelativeDocumentMoniker": "..\\XmlUpper\\IMcmq.cs",
+              "ToolTip": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\BL12\u4E0A\u4F4D\u673A\\WinformBL12\u4E0A\u4F4D\u673A\\XmlUpper\\IMcmq.cs",
+              "RelativeToolTip": "..\\XmlUpper\\IMcmq.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-07T02:50:56.051Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "TempResistance.cs",
+              "DocumentMoniker": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\BL12\u4E0A\u4F4D\u673A\\WinformBL12\u4E0A\u4F4D\u673A\\CurrentVariable\\TempResistance.cs",
+              "RelativeDocumentMoniker": "..\\CurrentVariable\\TempResistance.cs",
+              "ToolTip": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\BL12\u4E0A\u4F4D\u673A\\WinformBL12\u4E0A\u4F4D\u673A\\CurrentVariable\\TempResistance.cs",
+              "RelativeToolTip": "..\\CurrentVariable\\TempResistance.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-07T02:50:54.442Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "StatuVariable.cs",
+              "DocumentMoniker": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\BL12\u4E0A\u4F4D\u673A\\WinformBL12\u4E0A\u4F4D\u673A\\CurrentVariable\\StatuVariable.cs",
+              "RelativeDocumentMoniker": "..\\CurrentVariable\\StatuVariable.cs",
+              "ToolTip": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\BL12\u4E0A\u4F4D\u673A\\WinformBL12\u4E0A\u4F4D\u673A\\CurrentVariable\\StatuVariable.cs",
+              "RelativeToolTip": "..\\CurrentVariable\\StatuVariable.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-07T02:50:53.555Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "NtcVariable.cs",
+              "DocumentMoniker": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\BL12\u4E0A\u4F4D\u673A\\WinformBL12\u4E0A\u4F4D\u673A\\CurrentVariable\\NtcVariable.cs",
+              "RelativeDocumentMoniker": "..\\CurrentVariable\\NtcVariable.cs",
+              "ToolTip": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\BL12\u4E0A\u4F4D\u673A\\WinformBL12\u4E0A\u4F4D\u673A\\CurrentVariable\\NtcVariable.cs",
+              "RelativeToolTip": "..\\CurrentVariable\\NtcVariable.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-07T02:50:52.114Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "McmqSetting.cs",
+              "DocumentMoniker": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\BL12\u4E0A\u4F4D\u673A\\WinformBL12\u4E0A\u4F4D\u673A\\CurrentVariable\\McmqSetting.cs",
+              "RelativeDocumentMoniker": "..\\CurrentVariable\\McmqSetting.cs",
+              "ToolTip": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\BL12\u4E0A\u4F4D\u673A\\WinformBL12\u4E0A\u4F4D\u673A\\CurrentVariable\\McmqSetting.cs",
+              "RelativeToolTip": "..\\CurrentVariable\\McmqSetting.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-07T02:50:51.258Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "CCDDataReport.cs",
+              "DocumentMoniker": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\BL12\u4E0A\u4F4D\u673A\\WinformBL12\u4E0A\u4F4D\u673A\\XmlCollection\\CCDDataReport.cs",
+              "RelativeDocumentMoniker": "..\\XmlCollection\\CCDDataReport.cs",
+              "ToolTip": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\BL12\u4E0A\u4F4D\u673A\\WinformBL12\u4E0A\u4F4D\u673A\\XmlCollection\\CCDDataReport.cs",
+              "RelativeToolTip": "..\\XmlCollection\\CCDDataReport.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-06T15:44:48.96Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "CheckTime.cs",
+              "DocumentMoniker": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\BL12\u4E0A\u4F4D\u673A\\WinformBL12\u4E0A\u4F4D\u673A\\CurrentVariable\\CheckTime.cs",
+              "RelativeDocumentMoniker": "..\\CurrentVariable\\CheckTime.cs",
+              "ToolTip": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\BL12\u4E0A\u4F4D\u673A\\WinformBL12\u4E0A\u4F4D\u673A\\CurrentVariable\\CheckTime.cs",
+              "RelativeToolTip": "..\\CurrentVariable\\CheckTime.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-07T02:50:48.994Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "MonitorServer.cs",
+              "DocumentMoniker": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\BL12\u4E0A\u4F4D\u673A\\WinformBL12\u4E0A\u4F4D\u673A\\Communication\\MonitorServer.cs",
+              "RelativeDocumentMoniker": "..\\Communication\\MonitorServer.cs",
+              "ToolTip": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\BL12\u4E0A\u4F4D\u673A\\WinformBL12\u4E0A\u4F4D\u673A\\Communication\\MonitorServer.cs",
+              "RelativeToolTip": "..\\Communication\\MonitorServer.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAkwFcAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-06T15:41:25.266Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "CCDDataReport.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\\u4E0A\u4F4D\u673A\\Project\\BL12\u4E0A\u4F4D\u673A\\WinformBL12\u4E0A\u4F4D\u673A\\XmlCollection\\CCDDataReport.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\\u4E0A\u4F4D\u673A\\Project\\BL12\u4E0A\u4F4D\u673A\\WinformBL12\u4E0A\u4F4D\u673A\\XmlCollection\\CCDDataReport.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-12T02:25:45.513Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "IMonitorServer.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\\u4E0A\u4F4D\u673A\\Project\\BL12\u4E0A\u4F4D\u673A\\WinformBL12\u4E0A\u4F4D\u673A\\Communication\\IMonitorServer.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\\u4E0A\u4F4D\u673A\\Project\\BL12\u4E0A\u4F4D\u673A\\WinformBL12\u4E0A\u4F4D\u673A\\Communication\\IMonitorServer.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-08T01:34:36.394Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "FrmConfigSelect.cs",
+              "DocumentMoniker": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\BL12\u4E0A\u4F4D\u673A\\WinformBL12\u4E0A\u4F4D\u673A\\BL12\\FrmConfigSelect.cs",
+              "RelativeDocumentMoniker": "FrmConfigSelect.cs",
+              "ToolTip": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\BL12\u4E0A\u4F4D\u673A\\WinformBL12\u4E0A\u4F4D\u673A\\BL12\\FrmConfigSelect.cs",
+              "RelativeToolTip": "FrmConfigSelect.cs",
+              "ViewState": "AgIAAEYAAAAAAAAAAAAwwGkAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-02T05:58:22.652Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "Response.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\\u4E0A\u4F4D\u673A\\Project\\BL12\u4E0A\u4F4D\u673A\\WinformBL12\u4E0A\u4F4D\u673A\\XmlCollection\\Response.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\\u4E0A\u4F4D\u673A\\Project\\BL12\u4E0A\u4F4D\u673A\\WinformBL12\u4E0A\u4F4D\u673A\\XmlCollection\\Response.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-08T02:21:12.272Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "DataGridViewHelper.cs",
+              "DocumentMoniker": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\BL12\u4E0A\u4F4D\u673A\\WinformBL12\u4E0A\u4F4D\u673A\\BL12\\Model\\DataGridViewHelper.cs",
+              "RelativeDocumentMoniker": "Model\\DataGridViewHelper.cs",
+              "ToolTip": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\BL12\u4E0A\u4F4D\u673A\\WinformBL12\u4E0A\u4F4D\u673A\\BL12\\Model\\DataGridViewHelper.cs",
+              "RelativeToolTip": "Model\\DataGridViewHelper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-02T08:23:30.6Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "IsConfigHelper.cs",
+              "DocumentMoniker": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\BL12\u4E0A\u4F4D\u673A\\WinformBL12\u4E0A\u4F4D\u673A\\BL12\\Model\\IsConfigHelper.cs",
+              "RelativeDocumentMoniker": "Model\\IsConfigHelper.cs",
+              "ToolTip": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\BL12\u4E0A\u4F4D\u673A\\WinformBL12\u4E0A\u4F4D\u673A\\BL12\\Model\\IsConfigHelper.cs",
+              "RelativeToolTip": "Model\\IsConfigHelper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-15T00:29:14.219Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "DataExtract.cs",
+              "DocumentMoniker": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\BL12\u4E0A\u4F4D\u673A\\WinformBL12\u4E0A\u4F4D\u673A\\BL12\\Model\\DataExtract.cs",
+              "RelativeDocumentMoniker": "Model\\DataExtract.cs",
+              "ToolTip": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\BL12\u4E0A\u4F4D\u673A\\WinformBL12\u4E0A\u4F4D\u673A\\BL12\\Model\\DataExtract.cs",
+              "RelativeToolTip": "Model\\DataExtract.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvxIAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-14T00:04:02.233Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "FrmAdmin.cs",
+              "DocumentMoniker": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\BL12\u4E0A\u4F4D\u673A\\WinformBL12\u4E0A\u4F4D\u673A\\BL12\\FrmAdmin.cs",
+              "RelativeDocumentMoniker": "FrmAdmin.cs",
+              "ToolTip": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\BL12\u4E0A\u4F4D\u673A\\WinformBL12\u4E0A\u4F4D\u673A\\BL12\\FrmAdmin.cs",
+              "RelativeToolTip": "FrmAdmin.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABgAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-03T02:11:06.457Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "FrmSpotCheck.cs",
+              "DocumentMoniker": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\BL12\u4E0A\u4F4D\u673A\\WinformBL12\u4E0A\u4F4D\u673A\\BL12\\FrmSpotCheck.cs",
+              "RelativeDocumentMoniker": "FrmSpotCheck.cs",
+              "ToolTip": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\BL12\u4E0A\u4F4D\u673A\\WinformBL12\u4E0A\u4F4D\u673A\\BL12\\FrmSpotCheck.cs",
+              "RelativeToolTip": "FrmSpotCheck.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAA7wD0AAABfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-26T06:46:34.159Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "MonitorServer.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\\u4E0A\u4F4D\u673A\\Project\\BL12\u4E0A\u4F4D\u673A\\WinformBL12\u4E0A\u4F4D\u673A\\Communication\\MonitorServer.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\\u4E0A\u4F4D\u673A\\Project\\BL12\u4E0A\u4F4D\u673A\\WinformBL12\u4E0A\u4F4D\u673A\\Communication\\MonitorServer.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-05T07:29:35.654Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "XmlHelper.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\\u4E0A\u4F4D\u673A\\Project\\BL12\u4E0A\u4F4D\u673A\\WinformBL12\u4E0A\u4F4D\u673A\\XmlUpper\\XmlHelper.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\\u4E0A\u4F4D\u673A\\Project\\BL12\u4E0A\u4F4D\u673A\\WinformBL12\u4E0A\u4F4D\u673A\\XmlUpper\\XmlHelper.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-15T00:56:18.785Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "McmqServer.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\\u4E0A\u4F4D\u673A\\Project\\BL12\u4E0A\u4F4D\u673A\\WinformBL12\u4E0A\u4F4D\u673A\\XmlUpper\\McmqServer.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\\u4E0A\u4F4D\u673A\\Project\\BL12\u4E0A\u4F4D\u673A\\WinformBL12\u4E0A\u4F4D\u673A\\XmlUpper\\McmqServer.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-15T00:55:31.923Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "Request.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\\u4E0A\u4F4D\u673A\\Project\\BL12\u4E0A\u4F4D\u673A\\WinformBL12\u4E0A\u4F4D\u673A\\XmlCollection\\Request.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\\u4E0A\u4F4D\u673A\\Project\\BL12\u4E0A\u4F4D\u673A\\WinformBL12\u4E0A\u4F4D\u673A\\XmlCollection\\Request.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-08T02:20:48.178Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "Mcmq.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\\u4E0A\u4F4D\u673A\\Project\\BL12\u4E0A\u4F4D\u673A\\WinformBL12\u4E0A\u4F4D\u673A\\XmlUpper\\Mcmq.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\\u4E0A\u4F4D\u673A\\Project\\BL12\u4E0A\u4F4D\u673A\\WinformBL12\u4E0A\u4F4D\u673A\\XmlUpper\\Mcmq.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-15T00:56:13.682Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "GlobalVariable.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\\u4E0A\u4F4D\u673A\\Project\\BL12\u4E0A\u4F4D\u673A\\WinformBL12\u4E0A\u4F4D\u673A\\CurrentVariable\\GlobalVariable.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\\u4E0A\u4F4D\u673A\\Project\\BL12\u4E0A\u4F4D\u673A\\WinformBL12\u4E0A\u4F4D\u673A\\CurrentVariable\\GlobalVariable.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-15T00:04:12.648Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "CheckTime.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\\u4E0A\u4F4D\u673A\\Project\\BL12\u4E0A\u4F4D\u673A\\WinformBL12\u4E0A\u4F4D\u673A\\CurrentVariable\\CheckTime.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\\u4E0A\u4F4D\u673A\\Project\\BL12\u4E0A\u4F4D\u673A\\WinformBL12\u4E0A\u4F4D\u673A\\CurrentVariable\\CheckTime.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-02T05:40:31.114Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "TempResistance.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\\u4E0A\u4F4D\u673A\\Project\\BL12\u4E0A\u4F4D\u673A\\WinformBL12\u4E0A\u4F4D\u673A\\CurrentVariable\\TempResistance.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\\u4E0A\u4F4D\u673A\\Project\\BL12\u4E0A\u4F4D\u673A\\WinformBL12\u4E0A\u4F4D\u673A\\CurrentVariable\\TempResistance.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-03T07:36:07.761Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "NtcVariable.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\\u4E0A\u4F4D\u673A\\Project\\BL12\u4E0A\u4F4D\u673A\\WinformBL12\u4E0A\u4F4D\u673A\\CurrentVariable\\NtcVariable.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\\u4E0A\u4F4D\u673A\\Project\\BL12\u4E0A\u4F4D\u673A\\WinformBL12\u4E0A\u4F4D\u673A\\CurrentVariable\\NtcVariable.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-15T00:03:55.62Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "StatuVariable.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\\u4E0A\u4F4D\u673A\\Project\\BL12\u4E0A\u4F4D\u673A\\WinformBL12\u4E0A\u4F4D\u673A\\CurrentVariable\\StatuVariable.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\\u4E0A\u4F4D\u673A\\Project\\BL12\u4E0A\u4F4D\u673A\\WinformBL12\u4E0A\u4F4D\u673A\\CurrentVariable\\StatuVariable.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-15T00:04:09.055Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "Variable.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\\u4E0A\u4F4D\u673A\\Project\\BL12\u4E0A\u4F4D\u673A\\WinformBL12\u4E0A\u4F4D\u673A\\CurrentVariable\\Variable.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\\u4E0A\u4F4D\u673A\\Project\\BL12\u4E0A\u4F4D\u673A\\WinformBL12\u4E0A\u4F4D\u673A\\CurrentVariable\\Variable.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-15T00:04:10.6Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "Common_Read.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\\u4E0A\u4F4D\u673A\\Project\\BL12\u4E0A\u4F4D\u673A\\WinformBL12\u4E0A\u4F4D\u673A\\CurrentVariable\\Common_Read.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\\u4E0A\u4F4D\u673A\\Project\\BL12\u4E0A\u4F4D\u673A\\WinformBL12\u4E0A\u4F4D\u673A\\CurrentVariable\\Common_Read.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-06T07:41:48.072Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "LEDxVariable.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\\u4E0A\u4F4D\u673A\\Project\\BL12\u4E0A\u4F4D\u673A\\WinformBL12\u4E0A\u4F4D\u673A\\CurrentVariable\\LEDxVariable.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\\u4E0A\u4F4D\u673A\\Project\\BL12\u4E0A\u4F4D\u673A\\WinformBL12\u4E0A\u4F4D\u673A\\CurrentVariable\\LEDxVariable.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-15T00:04:12.081Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "Jince.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\\u4E0A\u4F4D\u673A\\Project\\BL12\u4E0A\u4F4D\u673A\\WinformBL12\u4E0A\u4F4D\u673A\\CurrentVariable\\Jince.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\\u4E0A\u4F4D\u673A\\Project\\BL12\u4E0A\u4F4D\u673A\\WinformBL12\u4E0A\u4F4D\u673A\\CurrentVariable\\Jince.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-07T07:24:13.827Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "packages.config",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\\u4E0A\u4F4D\u673A\\Project\\BL12\u4E0A\u4F4D\u673A\\WinformBL12\u4E0A\u4F4D\u673A\\CurrentVariable\\packages.config",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\\u4E0A\u4F4D\u673A\\Project\\BL12\u4E0A\u4F4D\u673A\\WinformBL12\u4E0A\u4F4D\u673A\\CurrentVariable\\packages.config",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-07-15T00:03:56.464Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 62,
+              "Title": "XmlData.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\\u4E0A\u4F4D\u673A\\Project\\BL12\u4E0A\u4F4D\u673A\\WinformBL12\u4E0A\u4F4D\u673A\\XmlCollection\\XmlData.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\\u4E0A\u4F4D\u673A\\Project\\BL12\u4E0A\u4F4D\u673A\\WinformBL12\u4E0A\u4F4D\u673A\\XmlCollection\\XmlData.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-08T02:11:36.393Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 63,
+              "Title": "McmqSetting.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\\u4E0A\u4F4D\u673A\\Project\\BL12\u4E0A\u4F4D\u673A\\WinformBL12\u4E0A\u4F4D\u673A\\CurrentVariable\\McmqSetting.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\\u4E0A\u4F4D\u673A\\Project\\BL12\u4E0A\u4F4D\u673A\\WinformBL12\u4E0A\u4F4D\u673A\\CurrentVariable\\McmqSetting.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-15T00:04:24.048Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 64,
+              "Title": "XmlData.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\\u4E0A\u4F4D\u673A\\Project\\BL12\u4E0A\u4F4D\u673A\\WinformBL12\u4E0A\u4F4D\u673A\\XmlUpper\\XmlData.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\\u4E0A\u4F4D\u673A\\Project\\BL12\u4E0A\u4F4D\u673A\\WinformBL12\u4E0A\u4F4D\u673A\\XmlUpper\\XmlData.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-15T00:56:10.417Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 65,
+              "Title": "IMcmq.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\\u4E0A\u4F4D\u673A\\Project\\BL12\u4E0A\u4F4D\u673A\\WinformBL12\u4E0A\u4F4D\u673A\\XmlUpper\\IMcmq.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\\u4E0A\u4F4D\u673A\\Project\\BL12\u4E0A\u4F4D\u673A\\WinformBL12\u4E0A\u4F4D\u673A\\XmlUpper\\IMcmq.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-08T01:59:02.973Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "StaticMethod.cs",
+              "DocumentMoniker": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\BL12\u4E0A\u4F4D\u673A\\WinformBL12\u4E0A\u4F4D\u673A\\BL12\\Model\\StaticMethod.cs",
+              "RelativeDocumentMoniker": "Model\\StaticMethod.cs",
+              "ToolTip": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\BL12\u4E0A\u4F4D\u673A\\WinformBL12\u4E0A\u4F4D\u673A\\BL12\\Model\\StaticMethod.cs",
+              "RelativeToolTip": "Model\\StaticMethod.cs",
+              "ViewState": "AQIAADkAAAAAAAAAAAAlwE4AAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-06T07:45:24.703Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "BL12",
+              "DocumentMoniker": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\BL12\u4E0A\u4F4D\u673A\\WinformBL12\u4E0A\u4F4D\u673A\\BL12\\BL12.csproj",
+              "RelativeDocumentMoniker": "BL12.csproj",
+              "ToolTip": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\BL12\u4E0A\u4F4D\u673A\\WinformBL12\u4E0A\u4F4D\u673A\\BL12\\BL12.csproj",
+              "RelativeToolTip": "BL12.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-08-02T05:28:53.659Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "AddLog.cs [\u8BBE\u8BA1]",
+              "DocumentMoniker": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\BL12\u4E0A\u4F4D\u673A\\WinformBL12\u4E0A\u4F4D\u673A\\BL12\\AddLog.cs",
+              "RelativeDocumentMoniker": "AddLog.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\\u4E0A\u4F4D\u673A\\Project\\BL12\u4E0A\u4F4D\u673A\\WinformBL12\u4E0A\u4F4D\u673A\\BL12\\AddLog.cs [\u8BBE\u8BA1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-17T00:46:13.118Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "AddLog.cs",
+              "DocumentMoniker": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\BL12\u4E0A\u4F4D\u673A\\WinformBL12\u4E0A\u4F4D\u673A\\BL12\\AddLog.cs",
+              "RelativeDocumentMoniker": "AddLog.cs",
+              "ToolTip": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\BL12\u4E0A\u4F4D\u673A\\WinformBL12\u4E0A\u4F4D\u673A\\BL12\\AddLog.cs",
+              "RelativeToolTip": "AddLog.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-17T00:46:14.802Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "ResistSpec.cs [\u8BBE\u8BA1]",
+              "DocumentMoniker": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\BL12\u4E0A\u4F4D\u673A\\WinformBL12\u4E0A\u4F4D\u673A\\BL12\\ResistSpec.cs",
+              "RelativeDocumentMoniker": "ResistSpec.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\\u4E0A\u4F4D\u673A\\Project\\BL12\u4E0A\u4F4D\u673A\\WinformBL12\u4E0A\u4F4D\u673A\\BL12\\ResistSpec.cs [\u8BBE\u8BA1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-13T10:46:08.006Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Program.cs",
+              "DocumentMoniker": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\BL12\u4E0A\u4F4D\u673A\\WinformBL12\u4E0A\u4F4D\u673A\\BL12\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\BL12\u4E0A\u4F4D\u673A\\WinformBL12\u4E0A\u4F4D\u673A\\BL12\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAASwCsAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-03T06:23:15.424Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "ResistSpec.cs",
+              "DocumentMoniker": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\BL12\u4E0A\u4F4D\u673A\\WinformBL12\u4E0A\u4F4D\u673A\\BL12\\ResistSpec.cs",
+              "RelativeDocumentMoniker": "ResistSpec.cs",
+              "ToolTip": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\BL12\u4E0A\u4F4D\u673A\\WinformBL12\u4E0A\u4F4D\u673A\\BL12\\ResistSpec.cs",
+              "RelativeToolTip": "ResistSpec.cs",
+              "ViewState": "AQIAAEgAAAAAAAAAAAAIwGMAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-13T10:48:05.944Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "ServiceLocator.cs",
+              "DocumentMoniker": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\BL12\u4E0A\u4F4D\u673A\\WinformBL12\u4E0A\u4F4D\u673A\\BL12\\Model\\ServiceLocator.cs",
+              "RelativeDocumentMoniker": "Model\\ServiceLocator.cs",
+              "ToolTip": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\BL12\u4E0A\u4F4D\u673A\\WinformBL12\u4E0A\u4F4D\u673A\\BL12\\Model\\ServiceLocator.cs",
+              "RelativeToolTip": "Model\\ServiceLocator.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAIAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-08T01:30:22.454Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "FrmChangePwd.cs",
+              "DocumentMoniker": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\BL12\u4E0A\u4F4D\u673A\\WinformBL12\u4E0A\u4F4D\u673A\\BL12\\FrmChangePwd.cs",
+              "RelativeDocumentMoniker": "FrmChangePwd.cs",
+              "ToolTip": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\BL12\u4E0A\u4F4D\u673A\\WinformBL12\u4E0A\u4F4D\u673A\\BL12\\FrmChangePwd.cs",
+              "RelativeToolTip": "FrmChangePwd.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAlwCgAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-07T07:49:00.6Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "FrmOperatorLogin.Designer.cs",
+              "DocumentMoniker": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\BL12\u4E0A\u4F4D\u673A\\WinformBL12\u4E0A\u4F4D\u673A\\BL12\\FrmOperatorLogin.Designer.cs",
+              "RelativeDocumentMoniker": "FrmOperatorLogin.Designer.cs",
+              "ToolTip": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\BL12\u4E0A\u4F4D\u673A\\WinformBL12\u4E0A\u4F4D\u673A\\BL12\\FrmOperatorLogin.Designer.cs",
+              "RelativeToolTip": "FrmOperatorLogin.Designer.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAUwB8AAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-13T05:03:58.353Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "FrmOperatorLogin.cs",
+              "DocumentMoniker": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\BL12\u4E0A\u4F4D\u673A\\WinformBL12\u4E0A\u4F4D\u673A\\BL12\\FrmOperatorLogin.cs",
+              "RelativeDocumentMoniker": "FrmOperatorLogin.cs",
+              "ToolTip": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\BL12\u4E0A\u4F4D\u673A\\WinformBL12\u4E0A\u4F4D\u673A\\BL12\\FrmOperatorLogin.cs",
+              "RelativeToolTip": "FrmOperatorLogin.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-17T01:28:17.421Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "Resources.resx",
+              "DocumentMoniker": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\BL12\u4E0A\u4F4D\u673A\\WinformBL12\u4E0A\u4F4D\u673A\\BL12\\Properties\\Resources.resx",
+              "RelativeDocumentMoniker": "Properties\\Resources.resx",
+              "ToolTip": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\BL12\u4E0A\u4F4D\u673A\\WinformBL12\u4E0A\u4F4D\u673A\\BL12\\Properties\\Resources.resx",
+              "RelativeToolTip": "Properties\\Resources.resx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2024-08-05T05:38:04.303Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "packages.config",
+              "DocumentMoniker": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\BL12\u4E0A\u4F4D\u673A\\WinformBL12\u4E0A\u4F4D\u673A\\BL12\\packages.config",
+              "RelativeDocumentMoniker": "packages.config",
+              "ToolTip": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\BL12\u4E0A\u4F4D\u673A\\WinformBL12\u4E0A\u4F4D\u673A\\BL12\\packages.config",
+              "RelativeToolTip": "packages.config",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-08-12T02:18:21.913Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "App.config",
+              "DocumentMoniker": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\BL12\u4E0A\u4F4D\u673A\\WinformBL12\u4E0A\u4F4D\u673A\\BL12\\App.config",
+              "RelativeDocumentMoniker": "App.config",
+              "ToolTip": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\BL12\u4E0A\u4F4D\u673A\\WinformBL12\u4E0A\u4F4D\u673A\\BL12\\App.config",
+              "RelativeToolTip": "App.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-08-07T07:48:34.86Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "FrmConfigSelect.Designer.cs",
+              "DocumentMoniker": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\BL12\u4E0A\u4F4D\u673A\\WinformBL12\u4E0A\u4F4D\u673A\\BL12\\FrmConfigSelect.Designer.cs",
+              "RelativeDocumentMoniker": "FrmConfigSelect.Designer.cs",
+              "ToolTip": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\BL12\u4E0A\u4F4D\u673A\\WinformBL12\u4E0A\u4F4D\u673A\\BL12\\FrmConfigSelect.Designer.cs",
+              "RelativeToolTip": "FrmConfigSelect.Designer.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAApwBwAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-02T05:59:25.79Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "Helper.cs",
+              "DocumentMoniker": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\BL12\u4E0A\u4F4D\u673A\\WinformBL12\u4E0A\u4F4D\u673A\\BL12\\Model\\Helper.cs",
+              "RelativeDocumentMoniker": "Model\\Helper.cs",
+              "ToolTip": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\BL12\u4E0A\u4F4D\u673A\\WinformBL12\u4E0A\u4F4D\u673A\\BL12\\Model\\Helper.cs",
+              "RelativeToolTip": "Model\\Helper.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAmwCAAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-15T00:04:45.013Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "Resources.Designer.cs",
+              "DocumentMoniker": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\BL12\u4E0A\u4F4D\u673A\\WinformBL12\u4E0A\u4F4D\u673A\\BL12\\Properties\\Resources.Designer.cs",
+              "RelativeDocumentMoniker": "Properties\\Resources.Designer.cs",
+              "ToolTip": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\BL12\u4E0A\u4F4D\u673A\\WinformBL12\u4E0A\u4F4D\u673A\\BL12\\Properties\\Resources.Designer.cs",
+              "RelativeToolTip": "Properties\\Resources.Designer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvwAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-05T05:38:05.493Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "FrmAdmin.Designer.cs",
+              "DocumentMoniker": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\BL12\u4E0A\u4F4D\u673A\\WinformBL12\u4E0A\u4F4D\u673A\\BL12\\FrmAdmin.Designer.cs",
+              "RelativeDocumentMoniker": "FrmAdmin.Designer.cs",
+              "ToolTip": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\BL12\u4E0A\u4F4D\u673A\\WinformBL12\u4E0A\u4F4D\u673A\\BL12\\FrmAdmin.Designer.cs",
+              "RelativeToolTip": "FrmAdmin.Designer.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAABTwAYAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-03T02:11:14.335Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

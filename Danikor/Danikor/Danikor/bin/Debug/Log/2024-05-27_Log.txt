@@ -1,0 +1,82 @@
+2024-05-27 03:03:47  登录成功
+2024-05-27 03:04:21  Connected to 192.168.2.32:5000
+2024-05-27 03:04:21  成功
+2024-05-27 03:04:21  Connected to 192.168.2.32:5000
+2024-05-27 03:04:22  Connected to 192.168.2.32:5000
+2024-05-27 15:05:55  登录成功
+2024-05-27 15:17:02  登录成功
+2024-05-27 15:17:26  登录成功
+2024-05-27 15:17:33  Connected to 192.168.2.32:5000
+2024-05-27 15:17:33  成功
+2024-05-27 15:17:34  Connected to 192.168.2.32:5000
+2024-05-27 15:17:34  Connected to 192.168.2.32:5000
+2024-05-27 15:17:38  Received:ResultData
+2024-05-27 15:17:45  Received:ResultData
+2024-05-27 15:17:49  Received:ResultData
+2024-05-27 15:19:58  登录成功
+2024-05-27 15:20:01  Connected to 192.168.2.32:5000
+2024-05-27 15:20:01  成功
+2024-05-27 15:20:02  Connected to 192.168.2.32:5000
+2024-05-27 15:20:02  成功
+2024-05-27 15:20:06  Connected to 192.168.2.32:5000
+2024-05-27 15:20:06  成功
+2024-05-27 15:20:10  Connected to 192.168.2.32:5000
+2024-05-27 15:20:10  成功
+2024-05-27 15:21:07  Connected to 192.168.2.32:5000
+2024-05-27 15:21:07  成功
+2024-05-27 15:21:08  Connected to 192.168.2.32:5000
+2024-05-27 15:21:08  Connected to 192.168.2.32:5000
+2024-05-27 15:21:15  Received:ResultData
+2024-05-27 15:21:38  Heartbeat sent.
+2024-05-27 15:21:38  Heartbeat sent.
+2024-05-27 15:22:04  登录成功
+2024-05-27 15:22:58  登录成功
+2024-05-27 15:23:02  Connected to 192.168.2.32:5000
+2024-05-27 15:23:22  登录成功
+2024-05-27 15:23:46  Connected to 192.168.2.32:5000
+2024-05-27 15:24:31  HandleClientAsyncRealTimeData: 无法访问已释放的对象。
+对象名:“System.Net.Sockets.NetworkStream”。
+2024-05-27 15:24:31  HandleClientAsyncRealTimeData: 无法访问已释放的对象。
+对象名:“System.Net.Sockets.NetworkStream”。
+2024-05-27 15:24:31  HandleClientAsyncRealTimeData: 无法访问已释放的对象。
+对象名:“System.Net.Sockets.NetworkStream”。
+2024-05-27 15:24:31  HandleClientAsyncRealTimeData: 无法访问已释放的对象。
+对象名:“System.Net.Sockets.NetworkStream”。
+2024-05-27 15:24:31  HandleClientAsyncRealTimeData: 无法访问已释放的对象。
+对象名:“System.Net.Sockets.NetworkStream”。
+2024-05-27 15:25:34  登录成功
+2024-05-27 15:58:02  登录成功
+2024-05-27 15:58:08  Connected to 192.168.2.32:5000
+2024-05-27 16:23:10  登录成功
+2024-05-27 16:23:17  Connected to 192.168.2.32:5000
+2024-05-27 16:23:42  Connected to 192.168.2.32:5000
+2024-05-27 16:23:42  成功
+2024-05-27 16:23:42  Connected to 192.168.2.32:5000
+2024-05-27 16:23:43  Connected to 192.168.2.32:5000
+2024-05-27 16:23:48  Received:ResultData
+2024-05-27 16:23:50  Received:ResultData
+2024-05-27 16:23:51  Received:ResultData
+2024-05-27 16:23:52  Received:ResultData
+2024-05-27 16:23:58  Received:ResultData
+2024-05-27 16:24:12  Heartbeat sent.
+2024-05-27 16:24:13  Heartbeat sent.
+2024-05-27 16:25:05  登录成功
+2024-05-27 16:25:13  Connected to 192.168.2.32:5000
+2024-05-27 16:25:25  Connected to 192.168.2.32:5000
+2024-05-27 16:25:25  成功
+2024-05-27 16:25:25  Connected to 192.168.2.32:5000
+2024-05-27 16:25:26  Connected to 192.168.2.32:5000
+2024-05-27 16:25:27  Received:ResultData
+2024-05-27 16:25:30  Received:ResultData
+2024-05-27 16:25:31  Received:ResultData
+2024-05-27 16:25:32  Received:ResultData
+2024-05-27 16:25:33  Received:ResultData
+2024-05-27 16:25:34  Received:ResultData
+2024-05-27 16:25:35  Connected to 192.168.2.32:5000
+2024-05-27 16:25:35  GeneralWriteState:Client DisConnected.
+2024-05-27 16:25:46  Received:ResultData
+2024-05-27 16:27:15  登录成功
+2024-05-27 16:28:00  登录成功
+2024-05-27 17:29:05  登录成功
+2024-05-27 17:29:15  Connected to 192.168.2.32:5000
+2024-05-27 17:30:15  Client DisConnected.

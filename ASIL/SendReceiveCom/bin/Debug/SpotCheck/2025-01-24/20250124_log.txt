@@ -1,0 +1,4 @@
+﻿2025_01_24_13:28:32:695:SN:111 LowerUpper:0/3 Value:0.1 Status:OK
+2025_01_24_13:31:43:313:SN:111 LowerUpper:0/3 Value:0.46 Status:OK
+2025_01_24_13:37:13:940:SN:111 LowerUpper:0/3 Value:0.81 Status:OK
+2025_01_24_13:37:35:560:SN:111 LowerUpper:0/3 Value:0.82 Status:OK

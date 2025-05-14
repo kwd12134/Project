@@ -1,0 +1,163 @@
+﻿2025_02_14_18:57:02:138:******************START********************
+2025_02_14_18:57:04:986:ASIL板连接中...
+2025_02_14_18:57:05:035:ASIL板已连接
+2025_02_14_18:57:10:671:测试机通信侦听中...
+2025_02_14_18:57:10:696:测试机启动侦听
+2025_02_14_18:57:10:697:PIS2通信连接中...
+2025_02_14_18:57:43:863:******************START********************
+2025_02_14_18:57:50:841:ASIL板连接中...
+2025_02_14_18:57:50:872:ASIL板已连接
+2025_02_14_18:59:29:712:******************START********************
+2025_02_14_18:59:32:213:ASIL板连接中...
+2025_02_14_18:59:32:241:ASIL板已连接
+2025_02_14_19:05:46:194:******************START********************
+2025_02_14_19:05:48:148:ASIL板连接中...
+2025_02_14_19:05:48:178:ASIL板已连接
+2025_02_14_19:05:50:617:测试机通信侦听中...
+2025_02_14_19:05:50:639:测试机启动侦听
+2025_02_14_19:05:50:642:PIS2通信连接中...
+2025_02_14_19:05:55:810:recive spot check ASIL:T0.81ANANANANANANANENendN
+2025_02_14_19:05:58:610:早班点检成功
+2025_02_14_19:06:19:106:添加配方11111成功
+2025_02_14_19:06:22:101:成功保存11111配方参数!
+2025_02_14_19:06:47:173:DayShiftSpotCheck:True,NightShiftSpotCheck:False,LastDateTime2025/2/14 19:05:57
+2025_02_14_19:06:47:370:recive ASIL:T0.84A0.77A0.76A0.73A0.46A4.03A1.45A0.73ENEndN
+2025_02_14_19:06:47:372:test resultOKOKOKOKOKNGOKOKOKOK
+2025_02_14_19:06:47:390:start to Connect MCMQ
+2025_02_14_19:08:08:020:Connect MCMQ Error Code=-2002
+2025_02_14_19:08:08:271:start to Connect MCMQ
+2025_02_14_19:08:10:054:Connect MCMQ Error Code=-2002
+2025_02_14_19:08:10:063:start to Connect MCMQ
+2025_02_14_19:08:12:090:Connect MCMQ Error Code=-2002
+2025_02_14_19:08:12:092:start to Connect MCMQ
+2025_02_14_19:08:12:971:DayShiftSpotCheck:True,NightShiftSpotCheck:False,LastDateTime2025/2/14 19:05:57
+2025_02_14_19:08:13:311:recive ASIL:T0.91A0.82A0.8A0.78A0.47A3.98A1.56A0.76ENEndN
+2025_02_14_19:08:13:312:test resultOKOKOKOKOKNGOKOKOKOK
+2025_02_14_19:08:14:112:Connect MCMQ Error Code=-2002
+2025_02_14_19:08:15:082:start to Connect MCMQ
+2025_02_14_19:08:16:142:Connect MCMQ Error Code=-2002
+2025_02_14_19:08:16:321:start to Connect MCMQ
+2025_02_14_19:08:18:183:Connect MCMQ Error Code=-2002
+2025_02_14_19:08:18:184:start to Connect MCMQ
+2025_02_14_19:08:20:206:Connect MCMQ Error Code=-2002
+2025_02_14_19:08:20:207:start to Connect MCMQ
+2025_02_14_19:09:02:358:******************START********************
+2025_02_14_19:09:03:296:ASIL板连接中...
+2025_02_14_19:09:03:325:ASIL板已连接
+2025_02_14_19:09:04:341:测试机通信侦听中...
+2025_02_14_19:09:04:362:测试机启动侦听
+2025_02_14_19:09:04:363:PIS2通信连接中...
+2025_02_14_19:09:11:851:DayShiftSpotCheck:True,NightShiftSpotCheck:False,LastDateTime2025/2/14 19:05:57
+2025_02_14_19:09:14:933:DayShiftSpotCheck:True,NightShiftSpotCheck:False,LastDateTime2025/2/14 19:05:57
+2025_02_14_19:09:15:018:recive ASIL:T0.95A0.85A0.83A0.81A0.49A3.93A1.63A0.78ENEndN
+2025_02_14_19:09:15:019:test resultOKOKOKOKOKNGOKOKOKOK
+2025_02_14_19:09:15:038:start to Connect MCMQ
+2025_02_14_19:09:17:071:Connect MCMQ Error Code=-2002
+2025_02_14_19:09:17:073:start to Connect MCMQ
+2025_02_14_19:09:19:122:Connect MCMQ Error Code=-2002
+2025_02_14_19:09:19:123:start to Connect MCMQ
+2025_02_14_19:09:21:166:Connect MCMQ Error Code=-2002
+2025_02_14_19:09:21:168:start to Connect MCMQ
+2025_02_14_19:09:23:183:Connect MCMQ Error Code=-2002
+2025_02_14_19:09:23:184:start to Connect MCMQ
+2025_02_14_19:09:25:224:Connect MCMQ Error Code=-2002
+2025_02_14_19:09:25:226:start to Connect MCMQ
+2025_02_14_19:09:27:242:Connect MCMQ Error Code=-2002
+2025_02_14_19:09:27:243:start to Connect MCMQ
+2025_02_14_19:09:29:267:Connect MCMQ Error Code=-2002
+2025_02_14_19:09:29:269:start to Connect MCMQ
+2025_02_14_19:09:31:298:Connect MCMQ Error Code=-2002
+2025_02_14_19:09:32:103:DayShiftSpotCheck:True,NightShiftSpotCheck:False,LastDateTime2025/2/14 19:05:57
+2025_02_14_19:09:32:229:recive ASIL:T0.96A0.86A0.84A0.82A0.49A3.92A1.65A0.79ENEndN
+2025_02_14_19:09:32:231:test resultOKOKOKOKOKNGOKOKOKOK
+2025_02_14_19:09:32:234:start to Connect MCMQ
+2025_02_14_19:09:34:278:Connect MCMQ Error Code=-2002
+2025_02_14_19:09:34:279:start to Connect MCMQ
+2025_02_14_19:09:36:312:Connect MCMQ Error Code=-2002
+2025_02_14_19:09:36:313:start to Connect MCMQ
+2025_02_14_19:09:38:335:Connect MCMQ Error Code=-2002
+2025_02_14_19:09:38:336:start to Connect MCMQ
+2025_02_14_19:09:40:359:Connect MCMQ Error Code=-2002
+2025_02_14_19:09:40:360:start to Connect MCMQ
+2025_02_14_19:09:42:388:Connect MCMQ Error Code=-2002
+2025_02_14_19:09:42:389:start to Connect MCMQ
+2025_02_14_19:09:44:417:Connect MCMQ Error Code=-2002
+2025_02_14_19:09:44:418:start to Connect MCMQ
+2025_02_14_19:09:46:453:Connect MCMQ Error Code=-2002
+2025_02_14_19:09:46:454:start to Connect MCMQ
+2025_02_14_19:09:48:473:Connect MCMQ Error Code=-2002
+2025_02_14_19:10:08:574:DayShiftSpotCheck:True,NightShiftSpotCheck:False,LastDateTime2025/2/14 19:05:57
+2025_02_14_19:10:08:736:recive ASIL:T0.98A0.88A0.86A0.83A0.5A3.89A1.68A0.8ENEndN
+2025_02_14_19:10:08:737:test resultOKOKOKOKOKNGOKOKOKOK
+2025_02_14_19:10:08:743:start to Connect MCMQ
+2025_02_14_19:10:10:777:Connect MCMQ Error Code=-2002
+2025_02_14_19:10:12:789:Connect MCMQ Error Code=-2002
+2025_02_14_19:10:12:790:start to Connect MCMQ
+2025_02_14_19:10:14:821:Connect MCMQ Error Code=-2002
+2025_02_14_19:10:14:822:start to Connect MCMQ
+2025_02_14_19:10:16:872:Connect MCMQ Error Code=-2002
+2025_02_14_19:10:16:874:start to Connect MCMQ
+2025_02_14_19:10:17:663:start to Connect MCMQ
+2025_02_14_19:10:18:903:Connect MCMQ Error Code=-2002
+2025_02_14_19:10:18:905:start to Connect MCMQ
+2025_02_14_19:10:19:489:DayShiftSpotCheck Loop Monitor
+2025_02_14_19:10:20:957:Connect MCMQ Error Code=-2002
+2025_02_14_19:10:20:962:start to Connect MCMQ
+2025_02_14_19:10:22:994:Connect MCMQ Error Code=-2002
+2025_02_14_19:10:22:995:start to Connect MCMQ
+2025_02_14_19:11:46:809:******************START********************
+2025_02_14_19:11:47:642:ASIL板连接中...
+2025_02_14_19:11:47:669:ASIL板已连接
+2025_02_14_19:11:48:684:测试机通信侦听中...
+2025_02_14_19:11:48:709:测试机启动侦听
+2025_02_14_19:11:48:710:PIS2通信连接中...
+2025_02_14_19:11:48:757:DayShiftSpotCheck Loop Monitor
+2025_02_14_19:11:58:474:recive spot check ASIL:T1.05ANANANANANANANENendN
+2025_02_14_19:12:01:337:早班点检成功
+2025_02_14_19:12:08:635:DayShiftSpotCheck:True,NightShiftSpotCheck:False,LastDateTime2025/2/14 19:12:00
+2025_02_14_19:12:08:991:recive ASIL:T1.06A0.96A0.94A0.9A0.54A3.8A1.77A0.86ENEndN
+2025_02_14_19:12:08:992:test resultOKOKOKOKOKNGOKOKOKOK
+2025_02_14_19:12:09:010:start to Connect MCMQ
+2025_02_14_19:12:11:046:Connect MCMQ Error Code=-2002
+2025_02_14_19:12:11:047:start to Connect MCMQ
+2025_02_14_19:12:13:091:Connect MCMQ Error Code=-2002
+2025_02_14_19:12:13:092:start to Connect MCMQ
+2025_02_14_19:12:15:137:Connect MCMQ Error Code=-2002
+2025_02_14_19:12:15:139:start to Connect MCMQ
+2025_02_14_19:12:17:184:Connect MCMQ Error Code=-2002
+2025_02_14_19:12:17:186:start to Connect MCMQ
+2025_02_14_19:12:18:509:无法访问已释放的对象。
+对象名:“ComAssistance”。
+2025_02_14_19:14:45:768:******************START********************
+2025_02_14_19:14:46:694:ASIL板连接中...
+2025_02_14_19:14:46:721:ASIL板已连接
+2025_02_14_19:14:47:739:测试机通信侦听中...
+2025_02_14_19:14:47:755:测试机启动侦听
+2025_02_14_19:14:47:757:PIS2通信连接中...
+2025_02_14_19:14:58:289:DayShiftSpotCheck:True,NightShiftSpotCheck:False,LastDateTime2025/2/14 19:12:00
+2025_02_14_19:14:58:536:recive ASIL:T1.08A1.06A1.04A1A0.61A3.72A1.9A0.97ENEndN
+2025_02_14_19:14:58:537:test resultOKOKOKOKOKNGOKOKOKOK
+2025_02_14_19:14:58:564:start to Connect MCMQ
+2025_02_14_19:15:00:591:Connect MCMQ Error Code=-2002
+2025_02_14_19:15:00:595:start to Connect MCMQ
+2025_02_14_19:15:02:628:Connect MCMQ Error Code=-2002
+2025_02_14_19:15:02:632:start to Connect MCMQ
+2025_02_14_19:15:03:923:无法访问已释放的对象。
+对象名:“ComAssistance”。
+2025_02_14_19:15:14:701:******************START********************
+2025_02_14_19:15:15:607:ASIL板连接中...
+2025_02_14_19:15:15:635:ASIL板已连接
+2025_02_14_19:17:59:213:******************START********************
+2025_02_14_19:18:00:051:ASIL板连接中...
+2025_02_14_19:18:00:080:ASIL板已连接
+2025_02_14_19:18:01:089:测试机通信侦听中...
+2025_02_14_19:18:01:111:测试机启动侦听
+2025_02_14_19:18:01:116:PIS2通信连接中...
+2025_02_14_19:18:04:089:DayShiftSpotCheck:True,NightShiftSpotCheck:False,LastDateTime2025/2/14 19:12:00
+2025_02_14_19:18:04:210:recive ASIL:T1.12A1.08A1.07A1.06A0.68A3.64A1.98A1.06ENEndN
+2025_02_14_19:18:04:211:test resultOKOKOKOKOKNGOKOKOKOK
+2025_02_14_19:18:04:228:start to Connect MCMQ
+2025_02_14_19:18:06:250:Connect MCMQ Error Code=-2002
+2025_02_14_19:18:06:253:start to Connect MCMQ
+2025_02_14_19:18:06:963:无法访问已释放的对象。
+对象名:“ComAssistance”。

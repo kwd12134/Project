@@ -1,0 +1,105 @@
+﻿2024_07_27_08:40:26:063:******************START********************
+2024_07_27_08:40:26:339:ASIL板连接中...
+2024_07_27_08:40:26:348:ASIL板已连接
+2024_07_27_08:40:27:380:精测机通信侦听中...
+2024_07_27_08:40:27:390:精测机启动侦听
+2024_07_27_08:40:27:391:PIS2通信连接中...
+2024_07_27_08:40:27:392:start to Connect MCMQ
+2024_07_27_08:40:27:405:Connect MCMQ Success, returnCode =0
+2024_07_27_08:40:27:406:Connect MCMQ Success, returnCode =0
+2024_07_27_08:40:27:413:OpenreplyQueue AL392822returnCode=0
+2024_07_27_08:40:27:413:OpensendQueue S17MES.CCDreturnCode=0
+2024_07_27_08:40:27:420:Send MCMQ sendQueue=S17MES.CCD replyQueue =AL392822returnCode=0
+2024_07_27_08:40:27:420:Send MCMQ:<?xml version="1.0" encoding='UTF-8'?><si300_interface><message_id>clear_mlp</message_id><line>ASM_3C01</line><mlp_id>12345</mlp_id><operation>ASSY-TEST</operation></si300_interface>
+2024_07_27_08:40:30:856:Recive MCMQ returnCode:0
+2024_07_27_08:40:30:872:Recive MCMQ returnMessage:
+2024_07_27_08:40:30:880:MCMQ disconnect
+2024_07_27_08:40:48:026:******************START********************
+2024_07_27_08:40:48:267:ASIL板连接中...
+2024_07_27_08:40:48:274:ASIL板已连接
+2024_07_27_08:40:49:290:精测机通信侦听中...
+2024_07_27_08:40:49:296:精测机启动侦听
+2024_07_27_08:40:49:296:PIS2通信连接中...
+2024_07_27_08:40:49:300:start to Connect MCMQ
+2024_07_27_08:40:49:310:Connect MCMQ Success, returnCode =0
+2024_07_27_08:40:49:313:Connect MCMQ Success, returnCode =0
+2024_07_27_08:40:49:318:OpenreplyQueue AL359699returnCode=0
+2024_07_27_08:40:49:319:OpensendQueue S17MES.CCDreturnCode=0
+2024_07_27_08:40:49:373:Send MCMQ sendQueue=S17MES.CCD replyQueue =AL359699returnCode=0
+2024_07_27_08:40:49:374:Send MCMQ:<?xml version="1.0" encoding='UTF-8'?><si300_interface><message_id>clear_mlp</message_id><line>ASM_3C01</line><mlp_id>12345</mlp_id><operation>ASSY-TEST</operation></si300_interface>
+2024_07_27_08:40:51:899:Recive MCMQ returnCode:0
+2024_07_27_08:40:51:938:Recive MCMQ returnMessage:
+2024_07_27_08:40:51:962:MCMQ disconnect
+2024_07_27_08:40:53:237:无法访问已释放的对象。
+对象名:“ComAssistance”。
+2024_07_27_08:41:04:807:******************START********************
+2024_07_27_08:41:05:075:ASIL板连接中...
+2024_07_27_08:41:05:085:ASIL板已连接
+2024_07_27_08:41:06:098:精测机通信侦听中...
+2024_07_27_08:41:06:104:精测机启动侦听
+2024_07_27_08:41:06:105:PIS2通信连接中...
+2024_07_27_08:41:06:106:start to Connect MCMQ
+2024_07_27_08:41:06:117:Connect MCMQ Success, returnCode =0
+2024_07_27_08:41:06:119:Connect MCMQ Success, returnCode =0
+2024_07_27_08:41:06:125:OpenreplyQueue AL373938returnCode=0
+2024_07_27_08:41:06:125:OpensendQueue S17MES.CCDreturnCode=0
+2024_07_27_08:41:06:128:Send MCMQ sendQueue=S17MES.CCD replyQueue =AL373938returnCode=0
+2024_07_27_08:41:06:128:Send MCMQ:<?xml version="1.0" encoding='UTF-8'?><si300_interface><message_id>clear_mlp</message_id><line>ASM_3C01</line><mlp_id>12345</mlp_id><operation>ASSY-TEST</operation></si300_interface>
+2024_07_27_08:41:24:892:******************START********************
+2024_07_27_08:41:25:153:ASIL板连接中...
+2024_07_27_08:41:25:164:ASIL板已连接
+2024_07_27_08:41:26:175:精测机通信侦听中...
+2024_07_27_08:41:26:183:精测机启动侦听
+2024_07_27_08:41:26:183:PIS2通信连接中...
+2024_07_27_08:41:26:185:start to Connect MCMQ
+2024_07_27_08:41:26:198:Connect MCMQ Success, returnCode =0
+2024_07_27_08:41:26:200:Connect MCMQ Success, returnCode =0
+2024_07_27_08:41:26:206:OpenreplyQueue AL626841returnCode=0
+2024_07_27_08:41:26:208:OpensendQueue S17MES.CCDreturnCode=0
+2024_07_27_08:41:26:211:Send MCMQ sendQueue=S17MES.CCD replyQueue =AL626841returnCode=0
+2024_07_27_08:41:26:211:Send MCMQ:<?xml version="1.0" encoding='UTF-8'?><si300_interface><message_id>clear_mlp</message_id><line>ASM_3C01</line><mlp_id>12345</mlp_id><operation>ASSY-TEST</operation></si300_interface>
+2024_07_27_08:41:37:786:******************START********************
+2024_07_27_08:41:38:031:ASIL板连接中...
+2024_07_27_08:41:38:038:ASIL板已连接
+2024_07_27_08:41:39:045:精测机通信侦听中...
+2024_07_27_08:41:39:051:精测机启动侦听
+2024_07_27_08:41:39:054:PIS2通信连接中...
+2024_07_27_08:41:39:058:start to Connect MCMQ
+2024_07_27_08:41:39:071:Connect MCMQ Success, returnCode =0
+2024_07_27_08:41:39:075:Connect MCMQ Success, returnCode =0
+2024_07_27_08:41:39:083:OpenreplyQueue AL850502returnCode=0
+2024_07_27_08:41:39:084:OpensendQueue S17MES.CCDreturnCode=0
+2024_07_27_08:41:39:087:Send MCMQ sendQueue=S17MES.CCD replyQueue =AL850502returnCode=0
+2024_07_27_08:41:39:088:Send MCMQ:<?xml version="1.0" encoding='UTF-8'?><si300_interface><message_id>clear_mlp</message_id><line>ASM_3C01</line><mlp_id>12345</mlp_id><operation>ASSY-TEST</operation></si300_interface>
+2024_07_27_08:41:50:908:******************START********************
+2024_07_27_08:41:51:306:ASIL板连接中...
+2024_07_27_08:41:51:311:ASIL板已连接
+2024_07_27_08:41:52:319:精测机通信侦听中...
+2024_07_27_08:41:52:327:精测机启动侦听
+2024_07_27_08:41:52:329:PIS2通信连接中...
+2024_07_27_08:41:52:332:start to Connect MCMQ
+2024_07_27_08:41:52:345:Connect MCMQ Success, returnCode =0
+2024_07_27_08:41:52:348:Connect MCMQ Success, returnCode =0
+2024_07_27_08:41:52:354:OpenreplyQueue AL704995returnCode=0
+2024_07_27_08:41:52:355:OpensendQueue S17MES.CCDreturnCode=0
+2024_07_27_08:41:52:357:Send MCMQ sendQueue=S17MES.CCD replyQueue =AL704995returnCode=0
+2024_07_27_08:41:52:358:Send MCMQ:<?xml version="1.0" encoding='UTF-8'?><si300_interface><message_id>clear_mlp</message_id><line>ASM_3C01</line><mlp_id>12345</mlp_id><operation>ASSY-TEST</operation></si300_interface>
+2024_07_27_08:41:55:113:Recive MCMQ returnCode:0
+2024_07_27_08:41:55:113:Recive MCMQ returnMessage:
+2024_07_27_08:41:55:114:MCMQ disconnect
+2024_07_27_08:42:06:035:******************START********************
+2024_07_27_08:42:06:319:ASIL板连接中...
+2024_07_27_08:42:06:326:ASIL板已连接
+2024_07_27_08:42:07:331:精测机通信侦听中...
+2024_07_27_08:42:07:337:精测机启动侦听
+2024_07_27_08:42:07:338:PIS2通信连接中...
+2024_07_27_08:42:07:340:start to Connect MCMQ
+2024_07_27_08:42:07:352:Connect MCMQ Success, returnCode =0
+2024_07_27_08:42:07:355:Connect MCMQ Success, returnCode =0
+2024_07_27_08:42:07:360:OpenreplyQueue AL725694returnCode=0
+2024_07_27_08:42:07:361:OpensendQueue S17MES.CCDreturnCode=0
+2024_07_27_08:42:07:367:Send MCMQ sendQueue=S17MES.CCD replyQueue =AL725694returnCode=0
+2024_07_27_08:42:07:367:Send MCMQ:<?xml version="1.0" encoding='UTF-8'?><si300_interface><message_id>clear_mlp</message_id><line>ASM_3C01</line><mlp_id>12345</mlp_id><operation>ASSY-TEST</operation></si300_interface>
+2024_07_27_08:42:10:158:Recive MCMQ returnCode:0
+2024_07_27_08:42:10:158:Recive MCMQ returnMessage:
+2024_07_27_08:42:10:159:MCMQ disconnect

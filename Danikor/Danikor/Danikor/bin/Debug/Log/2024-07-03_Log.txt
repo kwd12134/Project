@@ -1,0 +1,308 @@
+2024-07-03 13:03:01  登录成功
+2024-07-03 13:07:18  登录成功
+2024-07-03 13:07:18  连接MCMQ服务器成功:127.0.0.1:7600
+2024-07-03 13:07:21  成功开启发送消息队列:unknow,成功开启回复查询队列:reunknow
+2024-07-03 13:50:49  登录成功
+2024-07-03 13:50:49  连接MCMQ服务器成功:127.0.0.1:7600
+2024-07-03 13:50:49  成功开启发送消息队列:unknow,成功开启回复查询队列:reunknow
+2024-07-03 13:50:55  操作员:x1111111 登录成功 
+2024-07-03 13:50:59  发送消息到队列:unknow,消息内容:
+<?xml version="1.0" encoding="utf-8"?><si300_interface><message_id>validate_lot</message_id>
+<ver>1.6.7</ver>
+<function>test_record</function>
+<user_id>x1111111</user_id>
+<sys_para>2XASSY01</sys_para>
+<p_area>2X</p_area>
+<area>S17</area>
+<line>111</line>
+<operation>P-SCREW</operation>
+<lot_no>s</lot_no>
+</si300_interface>
+
+2024-07-03 13:51:10  接收MCMQ查询消息失败: 0
+2024-07-03 13:51:12  保存通讯配置成功
+2024-07-03 13:51:12  关闭发送消息队列:7929860
+2024-07-03 13:51:12  关闭回复查询队列:7929859
+2024-07-03 13:51:12  断开MCMQ服务器
+2024-07-03 13:51:15  Connected to 192.168.2.32:5000
+2024-07-03 13:51:16  Connected to 192.168.2.32:5000
+2024-07-03 13:51:16  Connected to 192.168.2.32:5000
+2024-07-03 13:51:16  Execute GeneralWriteState SuccessFull:02 00 00 00 0a 57 30 33 30 31 30 30 31 3d 34 03
+2024-07-03 13:51:31  Received:ResultData
+2024-07-03 13:51:31  该设备完成装配
+2024-07-03 13:51:31  拧紧错误,未开启返修策略请重新输入SN码! 
+2024-07-03 13:51:31  Connected to 192.168.2.32:5000
+2024-07-03 13:51:31  Execute GeneralWriteState SuccessFull:02 00 00 00 0D 52 30 31 31 31 30 30 31 3D 32 2C 39 3B 03
+2024-07-03 13:51:32  Connected to 192.168.2.32:5000
+2024-07-03 13:51:32  Execute GeneralWriteState SuccessFull:02 00 00 00 0a 57 30 33 30 31 30 30 31 3d 33 03
+2024-07-03 13:51:36  Connected to 192.168.2.32:5000
+2024-07-03 13:51:36  Execute GeneralWriteState SuccessFull:02 00 00 00 0a 57 30 33 30 31 30 30 31 3d 34 03
+2024-07-03 13:51:39  Received:ResultData
+2024-07-03 13:51:39  拧紧合格
+2024-07-03 13:51:41  Received:ResultData
+2024-07-03 13:51:41  拧紧合格
+2024-07-03 13:51:43  Received:ResultData
+2024-07-03 13:51:43  拧紧合格
+2024-07-03 13:51:45  Received:ResultData
+2024-07-03 13:51:45  拧紧合格
+2024-07-03 13:51:46  Received:ResultData
+2024-07-03 13:51:46  拧紧合格
+2024-07-03 13:51:46  该设备完成装配
+2024-07-03 13:51:46  Connected to 192.168.2.32:5000
+2024-07-03 13:51:46  Execute GeneralWriteState SuccessFull:02 00 00 00 0a 57 30 33 30 31 30 30 31 3d 33 03
+2024-07-03 14:06:44  登录成功
+2024-07-03 14:06:54  Connected to 192.168.2.32:5000
+2024-07-03 14:06:54  GeneralWriteState:ERROR: 00110
+2024-07-03 14:07:08  Connected to 192.168.2.32:5000
+2024-07-03 14:07:08  Execute GeneralWriteState SuccessFull:02 00 00 00 0a 57 30 33 30 31 30 30 31 3d 34 03
+2024-07-03 14:07:10  Connected to 192.168.2.32:5000
+2024-07-03 14:07:10  GeneralWriteState Error: 已取消一个任务。
+2024-07-03 14:07:10  GeneralWriteState:Client DisConnected.
+2024-07-03 14:09:09  登录成功
+2024-07-03 14:09:18  Connected to 192.168.2.32:5000
+2024-07-03 14:09:18  Execute GeneralWriteState SuccessFull:02 00 00 00 0a 57 30 33 30 31 30 30 31 3d 31 03
+2024-07-03 14:09:30  Connected to 192.168.2.32:5000
+2024-07-03 14:09:31  Execute GeneralWriteState SuccessFull:02 00 00 00 0a 57 30 33 30 31 30 30 31 3d 33 03
+2024-07-03 14:09:31  Connected to 192.168.2.32:5000
+2024-07-03 14:09:31  Execute GeneralWriteState SuccessFull:02 00 00 00 0a 57 30 33 30 31 30 30 31 3d 34 03
+2024-07-03 14:09:32  Connected to 192.168.2.32:5000
+2024-07-03 14:09:32  Execute GeneralWriteState SuccessFull:02 00 00 00 0a 57 30 33 30 31 30 30 31 3d 32 03
+2024-07-03 14:09:37  Connected to 192.168.2.32:5000
+2024-07-03 14:09:37  Execute GeneralWriteState SuccessFull:02 00 00 00 0a 57 30 33 30 31 30 30 31 3d 33 03
+2024-07-03 14:09:38  Connected to 192.168.2.32:5000
+2024-07-03 14:09:38  Execute GeneralWriteState SuccessFull:02 00 00 00 0a 57 30 33 30 31 30 30 31 3d 34 03
+2024-07-03 14:09:39  Connected to 192.168.2.32:5000
+2024-07-03 14:09:39  Execute GeneralWriteState SuccessFull:02 00 00 00 0a 57 30 33 30 31 30 30 31 3d 35 03
+2024-07-03 14:10:03  登录成功
+2024-07-03 16:30:30  登录成功
+2024-07-03 16:30:45  操作员:x2235324 登录成功 
+2024-07-03 16:31:38  登录成功
+2024-07-03 16:31:43  操作员:x2222222 登录成功 
+2024-07-03 16:37:13  登录成功
+2024-07-03 16:37:18  操作员:x2222222 登录成功 
+2024-07-03 16:37:20  Connected to 192.168.2.32:5000
+2024-07-03 16:37:20  Connected to 192.168.2.32:5000
+2024-07-03 16:37:20  Execute GeneralWriteState SuccessFull:02 00 00 00 0a 57 30 33 30 31 30 30 31 3d 33 03
+2024-07-03 16:37:21  Connected to 192.168.2.32:5000
+2024-07-03 16:37:40  Connected to 192.168.2.32:5000
+2024-07-03 16:37:40  Execute GeneralWriteState SuccessFull:02 00 00 00 0a 57 30 33 30 31 30 30 31 3d 34 03
+2024-07-03 16:37:44  Received:ResultData
+2024-07-03 16:37:44  该设备完成装配
+2024-07-03 16:37:44  拧紧错误,未开启返修策略请重新输入SN码! 
+2024-07-03 16:37:44  Connected to 192.168.2.32:5000
+2024-07-03 16:37:45  Connected to 192.168.2.32:5000
+2024-07-03 16:37:45  GeneralWriteState:Client DisConnected.
+2024-07-03 16:37:47  Received:ResultData
+2024-07-03 16:37:47  拧紧合格
+2024-07-03 16:37:55  Received:ResultData
+2024-07-03 16:37:55  该设备完成装配
+2024-07-03 16:37:55  拧紧错误,未开启返修策略请重新输入SN码! 
+2024-07-03 16:37:55  Connected to 192.168.2.32:5000
+2024-07-03 16:37:55  Client DisConnected.
+2024-07-03 16:37:56  Connected to 192.168.2.32:5000
+2024-07-03 16:37:56  GeneralWriteState:Client DisConnected.
+2024-07-03 16:37:56  Received:ResultData
+2024-07-03 16:37:56  该设备完成装配
+2024-07-03 16:37:56  拧紧错误,未开启返修策略请重新输入SN码! 
+2024-07-03 16:37:56  Connected to 192.168.2.32:5000
+2024-07-03 16:37:56  Client DisConnected.
+2024-07-03 16:37:56  Connected to 192.168.2.32:5000
+2024-07-03 16:37:56  GeneralWriteState:Client DisConnected.
+2024-07-03 16:37:57  Received:ResultData
+2024-07-03 16:37:57  该设备完成装配
+2024-07-03 16:37:57  拧紧错误,未开启返修策略请重新输入SN码! 
+2024-07-03 16:37:57  Connected to 192.168.2.32:5000
+2024-07-03 16:37:57  Client DisConnected.
+2024-07-03 16:37:57  Connected to 192.168.2.32:5000
+2024-07-03 16:37:57  GeneralWriteState:Client DisConnected.
+2024-07-03 16:38:54  登录成功
+2024-07-03 16:38:58  操作员:x2222222 登录成功 
+2024-07-03 16:39:00  Connected to 192.168.2.32:5000
+2024-07-03 16:39:00  Connected to 192.168.2.32:5000
+2024-07-03 16:39:00  Execute GeneralWriteState SuccessFull:02 00 00 00 0a 57 30 33 30 31 30 30 31 3d 33 03
+2024-07-03 16:39:01  Connected to 192.168.2.32:5000
+2024-07-03 16:41:08  登录成功
+2024-07-03 16:41:15  操作员:x2222222 登录成功 
+2024-07-03 16:41:16  Connected to 192.168.2.32:5000
+2024-07-03 16:41:17  Connected to 192.168.2.32:5000
+2024-07-03 16:41:17  Execute GeneralWriteState SuccessFull:02 00 00 00 0a 57 30 33 30 31 30 30 31 3d 34 03
+2024-07-03 16:41:17  Connected to 192.168.2.32:5000
+2024-07-03 16:41:22  Received:ResultData
+2024-07-03 16:41:22  拧紧合格
+2024-07-03 16:41:22  该设备完成装配
+2024-07-03 16:41:22  Connected to 192.168.2.32:5000
+2024-07-03 16:41:22  Execute GeneralWriteState SuccessFull:02 00 00 00 0a 57 30 33 30 31 30 30 31 3d 33 03
+2024-07-03 16:41:25  Connected to 192.168.2.32:5000
+2024-07-03 16:41:25  Execute GeneralWriteState SuccessFull:02 00 00 00 0a 57 30 33 30 31 30 30 31 3d 34 03
+2024-07-03 16:41:27  Received:ResultData
+2024-07-03 16:41:27  该设备完成装配
+2024-07-03 16:41:27  拧紧错误,未开启返修策略请重新输入SN码! 
+2024-07-03 16:41:27  Connected to 192.168.2.32:5000
+2024-07-03 16:41:28  Connected to 192.168.2.32:5000
+2024-07-03 16:41:28  GeneralWriteState:Client DisConnected.
+2024-07-03 16:41:29  Received:ResultData
+2024-07-03 16:41:29  该设备完成装配
+2024-07-03 16:41:29  拧紧错误,未开启返修策略请重新输入SN码! 
+2024-07-03 16:41:29  Connected to 192.168.2.32:5000
+2024-07-03 16:41:29  Client DisConnected.
+2024-07-03 16:41:29  Connected to 192.168.2.32:5000
+2024-07-03 16:41:29  GeneralWriteState:Client DisConnected.
+2024-07-03 16:41:29  Received:ResultData
+2024-07-03 16:41:29  该设备完成装配
+2024-07-03 16:41:29  拧紧错误,未开启返修策略请重新输入SN码! 
+2024-07-03 16:41:29  Connected to 192.168.2.32:5000
+2024-07-03 16:41:29  Client DisConnected.
+2024-07-03 16:41:30  Connected to 192.168.2.32:5000
+2024-07-03 16:41:30  Received:ResultData
+2024-07-03 16:41:30  该设备完成装配
+2024-07-03 16:41:30  拧紧错误,未开启返修策略请重新输入SN码! 
+2024-07-03 16:41:30  GeneralWriteState:Client DisConnected.
+2024-07-03 16:41:30  Received:ResultData
+2024-07-03 16:41:30  该设备完成装配
+2024-07-03 16:41:30  拧紧错误,未开启返修策略请重新输入SN码! 
+2024-07-03 16:41:30  Connected to 192.168.2.32:5000
+2024-07-03 16:41:30  Client DisConnected.
+2024-07-03 16:41:31  Connected to 192.168.2.32:5000
+2024-07-03 16:41:31  GeneralWriteState:Client DisConnected.
+2024-07-03 16:41:31  Connected to 192.168.2.32:5000
+2024-07-03 16:41:32  GeneralWriteState:Client DisConnected.
+2024-07-03 16:41:32  Connected to 192.168.2.32:5000
+2024-07-03 16:41:32  Client DisConnected.
+2024-07-03 16:41:38  Received:ResultData
+2024-07-03 16:41:38  该设备完成装配
+2024-07-03 16:41:38  拧紧错误,未开启返修策略请重新输入SN码! 
+2024-07-03 16:41:38  该设备完成装配
+2024-07-03 16:41:38  Connected to 192.168.2.32:5000
+2024-07-03 16:41:38  Client DisConnected.
+2024-07-03 16:41:39  Connected to 192.168.2.32:5000
+2024-07-03 16:41:39  GeneralWriteState:Client DisConnected.
+2024-07-03 16:41:39  Connected to 192.168.2.32:5000
+2024-07-03 16:41:39  GeneralWriteState:Client DisConnected.
+2024-07-03 16:41:42  Received:ResultData
+2024-07-03 16:41:42  拧紧合格
+2024-07-03 16:42:29  Error Sending Heartbeat: 无法将数据写入传输连接: 你的主机中的软件中止了一个已建立的连接。。
+2024-07-03 16:42:29  Error Sending Heartbeat: 无法将数据写入传输连接: 你的主机中的软件中止了一个已建立的连接。。
+2024-07-03 16:42:30  Error Sending Heartbeat: 无法将数据写入传输连接: 你的主机中的软件中止了一个已建立的连接。。
+2024-07-03 16:42:32  Error Sending Heartbeat: 无法将数据写入传输连接: 你的主机中的软件中止了一个已建立的连接。。
+2024-07-03 16:42:38  Error Sending Heartbeat: 无法将数据写入传输连接: 你的主机中的软件中止了一个已建立的连接。。
+2024-07-03 16:42:49  Received:ResultData
+2024-07-03 16:42:49  该设备完成装配
+2024-07-03 16:42:49  拧紧错误,未开启返修策略请重新输入SN码! 
+2024-07-03 16:42:49  Connected to 192.168.2.32:5000
+2024-07-03 16:42:50  Client DisConnected.
+2024-07-03 16:42:50  Connected to 192.168.2.32:5000
+2024-07-03 16:42:50  GeneralWriteState:Client DisConnected.
+2024-07-03 16:42:51  Received:ResultData
+2024-07-03 16:42:51  该设备完成装配
+2024-07-03 16:42:51  拧紧错误,未开启返修策略请重新输入SN码! 
+2024-07-03 16:42:51  Connected to 192.168.2.32:5000
+2024-07-03 16:42:51  Client DisConnected.
+2024-07-03 16:42:52  Connected to 192.168.2.32:5000
+2024-07-03 16:42:52  GeneralWriteState:Client DisConnected.
+2024-07-03 16:43:49  Error Sending Heartbeat: 无法将数据写入传输连接: 你的主机中的软件中止了一个已建立的连接。。
+2024-07-03 16:43:51  Error Sending Heartbeat: 无法将数据写入传输连接: 你的主机中的软件中止了一个已建立的连接。。
+2024-07-03 16:45:36  Received:ResultData
+2024-07-03 16:45:36  该设备完成装配
+2024-07-03 16:45:36  拧紧错误,未开启返修策略请重新输入SN码! 
+2024-07-03 16:45:36  Connected to 192.168.2.32:5000
+2024-07-03 16:45:36  Client DisConnected.
+2024-07-03 16:45:37  Connected to 192.168.2.32:5000
+2024-07-03 16:45:37  GeneralWriteState:Client DisConnected.
+2024-07-03 16:45:55  Received:ResultData
+2024-07-03 16:45:55  该设备完成装配
+2024-07-03 16:45:55  拧紧错误,未开启返修策略请重新输入SN码! 
+2024-07-03 16:45:55  该设备完成装配
+2024-07-03 16:45:55  Connected to 192.168.2.32:5000
+2024-07-03 16:45:55  Client DisConnected.
+2024-07-03 16:45:56  Connected to 192.168.2.32:5000
+2024-07-03 16:45:56  GeneralWriteState:Client DisConnected.
+2024-07-03 16:45:56  Connected to 192.168.2.32:5000
+2024-07-03 16:45:56  GeneralWriteState:Client DisConnected.
+2024-07-03 16:46:00  Received:ResultData
+2024-07-03 16:46:00  该设备完成装配
+2024-07-03 16:46:00  拧紧错误,未开启返修策略请重新输入SN码! 
+2024-07-03 16:46:00  Connected to 192.168.2.32:5000
+2024-07-03 16:46:00  Client DisConnected.
+2024-07-03 16:46:01  Connected to 192.168.2.32:5000
+2024-07-03 16:46:01  GeneralWriteState:Client DisConnected.
+2024-07-03 16:46:01  Received:ResultData
+2024-07-03 16:46:01  该设备完成装配
+2024-07-03 16:46:01  拧紧错误,未开启返修策略请重新输入SN码! 
+2024-07-03 16:46:01  Connected to 192.168.2.32:5000
+2024-07-03 16:46:01  Client DisConnected.
+2024-07-03 16:46:01  Connected to 192.168.2.32:5000
+2024-07-03 16:46:01  GeneralWriteState:Client DisConnected.
+2024-07-03 16:46:02  Received:ResultData
+2024-07-03 16:46:02  该设备完成装配
+2024-07-03 16:46:02  拧紧错误,未开启返修策略请重新输入SN码! 
+2024-07-03 16:46:02  Connected to 192.168.2.32:5000
+2024-07-03 16:46:02  Client DisConnected.
+2024-07-03 16:46:03  Connected to 192.168.2.32:5000
+2024-07-03 16:46:03  GeneralWriteState:Client DisConnected.
+2024-07-03 16:46:04  Received:ResultData
+2024-07-03 16:46:04  该设备完成装配
+2024-07-03 16:46:04  拧紧错误,未开启返修策略请重新输入SN码! 
+2024-07-03 16:46:04  Connected to 192.168.2.32:5000
+2024-07-03 16:46:05  Client DisConnected.
+2024-07-03 16:46:05  Connected to 192.168.2.32:5000
+2024-07-03 16:46:05  GeneralWriteState:Client DisConnected.
+2024-07-03 16:46:06  Received:ResultData
+2024-07-03 16:46:06  该设备完成装配
+2024-07-03 16:46:06  拧紧错误,未开启返修策略请重新输入SN码! 
+2024-07-03 16:46:06  该设备完成装配
+2024-07-03 16:46:06  Connected to 192.168.2.32:5000
+2024-07-03 16:46:06  Client DisConnected.
+2024-07-03 16:46:07  Connected to 192.168.2.32:5000
+2024-07-03 16:46:07  GeneralWriteState:Client DisConnected.
+2024-07-03 16:46:07  Connected to 192.168.2.32:5000
+2024-07-03 16:46:07  GeneralWriteState:Client DisConnected.
+2024-07-03 16:46:12  Received:ResultData
+2024-07-03 16:46:12  该设备完成装配
+2024-07-03 16:46:12  拧紧错误,未开启返修策略请重新输入SN码! 
+2024-07-03 16:46:12  Connected to 192.168.2.32:5000
+2024-07-03 16:46:12  Client DisConnected.
+2024-07-03 16:46:12  Connected to 192.168.2.32:5000
+2024-07-03 16:46:12  GeneralWriteState:Client DisConnected.
+2024-07-03 16:46:13  Received:ResultData
+2024-07-03 16:46:13  该设备完成装配
+2024-07-03 16:46:13  拧紧错误,未开启返修策略请重新输入SN码! 
+2024-07-03 16:46:13  Connected to 192.168.2.32:5000
+2024-07-03 16:46:13  Client DisConnected.
+2024-07-03 16:46:13  Received:ResultData
+2024-07-03 16:46:13  该设备完成装配
+2024-07-03 16:46:13  拧紧错误,未开启返修策略请重新输入SN码! 
+2024-07-03 16:46:13  Connected to 192.168.2.32:5000
+2024-07-03 16:46:13  Client DisConnected.
+2024-07-03 16:46:14  Connected to 192.168.2.32:5000
+2024-07-03 16:46:14  GeneralWriteState:Client DisConnected.
+2024-07-03 16:46:14  Connected to 192.168.2.32:5000
+2024-07-03 16:46:14  GeneralWriteState:Client DisConnected.
+2024-07-03 16:49:57  登录成功
+2024-07-03 16:50:40  登录成功
+2024-07-03 16:51:23  登录成功
+2024-07-03 16:51:30  操作员:x3322222 登录成功 
+2024-07-03 16:51:33  Connected to 192.168.2.32:5000
+2024-07-03 16:51:33  Connected to 192.168.2.32:5000
+2024-07-03 16:51:34  Connected to 192.168.2.32:5000
+2024-07-03 16:51:34  Execute GeneralWriteState SuccessFull:02 00 00 00 0a 57 30 33 30 31 30 30 31 3d 34 03
+2024-07-03 16:51:37  Received:ResultData
+2024-07-03 16:51:37  拧紧合格
+2024-07-03 16:51:38  Received:ResultData
+2024-07-03 16:51:44  Connected to 192.168.2.32:5000
+2024-07-03 16:52:04  Execute GeneralWriteState SuccessFull:02 00 00 00 0D 52 30 31 31 31 30 30 31 3D 32 2C 39 3B 03
+2024-07-03 16:52:04  该设备完成装配
+2024-07-03 16:52:04  拧紧错误,未开启返修策略请重新输入SN码! 
+2024-07-03 16:52:04  该设备完成装配
+2024-07-03 16:52:04  Connected to 192.168.2.32:5000
+2024-07-03 16:52:04  Execute GeneralWriteState SuccessFull:02 00 00 00 0a 57 30 33 30 31 30 30 31 3d 33 03
+2024-07-03 16:52:04  Connected to 192.168.2.32:5000
+2024-07-03 16:52:04  Execute GeneralWriteState SuccessFull:02 00 00 00 0a 57 30 33 30 31 30 30 31 3d 33 03
+2024-07-03 16:52:27  Connected to 192.168.2.32:5000
+2024-07-03 16:52:27  Execute GeneralWriteState SuccessFull:02 00 00 00 0a 57 30 33 30 31 30 30 31 3d 34 03
+2024-07-03 16:52:29  Received:ResultData
+2024-07-03 16:52:29  该设备完成装配
+2024-07-03 16:52:29  拧紧错误,未开启返修策略请重新输入SN码! 
+2024-07-03 16:52:29  Connected to 192.168.2.32:5000
+2024-07-03 16:52:29  Execute GeneralWriteState SuccessFull:02 00 00 00 0D 52 30 31 31 31 30 30 31 3D 32 2C 39 3B 03
+2024-07-03 16:52:30  Connected to 192.168.2.32:5000
+2024-07-03 16:52:30  Execute GeneralWriteState SuccessFull:02 00 00 00 0a 57 30 33 30 31 30 30 31 3d 33 03

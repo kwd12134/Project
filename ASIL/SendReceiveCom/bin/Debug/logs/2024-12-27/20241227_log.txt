@@ -1,0 +1,52 @@
+﻿2024_12_27_13:59:01:349:******************START********************
+2024_12_27_13:59:04:061:ASIL板连接中...
+2024_12_27_13:59:04:104:ASIL板已连接
+2024_12_27_13:59:05:119:测试机通信侦听中...
+2024_12_27_13:59:05:130:测试机启动侦听
+2024_12_27_13:59:05:135:PIS2通信连接中...
+2024_12_27_13:59:05:142:DayShiftSpotCheck Loop Monitor
+2024_12_27_13:59:13:983:recive spot check ASIL:T1.22ANANANANANANANENendN
+2024_12_27_13:59:18:923:早班点检成功
+2024_12_27_13:59:45:732:recive spot check ASIL:T1.23ANANANANANANANENendN
+2024_12_27_13:59:48:986:早班点检成功
+2024_12_27_20:01:42:011:NightShiftSpotCheck Loop Monitor
+2024_12_27_20:01:51:077:recive spot check ASIL:T1.25ANANANANANANANENendN
+2024_12_27_20:01:54:117:晚班点检成功
+2024_12_27_20:02:22:277:recive ASIL:T1.26ANANANANANANANENEndN
+2024_12_27_20:02:22:326:test resultOK
+2024_12_27_20:02:22:332:start to Connect MCMQ
+2024_12_27_20:02:24:369:Connect MCMQ Error Code=-2002
+2024_12_27_20:02:27:314:recive ASIL:T1.26ANANANANANANANENEndN
+2024_12_27_20:02:27:366:test resultOK
+2024_12_27_20:02:27:369:start to Connect MCMQ
+2024_12_27_20:02:29:407:Connect MCMQ Error Code=-2002
+2024_12_27_14:04:12:737:DayShiftSpotCheck Loop Monitor
+2024_12_27_14:04:58:516:recive spot check ASIL:T1.27ANANANANANANANENendN
+2024_12_27_14:04:59:579:早班点检成功
+2024_12_27_22:12:13:902:******************START********************
+2024_12_27_22:12:14:200:ASIL板连接中...
+2024_12_27_22:12:14:240:ASIL板已连接
+2024_12_27_22:12:15:246:测试机通信侦听中...
+2024_12_27_22:12:15:254:测试机启动侦听
+2024_12_27_22:12:15:254:PIS2通信连接中...
+2024_12_27_22:12:15:258:NightShiftSpotCheck Loop Monitor
+2024_12_27_22:12:18:245:******************START********************
+2024_12_27_22:12:18:575:ASIL板连接中...
+2024_12_27_22:12:18:599:ASIL板已连接
+2024_12_27_22:12:19:615:测试机通信侦听中...
+2024_12_27_22:12:19:632:测试机启动侦听
+2024_12_27_22:12:19:633:PIS2通信连接中...
+2024_12_27_22:12:19:649:NightShiftSpotCheck Loop Monitor
+2024_12_27_22:12:23:366:recive spot check ASIL:T0.04ANANANANANANANENendN
+2024_12_27_22:12:26:580:晚班点检成功
+2024_12_27_22:14:30:512:******************START********************
+2024_12_27_22:14:30:838:ASIL板连接中...
+2024_12_27_22:14:30:862:ASIL板已连接
+2024_12_27_22:14:31:874:测试机通信侦听中...
+2024_12_27_22:14:31:885:测试机启动侦听
+2024_12_27_22:14:31:886:PIS2通信连接中...
+2024_12_27_22:14:34:657:DayShiftSpotCheck:False,NightShiftSpotCheck:True,LastDateTime2024/12/27 22:12:24
+2024_12_27_22:14:36:761:DayShiftSpotCheck:False,NightShiftSpotCheck:True,LastDateTime2024/12/27 22:12:24
+2024_12_27_22:14:38:167:DayShiftSpotCheck:False,NightShiftSpotCheck:True,LastDateTime2024/12/27 22:12:24
+2024_12_27_22:14:39:537:DayShiftSpotCheck:False,NightShiftSpotCheck:True,LastDateTime2024/12/27 22:12:24
+2024_12_27_22:14:41:143:DayShiftSpotCheck:False,NightShiftSpotCheck:True,LastDateTime2024/12/27 22:12:24
