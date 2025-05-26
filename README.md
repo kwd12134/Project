@@ -9,4 +9,8 @@ MachineVision
 ![image](https://github.com/user-attachments/assets/7122049e-c101-44ca-b635-704c18238797)
 ASIL
 ![image](https://github.com/user-attachments/assets/32235c5f-cd67-475a-93ca-6d8c9a43f3c2)
+<<<<<<< HEAD
 ![image](https://github.com/user-attachments/assets/10c4478f-dd7d-44e4-819d-45a6d413834b)
+=======
+![image](https://github.com/user-attachments/assets/10c4478f-dd7d-44e4-819d-45a6d413834b)
+>>>>>>> df298a321f7e1ac58c143905ddbb7d00620ad86c

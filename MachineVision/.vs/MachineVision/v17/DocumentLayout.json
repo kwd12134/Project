@@ -130,7 +130,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 10,
           "Children": [
             {
               "$type": "Bookmark",
@@ -139,6 +139,18 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
             },
             {
               "$type": "Bookmark",
@@ -158,8 +170,7 @@
               "RelativeToolTip": "MachineVision.Shared\\Events\\LanguageEventBus.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-25T13:49:32.081Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-25T13:49:32.081Z"
             },
             {
               "$type": "Document",
@@ -171,8 +182,7 @@
               "RelativeToolTip": "MachineVision\\ViewModels\\MainViewModel.cs",
               "ViewState": "AgIAACgAAAAAAAAAAAAtwDsAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-30T03:02:33.478Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-30T03:02:33.478Z"
             },
             {
               "$type": "Document",
@@ -184,8 +194,7 @@
               "RelativeToolTip": "MachineVision\\Services\\INavigationMenuService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAuwAIAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-30T03:05:22.863Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-30T03:05:22.863Z"
             },
             {
               "$type": "Document",
@@ -210,8 +219,7 @@
               "RelativeToolTip": "MachineVision\\Extensions\\LanguageHelper.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAuwA0AAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-30T14:26:13.869Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-30T14:26:13.869Z"
             },
             {
               "$type": "Document",
@@ -222,8 +230,7 @@
               "ToolTip": "F:\\Learning\\Project\\MachineVision\\MachineVision\\Assets\\zh-CN.xaml",
               "RelativeToolTip": "MachineVision\\Assets\\zh-CN.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-04-30T03:06:34.884Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-30T03:06:34.884Z"
             },
             {
               "$type": "Document",
@@ -235,8 +242,7 @@
               "RelativeToolTip": "MachineVision\\Models\\NavigationItem.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAuwBYAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-30T03:05:53.675Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-30T03:05:53.675Z"
             },
             {
               "$type": "Document",
@@ -247,8 +253,7 @@
               "ToolTip": "F:\\Learning\\Project\\MachineVision\\MachineVision\\Assets\\en-US.xaml",
               "RelativeToolTip": "MachineVision\\Assets\\en-US.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-04-30T03:06:28.086Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-30T03:06:28.086Z"
             },
             {
               "$type": "Document",
@@ -260,8 +265,7 @@
               "RelativeToolTip": "MachineVision\\ViewModels\\SettingViewModel.cs",
               "ViewState": "AgIAACQAAAAAAAAAAAAYwDYAAABCAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-25T12:56:32.073Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-25T12:56:32.073Z"
             },
             {
               "$type": "Document",
@@ -272,8 +276,7 @@
               "ToolTip": "F:\\Learning\\Project\\MachineVision\\MachineVision\\Views\\SettingView.xaml",
               "RelativeToolTip": "MachineVision\\Views\\SettingView.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-05-25T12:56:21.417Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-25T12:56:21.417Z"
             },
             {
               "$type": "Document",
@@ -285,8 +288,7 @@
               "RelativeToolTip": "MachineVision.Core\\NavigationViewModel.cs",
               "ViewState": "AgIAAAkAAAAAAAAAAAAkwBcAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-30T14:36:57.173Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-30T14:36:57.173Z"
             },
             {
               "$type": "Document",
@@ -297,8 +299,7 @@
               "ToolTip": "F:\\Learning\\Project\\MachineVision\\MachineVision\\Views\\MainView.xaml",
               "RelativeToolTip": "MachineVision\\Views\\MainView.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-04-30T03:03:27.421Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-30T03:03:27.421Z"
             },
             {
               "$type": "Document",
@@ -310,8 +311,7 @@
               "RelativeToolTip": "MachineVision\\Models\\LanguageInfo.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-30T03:02:14.955Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-30T03:02:14.955Z"
             },
             {
               "$type": "Document",
@@ -322,12 +322,7 @@
               "ToolTip": "F:\\Learning\\Project\\MachineVision\\MachineVision\\Views\\DashboardView.xaml",
               "RelativeToolTip": "MachineVision\\Views\\DashboardView.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-04-30T14:36:20.962Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+              "WhenOpened": "2025-04-30T14:36:20.962Z"
             },
             {
               "$type": "Document",
@@ -338,8 +333,7 @@
               "ToolTip": "F:\\Learning\\Project\\MachineVision\\MachineVision\\App.xaml",
               "RelativeToolTip": "MachineVision\\App.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-04-30T03:04:04.5Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-30T03:04:04.5Z"
             },
             {
               "$type": "Document",
@@ -351,8 +345,7 @@
               "RelativeToolTip": "MachineVision\\App.xaml.cs",
               "ViewState": "AgIAABUAAAAAAAAAAAAAACwAAABMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-30T03:04:06.076Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-30T03:04:06.076Z"
             },
             {
               "$type": "Document",
@@ -364,8 +357,7 @@
               "RelativeToolTip": "MachineVision\\ViewModels\\DashboardViewModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-30T14:36:32.108Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-30T14:36:32.108Z"
             },
             {
               "$type": "Document",
@@ -423,8 +415,7 @@
               "ToolTip": "F:\\Learning\\Project\\MachineVision\\MachineVision.Shared\\Controls\\ImageEditView.xaml",
               "RelativeToolTip": "MachineVision.Shared\\Controls\\ImageEditView.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-05-02T13:32:29.878Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-02T13:32:29.878Z"
             },
             {
               "$type": "Document",
@@ -495,8 +486,7 @@
               "ToolTip": "F:\\Learning\\Project\\MachineVision\\MachineVision.Shared\\Themes\\Generic.xaml",
               "RelativeToolTip": "MachineVision.Shared\\Themes\\Generic.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-05-02T13:52:09.828Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-02T13:52:09.828Z"
             },
             {
               "$type": "Document",
@@ -521,6 +511,10 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-30T03:04:03.233Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             }
           ]
         }
