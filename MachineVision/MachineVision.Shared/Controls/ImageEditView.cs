@@ -6,6 +6,7 @@ using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Media.Media3D;
 using MachineVision.Shared.Extensions;
+using System;
 namespace MachineVision.Shared.Controls
 {
     /// <summary>
@@ -78,6 +79,8 @@ namespace MachineVision.Shared.Controls
                 BtnEllipse.Click += BtnEllipse_Click;
             if (GetTemplateChild("PART_Circle") is Button BtnCircle)
                 BtnCircle.Click += BtnCircle_Click;
+            if (GetTemplateChild("PART_Region") is Button BtnRegion)
+                BtnRegion.Click += BtnRegion_Click;
             if (GetTemplateChild("PART_Clear") is Button BtnClear)
                 BtnClear.Click += (s, e) =>
                 {
@@ -86,6 +89,11 @@ namespace MachineVision.Shared.Controls
                     Display(Image);
                 };
             base.OnApplyTemplate();
+        }
+
+        private void BtnRegion_Click(object sender, RoutedEventArgs e)
+        {
+            DrawShape(ShapeType.Region);
         }
 
         private void BtnCircle_Click(object sender, RoutedEventArgs e)
@@ -145,6 +153,7 @@ namespace MachineVision.Shared.Controls
             HObject drawObj;
             HOperatorSet.GenEmptyObj(out drawObj);
             HOperatorSet.SetColor(hWindow, "red");
+            //绘制时取消缩放
             hSmart.HZoomContent = HSmartWindowControlWPF.ZoomContent.Off;
             await Task.Run(() =>
             {
@@ -168,15 +177,26 @@ namespace MachineVision.Shared.Controls
                             drawObj = hTuples.GenCircle();
                             break;
                         }
+                    case ShapeType.Region:
+                        {
+                            //绘制自定义区域
+                            HOperatorSet.DrawRegion(out drawObj, hWindow);
+                            break;
+                        }
                 }
             });
-            DrawObjectList.Add(new DrawingObjectInfo()
-            {
-                hTuples = hTuples,
-                ShapeType = shapeType
-            });
             txtMsg.Text = string.Empty;
-            HOperatorSet.DispObj(drawObj, hWindow);
+            hSmart.HZoomContent = HSmartWindowControlWPF.ZoomContent.WheelForwardZoomsIn;
+            if (drawObj != null)
+            {
+                DrawObjectList.Add(new DrawingObjectInfo()
+                {
+                    hTuples = hTuples,
+                    ShapeType = shapeType,
+                    Hobject = drawObj
+                });
+                HOperatorSet.DispObj(drawObj, hWindow);
+            }
         }
 
 

@@ -2471,6 +2471,7 @@ namespace SendReceiveCom
                         }
 
                         this.SendMcmq(ComAssistance.tc.SendQueue, replyQueue, MessageA, asilA);
+                        Mcmq.closeQueue(0, replyQueue);
                         Mcmq.disconnect(ref handle);
                         this.Setlabel16("PIS2已断开");
                         LogMethod.log("MCMQ disconnect");

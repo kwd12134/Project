@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "BdM2R1pfW9s=",
+  "dgSpecHash": "UjWUuxmsrmc=",
   "success": true,
-  "projectFilePath": "F:\\Learning\\HalconLearning\\MachineVision-main\\MachineVision\\MachineVision.TemplateMatch\\MachineVision.TemplateMatch.csproj",
+  "projectFilePath": "F:\\Learning\\Project\\MachineVision\\MachineVision.TemplateMatch\\MachineVision.TemplateMatch.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\86153\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\86153\\.nuget\\packages\\dryioc.dll\\4.7.7\\dryioc.dll.4.7.7.nupkg.sha512",

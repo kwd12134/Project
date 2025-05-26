@@ -1229,7 +1229,7 @@
             this.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Show;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Tag = "AAAAAA";
-            this.Text = "ASIL侦测上位机软件 v3.0 20250225";
+            this.Text = "ASIL侦测上位机软件 v3.0 20250526";
             this.TransparencyKey = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.Load += new System.EventHandler(this.ComAssistance_Load);
             this.Shown += new System.EventHandler(this.ComAssistance_Shown);

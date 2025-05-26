@@ -1,0 +1,64 @@
+﻿<UserControl
+    x:Class="MachineVision.Views.SettingView"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:local="clr-namespace:MachineVision.Views"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:prism="http://prismlibrary.com/"
+    d:DesignHeight="450"
+    d:DesignWidth="800"
+    prism:ViewModelLocator.AutoWireViewModel="True"
+    mc:Ignorable="d">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"/>
+            <RowDefinition />
+        </Grid.RowDefinitions>
+
+        <TextBlock
+            Margin="15"
+            FontSize="28"
+            FontWeight="Bold"
+            Text="{DynamicResource Setting}" />
+        <StackPanel
+            Grid.Row="1"
+            Margin="15"
+            HorizontalAlignment="Left"
+            VerticalAlignment="Top">
+            <TextBlock FontSize="16" Text="{DynamicResource CurrentLanguage}" />
+            <!--ItemsSource 和 SelectedItem 相互配合获取到selectedItem的值绑定回属性中-->
+            <ComboBox
+                Width="150"
+                Margin="0,10"
+                Padding="5"
+                BorderThickness="1"
+                HorizontalAlignment="Left"                
+                ItemsSource="{Binding LanguageInfo}"
+                SelectedItem="{Binding CurrentLanguage}"
+                BorderBrush="Black"
+                Style="{StaticResource MaterialDesignOutlinedComboBox}">
+                <ComboBox.ItemTemplate>
+                    <DataTemplate>
+                        <TextBlock Text="{Binding Value}"/>
+                    </DataTemplate>
+                </ComboBox.ItemTemplate>
+            </ComboBox>
+            <TextBlock FontSize="16" Text="{DynamicResource Skin}" />
+            <ComboBox
+                Width="150"
+                Margin="0,10"
+                BorderBrush="Black"
+                BorderThickness="1"
+                Padding="5"
+                HorizontalAlignment="Left"
+                Style="{StaticResource MaterialDesignOutlinedComboBox}">
+                <ComboBoxItem>深色</ComboBoxItem>
+                <ComboBoxItem>浅色</ComboBoxItem>
+            </ComboBox>
+            <Button Content="保存设置" />
+        </StackPanel>
+
+    </Grid>
+
+</UserControl>

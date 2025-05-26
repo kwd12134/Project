@@ -4,7 +4,7 @@
 library
 C#
 .cs
-F:\Learning\HalconLearning\MachineVision-main\MachineVision\MachineVision.TemplateMatch\obj\Debug\net6.0-windows\
+F:\Learning\Project\MachineVision\MachineVision.TemplateMatch\obj\Debug\net6.0-windows\
 MachineVision.TemplateMatch
 none
 false
@@ -13,7 +13,7 @@ TRACE;DEBUG;NET;NET6_0;NETCOREAPP
 1-1037480654
 
 3-877769844
-213-1173036004
+2131106525493
 Views\DrawShapeView.xaml;
 
 False

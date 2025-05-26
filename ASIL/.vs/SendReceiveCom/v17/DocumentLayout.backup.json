@@ -1,152 +1,152 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\ASIL\\",
+  "WorkspaceRootPath": "F:\\Learning\\Project\\ASIL\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3E336DBA-9D68-4287-9F48-077958E01E4F}|SendReceiveCom\\SendReceiveCom.csproj|F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\ASIL\\sendreceivecom\\view\\settingform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{3E336DBA-9D68-4287-9F48-077958E01E4F}|SendReceiveCom\\SendReceiveCom.csproj|solutionrelative:sendreceivecom\\view\\settingform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3E336DBA-9D68-4287-9F48-077958E01E4F}|SendReceiveCom\\SendReceiveCom.csproj|F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\ASIL\\sendreceivecom\\view\\settingform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3E336DBA-9D68-4287-9F48-077958E01E4F}|SendReceiveCom\\SendReceiveCom.csproj|solutionrelative:sendreceivecom\\view\\settingform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3E336DBA-9D68-4287-9F48-077958E01E4F}|SendReceiveCom\\SendReceiveCom.csproj|F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\ASIL\\sendreceivecom\\view\\comassistance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{3E336DBA-9D68-4287-9F48-077958E01E4F}|SendReceiveCom\\SendReceiveCom.csproj|solutionrelative:sendreceivecom\\view\\comassistance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3E336DBA-9D68-4287-9F48-077958E01E4F}|SendReceiveCom\\SendReceiveCom.csproj|f:\\learning\\c#\u4E0A\u4F4D\u673A\\project\\asil\\sendreceivecom\\view\\comassistance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3E336DBA-9D68-4287-9F48-077958E01E4F}|SendReceiveCom\\SendReceiveCom.csproj|F:\\Learning\\Project\\ASIL\\sendreceivecom\\view\\comassistance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3E336DBA-9D68-4287-9F48-077958E01E4F}|SendReceiveCom\\SendReceiveCom.csproj|solutionrelative:sendreceivecom\\view\\comassistance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3E336DBA-9D68-4287-9F48-077958E01E4F}|SendReceiveCom\\SendReceiveCom.csproj|F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\ASIL\\sendreceivecom\\helper\\tcclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3E336DBA-9D68-4287-9F48-077958E01E4F}|SendReceiveCom\\SendReceiveCom.csproj|solutionrelative:sendreceivecom\\helper\\tcclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3E336DBA-9D68-4287-9F48-077958E01E4F}|SendReceiveCom\\SendReceiveCom.csproj|F:\\Learning\\Project\\ASIL\\sendreceivecom\\view\\comassistance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{3E336DBA-9D68-4287-9F48-077958E01E4F}|SendReceiveCom\\SendReceiveCom.csproj|solutionrelative:sendreceivecom\\view\\comassistance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3E336DBA-9D68-4287-9F48-077958E01E4F}|SendReceiveCom\\SendReceiveCom.csproj|F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\ASIL\\sendreceivecom\\com\\trx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3E336DBA-9D68-4287-9F48-077958E01E4F}|SendReceiveCom\\SendReceiveCom.csproj|solutionrelative:sendreceivecom\\com\\trx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3E336DBA-9D68-4287-9F48-077958E01E4F}|SendReceiveCom\\SendReceiveCom.csproj|F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\ASIL\\sendreceivecom\\helper\\commport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3E336DBA-9D68-4287-9F48-077958E01E4F}|SendReceiveCom\\SendReceiveCom.csproj|solutionrelative:sendreceivecom\\helper\\commport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3E336DBA-9D68-4287-9F48-077958E01E4F}|SendReceiveCom\\SendReceiveCom.csproj|F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\ASIL\\sendreceivecom\\helper\\datagridviewhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3E336DBA-9D68-4287-9F48-077958E01E4F}|SendReceiveCom\\SendReceiveCom.csproj|solutionrelative:sendreceivecom\\helper\\datagridviewhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3E336DBA-9D68-4287-9F48-077958E01E4F}|SendReceiveCom\\SendReceiveCom.csproj|F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\ASIL\\sendreceivecom\\view\\comassistance.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3E336DBA-9D68-4287-9F48-077958E01E4F}|SendReceiveCom\\SendReceiveCom.csproj|solutionrelative:sendreceivecom\\view\\comassistance.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3E336DBA-9D68-4287-9F48-077958E01E4F}|SendReceiveCom\\SendReceiveCom.csproj|F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\ASIL\\sendreceivecom\\helper\\iniconfighelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3E336DBA-9D68-4287-9F48-077958E01E4F}|SendReceiveCom\\SendReceiveCom.csproj|solutionrelative:sendreceivecom\\helper\\iniconfighelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3E336DBA-9D68-4287-9F48-077958E01E4F}|SendReceiveCom\\SendReceiveCom.csproj|F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\ASIL\\sendreceivecom\\entity\\asil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3E336DBA-9D68-4287-9F48-077958E01E4F}|SendReceiveCom\\SendReceiveCom.csproj|solutionrelative:sendreceivecom\\entity\\asil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3E336DBA-9D68-4287-9F48-077958E01E4F}|SendReceiveCom\\SendReceiveCom.csproj|F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\ASIL\\sendreceivecom\\com\\logmethod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3E336DBA-9D68-4287-9F48-077958E01E4F}|SendReceiveCom\\SendReceiveCom.csproj|solutionrelative:sendreceivecom\\com\\logmethod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3E336DBA-9D68-4287-9F48-077958E01E4F}|SendReceiveCom\\SendReceiveCom.csproj|F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\ASIL\\sendreceivecom\\com\\mysession.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3E336DBA-9D68-4287-9F48-077958E01E4F}|SendReceiveCom\\SendReceiveCom.csproj|solutionrelative:sendreceivecom\\com\\mysession.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3E336DBA-9D68-4287-9F48-077958E01E4F}|SendReceiveCom\\SendReceiveCom.csproj|F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\ASIL\\sendreceivecom\\view\\frmadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{3E336DBA-9D68-4287-9F48-077958E01E4F}|SendReceiveCom\\SendReceiveCom.csproj|solutionrelative:sendreceivecom\\view\\frmadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3E336DBA-9D68-4287-9F48-077958E01E4F}|SendReceiveCom\\SendReceiveCom.csproj|F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\ASIL\\sendreceivecom\\view\\frmmsgboxaffirm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{3E336DBA-9D68-4287-9F48-077958E01E4F}|SendReceiveCom\\SendReceiveCom.csproj|solutionrelative:sendreceivecom\\view\\frmmsgboxaffirm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3E336DBA-9D68-4287-9F48-077958E01E4F}|SendReceiveCom\\SendReceiveCom.csproj|F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\ASIL\\sendreceivecom\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3E336DBA-9D68-4287-9F48-077958E01E4F}|SendReceiveCom\\SendReceiveCom.csproj|solutionrelative:sendreceivecom\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3E336DBA-9D68-4287-9F48-077958E01E4F}|SendReceiveCom\\SendReceiveCom.csproj|F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\ASIL\\sendreceivecom\\service\\servicelocator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3E336DBA-9D68-4287-9F48-077958E01E4F}|SendReceiveCom\\SendReceiveCom.csproj|solutionrelative:sendreceivecom\\service\\servicelocator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3E336DBA-9D68-4287-9F48-077958E01E4F}|SendReceiveCom\\SendReceiveCom.csproj|F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\ASIL\\sendreceivecom\\view\\frmadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3E336DBA-9D68-4287-9F48-077958E01E4F}|SendReceiveCom\\SendReceiveCom.csproj|solutionrelative:sendreceivecom\\view\\frmadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3E336DBA-9D68-4287-9F48-077958E01E4F}|SendReceiveCom\\SendReceiveCom.csproj|F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\ASIL\\sendreceivecom\\com\\queuelock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3E336DBA-9D68-4287-9F48-077958E01E4F}|SendReceiveCom\\SendReceiveCom.csproj|solutionrelative:sendreceivecom\\com\\queuelock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3E336DBA-9D68-4287-9F48-077958E01E4F}|SendReceiveCom\\SendReceiveCom.csproj|F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\ASIL\\sendreceivecom\\entity\\checktime.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3E336DBA-9D68-4287-9F48-077958E01E4F}|SendReceiveCom\\SendReceiveCom.csproj|solutionrelative:sendreceivecom\\entity\\checktime.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3E336DBA-9D68-4287-9F48-077958E01E4F}|SendReceiveCom\\SendReceiveCom.csproj|F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\ASIL\\sendreceivecom\\com\\mcmq.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3E336DBA-9D68-4287-9F48-077958E01E4F}|SendReceiveCom\\SendReceiveCom.csproj|F:\\Learning\\Project\\ASIL\\sendreceivecom\\com\\mcmq.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3E336DBA-9D68-4287-9F48-077958E01E4F}|SendReceiveCom\\SendReceiveCom.csproj|solutionrelative:sendreceivecom\\com\\mcmq.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3E336DBA-9D68-4287-9F48-077958E01E4F}|SendReceiveCom\\SendReceiveCom.csproj|F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\ASIL\\sendreceivecom\\com\\imcmq.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3E336DBA-9D68-4287-9F48-077958E01E4F}|SendReceiveCom\\SendReceiveCom.csproj|F:\\Learning\\Project\\ASIL\\sendreceivecom\\view\\frmadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{3E336DBA-9D68-4287-9F48-077958E01E4F}|SendReceiveCom\\SendReceiveCom.csproj|solutionrelative:sendreceivecom\\view\\frmadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E336DBA-9D68-4287-9F48-077958E01E4F}|SendReceiveCom\\SendReceiveCom.csproj|f:\\learning\\project\\asil\\sendreceivecom\\view\\settingform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{3E336DBA-9D68-4287-9F48-077958E01E4F}|SendReceiveCom\\SendReceiveCom.csproj|solutionrelative:sendreceivecom\\view\\settingform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E336DBA-9D68-4287-9F48-077958E01E4F}|SendReceiveCom\\SendReceiveCom.csproj|F:\\Learning\\Project\\ASIL\\sendreceivecom\\view\\frmmsgboxaffirm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{3E336DBA-9D68-4287-9F48-077958E01E4F}|SendReceiveCom\\SendReceiveCom.csproj|solutionrelative:sendreceivecom\\view\\frmmsgboxaffirm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E336DBA-9D68-4287-9F48-077958E01E4F}|SendReceiveCom\\SendReceiveCom.csproj|F:\\Learning\\Project\\ASIL\\sendreceivecom\\view\\settingform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E336DBA-9D68-4287-9F48-077958E01E4F}|SendReceiveCom\\SendReceiveCom.csproj|solutionrelative:sendreceivecom\\view\\settingform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E336DBA-9D68-4287-9F48-077958E01E4F}|SendReceiveCom\\SendReceiveCom.csproj|F:\\Learning\\Project\\ASIL\\sendreceivecom\\helper\\tcclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E336DBA-9D68-4287-9F48-077958E01E4F}|SendReceiveCom\\SendReceiveCom.csproj|solutionrelative:sendreceivecom\\helper\\tcclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E336DBA-9D68-4287-9F48-077958E01E4F}|SendReceiveCom\\SendReceiveCom.csproj|F:\\Learning\\Project\\ASIL\\sendreceivecom\\com\\trx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E336DBA-9D68-4287-9F48-077958E01E4F}|SendReceiveCom\\SendReceiveCom.csproj|solutionrelative:sendreceivecom\\com\\trx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E336DBA-9D68-4287-9F48-077958E01E4F}|SendReceiveCom\\SendReceiveCom.csproj|F:\\Learning\\Project\\ASIL\\sendreceivecom\\helper\\commport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E336DBA-9D68-4287-9F48-077958E01E4F}|SendReceiveCom\\SendReceiveCom.csproj|solutionrelative:sendreceivecom\\helper\\commport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E336DBA-9D68-4287-9F48-077958E01E4F}|SendReceiveCom\\SendReceiveCom.csproj|F:\\Learning\\Project\\ASIL\\sendreceivecom\\helper\\datagridviewhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E336DBA-9D68-4287-9F48-077958E01E4F}|SendReceiveCom\\SendReceiveCom.csproj|solutionrelative:sendreceivecom\\helper\\datagridviewhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E336DBA-9D68-4287-9F48-077958E01E4F}|SendReceiveCom\\SendReceiveCom.csproj|F:\\Learning\\Project\\ASIL\\sendreceivecom\\view\\comassistance.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E336DBA-9D68-4287-9F48-077958E01E4F}|SendReceiveCom\\SendReceiveCom.csproj|solutionrelative:sendreceivecom\\view\\comassistance.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E336DBA-9D68-4287-9F48-077958E01E4F}|SendReceiveCom\\SendReceiveCom.csproj|F:\\Learning\\Project\\ASIL\\sendreceivecom\\helper\\iniconfighelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E336DBA-9D68-4287-9F48-077958E01E4F}|SendReceiveCom\\SendReceiveCom.csproj|solutionrelative:sendreceivecom\\helper\\iniconfighelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E336DBA-9D68-4287-9F48-077958E01E4F}|SendReceiveCom\\SendReceiveCom.csproj|F:\\Learning\\Project\\ASIL\\sendreceivecom\\entity\\asil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E336DBA-9D68-4287-9F48-077958E01E4F}|SendReceiveCom\\SendReceiveCom.csproj|solutionrelative:sendreceivecom\\entity\\asil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E336DBA-9D68-4287-9F48-077958E01E4F}|SendReceiveCom\\SendReceiveCom.csproj|F:\\Learning\\Project\\ASIL\\sendreceivecom\\com\\logmethod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E336DBA-9D68-4287-9F48-077958E01E4F}|SendReceiveCom\\SendReceiveCom.csproj|solutionrelative:sendreceivecom\\com\\logmethod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E336DBA-9D68-4287-9F48-077958E01E4F}|SendReceiveCom\\SendReceiveCom.csproj|F:\\Learning\\Project\\ASIL\\sendreceivecom\\com\\mysession.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E336DBA-9D68-4287-9F48-077958E01E4F}|SendReceiveCom\\SendReceiveCom.csproj|solutionrelative:sendreceivecom\\com\\mysession.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E336DBA-9D68-4287-9F48-077958E01E4F}|SendReceiveCom\\SendReceiveCom.csproj|F:\\Learning\\Project\\ASIL\\sendreceivecom\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E336DBA-9D68-4287-9F48-077958E01E4F}|SendReceiveCom\\SendReceiveCom.csproj|solutionrelative:sendreceivecom\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E336DBA-9D68-4287-9F48-077958E01E4F}|SendReceiveCom\\SendReceiveCom.csproj|F:\\Learning\\Project\\ASIL\\sendreceivecom\\service\\servicelocator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E336DBA-9D68-4287-9F48-077958E01E4F}|SendReceiveCom\\SendReceiveCom.csproj|solutionrelative:sendreceivecom\\service\\servicelocator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E336DBA-9D68-4287-9F48-077958E01E4F}|SendReceiveCom\\SendReceiveCom.csproj|F:\\Learning\\Project\\ASIL\\sendreceivecom\\view\\frmadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E336DBA-9D68-4287-9F48-077958E01E4F}|SendReceiveCom\\SendReceiveCom.csproj|solutionrelative:sendreceivecom\\view\\frmadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E336DBA-9D68-4287-9F48-077958E01E4F}|SendReceiveCom\\SendReceiveCom.csproj|F:\\Learning\\Project\\ASIL\\sendreceivecom\\com\\queuelock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E336DBA-9D68-4287-9F48-077958E01E4F}|SendReceiveCom\\SendReceiveCom.csproj|solutionrelative:sendreceivecom\\com\\queuelock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E336DBA-9D68-4287-9F48-077958E01E4F}|SendReceiveCom\\SendReceiveCom.csproj|F:\\Learning\\Project\\ASIL\\sendreceivecom\\entity\\checktime.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E336DBA-9D68-4287-9F48-077958E01E4F}|SendReceiveCom\\SendReceiveCom.csproj|solutionrelative:sendreceivecom\\entity\\checktime.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E336DBA-9D68-4287-9F48-077958E01E4F}|SendReceiveCom\\SendReceiveCom.csproj|F:\\Learning\\Project\\ASIL\\sendreceivecom\\com\\imcmq.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3E336DBA-9D68-4287-9F48-077958E01E4F}|SendReceiveCom\\SendReceiveCom.csproj|solutionrelative:sendreceivecom\\com\\imcmq.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3E336DBA-9D68-4287-9F48-077958E01E4F}|SendReceiveCom\\SendReceiveCom.csproj|F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\ASIL\\sendreceivecom\\com\\mcmqclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3E336DBA-9D68-4287-9F48-077958E01E4F}|SendReceiveCom\\SendReceiveCom.csproj|F:\\Learning\\Project\\ASIL\\sendreceivecom\\com\\mcmqclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3E336DBA-9D68-4287-9F48-077958E01E4F}|SendReceiveCom\\SendReceiveCom.csproj|solutionrelative:sendreceivecom\\com\\mcmqclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3E336DBA-9D68-4287-9F48-077958E01E4F}|SendReceiveCom\\SendReceiveCom.csproj|F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\ASIL\\sendreceivecom\\helper\\opensp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3E336DBA-9D68-4287-9F48-077958E01E4F}|SendReceiveCom\\SendReceiveCom.csproj|F:\\Learning\\Project\\ASIL\\sendreceivecom\\helper\\opensp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3E336DBA-9D68-4287-9F48-077958E01E4F}|SendReceiveCom\\SendReceiveCom.csproj|solutionrelative:sendreceivecom\\helper\\opensp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3E336DBA-9D68-4287-9F48-077958E01E4F}|SendReceiveCom\\SendReceiveCom.csproj|F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\ASIL\\sendreceivecom\\view\\frmadmin.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3E336DBA-9D68-4287-9F48-077958E01E4F}|SendReceiveCom\\SendReceiveCom.csproj|F:\\Learning\\Project\\ASIL\\sendreceivecom\\view\\frmadmin.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3E336DBA-9D68-4287-9F48-077958E01E4F}|SendReceiveCom\\SendReceiveCom.csproj|solutionrelative:sendreceivecom\\view\\frmadmin.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Administrator\\Desktop\\\u4E0A\u4F4D\u673A\\Project\\ASIL\\SendReceiveCom\\SettingForm.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3E336DBA-9D68-4287-9F48-077958E01E4F}|SendReceiveCom\\SendReceiveCom.csproj|F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\ASIL\\sendreceivecom\\app.manifest||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "AbsoluteMoniker": "D:0:0:{3E336DBA-9D68-4287-9F48-077958E01E4F}|SendReceiveCom\\SendReceiveCom.csproj|F:\\Learning\\Project\\ASIL\\sendreceivecom\\app.manifest||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
       "RelativeMoniker": "D:0:0:{3E336DBA-9D68-4287-9F48-077958E01E4F}|SendReceiveCom\\SendReceiveCom.csproj|solutionrelative:sendreceivecom\\app.manifest||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3E336DBA-9D68-4287-9F48-077958E01E4F}|SendReceiveCom\\SendReceiveCom.csproj|F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\ASIL\\sendreceivecom\\helper\\common.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3E336DBA-9D68-4287-9F48-077958E01E4F}|SendReceiveCom\\SendReceiveCom.csproj|F:\\Learning\\Project\\ASIL\\sendreceivecom\\helper\\common.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3E336DBA-9D68-4287-9F48-077958E01E4F}|SendReceiveCom\\SendReceiveCom.csproj|solutionrelative:sendreceivecom\\helper\\common.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3E336DBA-9D68-4287-9F48-077958E01E4F}|SendReceiveCom\\SendReceiveCom.csproj|F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\ASIL\\sendreceivecom\\helper\\openports.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3E336DBA-9D68-4287-9F48-077958E01E4F}|SendReceiveCom\\SendReceiveCom.csproj|F:\\Learning\\Project\\ASIL\\sendreceivecom\\helper\\openports.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3E336DBA-9D68-4287-9F48-077958E01E4F}|SendReceiveCom\\SendReceiveCom.csproj|solutionrelative:sendreceivecom\\helper\\openports.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3E336DBA-9D68-4287-9F48-077958E01E4F}|SendReceiveCom\\SendReceiveCom.csproj|F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\ASIL\\sendreceivecom\\view\\frmmsgboxaffirm.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3E336DBA-9D68-4287-9F48-077958E01E4F}|SendReceiveCom\\SendReceiveCom.csproj|F:\\Learning\\Project\\ASIL\\sendreceivecom\\view\\frmmsgboxaffirm.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3E336DBA-9D68-4287-9F48-077958E01E4F}|SendReceiveCom\\SendReceiveCom.csproj|solutionrelative:sendreceivecom\\view\\frmmsgboxaffirm.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3E336DBA-9D68-4287-9F48-077958E01E4F}|SendReceiveCom\\SendReceiveCom.csproj|F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\ASIL\\sendreceivecom\\view\\frmmsgboxaffirm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3E336DBA-9D68-4287-9F48-077958E01E4F}|SendReceiveCom\\SendReceiveCom.csproj|F:\\Learning\\Project\\ASIL\\sendreceivecom\\view\\frmmsgboxaffirm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3E336DBA-9D68-4287-9F48-077958E01E4F}|SendReceiveCom\\SendReceiveCom.csproj|solutionrelative:sendreceivecom\\view\\frmmsgboxaffirm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3E336DBA-9D68-4287-9F48-077958E01E4F}|SendReceiveCom\\SendReceiveCom.csproj|F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\ASIL\\sendreceivecom\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "AbsoluteMoniker": "D:0:0:{3E336DBA-9D68-4287-9F48-077958E01E4F}|SendReceiveCom\\SendReceiveCom.csproj|F:\\Learning\\Project\\ASIL\\sendreceivecom\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
       "RelativeMoniker": "D:0:0:{3E336DBA-9D68-4287-9F48-077958E01E4F}|SendReceiveCom\\SendReceiveCom.csproj|solutionrelative:sendreceivecom\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3E336DBA-9D68-4287-9F48-077958E01E4F}|SendReceiveCom\\SendReceiveCom.csproj|F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\ASIL\\sendreceivecom\\packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "AbsoluteMoniker": "D:0:0:{3E336DBA-9D68-4287-9F48-077958E01E4F}|SendReceiveCom\\SendReceiveCom.csproj|F:\\Learning\\Project\\ASIL\\sendreceivecom\\packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
       "RelativeMoniker": "D:0:0:{3E336DBA-9D68-4287-9F48-077958E01E4F}|SendReceiveCom\\SendReceiveCom.csproj|solutionrelative:sendreceivecom\\packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3E336DBA-9D68-4287-9F48-077958E01E4F}|SendReceiveCom\\SendReceiveCom.csproj|F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\ASIL\\sendreceivecom\\helper\\jsonhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3E336DBA-9D68-4287-9F48-077958E01E4F}|SendReceiveCom\\SendReceiveCom.csproj|F:\\Learning\\Project\\ASIL\\sendreceivecom\\helper\\jsonhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3E336DBA-9D68-4287-9F48-077958E01E4F}|SendReceiveCom\\SendReceiveCom.csproj|solutionrelative:sendreceivecom\\helper\\jsonhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3E336DBA-9D68-4287-9F48-077958E01E4F}|SendReceiveCom\\SendReceiveCom.csproj|F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\ASIL\\sendreceivecom\\properties\\resources.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}",
+      "AbsoluteMoniker": "D:0:0:{3E336DBA-9D68-4287-9F48-077958E01E4F}|SendReceiveCom\\SendReceiveCom.csproj|F:\\Learning\\Project\\ASIL\\sendreceivecom\\properties\\resources.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}",
       "RelativeMoniker": "D:0:0:{3E336DBA-9D68-4287-9F48-077958E01E4F}|SendReceiveCom\\SendReceiveCom.csproj|solutionrelative:sendreceivecom\\properties\\resources.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3E336DBA-9D68-4287-9F48-077958E01E4F}|SendReceiveCom\\SendReceiveCom.csproj|F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\ASIL\\sendreceivecom\\properties\\resources.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3E336DBA-9D68-4287-9F48-077958E01E4F}|SendReceiveCom\\SendReceiveCom.csproj|F:\\Learning\\Project\\ASIL\\sendreceivecom\\properties\\resources.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3E336DBA-9D68-4287-9F48-077958E01E4F}|SendReceiveCom\\SendReceiveCom.csproj|solutionrelative:sendreceivecom\\properties\\resources.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3E336DBA-9D68-4287-9F48-077958E01E4F}|SendReceiveCom\\SendReceiveCom.csproj|F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\ASIL\\sendreceivecom\\view\\comassistance.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}",
+      "AbsoluteMoniker": "D:0:0:{3E336DBA-9D68-4287-9F48-077958E01E4F}|SendReceiveCom\\SendReceiveCom.csproj|F:\\Learning\\Project\\ASIL\\sendreceivecom\\view\\comassistance.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}",
       "RelativeMoniker": "D:0:0:{3E336DBA-9D68-4287-9F48-077958E01E4F}|SendReceiveCom\\SendReceiveCom.csproj|solutionrelative:sendreceivecom\\view\\comassistance.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}"
     }
   ],
@@ -157,16 +157,16 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 11,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "ComAssistance.cs [\u8BBE\u8BA1]",
-              "DocumentMoniker": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\ASIL\\SendReceiveCom\\View\\ComAssistance.cs",
+              "DocumentMoniker": "F:\\Learning\\Project\\ASIL\\SendReceiveCom\\View\\ComAssistance.cs",
               "RelativeDocumentMoniker": "SendReceiveCom\\View\\ComAssistance.cs",
-              "ToolTip": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\ASIL\\SendReceiveCom\\View\\ComAssistance.cs [\u8BBE\u8BA1]",
-              "RelativeToolTip": "SendReceiveCom\\View\\ComAssistance.cs [\u8BBE\u8BA1]",
+              "ToolTip": "F:\\Learning\\Project\\ASIL\\SendReceiveCom\\View\\ComAssistance.cs [\u8BBE\u8BA1]*",
+              "RelativeToolTip": "SendReceiveCom\\View\\ComAssistance.cs [\u8BBE\u8BA1]*",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-08T07:19:28.261Z",
               "IsPinned": true,
@@ -174,11 +174,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "SettingForm.cs [\u8BBE\u8BA1]",
-              "DocumentMoniker": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\ASIL\\SendReceiveCom\\View\\SettingForm.cs",
+              "DocumentMoniker": "F:\\Learning\\Project\\ASIL\\SendReceiveCom\\View\\SettingForm.cs",
               "RelativeDocumentMoniker": "SendReceiveCom\\View\\SettingForm.cs",
-              "ToolTip": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\ASIL\\SendReceiveCom\\View\\SettingForm.cs [\u8BBE\u8BA1]",
+              "ToolTip": "F:\\Learning\\Project\\ASIL\\SendReceiveCom\\View\\SettingForm.cs [\u8BBE\u8BA1]",
               "RelativeToolTip": "SendReceiveCom\\View\\SettingForm.cs [\u8BBE\u8BA1]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-08T07:19:29.67Z",
@@ -203,37 +203,109 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "DataGridViewHelper.cs",
+              "DocumentMoniker": "F:\\Learning\\Project\\ASIL\\SendReceiveCom\\Helper\\DataGridViewHelper.cs",
+              "RelativeDocumentMoniker": "SendReceiveCom\\Helper\\DataGridViewHelper.cs",
+              "ToolTip": "F:\\Learning\\Project\\ASIL\\SendReceiveCom\\Helper\\DataGridViewHelper.cs",
+              "RelativeToolTip": "SendReceiveCom\\Helper\\DataGridViewHelper.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAuwEYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-20T06:06:33.378Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "TcClass.cs",
+              "DocumentMoniker": "F:\\Learning\\Project\\ASIL\\SendReceiveCom\\Helper\\TcClass.cs",
+              "RelativeDocumentMoniker": "SendReceiveCom\\Helper\\TcClass.cs",
+              "ToolTip": "F:\\Learning\\Project\\ASIL\\SendReceiveCom\\Helper\\TcClass.cs",
+              "RelativeToolTip": "SendReceiveCom\\Helper\\TcClass.cs",
+              "ViewState": "AgIAADgCAAAAAAAAAAAAAFcCAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-08T07:38:14.639Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "trx.cs",
+              "DocumentMoniker": "F:\\Learning\\Project\\ASIL\\SendReceiveCom\\com\\trx.cs",
+              "RelativeDocumentMoniker": "SendReceiveCom\\com\\trx.cs",
+              "ToolTip": "F:\\Learning\\Project\\ASIL\\SendReceiveCom\\com\\trx.cs",
+              "RelativeToolTip": "SendReceiveCom\\com\\trx.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADQAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-10T13:36:52.35Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "FrmMsgBoxAffirm.cs [\u8BBE\u8BA1]",
+              "DocumentMoniker": "F:\\Learning\\Project\\ASIL\\SendReceiveCom\\View\\FrmMsgBoxAffirm.cs",
+              "RelativeDocumentMoniker": "SendReceiveCom\\View\\FrmMsgBoxAffirm.cs",
+              "ToolTip": "F:\\Learning\\Project\\ASIL\\SendReceiveCom\\View\\FrmMsgBoxAffirm.cs [\u8BBE\u8BA1]",
+              "RelativeToolTip": "SendReceiveCom\\View\\FrmMsgBoxAffirm.cs [\u8BBE\u8BA1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-26T05:15:04.008Z",
+              "EditorCaption": " [\u8BBE\u8BA1]"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "FrmAdmin.cs [\u8BBE\u8BA1]",
+              "DocumentMoniker": "F:\\Learning\\Project\\ASIL\\SendReceiveCom\\View\\FrmAdmin.cs",
+              "RelativeDocumentMoniker": "SendReceiveCom\\View\\FrmAdmin.cs",
+              "ToolTip": "F:\\Learning\\Project\\ASIL\\SendReceiveCom\\View\\FrmAdmin.cs [\u8BBE\u8BA1]",
+              "RelativeToolTip": "SendReceiveCom\\View\\FrmAdmin.cs [\u8BBE\u8BA1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-17T09:15:42.407Z",
+              "EditorCaption": " [\u8BBE\u8BA1]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "ComAssistance.cs",
-              "DocumentMoniker": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\ASIL\\SendReceiveCom\\View\\ComAssistance.cs",
+              "DocumentMoniker": "F:\\Learning\\Project\\ASIL\\SendReceiveCom\\View\\ComAssistance.cs",
               "RelativeDocumentMoniker": "SendReceiveCom\\View\\ComAssistance.cs",
-              "ToolTip": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\ASIL\\SendReceiveCom\\View\\ComAssistance.cs",
-              "RelativeToolTip": "SendReceiveCom\\View\\ComAssistance.cs",
-              "ViewState": "AgIAAE0HAAAAAAAAAAAmwGUHAAAbAAAAAAAAAA==",
+              "ToolTip": "F:\\Learning\\Project\\ASIL\\SendReceiveCom\\View\\ComAssistance.cs*",
+              "RelativeToolTip": "SendReceiveCom\\View\\ComAssistance.cs*",
+              "ViewState": "AgIAAI4JAAAAAAAAAAAtwKkJAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-01T12:26:57.876Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "SettingForm.cs",
-              "DocumentMoniker": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\ASIL\\SendReceiveCom\\View\\SettingForm.cs",
-              "RelativeDocumentMoniker": "SendReceiveCom\\View\\SettingForm.cs",
-              "ToolTip": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\ASIL\\SendReceiveCom\\View\\SettingForm.cs",
-              "RelativeToolTip": "SendReceiveCom\\View\\SettingForm.cs",
-              "ViewState": "AgIAAHsDAAAAAAAAAAAAAJYDAAARAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "Mcmq.cs",
+              "DocumentMoniker": "F:\\Learning\\Project\\ASIL\\SendReceiveCom\\com\\Mcmq.cs",
+              "RelativeDocumentMoniker": "SendReceiveCom\\com\\Mcmq.cs",
+              "ToolTip": "F:\\Learning\\Project\\ASIL\\SendReceiveCom\\com\\Mcmq.cs",
+              "RelativeToolTip": "SendReceiveCom\\com\\Mcmq.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABwAAAA8AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-08T07:46:54.607Z",
+              "WhenOpened": "2024-07-11T00:54:45.244Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 9,
+              "Title": "CommPort.cs",
+              "DocumentMoniker": "F:\\Learning\\Project\\ASIL\\SendReceiveCom\\Helper\\CommPort.cs",
+              "RelativeDocumentMoniker": "SendReceiveCom\\Helper\\CommPort.cs",
+              "ToolTip": "F:\\Learning\\Project\\ASIL\\SendReceiveCom\\Helper\\CommPort.cs",
+              "RelativeToolTip": "SendReceiveCom\\Helper\\CommPort.cs",
+              "ViewState": "AgIAAE4AAAAAAAAAAAAuwGUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-08T07:53:43.017Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
               "Title": "MySession.cs",
-              "DocumentMoniker": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\ASIL\\SendReceiveCom\\com\\MySession.cs",
+              "DocumentMoniker": "F:\\Learning\\Project\\ASIL\\SendReceiveCom\\com\\MySession.cs",
               "RelativeDocumentMoniker": "SendReceiveCom\\com\\MySession.cs",
-              "ToolTip": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\ASIL\\SendReceiveCom\\com\\MySession.cs",
+              "ToolTip": "F:\\Learning\\Project\\ASIL\\SendReceiveCom\\com\\MySession.cs",
               "RelativeToolTip": "SendReceiveCom\\com\\MySession.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -242,71 +314,39 @@
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "CommPort.cs",
-              "DocumentMoniker": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\ASIL\\SendReceiveCom\\Helper\\CommPort.cs",
-              "RelativeDocumentMoniker": "SendReceiveCom\\Helper\\CommPort.cs",
-              "ToolTip": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\ASIL\\SendReceiveCom\\Helper\\CommPort.cs",
-              "RelativeToolTip": "SendReceiveCom\\Helper\\CommPort.cs",
-              "ViewState": "AgIAAE4AAAAAAAAAAAAuwGUAAAAAAAAAAAAAAA==",
+              "Title": "SettingForm.cs",
+              "DocumentMoniker": "F:\\Learning\\Project\\ASIL\\SendReceiveCom\\View\\SettingForm.cs",
+              "RelativeDocumentMoniker": "SendReceiveCom\\View\\SettingForm.cs",
+              "ToolTip": "F:\\Learning\\Project\\ASIL\\SendReceiveCom\\View\\SettingForm.cs",
+              "RelativeToolTip": "SendReceiveCom\\View\\SettingForm.cs",
+              "ViewState": "AgIAAHsDAAAAAAAAAAAAAJYDAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-08T07:53:43.017Z"
+              "WhenOpened": "2024-07-08T07:46:54.607Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "DataGridViewHelper.cs",
-              "DocumentMoniker": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\ASIL\\SendReceiveCom\\Helper\\DataGridViewHelper.cs",
-              "RelativeDocumentMoniker": "SendReceiveCom\\Helper\\DataGridViewHelper.cs",
-              "ToolTip": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\ASIL\\SendReceiveCom\\Helper\\DataGridViewHelper.cs",
-              "RelativeToolTip": "SendReceiveCom\\Helper\\DataGridViewHelper.cs",
-              "ViewState": "AgIAAC8AAAAAAAAAAAAuwEYAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 11,
+              "Title": "ComAssistance.Designer.cs",
+              "DocumentMoniker": "F:\\Learning\\Project\\ASIL\\SendReceiveCom\\View\\ComAssistance.Designer.cs",
+              "RelativeDocumentMoniker": "SendReceiveCom\\View\\ComAssistance.Designer.cs",
+              "ToolTip": "F:\\Learning\\Project\\ASIL\\SendReceiveCom\\View\\ComAssistance.Designer.cs",
+              "RelativeToolTip": "SendReceiveCom\\View\\ComAssistance.Designer.cs",
+              "ViewState": "AgIAAHIBAAAAAAAAAAAhwIoBAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-20T06:06:33.378Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "TcClass.cs",
-              "DocumentMoniker": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\ASIL\\SendReceiveCom\\Helper\\TcClass.cs",
-              "RelativeDocumentMoniker": "SendReceiveCom\\Helper\\TcClass.cs",
-              "ToolTip": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\ASIL\\SendReceiveCom\\Helper\\TcClass.cs",
-              "RelativeToolTip": "SendReceiveCom\\Helper\\TcClass.cs",
-              "ViewState": "AgIAADgCAAAAAAAAAAAAAFcCAABAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-08T07:38:14.639Z",
+              "WhenOpened": "2024-07-08T07:48:49.795Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "trx.cs",
-              "DocumentMoniker": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\ASIL\\SendReceiveCom\\com\\trx.cs",
-              "RelativeDocumentMoniker": "SendReceiveCom\\com\\trx.cs",
-              "ToolTip": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\ASIL\\SendReceiveCom\\com\\trx.cs",
-              "RelativeToolTip": "SendReceiveCom\\com\\trx.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADQAAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-10T13:36:52.35Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "ComAssistance.Designer.cs",
-              "DocumentMoniker": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\ASIL\\SendReceiveCom\\View\\ComAssistance.Designer.cs",
-              "RelativeDocumentMoniker": "SendReceiveCom\\View\\ComAssistance.Designer.cs",
-              "ToolTip": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\ASIL\\SendReceiveCom\\View\\ComAssistance.Designer.cs",
-              "RelativeToolTip": "SendReceiveCom\\View\\ComAssistance.Designer.cs",
-              "ViewState": "AgIAAHIBAAAAAAAAAAAhwIoBAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-08T07:48:49.795Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 12,
               "Title": "iniConfigHelper.cs",
-              "DocumentMoniker": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\ASIL\\SendReceiveCom\\Helper\\iniConfigHelper.cs",
+              "DocumentMoniker": "F:\\Learning\\Project\\ASIL\\SendReceiveCom\\Helper\\iniConfigHelper.cs",
               "RelativeDocumentMoniker": "SendReceiveCom\\Helper\\iniConfigHelper.cs",
-              "ToolTip": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\ASIL\\SendReceiveCom\\Helper\\iniConfigHelper.cs",
+              "ToolTip": "F:\\Learning\\Project\\ASIL\\SendReceiveCom\\Helper\\iniConfigHelper.cs",
               "RelativeToolTip": "SendReceiveCom\\Helper\\iniConfigHelper.cs",
               "ViewState": "AgIAAEQAAAAAAAAAAMBUwEcAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -314,11 +354,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "Program.cs",
-              "DocumentMoniker": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\ASIL\\SendReceiveCom\\Program.cs",
+              "DocumentMoniker": "F:\\Learning\\Project\\ASIL\\SendReceiveCom\\Program.cs",
               "RelativeDocumentMoniker": "SendReceiveCom\\Program.cs",
-              "ToolTip": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\ASIL\\SendReceiveCom\\Program.cs",
+              "ToolTip": "F:\\Learning\\Project\\ASIL\\SendReceiveCom\\Program.cs",
               "RelativeToolTip": "SendReceiveCom\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -326,22 +366,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "FrmAdmin.cs [\u8BBE\u8BA1]",
-              "DocumentMoniker": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\ASIL\\SendReceiveCom\\View\\FrmAdmin.cs",
-              "RelativeDocumentMoniker": "SendReceiveCom\\View\\FrmAdmin.cs",
-              "ToolTip": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\ASIL\\SendReceiveCom\\View\\FrmAdmin.cs [\u8BBE\u8BA1]",
-              "RelativeToolTip": "SendReceiveCom\\View\\FrmAdmin.cs [\u8BBE\u8BA1]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-17T09:15:42.407Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 14,
               "Title": "LogMethod.cs",
-              "DocumentMoniker": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\ASIL\\SendReceiveCom\\com\\LogMethod.cs",
+              "DocumentMoniker": "F:\\Learning\\Project\\ASIL\\SendReceiveCom\\com\\LogMethod.cs",
               "RelativeDocumentMoniker": "SendReceiveCom\\com\\LogMethod.cs",
-              "ToolTip": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\ASIL\\SendReceiveCom\\com\\LogMethod.cs",
+              "ToolTip": "F:\\Learning\\Project\\ASIL\\SendReceiveCom\\com\\LogMethod.cs",
               "RelativeToolTip": "SendReceiveCom\\com\\LogMethod.cs",
               "ViewState": "AgIAAAkAAAAAAAAAAAAswAoAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -349,11 +378,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 13,
               "Title": "ASIL.cs",
-              "DocumentMoniker": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\ASIL\\SendReceiveCom\\Entity\\ASIL.cs",
+              "DocumentMoniker": "F:\\Learning\\Project\\ASIL\\SendReceiveCom\\Entity\\ASIL.cs",
               "RelativeDocumentMoniker": "SendReceiveCom\\Entity\\ASIL.cs",
-              "ToolTip": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\ASIL\\SendReceiveCom\\Entity\\ASIL.cs",
+              "ToolTip": "F:\\Learning\\Project\\ASIL\\SendReceiveCom\\Entity\\ASIL.cs",
               "RelativeToolTip": "SendReceiveCom\\Entity\\ASIL.cs",
               "ViewState": "AgIAAB0AAAAAAAAAAAAIwC8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -361,22 +390,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "FrmMsgBoxAffirm.cs [\u8BBE\u8BA1]",
-              "DocumentMoniker": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\ASIL\\SendReceiveCom\\View\\FrmMsgBoxAffirm.cs",
-              "RelativeDocumentMoniker": "SendReceiveCom\\View\\FrmMsgBoxAffirm.cs",
-              "ToolTip": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\ASIL\\SendReceiveCom\\View\\FrmMsgBoxAffirm.cs [\u8BBE\u8BA1]",
-              "RelativeToolTip": "SendReceiveCom\\View\\FrmMsgBoxAffirm.cs [\u8BBE\u8BA1]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-26T05:15:04.008Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "ServiceLocator.cs",
-              "DocumentMoniker": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\ASIL\\SendReceiveCom\\Service\\ServiceLocator.cs",
+              "DocumentMoniker": "F:\\Learning\\Project\\ASIL\\SendReceiveCom\\Service\\ServiceLocator.cs",
               "RelativeDocumentMoniker": "SendReceiveCom\\Service\\ServiceLocator.cs",
-              "ToolTip": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\ASIL\\SendReceiveCom\\Service\\ServiceLocator.cs",
+              "ToolTip": "F:\\Learning\\Project\\ASIL\\SendReceiveCom\\Service\\ServiceLocator.cs",
               "RelativeToolTip": "SendReceiveCom\\Service\\ServiceLocator.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -384,11 +402,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 20,
               "Title": "CheckTime.cs",
-              "DocumentMoniker": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\ASIL\\SendReceiveCom\\Entity\\CheckTime.cs",
+              "DocumentMoniker": "F:\\Learning\\Project\\ASIL\\SendReceiveCom\\Entity\\CheckTime.cs",
               "RelativeDocumentMoniker": "SendReceiveCom\\Entity\\CheckTime.cs",
-              "ToolTip": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\ASIL\\SendReceiveCom\\Entity\\CheckTime.cs",
+              "ToolTip": "F:\\Learning\\Project\\ASIL\\SendReceiveCom\\Entity\\CheckTime.cs",
               "RelativeToolTip": "SendReceiveCom\\Entity\\CheckTime.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -396,11 +414,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "QueueLock.cs",
-              "DocumentMoniker": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\ASIL\\SendReceiveCom\\com\\QueueLock.cs",
+              "DocumentMoniker": "F:\\Learning\\Project\\ASIL\\SendReceiveCom\\com\\QueueLock.cs",
               "RelativeDocumentMoniker": "SendReceiveCom\\com\\QueueLock.cs",
-              "ToolTip": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\ASIL\\SendReceiveCom\\com\\QueueLock.cs",
+              "ToolTip": "F:\\Learning\\Project\\ASIL\\SendReceiveCom\\com\\QueueLock.cs",
               "RelativeToolTip": "SendReceiveCom\\com\\QueueLock.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAADwvxkAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -408,15 +426,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "FrmAdmin.cs",
-              "DocumentMoniker": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\ASIL\\SendReceiveCom\\View\\FrmAdmin.cs",
+              "DocumentMoniker": "F:\\Learning\\Project\\ASIL\\SendReceiveCom\\View\\FrmAdmin.cs",
               "RelativeDocumentMoniker": "SendReceiveCom\\View\\FrmAdmin.cs",
-              "ToolTip": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\ASIL\\SendReceiveCom\\View\\FrmAdmin.cs",
+              "ToolTip": "F:\\Learning\\Project\\ASIL\\SendReceiveCom\\View\\FrmAdmin.cs",
               "RelativeToolTip": "SendReceiveCom\\View\\FrmAdmin.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-17T09:17:26.862Z"
+              "WhenOpened": "2024-08-17T09:17:26.862Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -431,9 +450,9 @@
               "$type": "Document",
               "DocumentIndex": 22,
               "Title": "MCMQClass.cs",
-              "DocumentMoniker": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\ASIL\\SendReceiveCom\\com\\MCMQClass.cs",
+              "DocumentMoniker": "F:\\Learning\\Project\\ASIL\\SendReceiveCom\\com\\MCMQClass.cs",
               "RelativeDocumentMoniker": "SendReceiveCom\\com\\MCMQClass.cs",
-              "ToolTip": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\ASIL\\SendReceiveCom\\com\\MCMQClass.cs",
+              "ToolTip": "F:\\Learning\\Project\\ASIL\\SendReceiveCom\\com\\MCMQClass.cs",
               "RelativeToolTip": "SendReceiveCom\\com\\MCMQClass.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -441,23 +460,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "Mcmq.cs",
-              "DocumentMoniker": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\ASIL\\SendReceiveCom\\com\\Mcmq.cs",
-              "RelativeDocumentMoniker": "SendReceiveCom\\com\\Mcmq.cs",
-              "ToolTip": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\ASIL\\SendReceiveCom\\com\\Mcmq.cs",
-              "RelativeToolTip": "SendReceiveCom\\com\\Mcmq.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAvwBkAAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-11T00:54:45.244Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 21,
               "Title": "IMcmq.cs",
-              "DocumentMoniker": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\ASIL\\SendReceiveCom\\com\\IMcmq.cs",
+              "DocumentMoniker": "F:\\Learning\\Project\\ASIL\\SendReceiveCom\\com\\IMcmq.cs",
               "RelativeDocumentMoniker": "SendReceiveCom\\com\\IMcmq.cs",
-              "ToolTip": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\ASIL\\SendReceiveCom\\com\\IMcmq.cs",
+              "ToolTip": "F:\\Learning\\Project\\ASIL\\SendReceiveCom\\com\\IMcmq.cs",
               "RelativeToolTip": "SendReceiveCom\\com\\IMcmq.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAswAYAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -467,9 +474,9 @@
               "$type": "Document",
               "DocumentIndex": 23,
               "Title": "OpenSP.cs",
-              "DocumentMoniker": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\ASIL\\SendReceiveCom\\Helper\\OpenSP.cs",
+              "DocumentMoniker": "F:\\Learning\\Project\\ASIL\\SendReceiveCom\\Helper\\OpenSP.cs",
               "RelativeDocumentMoniker": "SendReceiveCom\\Helper\\OpenSP.cs",
-              "ToolTip": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\ASIL\\SendReceiveCom\\Helper\\OpenSP.cs",
+              "ToolTip": "F:\\Learning\\Project\\ASIL\\SendReceiveCom\\Helper\\OpenSP.cs",
               "RelativeToolTip": "SendReceiveCom\\Helper\\OpenSP.cs",
               "ViewState": "AgIAAFEAAAAAAAAAAAAlwGQAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -479,21 +486,22 @@
               "$type": "Document",
               "DocumentIndex": 24,
               "Title": "FrmAdmin.Designer.cs",
-              "DocumentMoniker": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\ASIL\\SendReceiveCom\\View\\FrmAdmin.Designer.cs",
+              "DocumentMoniker": "F:\\Learning\\Project\\ASIL\\SendReceiveCom\\View\\FrmAdmin.Designer.cs",
               "RelativeDocumentMoniker": "SendReceiveCom\\View\\FrmAdmin.Designer.cs",
-              "ToolTip": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\ASIL\\SendReceiveCom\\View\\FrmAdmin.Designer.cs",
+              "ToolTip": "F:\\Learning\\Project\\ASIL\\SendReceiveCom\\View\\FrmAdmin.Designer.cs",
               "RelativeToolTip": "SendReceiveCom\\View\\FrmAdmin.Designer.cs",
               "ViewState": "AgIAABMAAAAAAAAAAABRwBYAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-10T05:24:59.584Z"
+              "WhenOpened": "2024-09-10T05:24:59.584Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 26,
               "Title": "app.manifest",
-              "DocumentMoniker": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\ASIL\\SendReceiveCom\\app.manifest",
+              "DocumentMoniker": "F:\\Learning\\Project\\ASIL\\SendReceiveCom\\app.manifest",
               "RelativeDocumentMoniker": "SendReceiveCom\\app.manifest",
-              "ToolTip": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\ASIL\\SendReceiveCom\\app.manifest",
+              "ToolTip": "F:\\Learning\\Project\\ASIL\\SendReceiveCom\\app.manifest",
               "RelativeToolTip": "SendReceiveCom\\app.manifest",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001203|",
@@ -503,9 +511,9 @@
               "$type": "Document",
               "DocumentIndex": 27,
               "Title": "Common.cs",
-              "DocumentMoniker": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\ASIL\\SendReceiveCom\\Helper\\Common.cs",
+              "DocumentMoniker": "F:\\Learning\\Project\\ASIL\\SendReceiveCom\\Helper\\Common.cs",
               "RelativeDocumentMoniker": "SendReceiveCom\\Helper\\Common.cs",
-              "ToolTip": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\ASIL\\SendReceiveCom\\Helper\\Common.cs",
+              "ToolTip": "F:\\Learning\\Project\\ASIL\\SendReceiveCom\\Helper\\Common.cs",
               "RelativeToolTip": "SendReceiveCom\\Helper\\Common.cs",
               "ViewState": "AgIAAFcAAAAAAAAAAAAowAYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -515,21 +523,22 @@
               "$type": "Document",
               "DocumentIndex": 29,
               "Title": "FrmMsgBoxAffirm.Designer.cs",
-              "DocumentMoniker": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\ASIL\\SendReceiveCom\\View\\FrmMsgBoxAffirm.Designer.cs",
+              "DocumentMoniker": "F:\\Learning\\Project\\ASIL\\SendReceiveCom\\View\\FrmMsgBoxAffirm.Designer.cs",
               "RelativeDocumentMoniker": "SendReceiveCom\\View\\FrmMsgBoxAffirm.Designer.cs",
-              "ToolTip": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\ASIL\\SendReceiveCom\\View\\FrmMsgBoxAffirm.Designer.cs",
+              "ToolTip": "F:\\Learning\\Project\\ASIL\\SendReceiveCom\\View\\FrmMsgBoxAffirm.Designer.cs",
               "RelativeToolTip": "SendReceiveCom\\View\\FrmMsgBoxAffirm.Designer.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAxwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-02T05:20:44.252Z"
+              "WhenOpened": "2024-08-02T05:20:44.252Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 28,
               "Title": "OpenPorts.cs",
-              "DocumentMoniker": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\ASIL\\SendReceiveCom\\Helper\\OpenPorts.cs",
+              "DocumentMoniker": "F:\\Learning\\Project\\ASIL\\SendReceiveCom\\Helper\\OpenPorts.cs",
               "RelativeDocumentMoniker": "SendReceiveCom\\Helper\\OpenPorts.cs",
-              "ToolTip": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\ASIL\\SendReceiveCom\\Helper\\OpenPorts.cs",
+              "ToolTip": "F:\\Learning\\Project\\ASIL\\SendReceiveCom\\Helper\\OpenPorts.cs",
               "RelativeToolTip": "SendReceiveCom\\Helper\\OpenPorts.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -539,20 +548,21 @@
               "$type": "Document",
               "DocumentIndex": 30,
               "Title": "FrmMsgBoxAffirm.cs",
-              "DocumentMoniker": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\ASIL\\SendReceiveCom\\View\\FrmMsgBoxAffirm.cs",
+              "DocumentMoniker": "F:\\Learning\\Project\\ASIL\\SendReceiveCom\\View\\FrmMsgBoxAffirm.cs",
               "RelativeDocumentMoniker": "SendReceiveCom\\View\\FrmMsgBoxAffirm.cs",
-              "ToolTip": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\ASIL\\SendReceiveCom\\View\\FrmMsgBoxAffirm.cs",
+              "ToolTip": "F:\\Learning\\Project\\ASIL\\SendReceiveCom\\View\\FrmMsgBoxAffirm.cs",
               "RelativeToolTip": "SendReceiveCom\\View\\FrmMsgBoxAffirm.cs",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-26T05:21:01.418Z"
+              "WhenOpened": "2024-07-26T05:21:01.418Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 31,
               "Title": "App.config",
-              "DocumentMoniker": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\ASIL\\SendReceiveCom\\App.config",
+              "DocumentMoniker": "F:\\Learning\\Project\\ASIL\\SendReceiveCom\\App.config",
               "RelativeDocumentMoniker": "SendReceiveCom\\App.config",
-              "ToolTip": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\ASIL\\SendReceiveCom\\App.config",
+              "ToolTip": "F:\\Learning\\Project\\ASIL\\SendReceiveCom\\App.config",
               "RelativeToolTip": "SendReceiveCom\\App.config",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
@@ -563,9 +573,9 @@
               "$type": "Document",
               "DocumentIndex": 32,
               "Title": "packages.config",
-              "DocumentMoniker": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\ASIL\\SendReceiveCom\\packages.config",
+              "DocumentMoniker": "F:\\Learning\\Project\\ASIL\\SendReceiveCom\\packages.config",
               "RelativeDocumentMoniker": "SendReceiveCom\\packages.config",
-              "ToolTip": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\ASIL\\SendReceiveCom\\packages.config",
+              "ToolTip": "F:\\Learning\\Project\\ASIL\\SendReceiveCom\\packages.config",
               "RelativeToolTip": "SendReceiveCom\\packages.config",
               "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
@@ -575,9 +585,9 @@
               "$type": "Document",
               "DocumentIndex": 33,
               "Title": "JsonHelper.cs",
-              "DocumentMoniker": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\ASIL\\SendReceiveCom\\Helper\\JsonHelper.cs",
+              "DocumentMoniker": "F:\\Learning\\Project\\ASIL\\SendReceiveCom\\Helper\\JsonHelper.cs",
               "RelativeDocumentMoniker": "SendReceiveCom\\Helper\\JsonHelper.cs",
-              "ToolTip": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\ASIL\\SendReceiveCom\\Helper\\JsonHelper.cs",
+              "ToolTip": "F:\\Learning\\Project\\ASIL\\SendReceiveCom\\Helper\\JsonHelper.cs",
               "RelativeToolTip": "SendReceiveCom\\Helper\\JsonHelper.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -587,20 +597,21 @@
               "$type": "Document",
               "DocumentIndex": 34,
               "Title": "Resources.resx",
-              "DocumentMoniker": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\ASIL\\SendReceiveCom\\Properties\\Resources.resx",
+              "DocumentMoniker": "F:\\Learning\\Project\\ASIL\\SendReceiveCom\\Properties\\Resources.resx",
               "RelativeDocumentMoniker": "SendReceiveCom\\Properties\\Resources.resx",
-              "ToolTip": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\ASIL\\SendReceiveCom\\Properties\\Resources.resx",
+              "ToolTip": "F:\\Learning\\Project\\ASIL\\SendReceiveCom\\Properties\\Resources.resx",
               "RelativeToolTip": "SendReceiveCom\\Properties\\Resources.resx",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
-              "WhenOpened": "2024-07-16T06:35:46.495Z"
+              "WhenOpened": "2024-07-16T06:35:46.495Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 35,
               "Title": "Resources.Designer.cs",
-              "DocumentMoniker": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\ASIL\\SendReceiveCom\\Properties\\Resources.Designer.cs",
+              "DocumentMoniker": "F:\\Learning\\Project\\ASIL\\SendReceiveCom\\Properties\\Resources.Designer.cs",
               "RelativeDocumentMoniker": "SendReceiveCom\\Properties\\Resources.Designer.cs",
-              "ToolTip": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\ASIL\\SendReceiveCom\\Properties\\Resources.Designer.cs",
+              "ToolTip": "F:\\Learning\\Project\\ASIL\\SendReceiveCom\\Properties\\Resources.Designer.cs",
               "RelativeToolTip": "SendReceiveCom\\Properties\\Resources.Designer.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -610,12 +621,13 @@
               "$type": "Document",
               "DocumentIndex": 36,
               "Title": "ComAssistance.resx",
-              "DocumentMoniker": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\ASIL\\SendReceiveCom\\View\\ComAssistance.resx",
+              "DocumentMoniker": "F:\\Learning\\Project\\ASIL\\SendReceiveCom\\View\\ComAssistance.resx",
               "RelativeDocumentMoniker": "SendReceiveCom\\View\\ComAssistance.resx",
-              "ToolTip": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\ASIL\\SendReceiveCom\\View\\ComAssistance.resx",
+              "ToolTip": "F:\\Learning\\Project\\ASIL\\SendReceiveCom\\View\\ComAssistance.resx",
               "RelativeToolTip": "SendReceiveCom\\View\\ComAssistance.resx",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
-              "WhenOpened": "2024-07-09T05:17:53.212Z"
+              "WhenOpened": "2024-07-09T05:17:53.212Z",
+              "EditorCaption": ""
             }
           ]
         }

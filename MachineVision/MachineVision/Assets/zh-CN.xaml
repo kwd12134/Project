@@ -17,7 +17,7 @@
     <sys:String x:Key="BarCode">一维码识别</sys:String>
     <sys:String x:Key="QrCode">二维码识别</sys:String>
     <sys:String x:Key="Defect">缺陷检测</sys:String>
-    <sys:String x:Key="Difference">检测服务</sys:String>
+    <sys:String x:Key="Difference">差分模型</sys:String>
     <sys:String x:Key="Deformable">形变模型</sys:String>
     <sys:String x:Key="Document">学习文档</sys:String>
     <sys:String x:Key="Setting">系统设置</sys:String>

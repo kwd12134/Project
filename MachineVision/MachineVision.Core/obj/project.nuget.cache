@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "bNNga0ACXSg=",
+  "dgSpecHash": "KfTWSOhZ6P4=",
   "success": true,
-  "projectFilePath": "F:\\Learning\\HalconLearning\\MachineVision-main\\MachineVision\\MachineVision.Core\\MachineVision.Core.csproj",
+  "projectFilePath": "F:\\Learning\\Project\\MachineVision\\MachineVision.Core\\MachineVision.Core.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\86153\\.nuget\\packages\\dryioc.dll\\4.7.7\\dryioc.dll.4.7.7.nupkg.sha512",
     "C:\\Users\\86153\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",

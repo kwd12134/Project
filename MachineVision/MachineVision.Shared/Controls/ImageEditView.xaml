@@ -30,6 +30,9 @@
                             <Button x:Name="PART_Ellipse" ToolTip="绘制椭圆" Margin="5,0" Style="{DynamicResource MaterialDesignFlatButton}">
                                 <md:PackIcon Kind="SelectionEllipse"/>
                             </Button>
+                            <Button x:Name="PART_Region" ToolTip="自定义绘制" Margin="5,0" Style="{DynamicResource MaterialDesignFlatButton}">
+                                <md:PackIcon Kind="DrawPen"/>
+                            </Button>
                             <Button x:Name="PART_Clear" ToolTip="清除所有" Margin="5,0" Style="{DynamicResource MaterialDesignFlatButton}">
                                 <md:PackIcon Kind="Replay"/>
                             </Button>

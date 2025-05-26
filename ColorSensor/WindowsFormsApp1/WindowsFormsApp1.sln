@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33829.357
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsFormsApp1", "WindowsFormsApp1.csproj", "{0A5A617B-F386-40F9-962C-450D8B99FD37}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SQLBLL", "..\SQLBLL\SQLBLL.csproj", "{0C10ABF3-1A24-41DC-899B-AEBED839C598}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SQLDAL", "..\SQLDAL\SQLDAL.csproj", "{59250FD9-CFCF-4AA5-88F0-6BAB51735C20}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "ColorSensor", "..\ColorSensor\ColorSensor.vdproj", "{725FB030-6F1E-425A-84A9-01308CD3CDC4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0A5A617B-F386-40F9-962C-450D8B99FD37}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A5A617B-F386-40F9-962C-450D8B99FD37}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A5A617B-F386-40F9-962C-450D8B99FD37}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A5A617B-F386-40F9-962C-450D8B99FD37}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0C10ABF3-1A24-41DC-899B-AEBED839C598}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C10ABF3-1A24-41DC-899B-AEBED839C598}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C10ABF3-1A24-41DC-899B-AEBED839C598}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C10ABF3-1A24-41DC-899B-AEBED839C598}.Release|Any CPU.Build.0 = Release|Any CPU
+		{59250FD9-CFCF-4AA5-88F0-6BAB51735C20}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59250FD9-CFCF-4AA5-88F0-6BAB51735C20}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59250FD9-CFCF-4AA5-88F0-6BAB51735C20}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59250FD9-CFCF-4AA5-88F0-6BAB51735C20}.Release|Any CPU.Build.0 = Release|Any CPU
+		{725FB030-6F1E-425A-84A9-01308CD3CDC4}.Debug|Any CPU.ActiveCfg = Debug
+		{725FB030-6F1E-425A-84A9-01308CD3CDC4}.Release|Any CPU.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {529CEDC8-3516-4C24-A79B-59CC63EB5991}
+	EndGlobalSection
+EndGlobal

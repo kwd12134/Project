@@ -9,6 +9,11 @@ namespace MachineVision.Shared.Extensions
 {
     public static class HtuplesExtensions
     {
+        /// <summary>
+        /// htuple扩展方法 Extension
+        /// </summary>
+        /// <param name="hTuples"></param>
+        /// <returns></returns>
         public static HObject GenRectangle(this HTuple[] hTuples)
         {
             if (hTuples[0].D != 0 && hTuples[1].D != 0 && hTuples[2].D != 0 && hTuples[3].D != 0)

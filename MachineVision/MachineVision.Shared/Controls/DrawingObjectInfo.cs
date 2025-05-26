@@ -11,11 +11,14 @@ namespace MachineVision.Shared.Controls
     {
         Rectangle,
         Ellipse,
-        Circle
+        Circle,
+        Region
     }
     public class DrawingObjectInfo
     {
         public ShapeType ShapeType { get; set; }
+
+        public HObject Hobject { get; set; }
 
         public HTuple[] hTuples {  get; set; }
 

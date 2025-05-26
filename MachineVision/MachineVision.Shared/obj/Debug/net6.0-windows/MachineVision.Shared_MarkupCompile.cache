@@ -4,7 +4,7 @@
 library
 C#
 .cs
-F:\Learning\HalconLearning\MachineVision-main\MachineVision\MachineVision.Shared\obj\Debug\net6.0-windows\
+F:\Learning\Project\MachineVision\MachineVision.Shared\obj\Debug\net6.0-windows\
 MachineVision.Shared
 none
 false
@@ -13,7 +13,7 @@ TRACE;DEBUG;NET;NET6_0;NETCOREAPP
 21358392935
 
 3217766081
-212-1592454577
+212-1956672280
 Controls\ImageEditView.xaml;Themes\Generic.xaml;
 
 False

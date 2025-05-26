@@ -1599,11 +1599,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\Learning\\HalconLearning\\MachineVision-main\\MachineVision\\MachineVision.TemplateMatch\\MachineVision.TemplateMatch.csproj",
+      "projectUniqueName": "F:\\Learning\\Project\\MachineVision\\MachineVision.TemplateMatch\\MachineVision.TemplateMatch.csproj",
       "projectName": "MachineVision.TemplateMatch",
-      "projectPath": "F:\\Learning\\HalconLearning\\MachineVision-main\\MachineVision\\MachineVision.TemplateMatch\\MachineVision.TemplateMatch.csproj",
+      "projectPath": "F:\\Learning\\Project\\MachineVision\\MachineVision.TemplateMatch\\MachineVision.TemplateMatch.csproj",
       "packagesPath": "C:\\Users\\86153\\.nuget\\packages\\",
-      "outputPath": "F:\\Learning\\HalconLearning\\MachineVision-main\\MachineVision\\MachineVision.TemplateMatch\\obj\\",
+      "outputPath": "F:\\Learning\\Project\\MachineVision\\MachineVision.TemplateMatch\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -1624,11 +1624,11 @@
         "net6.0-windows7.0": {
           "targetAlias": "net6.0-windows",
           "projectReferences": {
-            "F:\\Learning\\HalconLearning\\MachineVision-main\\MachineVision\\MachineVision.Core\\MachineVision.Core.csproj": {
-              "projectPath": "F:\\Learning\\HalconLearning\\MachineVision-main\\MachineVision\\MachineVision.Core\\MachineVision.Core.csproj"
+            "F:\\Learning\\Project\\MachineVision\\MachineVision.Core\\MachineVision.Core.csproj": {
+              "projectPath": "F:\\Learning\\Project\\MachineVision\\MachineVision.Core\\MachineVision.Core.csproj"
             },
-            "F:\\Learning\\HalconLearning\\MachineVision-main\\MachineVision\\MachineVision.Shared\\MachineVision.Shared.csproj": {
-              "projectPath": "F:\\Learning\\HalconLearning\\MachineVision-main\\MachineVision\\MachineVision.Shared\\MachineVision.Shared.csproj"
+            "F:\\Learning\\Project\\MachineVision\\MachineVision.Shared\\MachineVision.Shared.csproj": {
+              "projectPath": "F:\\Learning\\Project\\MachineVision\\MachineVision.Shared\\MachineVision.Shared.csproj"
             }
           }
         }

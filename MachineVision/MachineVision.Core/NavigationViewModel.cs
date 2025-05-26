@@ -28,13 +28,15 @@ namespace MachineVision.Core
         /// </summary>
         /// <param name="navigationContext"></param>
         public virtual void OnNavigatedFrom(NavigationContext navigationContext)
-        { }
+        {
+        }
 
         /// <summary>
         /// 导航被执行触发
         /// </summary>
         /// <param name="navigationContext"></param>
         public virtual void OnNavigatedTo(NavigationContext navigationContext)
-        { }
+        { 
+        }
     }
 }
