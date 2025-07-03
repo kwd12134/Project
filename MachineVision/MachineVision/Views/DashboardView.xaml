@@ -55,7 +55,7 @@
 
                                             <md:PackIcon
                                                 Width="45"
-                                                Foreground="White"
+                                                Foreground="{DynamicResource MaterialDesignShadowBrush}"
                                                 Height="45"
                                                 HorizontalAlignment="Center"
                                                 VerticalAlignment="Center"
@@ -66,7 +66,7 @@
                                                 Margin="0,0,0,10"
                                                 HorizontalAlignment="Center"
                                                 FontSize="18"
-                                                Foreground="White"
+                                                Foreground="{DynamicResource MaterialDesignShadowBrush}"
                                                 Text="{Binding Name}" />
                                         </Grid>
                                         <!--它会从当前 md:Card 的 DataContext 上找，也就是 MenuItemModel，但它压根没有这个属性，于是绑定失败。所以要使用RelativeSource-->

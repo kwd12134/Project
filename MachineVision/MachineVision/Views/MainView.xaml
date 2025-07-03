@@ -12,6 +12,8 @@
     Width="1200"
     Height="800"
     prism:ViewModelLocator.AutoWireViewModel="True"
+    Background="{DynamicResource MaterialDesignPaper}"
+    TextElement.Foreground="{DynamicResource MaterialDesignBody}"
     WindowStartupLocation="CenterScreen"
     mc:Ignorable="d">
     <Grid>
@@ -33,6 +35,11 @@
                     FontWeight="Bold"
                     Foreground="White"
                     Text="{DynamicResource ApplicationName}">
+                    <i:Interaction.Triggers>
+                        <i:EventTrigger EventName="MouseLeftButtonDown">
+                            <i:InvokeCommandAction Command="{Binding HomeCommand}" />
+                        </i:EventTrigger>
+                    </i:Interaction.Triggers>
                 </TextBlock>
 
                 <ListBox
@@ -97,10 +104,10 @@
             </Grid>
         </md:ColorZone>
 
-        <md:DialogHost Grid.Row="1" >
-            <md:DrawerHost  Content="{Binding ElementName=MainViewContentControl, Path=Content, Mode=TwoWay}" IsTopDrawerOpen="{Binding IsTopDrawerOpen}">
+        <md:DialogHost Grid.Row="1">
+            <md:DrawerHost Content="{Binding ElementName=MainViewContentControl, Path=Content, Mode=TwoWay}" IsTopDrawerOpen="{Binding IsTopDrawerOpen}">
                 <md:DrawerHost.TopDrawerContent>
-                    <ItemsControl  ItemsSource="{Binding NavigationService.Items[0].Items}">
+                    <ItemsControl ItemsSource="{Binding NavigationService.Items[0].Items}">
                         <ItemsControl.ItemsPanel>
                             <ItemsPanelTemplate>
                                 <WrapPanel />

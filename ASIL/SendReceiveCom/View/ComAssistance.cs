@@ -2451,10 +2451,10 @@ namespace SendReceiveCom
                         this.SetpictureBox1("green");
                         this.Setlabel15(str);
                         LogMethod.log(str);
-                        returnCode = Mcmq.openQueue(handle, replyQueue, 1000000, 5000, 500000, 2500, 0, 0, replyQueue, replyQueueHandle, 0).ToString();
+                        returnCode = Mcmq.openQueue(handle, replyQueue, 1000000, 5000, 500000, 2500, 0, 0, replyQueue, replyQueueHandle, 140).ToString();
                         LogMethod.log("OpenreplyQueue " + replyQueue + "returnCode=" + returnCode);
-                        returnCode = Mcmq.openQueue(handle, sendQueue, 1000000, 5000, 500000, 2500, 0, 0, sendQueue, QueueHandles, 0).ToString();
-                        LogMethod.log("OpensendQueue " + sendQueue + "returnCode=" + returnCode);
+                        //returnCode = Mcmq.openQueue(handle, sendQueue, 1000000, 5000, 500000, 2500, 0, 0, sendQueue, QueueHandles, 0).ToString();
+                        //LogMethod.log("OpensendQueue " + sendQueue + "returnCode=" + returnCode);
                         //this.mcmq.cleanQueue(this.mcmq.strQueueHandle);
                         this.panel1.BackColor = Color.Green;
                         this.SetPIS2_label("向PIS2数据传输中");

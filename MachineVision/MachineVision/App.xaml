@@ -9,7 +9,7 @@
         <ResourceDictionary>
             <ResourceDictionary.MergedDictionaries>
                 <materialDesign:BundledTheme
-                    BaseTheme="Dark"
+                    BaseTheme="Light"
                     ColorAdjustment="{materialDesign:ColorAdjustment}"
                     PrimaryColor="DeepPurple"
                     SecondaryColor="Amber" />

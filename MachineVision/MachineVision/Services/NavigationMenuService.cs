@@ -31,15 +31,15 @@ namespace MachineVision.Services
                  new NavigationItem("","TemplateMatch","模板匹配","",new ObservableCollection<NavigationItem>()
                  {
                       new NavigationItem("ShapeCirclePlus","OutlineMatch","轮廓匹配","DrawShapeView"),
-                      new NavigationItem("ShapeOutline","ShapeMatch","形状匹配",""),
+                      new NavigationItem("ShapeOutline","ShapeMatch","形状匹配","ShapeView"),
                       new NavigationItem("Clouds","NccMacth", "相似性匹配",""),
                       new NavigationItem("ShapeOvalPlus","DeformationMatch","形变匹配",""),
                  }),
                  new NavigationItem("","Measure", "比较测量","",new ObservableCollection<NavigationItem>()
                  {
                       new NavigationItem("Circle","Caliper","卡尺找圆","CircleMeasureView"),
-                      new NavigationItem("Palette","","颜色检测",""),
-                      new NavigationItem("Ruler","","几何测量",""),
+                      new NavigationItem("Palette","Color","颜色检测",""),
+                      new NavigationItem("Ruler","GeometricMeasurement","几何测量",""),
                  }),
                  new NavigationItem("","Character","字符识别","",new ObservableCollection<NavigationItem>()
                  { 
@@ -61,6 +61,9 @@ namespace MachineVision.Services
             Items.Add(new NavigationItem("", "Setting", "系统设置", "SettingView"));
         }
 
+        /// <summary>
+        /// 界面已经binding Items,此处通过直接修改item使界面的语言也进行更新
+        /// </summary>
         public void RefreshMenus()
         {
             foreach (var item in Items)

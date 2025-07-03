@@ -1,4 +1,5 @@
 ﻿using MachineVision.Services;
+using MachineVision.Shared.Services;
 using MachineVision.TemplateMatch;
 using MachineVision.ViewModels;
 using MachineVision.Views;
@@ -37,12 +38,21 @@ namespace MachineVision
             }
             base.OnInitialized();
         }
-
+        /// <summary>
+        /// Register<TService, TImplementation>()	瞬态（Transient），每次请求都创建新实例
+        /// RegisterSingleton<TService, TImplementation>()	单例（Singleton），整个应用共用同一个实例
+        /// RegisterInstance<TService>(T instance)	注册现有实例，手动控制生命周期
+        /// </summary>
+        /// <param name="services"></param>
         protected override void RegisterTypes(IContainerRegistry services)
         { 
+            //freesql数据库注册
+            services.RegisterSingleton<ISettingService, SettingService>();
+
             services.RegisterForNavigation<MainView, MainViewModel>();
             services.RegisterForNavigation<DashboardView, DashboardViewModel>();
             services.RegisterForNavigation<SettingView, SettingViewModel>();
+
             services.RegisterSingleton<INavigationMenuService, NavigationMenuService>();
 
         }

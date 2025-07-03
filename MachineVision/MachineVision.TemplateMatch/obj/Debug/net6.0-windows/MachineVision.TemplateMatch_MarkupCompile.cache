@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET6_0;NETCOREAPP
 
-1-1037480654
+2-569026408
 
-3-877769844
+5-1421234070
 2131106525493
-Views\DrawShapeView.xaml;
+Views\DrawShapeView.xaml;Views\ShapeView.xaml;
 
 False
 

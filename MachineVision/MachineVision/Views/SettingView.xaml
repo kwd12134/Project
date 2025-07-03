@@ -56,7 +56,7 @@
                 <ComboBoxItem>深色</ComboBoxItem>
                 <ComboBoxItem>浅色</ComboBoxItem>
             </ComboBox>
-            <Button Content="保存设置" />
+            <Button Content="{DynamicResource SaveSetting}" Command="{Binding SaveCommand}"/>
         </StackPanel>
 
     </Grid>

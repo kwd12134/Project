@@ -45,3 +45,5 @@ F:\Learning\Project\MachineVision\MachineVision.TemplateMatch\obj\Debug\net6.0-w
 F:\Learning\Project\MachineVision\MachineVision.TemplateMatch\obj\Debug\net6.0-windows\refint\MachineVision.TemplateMatch.dll
 F:\Learning\Project\MachineVision\MachineVision.TemplateMatch\obj\Debug\net6.0-windows\MachineVision.TemplateMatch.pdb
 F:\Learning\Project\MachineVision\MachineVision.TemplateMatch\obj\Debug\net6.0-windows\ref\MachineVision.TemplateMatch.dll
+F:\Learning\Project\MachineVision\MachineVision.TemplateMatch\obj\Debug\net6.0-windows\Views\ShapeView.g.cs
+F:\Learning\Project\MachineVision\MachineVision.TemplateMatch\obj\Debug\net6.0-windows\Views\ShapeView.baml

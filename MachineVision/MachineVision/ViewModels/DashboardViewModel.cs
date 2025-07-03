@@ -8,6 +8,11 @@ namespace MachineVision.ViewModels
 {
     public class DashboardViewModel:NavigationViewModel
     {
+        /// <summary>
+        /// Dashboard 仪表盘
+        /// </summary>
+        /// <param name="manager"></param>
+        /// <param name="navigationService"></param>
         public DashboardViewModel(IRegionManager manager,INavigationMenuService navigationService)
         {
             Manager = manager;
