@@ -1,4 +1,6 @@
-﻿using MachineVision.Services;
+﻿using MachineVision.Core.TemplateMatch;
+using MachineVision.Core.TemplateMatch.ShapeModel;
+using MachineVision.Services;
 using MachineVision.Shared.Services;
 using MachineVision.TemplateMatch;
 using MachineVision.ViewModels;
@@ -39,9 +41,11 @@ namespace MachineVision
             base.OnInitialized();
         }
         /// <summary>
+        /// 跟依赖注入差不多
         /// Register<TService, TImplementation>()	瞬态（Transient），每次请求都创建新实例
         /// RegisterSingleton<TService, TImplementation>()	单例（Singleton），整个应用共用同一个实例
         /// RegisterInstance<TService>(T instance)	注册现有实例，手动控制生命周期
+        /// RegisterForNavigation 背后其实是按 Transient 生命周期 注册的，也就是每次请求都会创建新对象。
         /// </summary>
         /// <param name="services"></param>
         protected override void RegisterTypes(IContainerRegistry services)
@@ -49,11 +53,15 @@ namespace MachineVision
             //freesql数据库注册
             services.RegisterSingleton<ISettingService, SettingService>();
 
+            //系统导航注册
             services.RegisterForNavigation<MainView, MainViewModel>();
             services.RegisterForNavigation<DashboardView, DashboardViewModel>();
             services.RegisterForNavigation<SettingView, SettingViewModel>();
 
             services.RegisterSingleton<INavigationMenuService, NavigationMenuService>();
+
+            //模板匹配服务  nameof获取枚举成员或变量名的字符串  就是在注册时为服务起一个名字（命名注册），也叫带 Key 的注册
+            services.Register<ITemplateMatchService,ShapeModelService>(nameof(TemplateMatchType.ShapeModel));
 
         }
         /// <summary>

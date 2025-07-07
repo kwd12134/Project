@@ -56,6 +56,7 @@ namespace MachineVision.Shared.Controls
 
         public void Display(HObject hObject)
         {
+            if (Image==null) return;
             hWindow.DispObj(hObject);
             //hWindow.SetPart(0, 0, image.GetHeight() - 1, image.GetWidth() - 1);
             hWindow.SetPart(0, 0, -2, -2);
@@ -98,6 +99,7 @@ namespace MachineVision.Shared.Controls
 
         private void BtnCircle_Click(object sender, RoutedEventArgs e)
         {
+            if (Image==null) return;
             DrawShape(ShapeType.Circle, new HTuple(), new HTuple(), new HTuple());
             //HTuple row;
             //HTuple column;
@@ -129,11 +131,13 @@ namespace MachineVision.Shared.Controls
 
         private void BtnEllipse_Click(object sender, RoutedEventArgs e)
         {
+            if (Image==null) return;
             DrawShape(ShapeType.Ellipse, new HTuple(), new HTuple(), new HTuple(), new HTuple(), new HTuple());
         }
 
         private void BtnRect_Click(object sender, RoutedEventArgs e)
         {
+            if (Image==null) return;
             DrawShape(ShapeType.Rectangle, new HTuple(), new HTuple(), new HTuple(), new HTuple());
         }
 
@@ -149,6 +153,7 @@ namespace MachineVision.Shared.Controls
         /// <param name="hTuples"></param>
         private async void DrawShape(ShapeType shapeType, params HTuple[] hTuples)
         {
+            if (Image==null) return;
             txtMsg.Text = "按鼠标左键绘制，右键结束。";
             HObject drawObj;
             HOperatorSet.GenEmptyObj(out drawObj);
