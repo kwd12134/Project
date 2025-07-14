@@ -1,14 +1,23 @@
 ﻿using HalconDotNet;
+using MachineVision.Core.TemplateMatch.Shared;
 using Prism.Mvvm;
 using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
+using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows;
+using System.Windows.Media.Media3D;
+using System.Xml.Linq;
 
 namespace MachineVision.Core.TemplateMatch.ShapeModel
 {
-    public class ShapeModelService :BindableBase, ITemplateMatchService
+    /// <summary>
+    /// 模板匹配与实际见面分离    
+    /// </summary>
+    public class ShapeModelService : BindableBase, ITemplateMatchService
     {
         public ShapeModelService()
         {
@@ -47,8 +56,13 @@ namespace MachineVision.Core.TemplateMatch.ShapeModel
 
             runParameter = new ShapeModelRunParameter();
             runParameter.ApplyDefaultParameter();
+
+            Setting = new MatchResultSetting();
+
         }
         private HTuple ModelId;
+        HTuple hv_Row = new HTuple(), hv_Column = new HTuple();
+        HTuple hv_Angle = new HTuple(), hv_Score = new HTuple();
         public MethodInfo Info { get; set; }
 
         private ShapeModelInputParameter templateParameter;
@@ -58,7 +72,7 @@ namespace MachineVision.Core.TemplateMatch.ShapeModel
         public ShapeModelInputParameter TemplateParameter
         {
             get { return templateParameter; }
-            set { templateParameter = value;RaisePropertyChanged(); }
+            set { templateParameter = value; RaisePropertyChanged(); }
         }
 
         private ShapeModelRunParameter runParameter;
@@ -71,13 +85,21 @@ namespace MachineVision.Core.TemplateMatch.ShapeModel
             set { runParameter = value; RaisePropertyChanged(); }
         }
 
+        private MatchResultSetting setting;
+
+        public MatchResultSetting Setting
+        {
+            get { return setting; }
+            set { setting = value; RaisePropertyChanged(); }
+        }
+
 
         public async Task CreateTemplate(HObject image, HObject hObject)
         {
             await Task.Run(() =>
             {
                 HObject DomainImage;
-                HOperatorSet.ReduceDomain(image, hObject,out DomainImage);
+                HOperatorSet.ReduceDomain(image, hObject, out DomainImage);
                 HOperatorSet.CreateShapeModel(DomainImage,
                     TemplateParameter.NumLevels,
                     TemplateParameter.AngleStart,
@@ -100,6 +122,61 @@ namespace MachineVision.Core.TemplateMatch.ShapeModel
         public void SetTemplateParamter()
         {
 
+        }
+
+        public MatchResult Run(HObject image)
+        {
+            MatchResult matchResult = new MatchResult();
+            matchResult.TimeSpan = SetTimer(() =>
+            {
+                HOperatorSet.FindShapeModel(
+                        image,
+                        ModelId,
+                        RunParameter.AngleStart,
+                        RunParameter.AngleExtent,
+                        RunParameter.MinScore,
+                        RunParameter.NumMatches,
+                        RunParameter.MaxOverlap,
+                        RunParameter.SubPixel,
+                        RunParameter.NumLevels,
+                        RunParameter.Greediness,
+                        out hv_Row, out hv_Column, out hv_Angle, out hv_Score);
+                //获取形状模型轮廓
+                HOperatorSet.GetShapeModelContours(out HObject contour, ModelId, 1);
+
+                for (int i = 0; i < hv_Score.Length; i++)
+                {
+                    //提取轮廓仿射变换  计算轮廓匹配的目标位置对象
+                    HOperatorSet.VectorAngleToRigid(0, 0, 0, hv_Row.DArr[i], hv_Column.DArr[i], hv_Angle.DArr[i], out HTuple homMat2D);
+                    //AffineTrans仿射变换  计算一个刚性仿射变换矩阵，也就是旋转 + 平移（不缩放）
+                    HOperatorSet.AffineTransContourXld(contour,out HObject contoursAffineTrans ,homMat2D);
+
+                    matchResult.Results.Add(new TemplateMatchResult()
+                    {
+                        Index = i + 1,
+                        Row = hv_Row.DArr[i],
+                        Column = hv_Column.DArr[i],
+                        Angle = hv_Angle.DArr[i],
+                        Score = hv_Score.DArr[i],
+                        ContoursAffineTrans = contoursAffineTrans 
+                    });
+                }
+            });
+
+            matchResult.Setting = Setting;
+            matchResult.Message = $"匹配耗时:{matchResult.TimeSpan}ms,匹配个数{matchResult.Results.Count}";
+
+            return matchResult;
+
+        }
+
+        private double SetTimer(Action action)
+        {
+            Stopwatch stopwatch = Stopwatch.StartNew();
+            stopwatch.Start();
+            action();
+            stopwatch.Stop();
+            return stopwatch.ElapsedMilliseconds;
         }
     }
 }

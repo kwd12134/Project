@@ -1,6 +1,8 @@
 ﻿using HalconDotNet;
+using MachineVision.Core.TemplateMatch.Shared;
 using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -12,6 +14,10 @@ namespace MachineVision.Core.TemplateMatch
     /// </summary>
     public interface ITemplateMatchService
     {
+        /// <summary>
+        /// 
+        /// </summary>
+        MatchResultSetting Setting { get; set; }
         /// <summary>
         /// 模板匹配描述信息
         /// </summary>
@@ -26,6 +32,12 @@ namespace MachineVision.Core.TemplateMatch
         /// <summary>
         /// 设置模版参数
         /// </summary>
+
+        /// <summary>
+        /// 运行
+        /// </summary>
+        MatchResult Run(HObject image);
+
         void SetTemplateParamter();
         /// <summary>
         /// 设置运行参数

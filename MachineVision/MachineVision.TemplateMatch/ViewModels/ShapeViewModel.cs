@@ -1,6 +1,7 @@
 ﻿using HalconDotNet;
 using MachineVision.Core;
 using MachineVision.Core.TemplateMatch;
+using MachineVision.Core.TemplateMatch.Shared;
 using MachineVision.Shared.Controls;
 using Microsoft.Win32;
 using Prism.Commands;
@@ -9,11 +10,15 @@ using Prism.Ioc;
 using System;
 using System.Collections.ObjectModel;
 using System.Linq;
+using System.Text.RegularExpressions;
 
 namespace MachineVision.TemplateMatch.ViewModels
 {
     public class ShapeViewModel : NavigationViewModel
     {
+        /// <summary>
+        /// 只能访问ITemplateMatchService这个接口中有定义的熟悉或者函数
+        /// </summary>
         public ITemplateMatchService MatchService { get; set; }
         /// <summary>
         /// 可以用构造函数依赖输入也可以如下使用静态入口获取
@@ -27,21 +32,10 @@ namespace MachineVision.TemplateMatch.ViewModels
             SetRangeCommand = new DelegateCommand(SetRange);
             LoadImageCommand = new DelegateCommand(LoadImage);
 
-            MatchResults = new ObservableCollection<TemplateMatchResult>();
-            image = new HObject();
+            //image = new HObject();
             drawObjectList = new ObservableCollection<DrawingObjectInfo>();
         }
         #region Command && Property
-
-        private ObservableCollection<TemplateMatchResult> matchResults;
-        /// <summary>
-        /// datagrid匹配结果集合
-        /// </summary>
-        public ObservableCollection<TemplateMatchResult> MatchResults
-        {
-            get { return matchResults; }
-            set { matchResults = value; RaisePropertyChanged(); }
-        }
 
         private HObject image;
 
@@ -60,6 +54,15 @@ namespace MachineVision.TemplateMatch.ViewModels
             get { return drawObjectList; }
             set { drawObjectList = value; RaisePropertyChanged(); }
         }
+
+        private MatchResult matchResults;
+
+        public MatchResult MacthResults
+        {
+            get { return matchResults; }
+            set { matchResults = value;RaisePropertyChanged(); }
+        }
+
 
         public DelegateCommand RunCommand { get; set; }
         public DelegateCommand CreateTemplateCommand { get; set; }
@@ -103,7 +106,6 @@ namespace MachineVision.TemplateMatch.ViewModels
             if (hobject != null)
             {
                 MatchService.CreateTemplate(Image, hobject.Hobject);
-
             }
         }
         /// <summary>
@@ -111,8 +113,9 @@ namespace MachineVision.TemplateMatch.ViewModels
         /// </summary>
         private void Run()
         {
-
+            this.MacthResults = MatchService.Run(image);
         }
+
         #endregion
 
     }

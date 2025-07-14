@@ -7,6 +7,8 @@ using System.Windows.Controls;
 using System.Windows.Media.Media3D;
 using MachineVision.Shared.Extensions;
 using System;
+using MachineVision.Core.TemplateMatch;
+using MachineVision.Core.TemplateMatch.Shared;
 namespace MachineVision.Shared.Controls
 {
     /// <summary>
@@ -33,7 +35,7 @@ namespace MachineVision.Shared.Controls
             DependencyProperty.Register("Image", typeof(HObject), typeof(ImageEditView), new PropertyMetadata(ImageChangeCallBack));
 
         /// <summary>
-        /// 基本用于自定义控件的属性参数设置或者传递
+        /// 基本用于自定义控件的属性参数设置或者传递  快捷键propdp
         /// </summary>
         public ObservableCollection<DrawingObjectInfo> DrawObjectList
         {
@@ -46,6 +48,25 @@ namespace MachineVision.Shared.Controls
             DependencyProperty.Register("DrawObjectList", typeof(ObservableCollection<DrawingObjectInfo>), typeof(ImageEditView), new PropertyMetadata(new ObservableCollection<DrawingObjectInfo>()));
 
 
+        public MatchResult MatchResult
+        {
+            get { return (MatchResult)GetValue(MatchResultsProperty); }
+            set { SetValue(MatchResultsProperty, value); }
+        }
+
+        // Using a DependencyProperty as the backing store for MatchResult.  This enables animation, styling, binding, etc...
+        //注意 typeof(MatchResult)这块的类型要和属性的类型一样不然会报错
+        public static readonly DependencyProperty MatchResultsProperty =
+            DependencyProperty.Register("MatchResult", typeof(MatchResult), typeof(ImageEditView), new PropertyMetadata(MatchResultCallBack));
+
+        /// <summary>
+        /// 当某个依赖属性发生变化时，WPF 会自动调用这个函数。
+        /// 当图像控件 ImageEditView 的某个绑定图像的依赖属性发生变化时，
+        /// 自动调用 Display() 方法把新的图像（HObject）显示到控件上。
+        /// 相当于传入的新Image图片会刷新到新的界面上
+        /// </summary>
+        /// <param name="d"></param>
+        /// <param name="e"></param>
         public static void ImageChangeCallBack(DependencyObject d, DependencyPropertyChangedEventArgs e)
         {
             if (d is ImageEditView view && e.NewValue != null)
@@ -54,9 +75,42 @@ namespace MachineVision.Shared.Controls
             }
         }
 
+        public static void MatchResultCallBack(DependencyObject d, DependencyPropertyChangedEventArgs e)
+        {
+            if (d is ImageEditView view && e.NewValue != null)
+            {
+                view.DisplayMatchRender();
+            }
+        }
+        /// <summary>
+        /// 内部对图像进行cross添加
+        /// </summary>
+        private void DisplayMatchRender()
+        {
+            //执行的时候清空图片
+            if (Image == null) return;
+            if (MatchResult == null) return;
+            Display(Image);
+            foreach (var item in MatchResult.Results)
+            {
+                if (MatchResult.Setting.IsShowCenter)
+                {
+                    hWindow.DispCross(item.Row, item.Column, 30, item.Angle);
+                }
+                if (MatchResult.Setting.IsShowDisplayText)
+                {
+
+                }
+                if (MatchResult.Setting.IsShowMatchRange)
+                {
+                    hWindow.DispObj(item.ContoursAffineTrans);
+                }
+            }
+        }
+
         public void Display(HObject hObject)
         {
-            if (Image==null) return;
+            if (Image == null) return;
             hWindow.DispObj(hObject);
             //hWindow.SetPart(0, 0, image.GetHeight() - 1, image.GetWidth() - 1);
             hWindow.SetPart(0, 0, -2, -2);
@@ -99,7 +153,7 @@ namespace MachineVision.Shared.Controls
 
         private void BtnCircle_Click(object sender, RoutedEventArgs e)
         {
-            if (Image==null) return;
+            if (Image == null) return;
             DrawShape(ShapeType.Circle, new HTuple(), new HTuple(), new HTuple());
             //HTuple row;
             //HTuple column;
@@ -131,13 +185,13 @@ namespace MachineVision.Shared.Controls
 
         private void BtnEllipse_Click(object sender, RoutedEventArgs e)
         {
-            if (Image==null) return;
+            if (Image == null) return;
             DrawShape(ShapeType.Ellipse, new HTuple(), new HTuple(), new HTuple(), new HTuple(), new HTuple());
         }
 
         private void BtnRect_Click(object sender, RoutedEventArgs e)
         {
-            if (Image==null) return;
+            if (Image == null) return;
             DrawShape(ShapeType.Rectangle, new HTuple(), new HTuple(), new HTuple(), new HTuple());
         }
 
@@ -153,7 +207,7 @@ namespace MachineVision.Shared.Controls
         /// <param name="hTuples"></param>
         private async void DrawShape(ShapeType shapeType, params HTuple[] hTuples)
         {
-            if (Image==null) return;
+            if (Image == null) return;
             txtMsg.Text = "按鼠标左键绘制，右键结束。";
             HObject drawObj;
             HOperatorSet.GenEmptyObj(out drawObj);
@@ -200,7 +254,9 @@ namespace MachineVision.Shared.Controls
                     ShapeType = shapeType,
                     Hobject = drawObj
                 });
-                HOperatorSet.DispObj(drawObj, hWindow);
+                //绘制轮廓  获取对象的轮廓
+                HOperatorSet.GenContourRegionXld(drawObj, out HObject contours, "border");
+                HOperatorSet.DispObj(contours, hWindow);
             }
         }
 
