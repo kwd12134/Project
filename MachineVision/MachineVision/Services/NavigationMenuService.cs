@@ -30,33 +30,27 @@ namespace MachineVision.Services
                  // 下拉框
                  new NavigationItem("","TemplateMatch","模板匹配","",new ObservableCollection<NavigationItem>()
                  {
-                      new NavigationItem("ShapeCirclePlus","OutlineMatch","轮廓匹配","DrawShapeView"),
                       new NavigationItem("ShapeOutline","ShapeMatch","形状匹配","ShapeView"),
-                      new NavigationItem("Clouds","NccMacth", "相似性匹配",""),
-                      new NavigationItem("ShapeOvalPlus","DeformationMatch","形变匹配",""),
+                      new NavigationItem("Clouds","NccMacth", "相似性匹配","NccView"),
+                      new NavigationItem("ShapeOvalPlus","DeformationMatch", "形变匹配","LocalDeformableView"),
                  }),
                  new NavigationItem("","Measure", "比较测量","",new ObservableCollection<NavigationItem>()
                  {
                       new NavigationItem("Circle","Caliper","卡尺找圆","CircleMeasureView"),
-                      new NavigationItem("Palette","Color","颜色检测",""),
-                      new NavigationItem("Ruler","GeometricMeasurement","几何测量",""),
                  }),
                  new NavigationItem("","Character","字符识别","",new ObservableCollection<NavigationItem>()
                  { 
-                      new NavigationItem("FormatColorText","BarCode", "字符识别","BarCodeView"),
                       new NavigationItem("Barcode","BarCode", "一维码识别","BarCodeView"),
                       new NavigationItem("Qrcode", "QrCode","二维码识别","QrCodeView"),
                  }),
                  new NavigationItem("","Defect","缺陷检测","",new ObservableCollection<NavigationItem>()
                  {
                       new NavigationItem("Crop","Difference", "差分模型",""),
-                      new NavigationItem("CropRotate","Deformable", "形变模型",""),
                  })
             }));
-            Items.Add(new NavigationItem("", "TemplateMatch", "模板匹配", ""));
-            Items.Add(new NavigationItem("", "Measure", "比较测量", ""));
-            Items.Add(new NavigationItem("", "Character", "字符识别", ""));
-            Items.Add(new NavigationItem("", "Defect", "缺陷检测", ""));
+            //Items.Add(new NavigationItem("", "TemplateMatch", "模板匹配", ""));
+            //Items.Add(new NavigationItem("", "Measure", "比较测量", ""));
+            //Items.Add(new NavigationItem("", "Defect", "缺陷检测", ""));
             Items.Add(new NavigationItem("", "Document", "学习文档", ""));
             Items.Add(new NavigationItem("", "Setting", "系统设置", "SettingView"));
         }

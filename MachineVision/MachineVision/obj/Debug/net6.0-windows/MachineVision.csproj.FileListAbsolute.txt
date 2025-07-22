@@ -115,3 +115,7 @@ F:\Learning\Project\MachineVision\MachineVision\obj\Debug\net6.0-windows\Machine
 F:\Learning\Project\MachineVision\MachineVision\obj\Debug\net6.0-windows\ref\MachineVision.dll
 F:\Learning\Project\MachineVision\MachineVision\obj\Debug\net6.0-windows\Views\SettingView.g.cs
 F:\Learning\Project\MachineVision\MachineVision\obj\Debug\net6.0-windows\Views\SettingView.baml
+F:\Learning\Project\MachineVision\MachineVision\bin\Debug\net6.0-windows\MachineVision.Ocr.dll
+F:\Learning\Project\MachineVision\MachineVision\bin\Debug\net6.0-windows\MachineVision.Ocr.pdb
+F:\Learning\Project\MachineVision\MachineVision\bin\Debug\net6.0-windows\MachineVision.ObjectMeasure.dll
+F:\Learning\Project\MachineVision\MachineVision\bin\Debug\net6.0-windows\MachineVision.ObjectMeasure.pdb

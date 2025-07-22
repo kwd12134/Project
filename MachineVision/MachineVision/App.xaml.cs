@@ -1,5 +1,10 @@
-﻿using MachineVision.Core.TemplateMatch;
+﻿using MachineVision.Core.ObjectMeasure;
+using MachineVision.Core.Ocr;
+using MachineVision.Core.TemplateMatch;
+using MachineVision.Core.TemplateMatch.NccModel;
 using MachineVision.Core.TemplateMatch.ShapeModel;
+using MachineVision.ObjectMeasure;
+using MachineVision.Ocr;
 using MachineVision.Services;
 using MachineVision.Shared.Services;
 using MachineVision.TemplateMatch;
@@ -62,6 +67,11 @@ namespace MachineVision
 
             //模板匹配服务  nameof获取枚举成员或变量名的字符串  就是在注册时为服务起一个名字（命名注册），也叫带 Key 的注册
             services.Register<ITemplateMatchService,ShapeModelService>(nameof(TemplateMatchType.ShapeModel));
+            services.Register<ITemplateMatchService, NccModelSevice>(nameof(TemplateMatchType.NccModel));
+
+            services.Register<BarCodeService>();
+            services.Register<QrCodeService>();
+            services.Register<CircleMeasureService>();
 
         }
         /// <summary>
@@ -72,6 +82,9 @@ namespace MachineVision
         {
             //加载模块
             moduleCatalog.AddModule<TemplateMatchModule>();
+            moduleCatalog.AddModule<OcrModule>();
+            moduleCatalog.AddModule<ObjectMeasureModule>();
+            base.ConfigureModuleCatalog(moduleCatalog);
         }
     }
 }

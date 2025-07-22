@@ -139,6 +139,9 @@
 
                                         <ItemsControl.ItemTemplate>
                                             <DataTemplate>
+                                                <!--使用相对源绑定（RelativeSource Binding）。向上查找可视树，找到最近的Window类型祖先，去它的DataContext上找NavigateCommand-->
+                                                <!--CommandParameter="{Binding}"为命令传递参数，{Binding}表示绑定当前数据项（如列表中的一行数据）。-->
+                                                <!--在局部控件（如DataTemplate）中，无法直接访问Window的DataContext，只能用这种RelativeSource方式定位。-->
                                                 <Button
                                                     Margin="5"
                                                     Command="{Binding DataContext.NavigateCommand, RelativeSource={RelativeSource Mode=FindAncestor, AncestorType=Window}}"

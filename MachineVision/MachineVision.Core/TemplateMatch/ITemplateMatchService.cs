@@ -15,8 +15,9 @@ namespace MachineVision.Core.TemplateMatch
     public interface ITemplateMatchService
     {
         /// <summary>
-        /// 
+        /// ROI
         /// </summary>
+        RoiParameter Roi { get; set; }
         MatchResultSetting Setting { get; set; }
         /// <summary>
         /// 模板匹配描述信息

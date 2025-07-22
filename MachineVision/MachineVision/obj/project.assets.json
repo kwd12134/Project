@@ -478,6 +478,48 @@
           "Microsoft.WindowsDesktop.App.WPF"
         ]
       },
+      "MachineVision.ObjectMeasure/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "MachineVision.Core": "1.0.0",
+          "MachineVision.Shared": "1.0.0",
+          "MaterialDesignColors": "2.1.4",
+          "MaterialDesignThemes": "4.9.0",
+          "Prism.DryIoc": "8.1.97",
+          "System.Drawing.Common": "8.0.0"
+        },
+        "compile": {
+          "bin/placeholder/MachineVision.ObjectMeasure.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MachineVision.ObjectMeasure.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WPF"
+        ]
+      },
+      "MachineVision.Ocr/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "MachineVision.Core": "1.0.0",
+          "MachineVision.Shared": "1.0.0",
+          "MaterialDesignColors": "2.1.4",
+          "MaterialDesignThemes": "4.9.0",
+          "Prism.DryIoc": "8.1.97",
+          "System.Drawing.Common": "8.0.0"
+        },
+        "compile": {
+          "bin/placeholder/MachineVision.Ocr.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MachineVision.Ocr.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WPF"
+        ]
+      },
       "MachineVision.Shared/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
@@ -1597,6 +1639,16 @@
       "path": "../MachineVision.Core/MachineVision.Core.csproj",
       "msbuildProject": "../MachineVision.Core/MachineVision.Core.csproj"
     },
+    "MachineVision.ObjectMeasure/1.0.0": {
+      "type": "project",
+      "path": "../MachineVision.ObjectMeasure/MachineVision.ObjectMeasure.csproj",
+      "msbuildProject": "../MachineVision.ObjectMeasure/MachineVision.ObjectMeasure.csproj"
+    },
+    "MachineVision.Ocr/1.0.0": {
+      "type": "project",
+      "path": "../MachineVision.Ocr/MachineVision.Ocr.csproj",
+      "msbuildProject": "../MachineVision.Ocr/MachineVision.Ocr.csproj"
+    },
     "MachineVision.Shared/1.0.0": {
       "type": "project",
       "path": "../MachineVision.Shared/MachineVision.Shared.csproj",
@@ -1613,6 +1665,8 @@
       "FreeSql >= 3.2.808",
       "FreeSql.Provider.Sqlite >= 3.2.808",
       "MachineVision.Core >= 1.0.0",
+      "MachineVision.ObjectMeasure >= 1.0.0",
+      "MachineVision.Ocr >= 1.0.0",
       "MachineVision.Shared >= 1.0.0",
       "MachineVision.TemplateMatch >= 1.0.0",
       "MaterialDesignColors >= 2.1.4",
@@ -1655,6 +1709,12 @@
             "F:\\Learning\\Project\\MachineVision\\MachineVision.Core\\MachineVision.Core.csproj": {
               "projectPath": "F:\\Learning\\Project\\MachineVision\\MachineVision.Core\\MachineVision.Core.csproj"
             },
+            "F:\\Learning\\Project\\MachineVision\\MachineVision.ObjectMeasure\\MachineVision.ObjectMeasure.csproj": {
+              "projectPath": "F:\\Learning\\Project\\MachineVision\\MachineVision.ObjectMeasure\\MachineVision.ObjectMeasure.csproj"
+            },
+            "F:\\Learning\\Project\\MachineVision\\MachineVision.Ocr\\MachineVision.Ocr.csproj": {
+              "projectPath": "F:\\Learning\\Project\\MachineVision\\MachineVision.Ocr\\MachineVision.Ocr.csproj"
+            },
             "F:\\Learning\\Project\\MachineVision\\MachineVision.Shared\\MachineVision.Shared.csproj": {
               "projectPath": "F:\\Learning\\Project\\MachineVision\\MachineVision.Shared\\MachineVision.Shared.csproj"
             },
@@ -1674,7 +1734,7 @@
         "auditLevel": "low",
         "auditMode": "direct"
       },
-      "SdkAnalysisLevel": "9.0.200"
+      "SdkAnalysisLevel": "9.0.300"
     },
     "frameworks": {
       "net6.0-windows7.0": {
@@ -1720,7 +1780,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.302\\RuntimeIdentifierGraph.json"
       }
     }
   }

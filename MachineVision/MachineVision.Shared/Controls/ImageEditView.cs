@@ -9,6 +9,7 @@ using MachineVision.Shared.Extensions;
 using System;
 using MachineVision.Core.TemplateMatch;
 using MachineVision.Core.TemplateMatch.Shared;
+
 namespace MachineVision.Shared.Controls
 {
     /// <summary>
@@ -34,8 +35,33 @@ namespace MachineVision.Shared.Controls
         public static readonly DependencyProperty ImageProperty =
             DependencyProperty.Register("Image", typeof(HObject), typeof(ImageEditView), new PropertyMetadata(ImageChangeCallBack));
 
+        public HObject MaskObject
+        {
+            get { return (HObject)GetValue(MaskObjectProperty); }
+            set { SetValue(MaskObjectProperty, value); }
+        }
+
+        // Using a DependencyProperty as the backing store for MaskObject.  This enables animation, styling, binding, etc...
+        public static readonly DependencyProperty MaskObjectProperty =
+            DependencyProperty.Register("MaskObject", typeof(HObject), typeof(ImageEditView), new PropertyMetadata(null));
+
+
+
+        public HWindow HWindow
+        {
+            get { return (HWindow)GetValue(HWindowProperty); }
+            set { SetValue(HWindowProperty, value); }
+        }
+
+        // Using a DependencyProperty as the backing store for HWindow.  This enables animation, styling, binding, etc...
+        public static readonly DependencyProperty HWindowProperty =
+            DependencyProperty.Register("HWindow", typeof(HWindow), typeof(ImageEditView), new PropertyMetadata(null));
+
+
+
+
         /// <summary>
-        /// 基本用于自定义控件的属性参数设置或者传递  快捷键propdp
+        /// 基本用于自定义控件的属性参数设置或者传递  快捷键propdp  绘制的形状集合
         /// </summary>
         public ObservableCollection<DrawingObjectInfo> DrawObjectList
         {
@@ -89,7 +115,7 @@ namespace MachineVision.Shared.Controls
         {
             //执行的时候清空图片
             if (Image == null) return;
-            if (MatchResult == null) return;
+            if (MatchResult.Results == null) return;
             Display(Image);
             foreach (var item in MatchResult.Results)
             {
@@ -128,22 +154,29 @@ namespace MachineVision.Shared.Controls
                 this.hSmart.Loaded += HSmart_Loaded;
             }
             //绘制矩形
-            if (GetTemplateChild("PART_Rect") is Button BtnRect)
+            if (GetTemplateChild("PART_Rect") is MenuItem BtnRect)
                 BtnRect.Click += BtnRect_Click;
-            if (GetTemplateChild("PART_Ellipse") is Button BtnEllipse)
+            if (GetTemplateChild("PART_Ellipse") is MenuItem BtnEllipse)
                 BtnEllipse.Click += BtnEllipse_Click;
-            if (GetTemplateChild("PART_Circle") is Button BtnCircle)
+            if (GetTemplateChild("PART_Circle") is MenuItem BtnCircle)
                 BtnCircle.Click += BtnCircle_Click;
-            if (GetTemplateChild("PART_Region") is Button BtnRegion)
+            if (GetTemplateChild("PART_Region") is MenuItem BtnRegion)
                 BtnRegion.Click += BtnRegion_Click;
-            if (GetTemplateChild("PART_Clear") is Button BtnClear)
+            if (GetTemplateChild("PART_Clear") is MenuItem BtnClear)
                 BtnClear.Click += (s, e) =>
                 {
                     DrawObjectList.Clear();
                     hWindow.ClearWindow();
                     Display(Image);
                 };
+            if (GetTemplateChild("PART_Mask") is MenuItem BtnMask)
+                BtnMask.Click += BtnMask_Click;
             base.OnApplyTemplate();
+        }
+
+        private void BtnMask_Click(object sender, RoutedEventArgs e)
+        {
+            DrawShape(ShapeType.Region);
         }
 
         private void BtnRegion_Click(object sender, RoutedEventArgs e)
@@ -198,6 +231,7 @@ namespace MachineVision.Shared.Controls
         private void HSmart_Loaded(object sender, RoutedEventArgs e)
         {
             this.hWindow = hSmart.HalconWindow;
+            HWindow = hWindow;
         }
 
         /// <summary>
@@ -239,7 +273,11 @@ namespace MachineVision.Shared.Controls
                     case ShapeType.Region:
                         {
                             //绘制自定义区域
-                            HOperatorSet.DrawRegion(out drawObj, hWindow);
+                            HOperatorSet.DrawRegion(out HObject maskObj, hWindow);
+                            this.Dispatcher.Invoke(() =>
+                            {
+                                MaskObject = maskObj;
+                            });
                             break;
                         }
                 }
@@ -248,6 +286,7 @@ namespace MachineVision.Shared.Controls
             hSmart.HZoomContent = HSmartWindowControlWPF.ZoomContent.WheelForwardZoomsIn;
             if (drawObj != null)
             {
+                //把控件绘制的形状全部储存到集合中
                 DrawObjectList.Add(new DrawingObjectInfo()
                 {
                     hTuples = hTuples,

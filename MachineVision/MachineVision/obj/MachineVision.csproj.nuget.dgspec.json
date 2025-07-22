@@ -44,7 +44,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.200"
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net6.0-windows7.0": {
@@ -74,7 +74,193 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "F:\\Learning\\Project\\MachineVision\\MachineVision.ObjectMeasure\\MachineVision.ObjectMeasure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\Learning\\Project\\MachineVision\\MachineVision.ObjectMeasure\\MachineVision.ObjectMeasure.csproj",
+        "projectName": "MachineVision.ObjectMeasure",
+        "projectPath": "F:\\Learning\\Project\\MachineVision\\MachineVision.ObjectMeasure\\MachineVision.ObjectMeasure.csproj",
+        "packagesPath": "C:\\Users\\86153\\.nuget\\packages\\",
+        "outputPath": "F:\\Learning\\Project\\MachineVision\\MachineVision.ObjectMeasure\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\86153\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0-windows7.0": {
+            "targetAlias": "net6.0-windows",
+            "projectReferences": {
+              "F:\\Learning\\Project\\MachineVision\\MachineVision.Core\\MachineVision.Core.csproj": {
+                "projectPath": "F:\\Learning\\Project\\MachineVision\\MachineVision.Core\\MachineVision.Core.csproj"
+              },
+              "F:\\Learning\\Project\\MachineVision\\MachineVision.Shared\\MachineVision.Shared.csproj": {
+                "projectPath": "F:\\Learning\\Project\\MachineVision\\MachineVision.Shared\\MachineVision.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net6.0-windows7.0": {
+          "targetAlias": "net6.0-windows",
+          "dependencies": {
+            "MaterialDesignColors": {
+              "target": "Package",
+              "version": "[2.1.4, )"
+            },
+            "MaterialDesignThemes": {
+              "target": "Package",
+              "version": "[4.9.0, )"
+            },
+            "Prism.DryIoc": {
+              "target": "Package",
+              "version": "[8.1.97, )"
+            },
+            "System.Drawing.Common": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "F:\\Learning\\Project\\MachineVision\\MachineVision.Ocr\\MachineVision.Ocr.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\Learning\\Project\\MachineVision\\MachineVision.Ocr\\MachineVision.Ocr.csproj",
+        "projectName": "MachineVision.Ocr",
+        "projectPath": "F:\\Learning\\Project\\MachineVision\\MachineVision.Ocr\\MachineVision.Ocr.csproj",
+        "packagesPath": "C:\\Users\\86153\\.nuget\\packages\\",
+        "outputPath": "F:\\Learning\\Project\\MachineVision\\MachineVision.Ocr\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\86153\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0-windows7.0": {
+            "targetAlias": "net6.0-windows",
+            "projectReferences": {
+              "F:\\Learning\\Project\\MachineVision\\MachineVision.Core\\MachineVision.Core.csproj": {
+                "projectPath": "F:\\Learning\\Project\\MachineVision\\MachineVision.Core\\MachineVision.Core.csproj"
+              },
+              "F:\\Learning\\Project\\MachineVision\\MachineVision.Shared\\MachineVision.Shared.csproj": {
+                "projectPath": "F:\\Learning\\Project\\MachineVision\\MachineVision.Shared\\MachineVision.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net6.0-windows7.0": {
+          "targetAlias": "net6.0-windows",
+          "dependencies": {
+            "MaterialDesignColors": {
+              "target": "Package",
+              "version": "[2.1.4, )"
+            },
+            "MaterialDesignThemes": {
+              "target": "Package",
+              "version": "[4.9.0, )"
+            },
+            "Prism.DryIoc": {
+              "target": "Package",
+              "version": "[8.1.97, )"
+            },
+            "System.Drawing.Common": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     },
@@ -122,7 +308,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.200"
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net6.0-windows7.0": {
@@ -180,7 +366,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     },
@@ -231,7 +417,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.200"
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net6.0-windows7.0": {
@@ -273,7 +459,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     },
@@ -308,6 +494,12 @@
               "F:\\Learning\\Project\\MachineVision\\MachineVision.Core\\MachineVision.Core.csproj": {
                 "projectPath": "F:\\Learning\\Project\\MachineVision\\MachineVision.Core\\MachineVision.Core.csproj"
               },
+              "F:\\Learning\\Project\\MachineVision\\MachineVision.ObjectMeasure\\MachineVision.ObjectMeasure.csproj": {
+                "projectPath": "F:\\Learning\\Project\\MachineVision\\MachineVision.ObjectMeasure\\MachineVision.ObjectMeasure.csproj"
+              },
+              "F:\\Learning\\Project\\MachineVision\\MachineVision.Ocr\\MachineVision.Ocr.csproj": {
+                "projectPath": "F:\\Learning\\Project\\MachineVision\\MachineVision.Ocr\\MachineVision.Ocr.csproj"
+              },
               "F:\\Learning\\Project\\MachineVision\\MachineVision.Shared\\MachineVision.Shared.csproj": {
                 "projectPath": "F:\\Learning\\Project\\MachineVision\\MachineVision.Shared\\MachineVision.Shared.csproj"
               },
@@ -327,7 +519,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.200"
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net6.0-windows7.0": {
@@ -373,7 +565,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     }

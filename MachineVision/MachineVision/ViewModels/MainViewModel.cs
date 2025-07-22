@@ -9,6 +9,7 @@ using Prism.Commands;
 using Prism.Events;
 using Prism.Regions;
 using System;
+using System.Collections.Generic;
 using System.Data;
 using System.Threading.Tasks;
 using System.Windows.Media;

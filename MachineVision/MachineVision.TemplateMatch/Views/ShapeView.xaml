@@ -78,6 +78,7 @@
                         <control:ImageEditView
                             DrawObjectList="{Binding DrawObjectList}"
                             Image="{Binding Image}"
+                            MaskObject="{Binding MaskObj}"
                             MatchResult="{Binding MacthResults}"/>
                         <DataGrid
                             Grid.Row="1"

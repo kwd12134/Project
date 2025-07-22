@@ -11,6 +11,8 @@
           "FreeSql": "3.2.808",
           "FreeSql.Provider.Sqlite": "3.2.808",
           "MachineVision.Core": "1.0.0",
+          "MachineVision.ObjectMeasure": "1.0.0",
+          "MachineVision.Ocr": "1.0.0",
           "MachineVision.Shared": "1.0.0",
           "MachineVision.TemplateMatch": "1.0.0",
           "MaterialDesignColors": "2.1.4",
@@ -303,6 +305,38 @@
           }
         }
       },
+      "MachineVision.ObjectMeasure/1.0.0": {
+        "dependencies": {
+          "MachineVision.Core": "1.0.0",
+          "MachineVision.Shared": "1.0.0",
+          "MaterialDesignColors": "2.1.4",
+          "MaterialDesignThemes": "4.9.0",
+          "Prism.DryIoc": "8.1.97",
+          "System.Drawing.Common": "8.0.0"
+        },
+        "runtime": {
+          "MachineVision.ObjectMeasure.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "MachineVision.Ocr/1.0.0": {
+        "dependencies": {
+          "MachineVision.Core": "1.0.0",
+          "MachineVision.Shared": "1.0.0",
+          "MaterialDesignColors": "2.1.4",
+          "MaterialDesignThemes": "4.9.0",
+          "Prism.DryIoc": "8.1.97",
+          "System.Drawing.Common": "8.0.0"
+        },
+        "runtime": {
+          "MachineVision.Ocr.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
       "MachineVision.Shared/1.0.0": {
         "dependencies": {
           "AutoMapper": "13.0.1",
@@ -558,6 +592,16 @@
       "hashPath": "system.threading.tasks.4.3.0.nupkg.sha512"
     },
     "MachineVision.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MachineVision.ObjectMeasure/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MachineVision.Ocr/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

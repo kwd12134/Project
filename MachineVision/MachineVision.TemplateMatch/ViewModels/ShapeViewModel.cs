@@ -34,10 +34,22 @@ namespace MachineVision.TemplateMatch.ViewModels
 
             //image = new HObject();
             drawObjectList = new ObservableCollection<DrawingObjectInfo>();
+            MacthResults = new MatchResult();
         }
         #region Command && Property
 
+        private HObject maskObj;
         private HObject image;
+        private ObservableCollection<DrawingObjectInfo> drawObjectList;
+
+        /// <summary>
+        /// 掩膜
+        /// </summary>
+        public HObject MaskObj
+        {
+            get { return maskObj; }
+            set { maskObj = value; RaisePropertyChanged(); }
+        }
 
         public HObject Image
         {
@@ -45,7 +57,6 @@ namespace MachineVision.TemplateMatch.ViewModels
             set { image = value; RaisePropertyChanged(); }
         }
 
-        private ObservableCollection<DrawingObjectInfo> drawObjectList;
         /// <summary>
         /// 属性就绑定到了自定义控件中用于获取到内部参数
         /// </summary>
@@ -60,7 +71,7 @@ namespace MachineVision.TemplateMatch.ViewModels
         public MatchResult MacthResults
         {
             get { return matchResults; }
-            set { matchResults = value;RaisePropertyChanged(); }
+            set { matchResults = value; RaisePropertyChanged(); }
         }
 
 
@@ -95,7 +106,22 @@ namespace MachineVision.TemplateMatch.ViewModels
         /// </summary>
         private void SetRange()
         {
+            var hobject = drawObjectList.FirstOrDefault();
+            if (hobject != null && hobject.ShapeType == ShapeType.Rectangle)
+            {
+                //获取ROI
+                MatchService.Roi = new RoiParameter()
+                {
+                    Row1 = hobject.hTuples[0],
+                    Column1 = hobject.hTuples[1],
+                    Row2 = hobject.hTuples[2],
+                    Column2 = hobject.hTuples[3],
+                };
 
+                matchResults.Message = $"{DateTime.Now}: 创建ROI成功!";
+            }
+            else
+                matchResults.Message = $"{DateTime.Now}: 创建ROI失败!";
         }
         /// <summary>
         /// 创建匹配模版
@@ -105,8 +131,20 @@ namespace MachineVision.TemplateMatch.ViewModels
             var hobject = drawObjectList.FirstOrDefault();
             if (hobject != null)
             {
-                MatchService.CreateTemplate(Image, hobject.Hobject);
+                if (MaskObj != null)
+                {
+                    //裁剪出掩膜的区分差异
+                    HOperatorSet.Difference(hobject.Hobject, MaskObj, out HObject regionDifference);
+                    MatchService.CreateTemplate(Image, regionDifference);
+                }
+                else
+                {
+                    MatchService.CreateTemplate(Image, hobject.Hobject);
+                }
+                matchResults.Message = $"{DateTime.Now}: 创建模版成功!";
             }
+            else
+                matchResults.Message = $"{DateTime.Now}: 创建模版失败!";
         }
         /// <summary>
         /// 执行

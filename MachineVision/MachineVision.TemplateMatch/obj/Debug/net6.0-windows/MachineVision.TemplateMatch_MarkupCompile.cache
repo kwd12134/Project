@@ -8,13 +8,13 @@ F:\Learning\Project\MachineVision\MachineVision.TemplateMatch\obj\Debug\net6.0-w
 MachineVision.TemplateMatch
 none
 false
-TRACE;DEBUG;NET;NET6_0;NETCOREAPP
+TRACE;DEBUG;NET;NET6_0;NETCOREAPP;WINDOWS;WINDOWS7_0;NET5_0_OR_GREATER;NET6_0_OR_GREATER;NETCOREAPP3_0_OR_GREATER;NETCOREAPP3_1_OR_GREATER;WINDOWS7_0_OR_GREATER
 
-2-569026408
+3-1471648322
 
-5-1421234070
+7528712284
 2131106525493
-Views\DrawShapeView.xaml;Views\ShapeView.xaml;
+Views\DrawShapeView.xaml;Views\NccView.xaml;Views\ShapeView.xaml;
 
 False
 

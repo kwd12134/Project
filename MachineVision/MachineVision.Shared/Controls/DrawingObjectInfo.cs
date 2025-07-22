@@ -16,10 +16,19 @@ namespace MachineVision.Shared.Controls
     }
     public class DrawingObjectInfo
     {
+        /// <summary>
+        /// 形状类型
+        /// </summary>
         public ShapeType ShapeType { get; set; }
 
+        /// <summary>
+        /// 生成的形状对象
+        /// </summary>
         public HObject Hobject { get; set; }
 
+        /// <summary>
+        /// 汇总ROI的范围参数
+        /// </summary>
         public HTuple[] hTuples {  get; set; }
 
     }

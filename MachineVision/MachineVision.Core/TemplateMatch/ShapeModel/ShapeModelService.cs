@@ -3,14 +3,8 @@ using MachineVision.Core.TemplateMatch.Shared;
 using Prism.Mvvm;
 using System;
 using System.Collections.Generic;
-using System.Collections.ObjectModel;
 using System.Diagnostics;
-using System.Linq;
-using System.Text;
 using System.Threading.Tasks;
-using System.Windows;
-using System.Windows.Media.Media3D;
-using System.Xml.Linq;
 
 namespace MachineVision.Core.TemplateMatch.ShapeModel
 {
@@ -58,6 +52,7 @@ namespace MachineVision.Core.TemplateMatch.ShapeModel
             runParameter.ApplyDefaultParameter();
 
             Setting = new MatchResultSetting();
+            Roi = new RoiParameter();
 
         }
         private HTuple ModelId;
@@ -93,6 +88,8 @@ namespace MachineVision.Core.TemplateMatch.ShapeModel
             set { setting = value; RaisePropertyChanged(); }
         }
 
+        public RoiParameter Roi { get; set; }
+
 
         public async Task CreateTemplate(HObject image, HObject hObject)
         {
@@ -126,9 +123,28 @@ namespace MachineVision.Core.TemplateMatch.ShapeModel
 
         public MatchResult Run(HObject image)
         {
+
             MatchResult matchResult = new MatchResult();
+            if (image == null)
+            {
+                matchResult.Message = "图片异常,请检查!";
+                return matchResult;
+            }
+            if (ModelId==null)
+            {
+                matchResult.Message = "未创建模版,请检查!";
+                return matchResult;
+            }
             matchResult.TimeSpan = SetTimer(() =>
             {
+                //生成roi的范围图像
+                if (Roi.Row1!=0&& Roi.Column1 != 0&& Roi.Column2 != 0)
+                {
+                    HObject hobject;
+                    HOperatorSet.GenEmptyObj(out hobject);//halcon中生成一个空对象
+                    HOperatorSet.GenRectangle1(out HObject rectangle, Roi.Row1, Roi.Column1, Roi.Row2, Roi.Column2);
+                    HOperatorSet.ReduceDomain(image, rectangle, out image);
+                }
                 HOperatorSet.FindShapeModel(
                         image,
                         ModelId,
@@ -158,13 +174,13 @@ namespace MachineVision.Core.TemplateMatch.ShapeModel
                         Column = hv_Column.DArr[i],
                         Angle = hv_Angle.DArr[i],
                         Score = hv_Score.DArr[i],
-                        ContoursAffineTrans = contoursAffineTrans 
+                        ContoursAffineTrans = contoursAffineTrans
                     });
                 }
             });
 
             matchResult.Setting = Setting;
-            matchResult.Message = $"匹配耗时:{matchResult.TimeSpan}ms,匹配个数{matchResult.Results.Count}";
+            matchResult.Message = $"{DateTime.Now}:匹配耗时:{matchResult.TimeSpan}ms,匹配个数{matchResult.Results.Count}";
 
             return matchResult;
 
