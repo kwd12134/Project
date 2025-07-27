@@ -5,6 +5,9 @@
     <Compile Update="Views\DrawShapeView.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="Views\LocalDeformableView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="Views\NccView.xaml.cs">
       <SubType>Code</SubType>
     </Compile>

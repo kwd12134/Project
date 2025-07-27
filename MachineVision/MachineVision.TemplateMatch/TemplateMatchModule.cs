@@ -23,6 +23,7 @@ namespace MachineVision.TemplateMatch
             service.RegisterForNavigation<DrawShapeView, DrawShapeViewModel>();
             service.RegisterForNavigation<ShapeView, ShapeViewModel>();
             service.RegisterForNavigation<NccView, NccViewModel>();
+            service.RegisterForNavigation<LocalDeformableView, LocalDeformableViewModel>();
         }
     }
 }

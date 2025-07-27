@@ -79,8 +79,8 @@
                     <!--  图像编辑器  -->
                     <Grid>
                         <control:ImageEditView
-                            DrawObjectList="{Binding DrawObjectList}"       
-                            HWindow="{Binding Service.HWindow,Mode=TwoWay}"
+                            DrawObjectList="{Binding DrawObjectList}"
+                            HWindow="{Binding Service.HWindow, Mode=TwoWay}"
                             Image="{Binding Image}" />
                     </Grid>
 

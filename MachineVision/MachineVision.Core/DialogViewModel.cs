@@ -20,7 +20,14 @@ namespace MachineVision.Core
 
         public DelegateCommand CancelCommand { get; private set; }
 
-        public string Title { get; set; }
+        private string title;
+
+        public string Title
+        {
+            get { return title; }
+            set { title = value; RaisePropertyChanged(); }
+        }
+
 
         public event Action<IDialogResult> RequestClose;
 

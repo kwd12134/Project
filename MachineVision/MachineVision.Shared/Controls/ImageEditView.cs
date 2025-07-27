@@ -74,16 +74,16 @@ namespace MachineVision.Shared.Controls
             DependencyProperty.Register("DrawObjectList", typeof(ObservableCollection<DrawingObjectInfo>), typeof(ImageEditView), new PropertyMetadata(new ObservableCollection<DrawingObjectInfo>()));
 
 
-        public MatchResult MatchResult
-        {
-            get { return (MatchResult)GetValue(MatchResultsProperty); }
-            set { SetValue(MatchResultsProperty, value); }
-        }
+        //public MatchResult MatchResult
+        //{
+        //    get { return (MatchResult)GetValue(MatchResultsProperty); }
+        //    set { SetValue(MatchResultsProperty, value); }
+        //}
 
-        // Using a DependencyProperty as the backing store for MatchResult.  This enables animation, styling, binding, etc...
-        //注意 typeof(MatchResult)这块的类型要和属性的类型一样不然会报错
-        public static readonly DependencyProperty MatchResultsProperty =
-            DependencyProperty.Register("MatchResult", typeof(MatchResult), typeof(ImageEditView), new PropertyMetadata(MatchResultCallBack));
+        //// Using a DependencyProperty as the backing store for MatchResult.  This enables animation, styling, binding, etc...
+        ////注意 typeof(MatchResult)这块的类型要和属性的类型一样不然会报错
+        //public static readonly DependencyProperty MatchResultsProperty =
+        //    DependencyProperty.Register("MatchResult", typeof(MatchResult), typeof(ImageEditView), new PropertyMetadata(MatchResultCallBack));
 
         /// <summary>
         /// 当某个依赖属性发生变化时，WPF 会自动调用这个函数。
@@ -101,38 +101,38 @@ namespace MachineVision.Shared.Controls
             }
         }
 
-        public static void MatchResultCallBack(DependencyObject d, DependencyPropertyChangedEventArgs e)
-        {
-            if (d is ImageEditView view && e.NewValue != null)
-            {
-                view.DisplayMatchRender();
-            }
-        }
+        //public static void MatchResultCallBack(DependencyObject d, DependencyPropertyChangedEventArgs e)
+        //{
+        //    if (d is ImageEditView view && e.NewValue != null)
+        //    {
+        //        view.DisplayMatchRender();
+        //    }
+        //}
         /// <summary>
         /// 内部对图像进行cross添加
         /// </summary>
-        private void DisplayMatchRender()
-        {
-            //执行的时候清空图片
-            if (Image == null) return;
-            if (MatchResult.Results == null) return;
-            Display(Image);
-            foreach (var item in MatchResult.Results)
-            {
-                if (MatchResult.Setting.IsShowCenter)
-                {
-                    hWindow.DispCross(item.Row, item.Column, 30, item.Angle);
-                }
-                if (MatchResult.Setting.IsShowDisplayText)
-                {
+        //private void DisplayMatchRender()
+        //{
+        //    //执行的时候清空图片
+        //    if (Image == null) return;
+        //    if (MatchResult.Results == null) return;
+        //    Display(Image);
+        //    foreach (var item in MatchResult.Results)
+        //    {
+        //        if (MatchResult.Setting.IsShowCenter)
+        //        {
+        //            hWindow.DispCross(item.Row, item.Column, 30, item.Angle);
+        //        }
+        //        if (MatchResult.Setting.IsShowDisplayText)
+        //        {
 
-                }
-                if (MatchResult.Setting.IsShowMatchRange)
-                {
-                    hWindow.DispObj(item.ContoursAffineTrans);
-                }
-            }
-        }
+        //        }
+        //        if (MatchResult.Setting.IsShowMatchRange)
+        //        {
+        //            hWindow.DispObj(item.ContoursAffineTrans);
+        //        }
+        //    }
+        //}
 
         public void Display(HObject hObject)
         {

@@ -1,11 +1,15 @@
-﻿using MachineVision.Core.ObjectMeasure;
+﻿using AutoMapper;
+using MachineVision.Core.ObjectMeasure;
 using MachineVision.Core.Ocr;
 using MachineVision.Core.TemplateMatch;
+using MachineVision.Core.TemplateMatch.LocalDeformable;
 using MachineVision.Core.TemplateMatch.NccModel;
 using MachineVision.Core.TemplateMatch.ShapeModel;
+using MachineVision.Defect;
 using MachineVision.ObjectMeasure;
 using MachineVision.Ocr;
 using MachineVision.Services;
+using MachineVision.Shared.Extensions;
 using MachineVision.Shared.Services;
 using MachineVision.TemplateMatch;
 using MachineVision.ViewModels;
@@ -14,7 +18,9 @@ using Prism.DryIoc;
 using Prism.Ioc;
 using Prism.Modularity;
 using Prism.Regions;
+using System;
 using System.Windows;
+using AutoMapper;
 
 namespace MachineVision
 {
@@ -55,8 +61,9 @@ namespace MachineVision
         /// <param name="services"></param>
         protected override void RegisterTypes(IContainerRegistry services)
         { 
-            //freesql数据库注册
+            //freesql数据库注册  系统服务注册
             services.RegisterSingleton<ISettingService, SettingService>();
+            services.RegisterSingleton<IAppMapper, AppMapper>();
 
             //系统导航注册
             services.RegisterForNavigation<MainView, MainViewModel>();
@@ -68,6 +75,7 @@ namespace MachineVision
             //模板匹配服务  nameof获取枚举成员或变量名的字符串  就是在注册时为服务起一个名字（命名注册），也叫带 Key 的注册
             services.Register<ITemplateMatchService,ShapeModelService>(nameof(TemplateMatchType.ShapeModel));
             services.Register<ITemplateMatchService, NccModelSevice>(nameof(TemplateMatchType.NccModel));
+            services.Register<ITemplateMatchService, LocalDeformableService>(nameof(TemplateMatchType.LocalDeformable));
 
             services.Register<BarCodeService>();
             services.Register<QrCodeService>();
@@ -83,6 +91,7 @@ namespace MachineVision
             //加载模块
             moduleCatalog.AddModule<TemplateMatchModule>();
             moduleCatalog.AddModule<OcrModule>();
+            moduleCatalog.AddModule<DefectModule>();
             moduleCatalog.AddModule<ObjectMeasureModule>();
             base.ConfigureModuleCatalog(moduleCatalog);
         }

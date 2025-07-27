@@ -29,7 +29,7 @@ namespace MachineVision.Core.TemplateMatch.Shared
         /// <summary>
         /// 定位结果
         /// </summary>
-        public bool IsSuccess => Results.Count() > 0;
+        public bool IsSuccess { get ; set; }
 
         /// <summary>
         /// 耗时
@@ -42,6 +42,13 @@ namespace MachineVision.Core.TemplateMatch.Shared
         /// 目标结果
         /// </summary>
         public ObservableCollection<TemplateMatchResult> Results { get; set; }
+        public void Reset()
+        {
+            Message = string.Empty;
+            TimeSpan = -1;
+            IsSuccess = false;
+            Results.Clear();
+        }
     }
 
     /// <summary>

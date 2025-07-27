@@ -45,13 +45,13 @@ namespace MachineVision.Services
                  }),
                  new NavigationItem("","Defect","缺陷检测","",new ObservableCollection<NavigationItem>()
                  {
-                      new NavigationItem("Crop","Difference", "差分模型",""),
+                      new NavigationItem("Crop","Difference", "差分模型","DefectView"),
                  })
             }));
             //Items.Add(new NavigationItem("", "TemplateMatch", "模板匹配", ""));
             //Items.Add(new NavigationItem("", "Measure", "比较测量", ""));
             //Items.Add(new NavigationItem("", "Defect", "缺陷检测", ""));
-            Items.Add(new NavigationItem("", "Document", "学习文档", ""));
+            //Items.Add(new NavigationItem("", "Document", "学习文档", ""));
             Items.Add(new NavigationItem("", "Setting", "系统设置", "SettingView"));
         }
 

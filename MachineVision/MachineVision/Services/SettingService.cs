@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 namespace MachineVision.Services
 {
     /// <summary>
-    /// //注意：class SettingService<T> 泛型类不适合定义 static 单例
+    /// //注意：class SettingService<T> 泛型类不适合定义 static 单例  数据库部分
     /// </summary>
     public class SettingService : BaseService, ISettingService
     {

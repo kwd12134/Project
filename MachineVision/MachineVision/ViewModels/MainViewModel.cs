@@ -36,7 +36,7 @@ namespace MachineVision.ViewModels
             SettingService = settingService;
             NavigationService = navigationService;
             NavigateCommand = new DelegateCommand<NavigationItem>(Navigate);
-            //订阅事件
+            //订阅事件 聚合器
             aggregator.GetEvent<LanguageEventBus>().Subscribe(LanguageChanged);
             HomeCommand = new DelegateCommand(Home);
         }

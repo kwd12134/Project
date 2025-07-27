@@ -88,6 +88,14 @@ namespace MachineVision.Core.TemplateMatch.NccModel
             set { runParameter = value; RaisePropertyChanged(); }
         }
 
+        private HWindow hWindow;
+
+        public HWindow HWindow
+        {
+            get { return hWindow; }
+            set { hWindow = value; }
+        }
+
         public void SetRunParamter()
         {
         }
@@ -126,7 +134,7 @@ namespace MachineVision.Core.TemplateMatch.NccModel
                 matchResult.Message = "未创建模版,请检查!";
                 return matchResult;
             }
-            matchResult.TimeSpan = SetTimer(() =>
+            matchResult.TimeSpan = SetTimerHelper.SetTimer(() =>
             {
                 //生成roi的范围图像
                 if (Roi.Row1 != 0 && Roi.Column1 != 0 && Roi.Column2 != 0)
@@ -163,19 +171,26 @@ namespace MachineVision.Core.TemplateMatch.NccModel
                 }
             });
 
+            //在窗口中渲染结果
+            if (matchResult.Results != null)
+            {
+                foreach (var item in matchResult.Results)
+                {
+                    if (Setting.IsShowCenter)
+                        HWindow.DispCross(item.Row, item.Column, 30, item.Angle);
+
+                    if (Setting.IsShowDisplayText)
+                        HWindow.SetString($"({Math.Round(item.Row, 2)},{Math.Round(item.Column, 2)})", "image", item.Row, item.Column, "black", "true");
+
+                    if (Setting.IsShowMatchRange)
+                        HWindow.DispObj(item.ContoursAffineTrans);
+                }
+                matchResult.Message = $"{DateTime.Now}:匹配耗时:{matchResult.TimeSpan}ms,匹配个数{matchResult.Results.Count}";
+            }
+
             matchResult.Setting = Setting;
-            matchResult.Message = $"{DateTime.Now}:匹配耗时:{matchResult.TimeSpan}ms,匹配个数{matchResult.Results.Count}";
 
             return matchResult;
-        }
-
-        private double SetTimer(Action action)
-        {
-            Stopwatch stopwatch = Stopwatch.StartNew();
-            stopwatch.Start();
-            action();
-            stopwatch.Stop();
-            return stopwatch.ElapsedMilliseconds;
         }
 
         /// <summary>

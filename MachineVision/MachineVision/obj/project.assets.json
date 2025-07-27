@@ -478,6 +478,29 @@
           "Microsoft.WindowsDesktop.App.WPF"
         ]
       },
+      "MachineVision.Defect/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "AutoMapper": "13.0.1",
+          "MachineVision.Core": "1.0.0",
+          "MachineVision.Shared": "1.0.0",
+          "MaterialDesignColors": "2.1.4",
+          "MaterialDesignThemes": "4.9.0",
+          "Newtonsoft.Json": "13.0.3",
+          "Prism.DryIoc": "8.1.97",
+          "System.Drawing.Common": "8.0.0"
+        },
+        "compile": {
+          "bin/placeholder/MachineVision.Defect.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MachineVision.Defect.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App"
+        ]
+      },
       "MachineVision.ObjectMeasure/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
@@ -1639,6 +1662,11 @@
       "path": "../MachineVision.Core/MachineVision.Core.csproj",
       "msbuildProject": "../MachineVision.Core/MachineVision.Core.csproj"
     },
+    "MachineVision.Defect/1.0.0": {
+      "type": "project",
+      "path": "../MachineVision.Defect/MachineVision.Defect.csproj",
+      "msbuildProject": "../MachineVision.Defect/MachineVision.Defect.csproj"
+    },
     "MachineVision.ObjectMeasure/1.0.0": {
       "type": "project",
       "path": "../MachineVision.ObjectMeasure/MachineVision.ObjectMeasure.csproj",
@@ -1665,6 +1693,7 @@
       "FreeSql >= 3.2.808",
       "FreeSql.Provider.Sqlite >= 3.2.808",
       "MachineVision.Core >= 1.0.0",
+      "MachineVision.Defect >= 1.0.0",
       "MachineVision.ObjectMeasure >= 1.0.0",
       "MachineVision.Ocr >= 1.0.0",
       "MachineVision.Shared >= 1.0.0",
@@ -1708,6 +1737,9 @@
           "projectReferences": {
             "F:\\Learning\\Project\\MachineVision\\MachineVision.Core\\MachineVision.Core.csproj": {
               "projectPath": "F:\\Learning\\Project\\MachineVision\\MachineVision.Core\\MachineVision.Core.csproj"
+            },
+            "F:\\Learning\\Project\\MachineVision\\MachineVision.Defect\\MachineVision.Defect.csproj": {
+              "projectPath": "F:\\Learning\\Project\\MachineVision\\MachineVision.Defect\\MachineVision.Defect.csproj"
             },
             "F:\\Learning\\Project\\MachineVision\\MachineVision.ObjectMeasure\\MachineVision.ObjectMeasure.csproj": {
               "projectPath": "F:\\Learning\\Project\\MachineVision\\MachineVision.ObjectMeasure\\MachineVision.ObjectMeasure.csproj"

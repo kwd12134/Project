@@ -49,3 +49,5 @@ F:\Learning\Project\MachineVision\MachineVision.TemplateMatch\obj\Debug\net6.0-w
 F:\Learning\Project\MachineVision\MachineVision.TemplateMatch\obj\Debug\net6.0-windows\Views\ShapeView.baml
 F:\Learning\Project\MachineVision\MachineVision.TemplateMatch\obj\Debug\net6.0-windows\Views\NccView.g.cs
 F:\Learning\Project\MachineVision\MachineVision.TemplateMatch\obj\Debug\net6.0-windows\Views\NccView.baml
+F:\Learning\Project\MachineVision\MachineVision.TemplateMatch\obj\Debug\net6.0-windows\Views\LocalDeformableView.g.cs
+F:\Learning\Project\MachineVision\MachineVision.TemplateMatch\obj\Debug\net6.0-windows\Views\LocalDeformableView.baml

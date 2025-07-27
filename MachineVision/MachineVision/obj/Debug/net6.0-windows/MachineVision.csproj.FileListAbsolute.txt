@@ -119,3 +119,5 @@ F:\Learning\Project\MachineVision\MachineVision\bin\Debug\net6.0-windows\Machine
 F:\Learning\Project\MachineVision\MachineVision\bin\Debug\net6.0-windows\MachineVision.Ocr.pdb
 F:\Learning\Project\MachineVision\MachineVision\bin\Debug\net6.0-windows\MachineVision.ObjectMeasure.dll
 F:\Learning\Project\MachineVision\MachineVision\bin\Debug\net6.0-windows\MachineVision.ObjectMeasure.pdb
+F:\Learning\Project\MachineVision\MachineVision\bin\Debug\net6.0-windows\MachineVision.Defect.dll
+F:\Learning\Project\MachineVision\MachineVision\bin\Debug\net6.0-windows\MachineVision.Defect.pdb

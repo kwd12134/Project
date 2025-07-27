@@ -78,7 +78,7 @@
                             DrawObjectList="{Binding DrawObjectList}"
                             Image="{Binding Image}"                            
                             MaskObject="{Binding MaskObj}"
-                            MatchResult="{Binding MacthResults}"/>
+                             HWindow="{Binding MatchService.HWindow,Mode=TwoWay}"/>
                         <DataGrid
                             Grid.Row="1"
                             AutoGenerateColumns="False"
