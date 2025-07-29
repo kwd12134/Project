@@ -313,6 +313,7 @@
           "MachineVision.Shared": "1.0.0",
           "MaterialDesignColors": "2.1.4",
           "MaterialDesignThemes": "4.9.0",
+          "Newtonsoft.Json": "13.0.3",
           "Prism.DryIoc": "8.1.97",
           "System.Drawing.Common": "8.0.0"
         },

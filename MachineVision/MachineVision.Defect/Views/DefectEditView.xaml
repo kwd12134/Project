@@ -2,11 +2,11 @@
     x:Class="MachineVision.Defect.Views.DefectEditView"
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-    xmlns:controls="clr-namespace:MachineVision.Shared.Controls;assembly=MachineVision.Shared"
+    xmlns:controls="clr-namespace:MachineVision.Defect.Controls"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:local="clr-namespace:MachineVision.Defect.Views"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-    xmlns:i ="http://schemas.microsoft.com/xaml/behaviors"
+    xmlns:md="http://materialdesigninxaml.net/winfx/xaml/themes"
     d:DesignHeight="450"
     d:DesignWidth="800"
     mc:Ignorable="d">
@@ -19,8 +19,14 @@
             </Grid.RowDefinitions>
 
             <StackPanel Margin="15" Orientation="Horizontal">
-                <TextBlock FontSize="22" Text="当前项目:" FontWeight="Bold"/>
-                <TextBlock Text="{Binding Model.Name}" FontSize="22" Margin="10,0"/>
+                <TextBlock
+                    FontSize="22"
+                    FontWeight="Bold"
+                    Text="当前项目:" />
+                <TextBlock
+                    Margin="10,0"
+                    FontSize="22"
+                    Text="{Binding Model.Name}" />
             </StackPanel>
 
             <StackPanel
@@ -28,6 +34,10 @@
                 Margin="15"
                 Orientation="Horizontal">
                 <Button Command="{Binding LoadImageCommand}" Content="导入图像" />
+                <Button
+                    Margin="10,0"
+                    Command="{Binding SetModelParamCommand}"
+                    Content="项目参数" />
             </StackPanel>
 
             <Grid Grid.Row="2">
@@ -35,14 +45,25 @@
                     <ColumnDefinition Width="200" />
                     <ColumnDefinition />
                 </Grid.ColumnDefinitions>
-                <ListBox x:Name="ListBox" ItemsSource="{Binding Files}" Foreground="Black" SelectionChanged="ListBox_SelectionChanged">
+                <ListBox
+                    x:Name="ListBox"
+                    Foreground="Black"
+                    ItemsSource="{Binding Files}"
+                    SelectionChanged="ListBox_SelectionChanged">
                     <ListBox.ItemTemplate>
                         <DataTemplate>
                             <TextBlock Text="{Binding FileName}" />
                         </DataTemplate>
                     </ListBox.ItemTemplate>
                 </ListBox>
-                <controls:ImageEditView Grid.Column="1" Image="{Binding Image}"/>
+                <controls:DefectEditView
+                    Grid.Column="1"
+                    Image="{Binding Image}"
+                    Model="{Binding Model}" 
+                    DrawingObjectInfos="{Binding DrawingObjInfos}"
+                    UpdateModelCommand="{Binding UpdateModelCommand}"
+                    IsModelEditModel="{Binding IsModelEditModel}"
+                    />
             </Grid>
         </Grid>
 

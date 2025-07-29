@@ -64,6 +64,7 @@ namespace MachineVision.Defect.ViewModels
         {
             //目前这块是导入数据   想要导出数据可以通过回调实现 back 也可用事件聚合区PubSubEvent
             NavigationParameters param = new NavigationParameters();
+
             //初始化判断是否为新项目,否的话导入旧的参数
             model.InitParameter();
             param.Add("Value", model);

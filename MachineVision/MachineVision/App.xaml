@@ -15,6 +15,7 @@
                     SecondaryColor="Amber" />
                 <ResourceDictionary Source="pack://application:,,,/MaterialDesignThemes.Wpf;component/Themes/MaterialDesignTheme.Defaults.xaml" />
                 <ResourceDictionary Source="pack://application:,,,/MachineVision.Shared;component/Themes/Generic.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/MachineVision.Defect;component/Themes/Generic.xaml" />
                 <!--资源字典在 UI 端的典型用途
                 用途	示例
                 🎨 样式复用	按钮、文本框、控件的统一外观样式（<Style>）

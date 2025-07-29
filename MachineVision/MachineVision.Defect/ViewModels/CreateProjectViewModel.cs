@@ -30,7 +30,7 @@ namespace MachineVision.Defect.ViewModels
         {
             await AppService.CreateOrUpdateAsync(new Models.ProjectModel()
             {
-                Name = Name,
+                Name = this.Name,
             });
             base.Save();
         }

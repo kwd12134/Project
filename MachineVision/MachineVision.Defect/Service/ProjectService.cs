@@ -2,6 +2,7 @@
 using MachineVision.Shared.Extensions;
 using MachineVision.Shared.Services;
 using MachineVision.Shared.Services.Tables;
+using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -31,6 +32,7 @@ namespace MachineVision.Defect.Service
                 var result = await Sqlite.Select<Project>().Where(t => t.Id.Equals(Input.Id)).FirstAsync();
                 if (result != null)
                 {
+                    model.ReferParameter = JsonConvert.SerializeObject(Input.ReferSetting);
                     model.CreateDate = DateTime.Now;
                     model.UpdateDate = DateTime.Now;
                     //.SetDto(model)：将 model（通常是一个 DTO 对象）映射为要更新的字段内容。

@@ -1,4 +1,5 @@
 ﻿using HalconDotNet;
+using MachineVision.Defect.Extensions;
 using Newtonsoft.Json;
 using Prism.Mvvm;
 using System.IO;
@@ -39,13 +40,14 @@ namespace MachineVision.Defect.ViewModels.Components
         /// <summary>
         /// 初始化已保存的模版设置参数
         /// </summary>
-        public void InitParameter()
+        public void InitParameter(string Name)
         {
-            if (!string.IsNullOrWhiteSpace(templateFileName))
+            string Template = $"{ProjectExtensions.BasrUrl}{Name}\\Refer\\{templateFileName}";
+            if (!string.IsNullOrWhiteSpace(Template))
             {
-                if (File.Exists(templateFileName))
+                if (File.Exists(Template))
                 {
-                    HOperatorSet.ReadNccModel(templateFileName, out ModelId);
+                    HOperatorSet.ReadNccModel(Template, out ModelId);
                 }
             }
         }

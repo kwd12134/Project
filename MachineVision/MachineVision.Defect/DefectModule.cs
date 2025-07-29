@@ -22,6 +22,7 @@ namespace MachineVision.Defect
             containerRegistry.RegisterDialog<CreateProjectView, CreateProjectViewModel>();
 
             containerRegistry.Register<ProjectService>();
+            containerRegistry.Register<TargetService>();
         }
     }
 }

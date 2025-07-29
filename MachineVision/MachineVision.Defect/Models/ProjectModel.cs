@@ -34,7 +34,7 @@ namespace MachineVision.Defect.Models
             {
                 //初始化参考点的modelid
                 ReferSetting = JsonConvert.DeserializeObject<TemplateSetting>(ReferParameter);
-                ReferSetting.InitParameter();
+                ReferSetting.InitParameter(this.Name);
             }
             else
             {
