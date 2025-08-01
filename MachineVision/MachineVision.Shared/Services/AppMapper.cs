@@ -1,7 +1,7 @@
 ﻿using AutoMapper;
 using System;
 
-namespace MachineVision.Shared.Extensions
+namespace MachineVision.Shared.Services
 {
     /// <summary>
     /// 自动映射

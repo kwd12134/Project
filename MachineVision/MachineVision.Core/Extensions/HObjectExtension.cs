@@ -34,5 +34,45 @@ namespace MachineVision.Core.Extensions
             return template;
         }
 
+        public static HObject ReduceDomain(this HObject image,HObject rectangle)
+        {
+            HOperatorSet.ReduceDomain(image, rectangle, out HObject template);
+            return template;
+        }
+
+        /// <summary>
+        /// 获取图像尺寸  把hobject类型的image转换成himage类型跟方便拿到他的原始数据
+        /// </summary>
+        /// <param name="image"></param>
+        /// <returns></returns>
+        public static int[] GetImageSize(this HObject image)
+        {
+            int width, height;
+            HImage img = new HImage();
+            HobjectToHimage(image, ref img);
+            img.GetImageSize(out width, out height);
+            return new int[] { width, height };
+
+            static void HobjectToHimage(HObject hobject, ref HImage image)
+            {
+                using (HDevDisposeHelper dh = new HDevDisposeHelper())
+                {
+                    HTuple p, t, w, h;
+                    HOperatorSet.GetImagePointer1(hobject, out p, out t, out w, out h);
+                    image.GenImage1(t, w, h, p);
+                }
+            }
+        }
+
+        /// <summary>
+        /// 保存BMP图像
+        /// </summary>
+        /// <param name="image"></param>
+        /// <param name="fileName"></param>
+        public static void SaveIamge(this HObject image, string fileName)
+        {
+            HOperatorSet.WriteImage(image, "bmp", 0, fileName);
+        }
+
     }
 }

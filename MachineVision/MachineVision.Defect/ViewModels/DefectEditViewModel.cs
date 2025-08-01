@@ -1,15 +1,16 @@
-﻿using HalconDotNet;
+﻿using FreeSql;
+using HalconDotNet;
 using MachineVision.Core;
 using MachineVision.Core.Extensions;
 using MachineVision.Defect.Extensions;
 using MachineVision.Defect.Models;
 using MachineVision.Defect.Models.UI;
 using MachineVision.Defect.Service;
+using MachineVision.Defect.ViewModels.Components;
+using MachineVision.Defect.ViewModels.Components.Models;
 using MachineVision.Shared.Controls;
 using Prism.Commands;
 using Prism.Regions;
-using System;
-using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.IO;
 using System.Linq;
@@ -20,23 +21,80 @@ namespace MachineVision.Defect.ViewModels
 {
     public class DefectEditViewModel : NavigationViewModel
     {
+        /// <summary>
+        /// TargetService基于参考点  ProjectService基于数据库
+        /// </summary>
+        /// <param name="targetService"></param>
+        /// <param name="appService"></param>
         public DefectEditViewModel(TargetService targetService, ProjectService appService)
         {
-            LoadImageCommand = new DelegateCommand(LoadImage);
-            Files = new ObservableCollection<ImageFile>();
-            SetModelParamCommand = new DelegateCommand(SetModelParam);
             TargetService = targetService;
             AppService = appService;
-            UpdateModelCommand = new DelegateCommand(UpdateModel);
+
             DrawingObjInfos = new ObservableCollection<HDrawingObjectInfo>();
+            Files = new ObservableCollection<ImageFile>();
+            RegionList = new ObservableCollection<InspecRegionModel>();
+            InitialCommandBinding();
         }
 
+        #region Command Or Service
 
         public DelegateCommand LoadImageCommand { get; set; }
 
         public DelegateCommand SetModelParamCommand { get; set; }
 
         public DelegateCommand UpdateModelCommand { get; set; }
+
+        public DelegateCommand UpdateRegionCommand { get; set; }
+
+        public DelegateCommand CreateRegionCommand { get; set; }
+
+        public DelegateCommand<InspecRegionModel> DelectInspectRegionCommand { get; set; }
+
+        private void InitialCommandBinding()
+        {
+            LoadImageCommand = new DelegateCommand(LoadImage);
+            CreateRegionCommand = new DelegateCommand(CreateRegion);
+            SetModelParamCommand = new DelegateCommand(SetModelParam);
+            UpdateModelCommand = new DelegateCommand(UpdateModel);
+            UpdateRegionCommand = new DelegateCommand(UpdateRegion);
+            DelectInspectRegionCommand = new DelegateCommand<InspecRegionModel>(DelectInspectRegion);
+        }
+
+        /// <summary>
+        /// 基于参考点
+        /// </summary>
+        public TargetService TargetService { get; }
+        /// <summary>
+        /// 基于数据库
+        /// </summary>
+        public ProjectService AppService { get; }
+
+
+
+        #endregion
+
+        #region Binding Or Property
+
+        private ObservableCollection<InspecRegionModel> regionList;
+
+        public ObservableCollection<InspecRegionModel> RegionList
+        {
+            get { return regionList; }
+            set { regionList = value; RaisePropertyChanged(); }
+        }
+
+        private InspecRegionModel selectedRegion;
+
+        public InspecRegionModel SelectedRegion
+        {
+            get { return selectedRegion; }
+            set
+            {
+                selectedRegion = value; RestoreRegionParameter();
+            }
+        }
+
 
         private ProjectModel model;
 
@@ -78,9 +136,9 @@ namespace MachineVision.Defect.ViewModels
             set { drawingObjInfos = value; RaisePropertyChanged(); }
         }
 
+        #endregion
 
-        public TargetService TargetService { get; }
-        public ProjectService AppService { get; }
+        #region 命令实现
 
         private void LoadImage()
         {
@@ -102,12 +160,19 @@ namespace MachineVision.Defect.ViewModels
                 }
             }
         }
+
+        /// <summary>
+        /// 设置储存的参考点数据
+        /// </summary>
         private void SetModelParam()
         {
             TargetService.GetRefer(Image, Model);
             IsModelEditModel = !IsModelEditModel;
-        } 
+        }
 
+        /// <summary>
+        /// 更新项目参考点数据
+        /// </summary>
         private async void UpdateModel()
         {
             var drawingObj = DrawingObjInfos.FirstOrDefault(q => q.Color == "green");
@@ -117,18 +182,140 @@ namespace MachineVision.Defect.ViewModels
 
                 //1.记录当前的形状的尺寸信息
                 refer.SetReferParam(drawingObj);
+                var cropImage = Image.ReduceDomain(refer.Y1, refer.X1, refer.Y2, refer.X2).CropDomain().RgbToGray();
+
+                refer.Width = cropImage.GetImageSize()[0];
+                refer.Height = cropImage.GetImageSize()[1];
 
                 //2.创建一个ncc匹配模版保存包本地,数据库则保存模型的绝对路径
-                var cropImage = Image.ReduceDomain(refer.Y1, refer.X1, refer.Y2, refer.X2).CropDomain();
-                HOperatorSet.WriteImage(cropImage, "png", 0, "F:\\Learning\\HalconLearning\\default.png");
-
-                //3.把上面所设置的信息都保存到数据库当中   全是基于写成扩展方法是为了界面整洁,也是因为为引用类型直接进行参数完善填充进行存储
                 await Model.UpdateReferTemplate(cropImage);
 
+                //3.把上面所设置的信息都保存到数据库当中   全是基于写成扩展方法是为了界面整洁,也是因为为引用类型直接进行参数完善填充进行存储
                 //基本参数已经存储到数据库中
                 await AppService.CreateOrUpdateAsync(Model);
             }
         }
+
+        /// <summary>
+        /// 创建检测区
+        /// </summary>
+        private async void CreateRegion()
+        {
+            var Name = "P" + (RegionList.Count + 1);
+            await AppService.CreateRegionAsync(new InspecRegionModel()
+            {
+                Name = Name,
+                ProjectId = Model.Id,
+                MatchParameter = string.Empty,
+                Parameter = string.Empty
+            });
+            GetRegionListAsync();
+        }
+        /// <summary>
+        /// 删除检测区  删除非C#托管资源 释放内存
+        /// </summary>
+        private async void DelectInspectRegion(InspecRegionModel input)
+        {
+            if (input == null) return;
+
+            var region = RegionList.FirstOrDefault(q => q.Id == input.Id);
+
+            if (region!=null)
+            {
+                //删除非C#托管资源 释放内存 正常C#对象内存释放是自动回收
+                region.Dispose();
+                await AppService.DeleteRegionAsync(region.Id);
+                RegionList.Remove(region);
+            }
+        }
+
+        /// <summary>
+        /// 获取检测区域列表
+        /// </summary>
+        public async void GetRegionListAsync()
+        {
+            var list = await AppService.GetRegionListAsync(Model.Id);
+            RegionList.Clear();
+            foreach (var item in list)
+            {
+                item.ProjectName = Model.Name;
+                //初始化Context ModelID MatchSetting
+                item.InitRegionContext();
+                RegionList.Add(item);
+            }
+        }
+
+        /// <summary>
+        /// 还原检测区域参数绘制
+        /// </summary>
+        private void RestoreRegionParameter()
+        {
+            if (Image == null || SelectedRegion == null) return;
+
+            // 1 先查找基准点位置
+            TargetService.GetRefer(Image, Model);
+
+            // 2 还原选中检测区域的位置
+
+            if (SelectedRegion.Context is IRestoreMatchRegion restore)
+            {
+                restore.RestorePosition(Image, SelectedRegion, Model.ReferSetting.Row, Model.ReferSetting.Column);
+            }
+
+            RaisePropertyChanged(nameof(SelectedRegion));
+        }
+
+        /// <summary>
+        /// 更新区域参数
+        /// </summary>
+        private async void UpdateRegion()
+        {
+
+            var referObj = DrawingObjInfos.FirstOrDefault(q => q.Color == "green");
+
+            var drawingObj = DrawingObjInfos.FirstOrDefault(q => q.Color == "red");
+            if (drawingObj != null && referObj != null)
+            {
+                //1 保存去区域的尺寸信息
+
+                var temp = new TemplateSetting();
+                temp.SetReferParam(drawingObj);
+
+                temp.RowSpacing = Model.ReferSetting.Row - temp.Row;
+                temp.ColumnSpacing = Model.ReferSetting.Column - temp.Column;
+
+                SelectedRegion.MatchSetting = temp;
+
+                //2 保存区域的模版数据
+
+                var cropImage = Image.ReduceDomain(temp.Y1, temp.X1, temp.Y2, temp.X2).CropDomain().RgbToGray();
+                //  创建LocalDeformable的模板匹配
+                await SelectedRegion.UpdateRegionTemplate(cropImage);
+
+                //3 保存区域的检测模型   创建VariationModel
+                //使用缺陷检测算法服务
+                SelectedRegion.Context = new LocalDeformableContext();
+                SelectedRegion.Context.UpdateVariationModel(cropImage, SelectedRegion);
+
+                //4 更新数据库参数
+                await AppService.UpdateRegionAsync(SelectedRegion);
+
+            }
+        }
+
+
+        #endregion
+
+        #region 公共方法
+
+        private void ResetDrawingObject()
+        {
+            //DrawingObjInfos.Clear();
+        }
+
+        #endregion
+
+        #region 导航
 
         /// <summary>
         /// 导航被执行触发  可以拿到DefectViewModel传进来的数据
@@ -139,9 +326,14 @@ namespace MachineVision.Defect.ViewModels
             if (navigationContext.Parameters.ContainsKey("Value"))
             {
                 Model = navigationContext.Parameters.GetValue<ProjectModel>("Value");
+                GetRegionListAsync();
             }
             base.OnNavigatedTo(navigationContext);
         }
+
+        #endregion
+
+
 
     }
 }

@@ -1,10 +1,7 @@
-﻿using MachineVision.Defect.ViewModels.Components;
+﻿using HalconDotNet;
+using MachineVision.Defect.Models;
+using MachineVision.Defect.ViewModels.Components.Models;
 using MachineVision.Shared.Controls;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace MachineVision.Defect.Extensions
 {
@@ -15,7 +12,7 @@ namespace MachineVision.Defect.Extensions
         /// </summary>
         /// <param name="setting"></param>
         /// <param name="drawObj"></param>
-        public static void SetReferParam(this TemplateSetting setting,HDrawingObjectInfo drawObj)
+        public static void SetReferParam(this TemplateSetting setting, HDrawingObjectInfo drawObj)
         {
             //设置矩形的两点坐标
             setting.Y1 = (int)drawObj.HTuples[0].D;
@@ -28,8 +25,23 @@ namespace MachineVision.Defect.Extensions
             setting.Column = setting.X1 + (setting.X2 - setting.X1) / 2;
 
             //计算矩形的宽度和高度
-            setting.Width = Math.Abs(setting.X1 - setting.X2);
-            setting.Height = Math.Abs(setting.Y1 - setting.Y2);
+            //setting.Width = Math.Abs(setting.X1 - setting.X2);
+            //setting.Height = Math.Abs(setting.Y1 - setting.Y2);
+        }
+
+        /// <summary>
+        /// 获取模板相对参考点的位置
+        /// </summary>
+        /// <param name="setting"></param>
+        /// <param name="Row"></param>
+        /// <param name="Column"></param>
+        /// <returns></returns>
+        public static RectangleLocation GetMatchRectangle(this TemplateSetting setting, double Row, double Column)
+        {
+            setting.Row = Row - setting.RowSpacing;
+            setting.Column = Column - setting.ColumnSpacing;
+
+            return RectangleExtension.GetRectangleLocation(setting.Width, setting.Height, Row, Column);
         }
     }
 }

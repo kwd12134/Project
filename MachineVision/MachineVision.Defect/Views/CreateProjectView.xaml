@@ -23,8 +23,8 @@
         <TextBox
             Grid.Row="1"
             Margin="20"
-            VerticalAlignment="Center"
             Padding="5"
+            VerticalAlignment="Center"
             Style="{StaticResource MaterialDesignOutlinedTextBox}"
             Text="{Binding Name}" />
 

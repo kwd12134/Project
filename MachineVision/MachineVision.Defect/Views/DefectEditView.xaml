@@ -32,38 +32,112 @@
             <StackPanel
                 Grid.Row="1"
                 Margin="15"
+                Cursor="Hand"
                 Orientation="Horizontal">
                 <Button Command="{Binding LoadImageCommand}" Content="导入图像" />
                 <Button
                     Margin="10,0"
                     Command="{Binding SetModelParamCommand}"
                     Content="项目参数" />
+                <Button Command="{Binding CreateRegionCommand}" Content="新建检测区域" />
             </StackPanel>
 
             <Grid Grid.Row="2">
                 <Grid.ColumnDefinitions>
-                    <ColumnDefinition Width="200" />
+                    <ColumnDefinition Width="0.3*" />
                     <ColumnDefinition />
                 </Grid.ColumnDefinitions>
-                <ListBox
-                    x:Name="ListBox"
-                    Foreground="Black"
-                    ItemsSource="{Binding Files}"
-                    SelectionChanged="ListBox_SelectionChanged">
-                    <ListBox.ItemTemplate>
-                        <DataTemplate>
-                            <TextBlock Text="{Binding FileName}" />
-                        </DataTemplate>
-                    </ListBox.ItemTemplate>
-                </ListBox>
+
+                <Border BorderBrush="#DDDDDD" BorderThickness="1" />
+
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition />
+                        <RowDefinition />
+                    </Grid.RowDefinitions>
+
+                    <Grid Grid.Column="1">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="auto" />
+                            <RowDefinition />
+                        </Grid.RowDefinitions>
+                        <TextBlock
+                            Margin="8,8,8,5"
+                            FontSize="16"
+                            FontWeight="Bold"
+                            Text="检测区域" />
+
+                        <DataGrid
+                            Grid.Row="1"
+                            AutoGenerateColumns="False"
+                            CanUserAddRows="False"
+                            IsReadOnly="True"
+                            ItemsSource="{Binding RegionList}"
+                            RowHeight="40"
+                            SelectedItem="{Binding SelectedRegion}"
+                            SelectionMode="Single">
+                            <DataGrid.Columns>
+                                <DataGridTemplateColumn Header="检测区域名称">
+                                    <DataGridTemplateColumn.CellTemplate>
+                                        <DataTemplate>
+                                            <TextBlock VerticalAlignment="Center" Text="{Binding Name}" />
+                                        </DataTemplate>
+                                    </DataGridTemplateColumn.CellTemplate>
+                                </DataGridTemplateColumn>
+                                <DataGridTemplateColumn Header="       操作">
+                                    <DataGridTemplateColumn.CellTemplate>
+                                        <DataTemplate>
+                                            <Button
+                                                Margin="0"
+                                                Padding="0"
+                                                VerticalAlignment="Center"
+                                                Command="{Binding DataContext.DelectInspectRegionCommand, RelativeSource={RelativeSource Mode=FindAncestor, AncestorType=DataGrid}}"
+                                                CommandParameter="{Binding}"
+                                                Style="{StaticResource MaterialDesignIconButton}">
+                                                <md:PackIcon Kind="Close" />
+                                            </Button>
+                                        </DataTemplate>
+                                    </DataGridTemplateColumn.CellTemplate>
+                                </DataGridTemplateColumn>
+                            </DataGrid.Columns>
+                        </DataGrid>
+                    </Grid>
+                    
+                    <Grid Grid.Row="1">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="auto" />
+                            <RowDefinition />
+                        </Grid.RowDefinitions>
+                        <TextBlock
+                            Margin="8,8,8,5"
+                            FontSize="16"
+                            FontWeight="Bold"
+                            Text="图像列表" />
+                        <ListBox
+                            x:Name="ListBox"
+                            Grid.Row="1"
+                            ItemsSource="{Binding Files}"
+                            SelectionChanged="ListBox_SelectionChanged">
+                            <ListBox.ItemTemplate>
+                                <DataTemplate>
+                                    <TextBlock Text="{Binding FileName}" />
+                                </DataTemplate>
+                            </ListBox.ItemTemplate>
+                        </ListBox>
+                    </Grid>
+
+                </Grid>
+
+
                 <controls:DefectEditView
                     Grid.Column="1"
-                    Image="{Binding Image}"
-                    Model="{Binding Model}" 
                     DrawingObjectInfos="{Binding DrawingObjInfos}"
-                    UpdateModelCommand="{Binding UpdateModelCommand}"
+                    Image="{Binding Image}"
                     IsModelEditModel="{Binding IsModelEditModel}"
-                    />
+                    Model="{Binding Model}"
+                    SelectedRegion="{Binding SelectedRegion}"
+                    UpdateModelCommand="{Binding UpdateModelCommand}"
+                    UpdateRegionCommand="{Binding UpdateRegionCommand}" />
             </Grid>
         </Grid>
 

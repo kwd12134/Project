@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MachineVision.Defect.ViewModels.Components
+namespace MachineVision.Defect.ViewModels.Components.Models
 {
     /// <summary>
     /// 矩形参数

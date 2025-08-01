@@ -21,10 +21,6 @@
                             </ContextMenu>
                         </Grid.ContextMenu>
                         
-                        <Grid.RowDefinitions>
-                            <RowDefinition Height="auto" />
-                            <RowDefinition />
-                        </Grid.RowDefinitions>
                         <TextBlock
                             x:Name="PART_Msg"
                             Margin="5"
@@ -33,8 +29,8 @@
                             Panel.ZIndex="1"
                             FontSize="16"
                             FontWeight="Bold"
-                            Foreground="Red" />
-                        <halcon:HSmartWindowControlWPF x:Name="PART_Smart" Grid.Row="1" />
+                            Foreground="Green" />
+                        <halcon:HSmartWindowControlWPF x:Name="PART_Smart"/>
                     </Grid>
                 </ControlTemplate>
             </Setter.Value>

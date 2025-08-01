@@ -1,4 +1,5 @@
-﻿using MachineVision.Defect.ViewModels.Components;
+﻿using MachineVision.Defect.Extensions;
+using MachineVision.Defect.ViewModels.Components.Models;
 using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
@@ -34,7 +35,7 @@ namespace MachineVision.Defect.Models
             {
                 //初始化参考点的modelid
                 ReferSetting = JsonConvert.DeserializeObject<TemplateSetting>(ReferParameter);
-                ReferSetting.InitParameter(this.Name);
+                ReferSetting.InitParameter(this.GetReferUrl());
             }
             else
             {

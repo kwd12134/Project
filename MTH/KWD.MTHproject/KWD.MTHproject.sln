@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33829.357
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KWD.MTHproject", "KWD.MTHproject.csproj", "{47161F1C-0D0D-41E0-B02A-63CE18949641}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KWDMHTControlLib", "..\KWDMHTUserLib\KWDMHTControlLib.csproj", "{3B07B32C-B260-4D67-B204-4B96F8362F99}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KWDHTMmodels", "..\KWDHTMmodels\KWDHTMmodels.csproj", "{E5542965-BC60-4252-837A-8DCEEEF9BC8C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KWDMHTHelper", "..\KWDMHTHelper\KWDMHTHelper.csproj", "{B55C4212-8F7F-4D75-A934-2ECC05FE870B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KWDMHTDAL", "..\KWD.MHTDAL\KWDMHTDAL.csproj", "{F410B031-A846-4982-8AA2-063D3502A7EC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KWDMTHBLL", "..\KWDMTHBLL\KWDMTHBLL.csproj", "{B0E79B74-7B08-4F31-A2D1-0E35AE1C3A10}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{47161F1C-0D0D-41E0-B02A-63CE18949641}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47161F1C-0D0D-41E0-B02A-63CE18949641}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47161F1C-0D0D-41E0-B02A-63CE18949641}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47161F1C-0D0D-41E0-B02A-63CE18949641}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B07B32C-B260-4D67-B204-4B96F8362F99}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B07B32C-B260-4D67-B204-4B96F8362F99}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B07B32C-B260-4D67-B204-4B96F8362F99}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B07B32C-B260-4D67-B204-4B96F8362F99}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E5542965-BC60-4252-837A-8DCEEEF9BC8C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E5542965-BC60-4252-837A-8DCEEEF9BC8C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E5542965-BC60-4252-837A-8DCEEEF9BC8C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E5542965-BC60-4252-837A-8DCEEEF9BC8C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B55C4212-8F7F-4D75-A934-2ECC05FE870B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B55C4212-8F7F-4D75-A934-2ECC05FE870B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B55C4212-8F7F-4D75-A934-2ECC05FE870B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B55C4212-8F7F-4D75-A934-2ECC05FE870B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F410B031-A846-4982-8AA2-063D3502A7EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F410B031-A846-4982-8AA2-063D3502A7EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F410B031-A846-4982-8AA2-063D3502A7EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F410B031-A846-4982-8AA2-063D3502A7EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B0E79B74-7B08-4F31-A2D1-0E35AE1C3A10}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0E79B74-7B08-4F31-A2D1-0E35AE1C3A10}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0E79B74-7B08-4F31-A2D1-0E35AE1C3A10}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0E79B74-7B08-4F31-A2D1-0E35AE1C3A10}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3B29250F-1A9E-42DB-A2D2-B50122745E12}
+	EndGlobalSection
+EndGlobal

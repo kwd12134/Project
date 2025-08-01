@@ -1,5 +1,5 @@
 ﻿using HalconDotNet;
-using MachineVision.Core.Extensions;
+using MachineVision.Defect.Extensions;
 using MachineVision.Defect.Models;
 using MachineVision.Shared.Controls;
 using MachineVision.Shared.Extensions;
@@ -16,9 +16,8 @@ namespace MachineVision.Defect.Controls
     public class DefectEditView : System.Windows.Controls.Control
     {
 
-        private HSmartWindowControlWPF hSmart;
-        private HWindow hWindow;
-        private TextBlock txtMsg;
+        private HSmartWindowControlWPF hSmart { get; set; }
+        private HWindow hWindow { get; set; }
 
         /// <summary> 
         /// ImageChangeCallBack 注入进去的值都为Hobject的类型 依赖属性的变化回调函数（PropertyChangedCallback）只会在调用 SetValue() 设置值时被触发
@@ -54,6 +53,20 @@ namespace MachineVision.Defect.Controls
 
 
         #region 缺陷检测相关
+
+
+
+        public InspecRegionModel SelectedRegion
+        {
+            get { return (InspecRegionModel)GetValue(SelectedRegionProperty); }
+            set { SetValue(SelectedRegionProperty, value); }
+        }
+
+        // Using a DependencyProperty as the backing store for SelectedRegion.  This enables animation, styling, binding, etc...
+        public static readonly DependencyProperty SelectedRegionProperty =
+            DependencyProperty.Register("SelectedRegion", typeof(InspecRegionModel), typeof(DefectEditView), new PropertyMetadata(SelectedRegionModelChangeCallBack));
+
+
 
         public ObservableCollection<HDrawingObjectInfo> DrawingObjectInfos
         {
@@ -101,20 +114,58 @@ namespace MachineVision.Defect.Controls
 
 
 
+        public ICommand UpdateRegionCommand
+        {
+            get { return (ICommand)GetValue(UpdateRegionCommandProperty); }
+            set { SetValue(UpdateRegionCommandProperty, value); }
+        }
+
+        // Using a DependencyProperty as the backing store for UpdateRegionCommand.  This enables animation, styling, binding, etc...
+        public static readonly DependencyProperty UpdateRegionCommandProperty =
+            DependencyProperty.Register("UpdateRegionCommand", typeof(ICommand), typeof(DefectEditView));
+
+
+
         //----------------------------------------------------------------------------------------------------------------------------------------
 
+        public static void SelectedRegionModelChangeCallBack(DependencyObject d, DependencyPropertyChangedEventArgs e)
+        {
+            if (d is DefectEditView view && e.NewValue != null)
+            {
+                view.txtMsg.Text = $"当前选中区域{view.SelectedRegion.Name}";
+
+                view.ClearHDrawingObjects();
+
+                var setting = view.SelectedRegion.MatchSetting;
+                if (setting.Y1 != 0 && setting.X1 != 0 && setting.Y2 != 0 && setting.X2 != 0)
+                {
+                    view.AttachDrawingObjectToWindow("red", setting.Y1, setting.X1, setting.Y2, setting.X2);
+                }
+
+                view.Menu_Refer.Visibility = Visibility.Collapsed;
+                view.Menu_Update.Visibility = Visibility.Collapsed;
+                view.Menu_Region.Visibility = Visibility.Visible;
+                view.Menu_RegionUpdate.Visibility = Visibility.Visible;
+            }
+        }
 
         public static void IsModelEditModelChangeCallBack(DependencyObject d, DependencyPropertyChangedEventArgs e)
         {
             ModelChangeCallBack(d, e);
         }
-
+        /// <summary>
+        /// 跨线程调用
+        /// </summary>
+        /// <param name="d"></param>
+        /// <param name="e"></param>
         public static void ModelChangeCallBack(DependencyObject d, DependencyPropertyChangedEventArgs e)
         {
             if (d is DefectEditView view)
             {
                 if (view.Image == null || view.Model == null) return;
-
+                view.Menu_Refer.Visibility = Visibility.Visible;
+                view.Menu_Update.Visibility = Visibility.Visible;
+                view.ClearHDrawingObjects();
                 view.RefreshProjectParameter();
             }
         }
@@ -151,10 +202,41 @@ namespace MachineVision.Defect.Controls
                 HTuples = param
             };
 
-            DrawingObjectInfos.Add(drawObjInfo); 
+            //绘制对象发生移动或者尺寸发送变化进行刷新
+            drawingObj.OnDrag(OnDragDrawingObj);
+            drawingObj.OnResize(OnResizeDrawingObj);
+
+            DrawingObjectInfos.Add(drawObjInfo);
 
             //把绘制的框框固定到界面上
             hWindow.AttachDrawingObjectToWindow(drawingObj);
+        }
+
+        private void OnDragDrawingObj(HDrawingObject obj, HWindow hwin, string type)
+        {
+            RefreshDrawingObj(obj);
+        }
+        private void OnResizeDrawingObj(HDrawingObject obj, HWindow hwin, string type)
+        {
+            RefreshDrawingObj(obj);
+        }
+        /// <summary>
+        /// 刷新绘制对象移动或尺寸参数
+        /// </summary>
+        /// <param name="obj"></param>
+        private void RefreshDrawingObj(HDrawingObject obj)
+        {
+            if (obj == null) return;
+
+            var hv_type = obj.GetDrawingObjectParams("type");
+            var hv_tuple = obj.GetTuples(hv_type);
+
+            var objInfo = DrawingObjectInfos.FirstOrDefault((q => q.HDrawingObject != null && q.HDrawingObject.ID == obj.ID));
+
+            if (objInfo != null)
+            {
+                objInfo.HTuples = hv_tuple;
+            }
         }
 
         private async void DrawReferRectangle(string color)
@@ -202,7 +284,30 @@ namespace MachineVision.Defect.Controls
             hWindow.SetPart(0, 0, -2, -2);
         }
 
-        private MenuItem Menu_Refer, Menu_Update;
+
+        /// <summary>
+        /// 不直接在 foreach 中修改集合，避免运行时异常；
+        /// projectList 是临时列表，用于过滤要删除的元素，不会打乱 DrawingObjectInfos 的迭代顺序；
+        /// 删除的是原集合 DrawingObjectInfos 中的元素，释放资源并同步移除 UI 中的数据引用。
+        /// </summary>
+        public void ClearHDrawingObjects()
+        {
+            if (DrawingObjectInfos == null) return;
+
+            //var projectList = DrawingObjectInfos.Where(q => q.Color == "green").ToList();
+
+            for (int i = DrawingObjectInfos.Count - 1; i >= 0; i--)
+            {
+                //由于是地址引用界面上关联的也是当前的数据,释放他相当于释放界面上的数据
+                var item = DrawingObjectInfos[i];
+                item.HDrawingObject?.Dispose();
+
+                DrawingObjectInfos.Remove(item);
+            }
+        }
+
+        private MenuItem Menu_Refer, Menu_Update, Menu_Region, Menu_RegionUpdate;
+        private TextBlock txtMsg;
 
         /// <summary>
         /// 初始化界面控件
@@ -218,18 +323,37 @@ namespace MachineVision.Defect.Controls
             }
             //新项目默认自己绘制参考点范围
             Menu_Refer = (MenuItem)GetTemplateChild("PART_Refer");
-            Menu_Refer.Click += async (s, e) =>
+            Menu_Refer.Click += (s, e) =>
             {
                 if (Image == null) return;
                 DrawReferRectangle("green");
             };
-
+            //更新参考点   控件内部command绑定外部
             Menu_Update = (MenuItem)GetTemplateChild("PART_Update");
             Menu_Update.Click += (s, e) =>
             {
                 UpdateModelCommand?.Execute(this);
             };
 
+            //绘制检测区域
+            Menu_Region = (MenuItem)GetTemplateChild("PART_Region");
+            Menu_Region.Click += (s, e) =>
+            {
+                if (Image == null) return;
+                DrawReferRectangle("red");
+            };
+            //更新检测区域
+            Menu_RegionUpdate = (MenuItem)GetTemplateChild("PART_UpdateRegion");
+            Menu_RegionUpdate.Click += (s, e) =>
+            {
+                UpdateRegionCommand?.Execute(this);
+            };
+
+            var Menu_Clear = (MenuItem)GetTemplateChild("PART_Clear");
+            Menu_Clear.Click += (s, e) =>
+            {
+                ClearHDrawingObjects();
+            };
             base.OnApplyTemplate();
         }
 

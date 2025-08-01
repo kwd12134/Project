@@ -9,7 +9,6 @@ using MachineVision.Defect;
 using MachineVision.ObjectMeasure;
 using MachineVision.Ocr;
 using MachineVision.Services;
-using MachineVision.Shared.Extensions;
 using MachineVision.Shared.Services;
 using MachineVision.TemplateMatch;
 using MachineVision.ViewModels;

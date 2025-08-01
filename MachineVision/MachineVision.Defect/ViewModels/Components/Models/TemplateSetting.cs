@@ -4,8 +4,11 @@ using Newtonsoft.Json;
 using Prism.Mvvm;
 using System.IO;
 
-namespace MachineVision.Defect.ViewModels.Components
+namespace MachineVision.Defect.ViewModels.Components.Models
 {
+    /// <summary>
+    /// 模型id与保存地址   roi区域数据
+    /// </summary>
     public class TemplateSetting : RectangleSetting
     {
         private string templateFileName, prewViewFileName;
@@ -40,14 +43,21 @@ namespace MachineVision.Defect.ViewModels.Components
         /// <summary>
         /// 初始化已保存的模版设置参数
         /// </summary>
-        public void InitParameter(string Name)
+        public void InitParameter(string Path)
         {
-            string Template = $"{ProjectExtensions.BasrUrl}{Name}\\Refer\\{templateFileName}";
+            string Template = $"{Path}{templateFileName}";
             if (!string.IsNullOrWhiteSpace(Template))
             {
                 if (File.Exists(Template))
                 {
-                    HOperatorSet.ReadNccModel(Template, out ModelId);
+                    if (Template.Contains("ncm"))
+                    {
+                        HOperatorSet.ReadNccModel(Template, out ModelId);
+                    }
+                    else if (Template.Contains("dfm"))
+                    {
+                        HOperatorSet.ReadDeformableModel(Template, out ModelId);
+                    }
                 }
             }
         }
