@@ -29,10 +29,12 @@ namespace MachineVision.Defect.ViewModels
         /// <param name="targetService"></param>
         /// <param name="appService"></param>
         public DefectEditViewModel(TargetService targetService,
+            InspectionService inspectService,
             IDialogService dialogService,
             ProjectService appService)
         {
             this.TargetService = targetService;
+            InspectService = inspectService;
             DialogService = dialogService;
             AppService = appService;
 
@@ -57,6 +59,8 @@ namespace MachineVision.Defect.ViewModels
         public DelegateCommand<InspecRegionModel> DelectInspectRegionCommand { get; set; }
         public DelegateCommand<InspecRegionModel> EditRegionCommand { get; set; }
 
+        public DelegateCommand RunCommand { get; set; }
+
         private void InitialCommandBinding()
         {
             LoadImageCommand = new DelegateCommand(LoadImage);
@@ -66,14 +70,14 @@ namespace MachineVision.Defect.ViewModels
             UpdateRegionCommand = new DelegateCommand(UpdateRegion);
             DelectInspectRegionCommand = new DelegateCommand<InspecRegionModel>(DelectInspectRegion);
             EditRegionCommand = new DelegateCommand<InspecRegionModel>(EditRegion);
+            RunCommand = new DelegateCommand(Run);
         }
-
 
         /// <summary>
         /// 基于参考点
         /// </summary>
         public TargetService TargetService { get; }
-
+        public InspectionService InspectService { get; }
         public IDialogService DialogService { get; }
 
         /// <summary>
@@ -150,6 +154,7 @@ namespace MachineVision.Defect.ViewModels
         #endregion
 
         #region 命令实现
+
 
         private void LoadImage()
         {
@@ -231,7 +236,7 @@ namespace MachineVision.Defect.ViewModels
 
             var region = RegionList.FirstOrDefault(q => q.Id == input.Id);
 
-            if (region!=null)
+            if (region != null)
             {
                 //删除非C#托管资源 释放内存 正常C#对象内存释放是自动回收
                 region.Dispose();
@@ -303,10 +308,10 @@ namespace MachineVision.Defect.ViewModels
         private async void UpdateRegion()
         {
 
-            var referObj = DrawingObjInfos.FirstOrDefault(q => q.Color == "green");
+            //var referObj = DrawingObjInfos.FirstOrDefault(q => q.Color == "green");
 
             var drawingObj = DrawingObjInfos.FirstOrDefault(q => q.Color == "red");
-            if (drawingObj != null && referObj != null)
+            if (drawingObj != null && Model.ReferSetting.ModelId != null)
             {
                 //1 保存去区域的尺寸信息
 
@@ -335,6 +340,27 @@ namespace MachineVision.Defect.ViewModels
             }
         }
 
+
+        #endregion
+
+        #region 检测服务
+
+        private InspectionResult result;
+
+        public InspectionResult Result
+        {
+            get { return result; }
+            set { result = value;RaisePropertyChanged(); }
+        }
+
+
+        /// <summary>
+        /// 检测图像
+        /// </summary>
+        private async void Run()
+        {
+            Result = InspectService.ExecuteAsync(Image, Model, RegionList);
+        }
 
         #endregion
 

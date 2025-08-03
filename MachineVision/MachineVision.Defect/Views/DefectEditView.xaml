@@ -40,6 +40,8 @@
                     Command="{Binding SetModelParamCommand}"
                     Content="项目参数" />
                 <Button Command="{Binding CreateRegionCommand}" Content="新建检测区域" />
+
+                <Button Margin="10,0" Command="{Binding RunCommand}" Content="运行检测" />
             </StackPanel>
 
             <Grid Grid.Row="2">
@@ -142,6 +144,7 @@
 
                 <controls:DefectEditView
                     Grid.Column="1"
+                    Result="{Binding Result}"
                     DrawingObjectInfos="{Binding DrawingObjInfos}"
                     Image="{Binding Image}"
                     IsModelEditModel="{Binding IsModelEditModel}"

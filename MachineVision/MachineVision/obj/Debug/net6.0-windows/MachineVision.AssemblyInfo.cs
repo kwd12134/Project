@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MachineVision")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+36b82ceb05b0d100611215efeca1fdac4e264f8b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bff0a7625143bcf2619538ec720525f5829da983")]
 [assembly: System.Reflection.AssemblyProductAttribute("MachineVision")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MachineVision")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

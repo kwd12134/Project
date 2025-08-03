@@ -4,10 +4,12 @@ using MachineVision.Core.TemplateMatch.LocalDeformable;
 using MachineVision.Defect.Extensions;
 using MachineVision.Defect.Models;
 using MachineVision.Defect.ViewModels.Components.Models;
+using MachineVision.Shared.Services.Tables;
 using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
 using System.Data.Common;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -36,6 +38,8 @@ namespace MachineVision.Defect.ViewModels.Components
         HTuple hv_Row = new HTuple();
         HTuple hv_Column = new HTuple();
         private HTuple StandardId = new HTuple();
+
+
         /// <summary>
         /// 
         /// </summary>
@@ -54,11 +58,20 @@ namespace MachineVision.Defect.ViewModels.Components
                 Setting = new VariationSetting();
         }
 
-        public void Run(HObject image, InspecRegionModel Model)
+        public void InitStandardId(string Path)
+        {
+            var fileName = Path + Setting.StdFileName;
+            if (File.Exists(fileName))
+            {
+                HOperatorSet.ReadVariationModel(fileName, out StandardId);
+            }
+        }
+
+        public RegionContextResult Run(HObject image, InspecRegionModel Model)
         {
             //Image : 等待形变匹配的一个图像
             //Model : 待检测区域的对象
-            HOperatorSet.FindLocalDeformableModel(image,
+            HOperatorSet.FindLocalDeformableModel(image.RgbToGray(),
                 //这一块输出的就是对裁剪的Image矫正跟初始形变模型一样
                 out input.ImageRectified,
                 out input.VectorField,
@@ -83,37 +96,46 @@ namespace MachineVision.Defect.ViewModels.Components
 
             if (hv_Score > 0)
             {
-                //input.ImageRectified最终形变纠正后的标准图像  LocalDeformable
-                //拿这个图像跟差分模型中的ModelID进行差分也就是    Variation
-                //差分过程中,将我们界面设置的条件进行筛选 : 亮阈值,面积,暗阈值,面积进行筛选
-                //最终输出结果
-                var render = GetPrePareVariationModel();
-                if (render!=null)
+                //获取实际检测的目标位置
+               var location = RectangleExtension.GetRectangleLocation(Model.MatchSetting.Width, Model.MatchSetting.Height, hv_Row.D, hv_Column.D);
+
+               //input.ImageRectified.SaveIamge("C:\\Users\\86153\\OneDrive\\图片\\Image\\test1.bmp");
+               //input.ImageRectified最终形变纠正后的标准图像  LocalDeformable
+               //拿这个图像跟差分模型中的ModelID进行差分也就是    Variation
+               //差分过程中,将我们界面设置的条件进行筛选 : 亮阈值,面积,暗阈值,面积进行筛选
+               //最终输出结果
+               var render = GetPrePareVariationModel();
+                if (render != null)
                 {
-
+                    return new RegionContextResult() { IsSuccess = false, Render = render };
                 }
+                return new RegionContextResult() { IsSuccess = true ,Location = location};
             }
-
+            return new RegionContextResult() { IsSuccess = false, Message = "未匹配" };
         }
 
         /// <summary> 
         /// 获取模型中的缺陷数据汇总 亮缺陷  暗缺陷
         /// </summary>
         /// <returns></returns>
-        private LightAndDarkRegion GetPrePareVariationModel()
+        private LightAndDarkRegion? GetPrePareVariationModel()
         {
 
             foreach (var item in Setting.Parameters)
             {
+                item.InitThresholds();
+                //AbsThreshold: 0-255 [0~255,0~255]  当你的参数是一个值的时候,这个值就代表亮和暗的绝对阈值,如果是数值就是[亮,暗]
+                //VarThreshold: 相对阈值 halcon示例中默认为3
+
                 //亮缺陷筛选
-                HOperatorSet.PrepareVariationModel(null, item.H_AbsThreshold, item.H_VarThreshold);
-                HOperatorSet.CompareVariationModel(input.ImageRectified, out HObject light, null);
+                HOperatorSet.PrepareVariationModel(StandardId, item.H_AbsThreshold, item.H_VarThreshold);
+                HOperatorSet.CompareVariationModel(input.ImageRectified, out HObject light, StandardId);
                 HOperatorSet.Connection(light, out HObject LightRegions);
                 HOperatorSet.SelectShape(LightRegions, out HObject LightError, "area", "and", item.MinArea, 999999999);
 
                 //暗缺陷筛选
-                HOperatorSet.PrepareVariationModel(null, item.H_DarkAbsThreshold, item.H_DarkVarThreshold);
-                HOperatorSet.CompareVariationModel(input.ImageRectified, out HObject dark, null);
+                HOperatorSet.PrepareVariationModel(StandardId, item.H_DarkAbsThreshold, item.H_DarkVarThreshold);
+                HOperatorSet.CompareVariationModel(input.ImageRectified, out HObject dark, StandardId);
                 HOperatorSet.Connection(dark, out HObject DarkRegions);
                 HOperatorSet.SelectShape(DarkRegions, out HObject DarkError, "area", "and", item.MinDarkArea, 999999999);
 
@@ -123,6 +145,7 @@ namespace MachineVision.Defect.ViewModels.Components
 
                 if (LightCount.D == 0 && DarkCount == 0) return null;
 
+                //有缺陷就发返回
                 return new LightAndDarkRegion() { Light = LightError, Dark = DarkError, };
             }
             return null;

@@ -62,7 +62,7 @@ namespace MachineVision.Defect.ViewModels
 
         public async override void Save()
         {
-            await AppService.UpdateRegionAsync(model);
+            await AppService.UpdateRegionAsync(Model);
             base.Save();
         }
 

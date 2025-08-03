@@ -74,5 +74,21 @@ namespace MachineVision.Core.Extensions
             HOperatorSet.WriteImage(image, "bmp", 0, fileName);
         }
 
+        /// <summary>
+        /// 移动区域
+        /// </summary>
+        /// <param name="image"></param>
+        /// <param name="y1"></param>
+        /// <param name="x1"></param>
+        /// <returns></returns>
+        public static HObject Move(this HObject region,double y1,double x1)
+        {
+            HObject ho_moveregion;
+            HOperatorSet.GenEmptyObj(out ho_moveregion);
+            HOperatorSet.MoveRegion(region, out ho_moveregion, y1, x1);
+            region?.Dispose();
+            return ho_moveregion;
+        }
+
     }
 }

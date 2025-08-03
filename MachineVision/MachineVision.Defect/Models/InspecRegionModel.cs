@@ -62,6 +62,11 @@ namespace MachineVision.Defect.Models
 
             Context = this.GetRegionContext();
 
+            if (Context is LocalDeformableContext context)
+            {
+                context.InitStandardId(this.GetRegionUrl());
+            }
+
             string Path = this.GetRegionUrl();
             MatchSetting.InitParameter(Path);
 

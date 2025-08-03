@@ -10,7 +10,7 @@ namespace MachineVision.Defect.ViewModels.Components
 {
     public interface IRegionContext
     {
-        void Run(HObject image,InspecRegionModel Model);
+        RegionContextResult Run(HObject image,InspecRegionModel Model);
 
         void Import(string Parameter);
 
