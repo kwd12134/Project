@@ -99,7 +99,7 @@ namespace MachineVision.Defect.ViewModels.Components
                 //获取实际检测的目标位置
                var location = RectangleExtension.GetRectangleLocation(Model.MatchSetting.Width, Model.MatchSetting.Height, hv_Row.D, hv_Column.D);
 
-               //input.ImageRectified.SaveIamge("C:\\Users\\86153\\OneDrive\\图片\\Image\\test1.bmp");
+               input.ImageRectified.SaveIamge("C:\\Users\\86153\\OneDrive\\图片\\Image\\test1.bmp");
                //input.ImageRectified最终形变纠正后的标准图像  LocalDeformable
                //拿这个图像跟差分模型中的ModelID进行差分也就是    Variation
                //差分过程中,将我们界面设置的条件进行筛选 : 亮阈值,面积,暗阈值,面积进行筛选
@@ -107,9 +107,9 @@ namespace MachineVision.Defect.ViewModels.Components
                var render = GetPrePareVariationModel();
                 if (render != null)
                 {
-                    return new RegionContextResult() { IsSuccess = false, Render = render };
+                    return new RegionContextResult() { IsSuccess = false, Render = render, Location = location };
                 }
-                return new RegionContextResult() { IsSuccess = true ,Location = location};
+                return new RegionContextResult() { IsSuccess = true ,Location = location,Message="未发现缺陷"};
             }
             return new RegionContextResult() { IsSuccess = false, Message = "未匹配" };
         }
@@ -120,7 +120,7 @@ namespace MachineVision.Defect.ViewModels.Components
         /// <returns></returns>
         private LightAndDarkRegion? GetPrePareVariationModel()
         {
-
+            if (Setting.Parameters == null) return null;
             foreach (var item in Setting.Parameters)
             {
                 item.InitThresholds();

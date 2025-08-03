@@ -3,7 +3,11 @@
   "WorkspaceRootPath": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\Danikor\\Danikor\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9F93EE48-53E6-4025-80A3-146C96FEBEA2}|Data\\Data.csproj|F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\Danikor\\Danikor\\data\\variable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{83C390D4-6C66-4378-8CCF-BB5BF7E9CBAD}|Helper\\Helper.csproj|F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\Danikor\\Danikor\\helper\\queuelock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{83C390D4-6C66-4378-8CCF-BB5BF7E9CBAD}|Helper\\Helper.csproj|solutionrelative:helper\\queuelock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F93EE48-53E6-4025-80A3-146C96FEBEA2}|Data\\Data.csproj|f:\\learning\\c#\u4E0A\u4F4D\u673A\\project\\danikor\\danikor\\data\\variable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9F93EE48-53E6-4025-80A3-146C96FEBEA2}|Data\\Data.csproj|solutionrelative:data\\variable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -59,7 +63,7 @@
       "RelativeMoniker": "D:0:0:{8E91B2EC-517F-43B7-914C-9831D3B5149E}|MCMQ\\MCMQ.csproj|solutionrelative:mcmq\\xmlstationresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FD01EBEB-6546-455F-8FA0-13B7FB0B8C60}|Danikor\\Danikor.csproj|f:\\learning\\c#\u4E0A\u4F4D\u673A\\project\\danikor\\danikor\\danikor\\frmhistory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{FD01EBEB-6546-455F-8FA0-13B7FB0B8C60}|Danikor\\Danikor.csproj|F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\Danikor\\Danikor\\danikor\\frmhistory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FD01EBEB-6546-455F-8FA0-13B7FB0B8C60}|Danikor\\Danikor.csproj|solutionrelative:danikor\\frmhistory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -136,10 +140,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{83C390D4-6C66-4378-8CCF-BB5BF7E9CBAD}|Helper\\Helper.csproj|F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\Danikor\\Danikor\\helper\\excelhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{83C390D4-6C66-4378-8CCF-BB5BF7E9CBAD}|Helper\\Helper.csproj|solutionrelative:helper\\excelhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{83C390D4-6C66-4378-8CCF-BB5BF7E9CBAD}|Helper\\Helper.csproj|F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\Danikor\\Danikor\\helper\\queuelock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{83C390D4-6C66-4378-8CCF-BB5BF7E9CBAD}|Helper\\Helper.csproj|solutionrelative:helper\\queuelock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FD01EBEB-6546-455F-8FA0-13B7FB0B8C60}|Danikor\\Danikor.csproj|F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\Danikor\\Danikor\\danikor\\properties\\resources.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}",
@@ -264,11 +264,11 @@
       "DocumentGroups": [
         {
           "DockedHeight": 200,
-          "SelectedChildIndex": 14,
+          "SelectedChildIndex": 11,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "FrmMain.cs [\u8BBE\u8BA1]",
               "DocumentMoniker": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\Danikor\\Danikor\\Danikor\\FrmMain.cs",
               "RelativeDocumentMoniker": "Danikor\\FrmMain.cs",
@@ -280,7 +280,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "FrmHistory.cs [\u8BBE\u8BA1]",
               "DocumentMoniker": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\Danikor\\Danikor\\Danikor\\FrmHistory.cs",
               "RelativeDocumentMoniker": "Danikor\\FrmHistory.cs",
@@ -288,12 +288,11 @@
               "RelativeToolTip": "Danikor\\FrmHistory.cs [\u8BBE\u8BA1]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-16T05:30:28.757Z",
-              "IsPinned": true,
-              "EditorCaption": " [\u8BBE\u8BA1]"
+              "IsPinned": true
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 21,
               "Title": "FrmCommunicateConfig.cs [\u8BBE\u8BA1]",
               "DocumentMoniker": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\Danikor\\Danikor\\Danikor\\FrmCommunicateConfig.cs",
               "RelativeDocumentMoniker": "Danikor\\FrmCommunicateConfig.cs",
@@ -305,7 +304,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 23,
               "Title": "FrmParamentRecipe.cs [\u8BBE\u8BA1]",
               "DocumentMoniker": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\Danikor\\Danikor\\Danikor\\FrmParamentRecipe.cs",
               "RelativeDocumentMoniker": "Danikor\\FrmParamentRecipe.cs",
@@ -346,59 +345,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "DeviceParameter.cs",
-              "DocumentMoniker": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\Danikor\\Danikor\\Data\\DeviceParameter.cs",
-              "RelativeDocumentMoniker": "Data\\DeviceParameter.cs",
-              "ToolTip": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\Danikor\\Danikor\\Data\\DeviceParameter.cs",
-              "RelativeToolTip": "Data\\DeviceParameter.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAwAAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-25T05:11:55.71Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "CsvHelper.cs",
-              "DocumentMoniker": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\Danikor\\Danikor\\Helper\\CsvHelper.cs",
-              "RelativeDocumentMoniker": "Helper\\CsvHelper.cs",
-              "ToolTip": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\Danikor\\Danikor\\Helper\\CsvHelper.cs",
-              "RelativeToolTip": "Helper\\CsvHelper.cs",
-              "ViewState": "AgIAAC0AAAAAAAAAAAAAAC0AAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-18T07:05:13.958Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "DeviceHistoryData.cs",
-              "DocumentMoniker": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\Danikor\\Danikor\\Data\\DeviceHistoryData.cs",
-              "RelativeDocumentMoniker": "Data\\DeviceHistoryData.cs",
-              "ToolTip": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\Danikor\\Danikor\\Data\\DeviceHistoryData.cs",
-              "RelativeToolTip": "Data\\DeviceHistoryData.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA2AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-14T06:01:44.302Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "DeviceEnums.cs",
-              "DocumentMoniker": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\Danikor\\Danikor\\Data\\DeviceEnums.cs",
-              "RelativeDocumentMoniker": "Data\\DeviceEnums.cs",
-              "ToolTip": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\Danikor\\Danikor\\Data\\DeviceEnums.cs",
-              "RelativeToolTip": "Data\\DeviceEnums.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-19T01:12:39.702Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
               "Title": "XMLData.cs",
               "DocumentMoniker": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\Danikor\\Danikor\\Data\\XMLData.cs",
               "RelativeDocumentMoniker": "Data\\XMLData.cs",
@@ -406,12 +353,11 @@
               "RelativeToolTip": "Data\\XMLData.cs",
               "ViewState": "AgIAABEAAAAAAAAAAAAawBIAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-13T05:11:21.842Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-13T05:11:21.842Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Variable.cs",
               "DocumentMoniker": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\Danikor\\Danikor\\Data\\Variable.cs",
               "RelativeDocumentMoniker": "Data\\Variable.cs",
@@ -424,7 +370,68 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "QueueLock.cs",
+              "DocumentMoniker": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\Danikor\\Danikor\\Helper\\QueueLock.cs",
+              "RelativeDocumentMoniker": "Helper\\QueueLock.cs",
+              "ToolTip": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\Danikor\\Danikor\\Helper\\QueueLock.cs",
+              "RelativeToolTip": "Helper\\QueueLock.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAlwBQAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T01:05:23.271Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 6,
+              "Title": "DeviceEnums.cs",
+              "DocumentMoniker": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\Danikor\\Danikor\\Data\\DeviceEnums.cs",
+              "RelativeDocumentMoniker": "Data\\DeviceEnums.cs",
+              "ToolTip": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\Danikor\\Danikor\\Data\\DeviceEnums.cs",
+              "RelativeToolTip": "Data\\DeviceEnums.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-19T01:12:39.702Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DeviceHistoryData.cs",
+              "DocumentMoniker": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\Danikor\\Danikor\\Data\\DeviceHistoryData.cs",
+              "RelativeDocumentMoniker": "Data\\DeviceHistoryData.cs",
+              "ToolTip": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\Danikor\\Danikor\\Data\\DeviceHistoryData.cs",
+              "RelativeToolTip": "Data\\DeviceHistoryData.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-14T06:01:44.302Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CsvHelper.cs",
+              "DocumentMoniker": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\Danikor\\Danikor\\Helper\\CsvHelper.cs",
+              "RelativeDocumentMoniker": "Helper\\CsvHelper.cs",
+              "ToolTip": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\Danikor\\Danikor\\Helper\\CsvHelper.cs",
+              "RelativeToolTip": "Helper\\CsvHelper.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAAAC0AAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-18T07:05:13.958Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DeviceParameter.cs",
+              "DocumentMoniker": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\Danikor\\Danikor\\Data\\DeviceParameter.cs",
+              "RelativeDocumentMoniker": "Data\\DeviceParameter.cs",
+              "ToolTip": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\Danikor\\Danikor\\Data\\DeviceParameter.cs",
+              "RelativeToolTip": "Data\\DeviceParameter.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAwAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-25T05:11:55.71Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "DeviceResultReadDate.cs",
               "DocumentMoniker": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\Danikor\\Danikor\\Data\\DeviceResultReadDate.cs",
               "RelativeDocumentMoniker": "Data\\DeviceResultReadDate.cs",
@@ -432,12 +439,11 @@
               "RelativeToolTip": "Data\\DeviceResultReadDate.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-16T08:14:14.729Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-16T08:14:14.729Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "Mcmq.cs",
               "DocumentMoniker": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\Danikor\\Danikor\\MCMQ\\Mcmq.cs",
               "RelativeDocumentMoniker": "MCMQ\\Mcmq.cs",
@@ -445,12 +451,11 @@
               "RelativeToolTip": "MCMQ\\Mcmq.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-07T00:52:33.857Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-07T00:52:33.857Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "McmqServer.cs",
               "DocumentMoniker": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\Danikor\\Danikor\\MCMQ\\McmqServer.cs",
               "RelativeDocumentMoniker": "MCMQ\\McmqServer.cs",
@@ -458,12 +463,11 @@
               "RelativeToolTip": "MCMQ\\McmqServer.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAAAMAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-07T07:04:44.811Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-07T07:04:44.811Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "XmlDataReport.cs",
               "DocumentMoniker": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\Danikor\\Danikor\\MCMQ\\XmlDataReport.cs",
               "RelativeDocumentMoniker": "MCMQ\\XmlDataReport.cs",
@@ -471,12 +475,11 @@
               "RelativeToolTip": "MCMQ\\XmlDataReport.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAYwLAAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-07T07:24:21.036Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-07T07:24:21.036Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "XmlSnValidationRequest.cs",
               "DocumentMoniker": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\Danikor\\Danikor\\MCMQ\\XmlSnValidationRequest.cs",
               "RelativeDocumentMoniker": "MCMQ\\XmlSnValidationRequest.cs",
@@ -484,12 +487,11 @@
               "RelativeToolTip": "MCMQ\\XmlSnValidationRequest.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-07T07:29:05.755Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-07T07:29:05.755Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "XmlSnValidationResult.cs",
               "DocumentMoniker": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\Danikor\\Danikor\\MCMQ\\XmlSnValidationResult.cs",
               "RelativeDocumentMoniker": "MCMQ\\XmlSnValidationResult.cs",
@@ -497,12 +499,11 @@
               "RelativeToolTip": "MCMQ\\XmlSnValidationResult.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-11T07:49:48.37Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-11T07:49:48.37Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "XmlStationRequest.cs",
               "DocumentMoniker": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\Danikor\\Danikor\\MCMQ\\XmlStationRequest.cs",
               "RelativeDocumentMoniker": "MCMQ\\XmlStationRequest.cs",
@@ -510,12 +511,11 @@
               "RelativeToolTip": "MCMQ\\XmlStationRequest.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAIQAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-07T09:10:11.686Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-07T09:10:11.686Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "XmlStationResponse.cs",
               "DocumentMoniker": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\Danikor\\Danikor\\MCMQ\\XmlStationResponse.cs",
               "RelativeDocumentMoniker": "MCMQ\\XmlStationResponse.cs",
@@ -523,12 +523,11 @@
               "RelativeToolTip": "MCMQ\\XmlStationResponse.cs",
               "ViewState": "AgIAAF4AAAAAAAAAAAAAAHAAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-11T07:50:20.144Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-11T07:50:20.144Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "FrmHistory.cs",
               "DocumentMoniker": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\Danikor\\Danikor\\Danikor\\FrmHistory.cs",
               "RelativeDocumentMoniker": "Danikor\\FrmHistory.cs",
@@ -536,12 +535,11 @@
               "RelativeToolTip": "Danikor\\FrmHistory.cs",
               "ViewState": "AgIAAC8AAAAAAAAAAAAAAEYAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-16T05:30:31.133Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-16T05:30:31.133Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "FrmMain.cs",
               "DocumentMoniker": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\Danikor\\Danikor\\Danikor\\FrmMain.cs",
               "RelativeDocumentMoniker": "Danikor\\FrmMain.cs",
@@ -553,7 +551,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "FrmLogin.cs [\u8BBE\u8BA1]",
               "DocumentMoniker": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\Danikor\\Danikor\\Danikor\\FrmLogin.cs",
               "RelativeDocumentMoniker": "Danikor\\FrmLogin.cs",
@@ -564,7 +562,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 20,
               "Title": "FrmChangePassword.cs [\u8BBE\u8BA1]",
               "DocumentMoniker": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\Danikor\\Danikor\\Danikor\\FrmChangePassword.cs",
               "RelativeDocumentMoniker": "Danikor\\FrmChangePassword.cs",
@@ -575,7 +573,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 22,
               "Title": "Danikor",
               "DocumentMoniker": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\Danikor\\Danikor\\Danikor\\Danikor.csproj",
               "RelativeDocumentMoniker": "Danikor\\Danikor.csproj",
@@ -586,7 +584,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 24,
               "Title": "FrmRefreshParameter.cs",
               "DocumentMoniker": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\Danikor\\Danikor\\Danikor\\FrmRefreshParameter.cs",
               "RelativeDocumentMoniker": "Danikor\\FrmRefreshParameter.cs",
@@ -598,7 +596,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 25,
               "Title": "FrmRefreshParameter.cs [\u8BBE\u8BA1]",
               "DocumentMoniker": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\Danikor\\Danikor\\Danikor\\FrmRefreshParameter.cs",
               "RelativeDocumentMoniker": "Danikor\\FrmRefreshParameter.cs",
@@ -609,7 +607,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 26,
               "Title": "FrmParamentRecipe.cs",
               "DocumentMoniker": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\Danikor\\Danikor\\Danikor\\FrmParamentRecipe.cs",
               "RelativeDocumentMoniker": "Danikor\\FrmParamentRecipe.cs",
@@ -621,7 +619,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 27,
               "Title": "FrmCommunicateConfig.cs",
               "DocumentMoniker": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\Danikor\\Danikor\\Danikor\\FrmCommunicateConfig.cs",
               "RelativeDocumentMoniker": "Danikor\\FrmCommunicateConfig.cs",
@@ -633,7 +631,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 28,
               "Title": "FrmChangePassword.cs",
               "DocumentMoniker": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\Danikor\\Danikor\\Danikor\\FrmChangePassword.cs",
               "RelativeDocumentMoniker": "Danikor\\FrmChangePassword.cs",
@@ -645,7 +643,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 29,
               "Title": "FrmLogin.cs",
               "DocumentMoniker": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\Danikor\\Danikor\\Danikor\\FrmLogin.cs",
               "RelativeDocumentMoniker": "Danikor\\FrmLogin.cs",
@@ -657,7 +655,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 30,
               "Title": "XmlHelper.cs",
               "DocumentMoniker": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\Danikor\\Danikor\\Helper\\XmlHelper.cs",
               "RelativeDocumentMoniker": "Helper\\XmlHelper.cs",
@@ -687,7 +685,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 31,
               "Title": "TClient.cs",
               "DocumentMoniker": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\Danikor\\Danikor\\Communication\\TClient.cs",
               "RelativeDocumentMoniker": "Communication\\TClient.cs",
@@ -726,7 +724,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 32,
               "Title": "IMcmq.cs",
               "DocumentMoniker": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\Danikor\\Danikor\\MCMQ\\IMcmq.cs",
               "RelativeDocumentMoniker": "MCMQ\\IMcmq.cs",
@@ -738,7 +736,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 33,
               "Title": "ServiceLocator.cs",
               "DocumentMoniker": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\Danikor\\Danikor\\Danikor\\ServiceLocator.cs",
               "RelativeDocumentMoniker": "Danikor\\ServiceLocator.cs",
@@ -750,7 +748,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 34,
               "Title": "ExcelHelper.cs",
               "DocumentMoniker": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\Danikor\\Danikor\\Helper\\ExcelHelper.cs",
               "RelativeDocumentMoniker": "Helper\\ExcelHelper.cs",
@@ -759,18 +757,6 @@
               "ViewState": "AQIAACQCAAAAAAAAAAAlwD4CAABgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-20T05:36:32.403Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 34,
-              "Title": "QueueLock.cs",
-              "DocumentMoniker": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\Danikor\\Danikor\\Helper\\QueueLock.cs",
-              "RelativeDocumentMoniker": "Helper\\QueueLock.cs",
-              "ToolTip": "F:\\Learning\\C#\u4E0A\u4F4D\u673A\\Project\\Danikor\\Danikor\\Helper\\QueueLock.cs",
-              "RelativeToolTip": "Helper\\QueueLock.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEwAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-21T01:05:23.271Z"
             },
             {
               "$type": "Document",

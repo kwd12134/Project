@@ -90,5 +90,6 @@ namespace MachineVision.Core.Extensions
             return ho_moveregion;
         }
 
+
     }
 }

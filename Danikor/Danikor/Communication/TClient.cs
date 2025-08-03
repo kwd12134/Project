@@ -78,7 +78,7 @@ namespace Communication
                     case DeviceEnums.运行状态0201:
                         //心跳包处理   period周期   duetime到期时间
                         heartbeatTimer = new Timer(SendHeartbeat, null, heartbeatInterval, heartbeatInterval);
-                        _ = HandleClientAsyncRunStatus(Tcp_Client, Command); // 异步处理客户端连接  读取运行数据
+                        HandleClientAsyncRunStatus(Tcp_Client, Command); // 异步处理客户端连接  读取运行数据
                         break;
                     case DeviceEnums.最终拧紧结果0202:
                         heartbeatTimer = new Timer(SendHeartbeat, null, heartbeatInterval, heartbeatInterval);
@@ -138,7 +138,7 @@ namespace Communication
         /// <param name="client"></param>
         /// <param name="Command"></param>
         /// <returns></returns>
-        private async Task HandleClientAsyncRunStatus(TcpClient client, string Command)
+        private async void HandleClientAsyncRunStatus(TcpClient client, string Command)
         {
             var buffer = new byte[1024];
             var stream = client.GetStream();
