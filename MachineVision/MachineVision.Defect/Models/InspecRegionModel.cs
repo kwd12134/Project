@@ -29,6 +29,7 @@ namespace MachineVision.Defect.Models
         /// </summary>
         public string Parameter { get; set; }
 
+
         /// <summary>
         /// 检测区域模型及其位置参数  通过实体类映射过来 (JSON)
         /// </summary>

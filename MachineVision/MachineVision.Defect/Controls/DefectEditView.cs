@@ -294,7 +294,7 @@ namespace MachineVision.Defect.Controls
         {
             if (DrawingObjectInfos == null) return;
 
-            //var projectList = DrawingObjectInfos.Where(q => q.Color == "green").ToList();
+            //var projectList = DrawingObjectInfos.Where(q => q.Color == "red").ToList();
 
             for (int i = DrawingObjectInfos.Count - 1; i >= 0; i--)
             {

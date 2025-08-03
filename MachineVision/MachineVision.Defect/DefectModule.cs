@@ -20,9 +20,11 @@ namespace MachineVision.Defect
             containerRegistry.RegisterForNavigation<DefectEditView, DefectEditViewModel>();
 
             containerRegistry.RegisterDialog<CreateProjectView, CreateProjectViewModel>();
+            containerRegistry.RegisterDialog<RegionParameterView, RegionParameterViewModel>();
 
             containerRegistry.Register<ProjectService>();
             containerRegistry.Register<TargetService>();
+            containerRegistry.RegisterSingleton<InspectionService>();
         }
     }
 }

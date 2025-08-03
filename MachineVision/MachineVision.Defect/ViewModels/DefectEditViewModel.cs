@@ -8,9 +8,11 @@ using MachineVision.Defect.Models.UI;
 using MachineVision.Defect.Service;
 using MachineVision.Defect.ViewModels.Components;
 using MachineVision.Defect.ViewModels.Components.Models;
+using MachineVision.Defect.Views;
 using MachineVision.Shared.Controls;
 using Prism.Commands;
 using Prism.Regions;
+using Prism.Services.Dialogs;
 using System.Collections.ObjectModel;
 using System.IO;
 using System.Linq;
@@ -26,9 +28,12 @@ namespace MachineVision.Defect.ViewModels
         /// </summary>
         /// <param name="targetService"></param>
         /// <param name="appService"></param>
-        public DefectEditViewModel(TargetService targetService, ProjectService appService)
+        public DefectEditViewModel(TargetService targetService,
+            IDialogService dialogService,
+            ProjectService appService)
         {
-            TargetService = targetService;
+            this.TargetService = targetService;
+            DialogService = dialogService;
             AppService = appService;
 
             DrawingObjInfos = new ObservableCollection<HDrawingObjectInfo>();
@@ -50,6 +55,7 @@ namespace MachineVision.Defect.ViewModels
         public DelegateCommand CreateRegionCommand { get; set; }
 
         public DelegateCommand<InspecRegionModel> DelectInspectRegionCommand { get; set; }
+        public DelegateCommand<InspecRegionModel> EditRegionCommand { get; set; }
 
         private void InitialCommandBinding()
         {
@@ -59,12 +65,17 @@ namespace MachineVision.Defect.ViewModels
             UpdateModelCommand = new DelegateCommand(UpdateModel);
             UpdateRegionCommand = new DelegateCommand(UpdateRegion);
             DelectInspectRegionCommand = new DelegateCommand<InspecRegionModel>(DelectInspectRegion);
+            EditRegionCommand = new DelegateCommand<InspecRegionModel>(EditRegion);
         }
+
 
         /// <summary>
         /// 基于参考点
         /// </summary>
         public TargetService TargetService { get; }
+
+        public IDialogService DialogService { get; }
+
         /// <summary>
         /// 基于数据库
         /// </summary>
@@ -145,7 +156,7 @@ namespace MachineVision.Defect.ViewModels
             //由于该方法是Winform的类,所以要双击MachineVision.Defect 进入Project当中添加一个	  <UseWindowsForms>true</UseWindowsForms>
             FolderBrowserDialog dialog = new FolderBrowserDialog();
             dialog.Description = "请选择导入的图像";
-            if (dialog.ShowDialog() == DialogResult.OK)
+            if (dialog.ShowDialog() == System.Windows.Forms.DialogResult.OK)
             {
                 var files = new DirectoryInfo(dialog.SelectedPath).GetFiles();
                 Files.Clear();
@@ -227,6 +238,27 @@ namespace MachineVision.Defect.ViewModels
                 await AppService.DeleteRegionAsync(region.Id);
                 RegionList.Remove(region);
             }
+        }
+
+        /// <summary>
+        /// 编辑检测区域参数
+        /// </summary>
+        /// <param name="model"></param>
+        /// <exception cref="NotImplementedException"></exception>
+        private void EditRegion(InspecRegionModel model)
+        {
+            //因为引用变量的原因,把数据传进去在里面修改的数据就是修改传入的数据
+            DialogParameters param = new DialogParameters();
+            param.Add("Value", model);
+
+            DialogService.ShowDialog(nameof(RegionParameterView), param, callback =>
+            {
+                if (callback.Result == ButtonResult.OK)
+                {
+
+                }
+
+            });
         }
 
         /// <summary>

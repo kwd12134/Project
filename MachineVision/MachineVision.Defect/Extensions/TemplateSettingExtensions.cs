@@ -41,7 +41,7 @@ namespace MachineVision.Defect.Extensions
             setting.Row = Row - setting.RowSpacing;
             setting.Column = Column - setting.ColumnSpacing;
 
-            return RectangleExtension.GetRectangleLocation(setting.Width, setting.Height, Row, Column);
+            return RectangleExtension.GetRectangleLocation(setting.Width, setting.Height, setting.Row, setting.Column);
         }
     }
 }

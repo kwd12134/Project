@@ -84,18 +84,29 @@
                                         </DataTemplate>
                                     </DataGridTemplateColumn.CellTemplate>
                                 </DataGridTemplateColumn>
-                                <DataGridTemplateColumn Header="       操作">
+                                <DataGridTemplateColumn Header="操作">
                                     <DataGridTemplateColumn.CellTemplate>
                                         <DataTemplate>
-                                            <Button
+                                            <StackPanel Orientation="Horizontal">
+                                                <Button
+                                                Margin="0"
+                                                Padding="0"
+                                                VerticalAlignment="Center"
+                                                Command="{Binding DataContext.EditRegionCommand, RelativeSource={RelativeSource Mode=FindAncestor, AncestorType=DataGrid}}"
+                                                CommandParameter="{Binding}"
+                                                Style="{StaticResource MaterialDesignIconButton}">
+                                                    <md:PackIcon Kind="Edit" />
+                                                </Button>
+                                                <Button
                                                 Margin="0"
                                                 Padding="0"
                                                 VerticalAlignment="Center"
                                                 Command="{Binding DataContext.DelectInspectRegionCommand, RelativeSource={RelativeSource Mode=FindAncestor, AncestorType=DataGrid}}"
                                                 CommandParameter="{Binding}"
                                                 Style="{StaticResource MaterialDesignIconButton}">
-                                                <md:PackIcon Kind="Close" />
-                                            </Button>
+                                                    <md:PackIcon Kind="Close" />
+                                                </Button>
+                                            </StackPanel>
                                         </DataTemplate>
                                     </DataGridTemplateColumn.CellTemplate>
                                 </DataGridTemplateColumn>

@@ -10,7 +10,7 @@ namespace MachineVision.Defect.ViewModels.Components
 {
     public interface IRegionContext
     {
-        void Run(HObject image);
+        void Run(HObject image,InspecRegionModel Model);
 
         void Import(string Parameter);
 
@@ -23,5 +23,6 @@ namespace MachineVision.Defect.ViewModels.Components
         string GetJsonParameter();
 
         void UpdateVariationModel(HObject image, InspecRegionModel model);
+
     }
 }
