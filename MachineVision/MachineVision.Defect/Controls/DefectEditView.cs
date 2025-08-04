@@ -8,6 +8,7 @@ using System.Collections.ObjectModel;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Input;
+using System.Windows.Media;
 
 namespace MachineVision.Defect.Controls
 {
@@ -45,7 +46,16 @@ namespace MachineVision.Defect.Controls
         {
             if (Result != null && Result.ContextResults != null)
             {
-                txtMsg.Text = Result.Message;
+                if (Result.IsSuccess)
+                {
+                    txtMsg.Foreground = System.Windows.Media.Brushes.Green;
+                    txtMsg.Text = "OK";
+                }
+                else
+                {
+                    txtMsg.Foreground = System.Windows.Media.Brushes.Red;
+                    txtMsg.Text = Result.Message;
+                }
                 foreach (var context in Result.ContextResults)
                 {
                     //显示实际的检测区域
@@ -53,6 +63,7 @@ namespace MachineVision.Defect.Controls
                     HOperatorSet.GenRectangle1(out HObject rectangle, location.Y1, location.X1, location.Y2, location.X2);
                     HOperatorSet.GenContourRegionXld(rectangle, out HObject contours, "border");
                     rectangle?.Dispose();
+                    HOperatorSet.SetColor(hWindow, "blue");
                     HOperatorSet.DispObj(contours, hWindow);
                     contours?.Dispose();
 
@@ -61,12 +72,12 @@ namespace MachineVision.Defect.Controls
                     //显示亮缺陷
                     HOperatorSet.SetColor(hWindow, "green");
                     if (context.Render.Light != null)
-                        hWindow.DispObj(context.Render.Light.Move(location.Y1, location.X1));
+                        hWindow.DispObj(context.Render.Light.Move(location.Y1, location.X1).GetRegionContour());
 
                     //显示暗缺陷
                     HOperatorSet.SetColor(hWindow, "red");
                     if (context.Render.Dark != null)
-                        hWindow.DispObj(context.Render.Dark.Move(location.Y1, location.X1));
+                        hWindow.DispObj(context.Render.Dark.Move(location.Y1, location.X1).GetRegionContour());
                 }
             }
         }

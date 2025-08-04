@@ -59,6 +59,7 @@ namespace MachineVision.Defect.Service
 
                 foreach (var Item in RegionList)
                 {
+
                     var checkImage = Item.GetInspectImage(ImageSource, Model.ReferSetting.Row, Model.ReferSetting.Column);
                     //checkImage.SaveIamge("C:\\Users\\86153\\OneDrive\\图片\\Image\\test.bmp");
                     var ItemResult = Item.Context.Run(checkImage, Item);
@@ -74,7 +75,9 @@ namespace MachineVision.Defect.Service
                     result.Message = $"存在: {result.ContextResults.Count}处缺陷";
                 }
                 else
+                {
                     result.IsSuccess = true;
+                }
 
                 //它是 .NET 中的一个线程安全的队列类，位于 System.Collections.Concurrent 命名空间下
                 //特点是：多线程环境下不需要加锁就能安全使用。

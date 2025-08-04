@@ -2,6 +2,7 @@
 using HalconDotNet;
 using MachineVision.Core;
 using MachineVision.Core.Extensions;
+using MachineVision.Defect.Events;
 using MachineVision.Defect.Extensions;
 using MachineVision.Defect.Models;
 using MachineVision.Defect.Models.UI;
@@ -11,6 +12,7 @@ using MachineVision.Defect.ViewModels.Components.Models;
 using MachineVision.Defect.Views;
 using MachineVision.Shared.Controls;
 using Prism.Commands;
+using Prism.Events;
 using Prism.Regions;
 using Prism.Services.Dialogs;
 using System.Collections.ObjectModel;
@@ -31,11 +33,13 @@ namespace MachineVision.Defect.ViewModels
         public DefectEditViewModel(TargetService targetService,
             InspectionService inspectService,
             IDialogService dialogService,
+            IEventAggregator aggregator,
             ProjectService appService)
         {
             this.TargetService = targetService;
             InspectService = inspectService;
             DialogService = dialogService;
+            Aggregator = aggregator;
             AppService = appService;
 
             DrawingObjInfos = new ObservableCollection<HDrawingObjectInfo>();
@@ -79,6 +83,7 @@ namespace MachineVision.Defect.ViewModels
         public TargetService TargetService { get; }
         public InspectionService InspectService { get; }
         public IDialogService DialogService { get; }
+        public IEventAggregator Aggregator { get; }
 
         /// <summary>
         /// 基于数据库
@@ -350,7 +355,7 @@ namespace MachineVision.Defect.ViewModels
         public InspectionResult Result
         {
             get { return result; }
-            set { result = value;RaisePropertyChanged(); }
+            set { result = value; RaisePropertyChanged(); }
         }
 
 
@@ -386,12 +391,39 @@ namespace MachineVision.Defect.ViewModels
                 Model = navigationContext.Parameters.GetValue<ProjectModel>("Value");
                 GetRegionListAsync();
             }
+
+            Aggregator.GetEvent<ImageTrainEvent>().Subscribe(ImageTrain);
             base.OnNavigatedTo(navigationContext);
+        }
+
+        /// <summary>
+        /// 退出当前界面时先取消订阅,要不然就相当于订阅两次
+        /// </summary>
+        /// <param name="navigationContext"></param>
+        public override void OnNavigatedFrom(NavigationContext navigationContext)
+        {
+            Aggregator.GetEvent<ImageTrainEvent>().Unsubscribe(ImageTrain);
+            base.OnNavigatedFrom(navigationContext);
         }
 
         #endregion
 
+        #region 模型训练
 
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="info"></param>
+        private void ImageTrain(ImageTrainInfo info)
+        {
+            var region = RegionList.FirstOrDefault(q => q.Name == info.Name);
+            if (region == null)
+            {
+                region.Context.UpdateVariationModel(info.Image, region);
+            }
+        }
+
+        #endregion
 
     }
 }

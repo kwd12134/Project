@@ -35,5 +35,14 @@ namespace MachineVision.Defect.ViewModels.Components.Models
             get { return stdFileName; }
             set { stdFileName = value; RaisePropertyChanged(); }
         }
+
+        public void InitParameters()
+        {
+            foreach (var item in Parameters)
+            {
+                item.InitThresholds();
+            }
+        }
+
     }
 }

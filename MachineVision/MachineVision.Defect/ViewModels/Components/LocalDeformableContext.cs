@@ -4,15 +4,8 @@ using MachineVision.Core.TemplateMatch.LocalDeformable;
 using MachineVision.Defect.Extensions;
 using MachineVision.Defect.Models;
 using MachineVision.Defect.ViewModels.Components.Models;
-using MachineVision.Shared.Services.Tables;
 using Newtonsoft.Json;
-using System;
-using System.Collections.Generic;
-using System.Data.Common;
 using System.IO;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace MachineVision.Defect.ViewModels.Components
 {
@@ -107,11 +100,11 @@ namespace MachineVision.Defect.ViewModels.Components
                var render = GetPrePareVariationModel();
                 if (render != null)
                 {
-                    return new RegionContextResult() { IsSuccess = false, Render = render, Location = location };
+                    return new RegionContextResult() { IsSuccess = false, Render = render, Location = location,Name = Model.Name};
                 }
-                return new RegionContextResult() { IsSuccess = true ,Location = location,Message="未发现缺陷"};
+                return new RegionContextResult() { IsSuccess = true ,Location = location,Message="未发现缺陷", Name = Model.Name };
             }
-            return new RegionContextResult() { IsSuccess = false, Message = "未匹配" };
+            return new RegionContextResult() { IsSuccess = false, Message = "未匹配", Name = Model.Name };
         }
 
         /// <summary> 
@@ -146,7 +139,7 @@ namespace MachineVision.Defect.ViewModels.Components
                 if (LightCount.D == 0 && DarkCount == 0) return null;
 
                 //有缺陷就发返回
-                return new LightAndDarkRegion() { Light = LightError, Dark = DarkError, };
+                return new LightAndDarkRegion() {Image = input.ImageRectified, Light = LightError, Dark = DarkError, };
             }
             return null;
         }
@@ -215,10 +208,10 @@ namespace MachineVision.Defect.ViewModels.Components
             model.MatchSetting.Height = size[1];
 
             //创建差异模型 训练 与 保存
-            HOperatorSet.CreateVariationModel(size[0], size[1], "byte", "standard", out HTuple modelID);
+            HOperatorSet.CreateVariationModel(size[0], size[1], "byte", "standard", out StandardId);
             //使用裁剪的灰度图进行形变训练  相当于设置标准的差异模型以便后续的形变完成的差异匹配
-            HOperatorSet.TrainVariationModel(image, modelID);
-            HOperatorSet.WriteVariationModel(modelID, url + Setting.StdFileName);
+            HOperatorSet.TrainVariationModel(image, StandardId);
+            HOperatorSet.WriteVariationModel(StandardId, url + Setting.StdFileName);
         }
 
 

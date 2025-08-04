@@ -1,0 +1,20 @@
+﻿<ResourceDictionary
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:control="clr-namespace:MachineVision.Defect.Controls">
+    <Style TargetType="control:ErrorManagerView">
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="control:ErrorManagerView">
+                    <UniformGrid Columns="1" Rows="5">
+                        <control:ShowErrorControl x:Name="PART1" Margin="1"/>
+                        <control:ShowErrorControl x:Name="PART2" Margin="1"/>
+                        <control:ShowErrorControl x:Name="PART3" Margin="1"/>
+                        <control:ShowErrorControl x:Name="PART4" Margin="1"/>
+                        <control:ShowErrorControl x:Name="PART5" Margin="1"/>
+                    </UniformGrid>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+</ResourceDictionary>

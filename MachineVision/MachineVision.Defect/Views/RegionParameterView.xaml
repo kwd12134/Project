@@ -45,7 +45,7 @@
                                 Padding="5"
                                 VerticalAlignment="Center"
                                 Style="{StaticResource MaterialDesignOutlinedTextBox}"
-                                Text="{Binding AbsThreshold}" />
+                                Text="{Binding AbsThreshold,Mode=TwoWay,UpdateSourceTrigger=PropertyChanged}" />
                         </DataTemplate>
                     </DataGridTemplateColumn.CellTemplate>
                 </DataGridTemplateColumn>
@@ -56,7 +56,7 @@
                                 Padding="5"
                                 VerticalAlignment="Center"
                                 Style="{StaticResource MaterialDesignOutlinedTextBox}"
-                                Text="{Binding VarThreshold}" />
+                                Text="{Binding VarThreshold,Mode=TwoWay,UpdateSourceTrigger=PropertyChanged}" />
                         </DataTemplate>
                     </DataGridTemplateColumn.CellTemplate>
                 </DataGridTemplateColumn>
@@ -67,7 +67,7 @@
                                 Padding="5"
                                 VerticalAlignment="Center"
                                 Style="{StaticResource MaterialDesignOutlinedTextBox}"
-                                Text="{Binding MinArea}" />
+                                Text="{Binding MinArea,Mode=TwoWay,UpdateSourceTrigger=PropertyChanged}" />
                         </DataTemplate>
                     </DataGridTemplateColumn.CellTemplate>
                 </DataGridTemplateColumn>
@@ -78,7 +78,7 @@
                                 Padding="5"
                                 VerticalAlignment="Center"
                                 Style="{StaticResource MaterialDesignOutlinedTextBox}"
-                                Text="{Binding DarkAbsThreshold}" />
+                                Text="{Binding DarkAbsThreshold,Mode=TwoWay,UpdateSourceTrigger=PropertyChanged}" />
                         </DataTemplate>
                     </DataGridTemplateColumn.CellTemplate>
                 </DataGridTemplateColumn>
@@ -89,7 +89,7 @@
                                 Padding="5"
                                 VerticalAlignment="Center"
                                 Style="{StaticResource MaterialDesignOutlinedTextBox}"
-                                Text="{Binding DarkVarThreshold}" />
+                                Text="{Binding DarkVarThreshold,Mode=TwoWay,UpdateSourceTrigger=PropertyChanged}" />
                         </DataTemplate>
                     </DataGridTemplateColumn.CellTemplate>
                 </DataGridTemplateColumn>
@@ -100,7 +100,7 @@
                                 Padding="5"
                                 VerticalAlignment="Center"
                                 Style="{StaticResource MaterialDesignOutlinedTextBox}"
-                                Text="{Binding MinDarkArea}" />
+                                Text="{Binding MinDarkArea,Mode=TwoWay,UpdateSourceTrigger=PropertyChanged}" />
                         </DataTemplate>
                     </DataGridTemplateColumn.CellTemplate>
                 </DataGridTemplateColumn>

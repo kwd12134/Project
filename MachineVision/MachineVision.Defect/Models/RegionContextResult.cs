@@ -12,6 +12,8 @@ namespace MachineVision.Defect.Models
 
         public string Message { get; set; }
 
+        public string Name { get; set; }
+
         public LightAndDarkRegion Render {  get; set; }
 
         public RectangleLocation Location { get; set; }

@@ -62,6 +62,10 @@ namespace MachineVision.Defect.ViewModels
 
         public async override void Save()
         {
+            if (Model.Context is LocalDeformableContext context)
+            {
+                context.Setting.InitParameters();
+            }
             await AppService.UpdateRegionAsync(Model);
             base.Save();
         }

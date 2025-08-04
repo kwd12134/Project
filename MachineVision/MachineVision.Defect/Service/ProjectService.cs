@@ -131,6 +131,9 @@ namespace MachineVision.Defect.Service
         }
 
         public async Task DeleteRegionAsync(int Id)
+
+
+
         {
             await Sqlite.Delete<InspecRegion>()
                 .Where(q=>q.Id==Id)

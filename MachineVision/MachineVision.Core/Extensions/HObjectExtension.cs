@@ -34,7 +34,7 @@ namespace MachineVision.Core.Extensions
             return template;
         }
 
-        public static HObject ReduceDomain(this HObject image,HObject rectangle)
+        public static HObject ReduceDomain(this HObject image, HObject rectangle)
         {
             HOperatorSet.ReduceDomain(image, rectangle, out HObject template);
             return template;
@@ -81,15 +81,24 @@ namespace MachineVision.Core.Extensions
         /// <param name="y1"></param>
         /// <param name="x1"></param>
         /// <returns></returns>
-        public static HObject Move(this HObject region,double y1,double x1)
+        public static HObject Move(this HObject region, double y1, double x1)
         {
             HObject ho_moveregion;
             HOperatorSet.GenEmptyObj(out ho_moveregion);
             HOperatorSet.MoveRegion(region, out ho_moveregion, y1, x1);
-            region?.Dispose();
             return ho_moveregion;
         }
 
+        /// <summary>
+        /// 获取区域轮廓
+        /// </summary>
+        /// <param name="region"></param>
+        /// <returns></returns>
+        public static HObject GetRegionContour(this HObject region)
+        {
+            HOperatorSet.GenContourRegionXld(region, out HObject contours, "border");
+            return contours;
+        }
 
     }
 }

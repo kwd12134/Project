@@ -1,0 +1,29 @@
+﻿<ResourceDictionary
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:control="clr-namespace:MachineVision.Defect.Controls"
+    xmlns:h="clr-namespace:HalconDotNet;assembly=halcondotnet">
+    <Style TargetType="control:ShowErrorControl">
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="control:ShowErrorControl">
+                    <h:HSmartWindowControlWPF
+                        x:Name="PART_Smart"
+                        HDoubleClickToFitContent="True"
+                        HDrawingObjectsModifier="None"
+                        HKeepAspectRatio="True"
+                        HMoveContent="False"
+                        HZoomContent="WheelForwardZoomsIn" >
+                        <h:HSmartWindowControlWPF.ContextMenu>
+                            <ContextMenu>
+                                <MenuItem x:Name="PART_Train">
+                                    <TextBlock Text="添加训练"/>
+                                </MenuItem>
+                            </ContextMenu>
+                        </h:HSmartWindowControlWPF.ContextMenu>
+                    </h:HSmartWindowControlWPF>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+</ResourceDictionary>
