@@ -13,4 +13,7 @@ ASIL : 基于屏幕背光板的电压读取上位机,主要配和厂方的检测
 ![image](https://github.com/user-attachments/assets/32235c5f-cd67-475a-93ca-6d8c9a43f3c2)
 ![image](https://github.com/user-attachments/assets/10c4478f-dd7d-44e4-819d-45a6d413834b)
 ![image](https://github.com/user-attachments/assets/10c4478f-dd7d-44e4-819d-45a6d413834b)
->>>>>>> df298a321f7e1ac58c143905ddbb7d00620ad86c
+MyToDo : 基于WPF的记事本功能
+<img width="1287" height="775" alt="image" src="https://github.com/user-attachments/assets/e65cf1b3-0ba5-4e6f-8fce-933051eb4b6c" />
+<img width="1289" height="775" alt="image" src="https://github.com/user-attachments/assets/b201724a-11c7-475c-aaec-34a8c2680f10" />
+<img width="1284" height="770" alt="image" src="https://github.com/user-attachments/assets/6b6ecac3-9e23-4dab-bc3c-905ebedd4f7e" />
