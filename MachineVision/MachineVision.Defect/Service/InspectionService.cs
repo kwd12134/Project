@@ -59,9 +59,8 @@ namespace MachineVision.Defect.Service
 
                 foreach (var Item in RegionList)
                 {
-
                     var checkImage = Item.GetInspectImage(ImageSource, Model.ReferSetting.Row, Model.ReferSetting.Column);
-                    //checkImage.SaveIamge("C:\\Users\\86153\\OneDrive\\图片\\Image\\test.bmp");
+                    checkImage.SaveIamge("C:\\Users\\86153\\OneDrive\\图片\\Image\\test.bmp");
                     var ItemResult = Item.Context.Run(checkImage, Item);
                     if (!ItemResult.IsSuccess)
                     {

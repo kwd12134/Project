@@ -90,19 +90,19 @@ namespace MachineVision.Defect.ViewModels.Components
             if (hv_Score > 0)
             {
                 //获取实际检测的目标位置
-               var location = RectangleExtension.GetRectangleLocation(Model.MatchSetting.Width, Model.MatchSetting.Height, hv_Row.D, hv_Column.D);
+                var location = RectangleExtension.GetRectangleLocation(Model.MatchSetting.Width, Model.MatchSetting.Height, hv_Row.D, hv_Column.D);
 
-               input.ImageRectified.SaveIamge("C:\\Users\\86153\\OneDrive\\图片\\Image\\test1.bmp");
-               //input.ImageRectified最终形变纠正后的标准图像  LocalDeformable
-               //拿这个图像跟差分模型中的ModelID进行差分也就是    Variation
-               //差分过程中,将我们界面设置的条件进行筛选 : 亮阈值,面积,暗阈值,面积进行筛选
-               //最终输出结果
-               var render = GetPrePareVariationModel();
+                //input.ImageRectified.SaveIamge("C:\\Users\\86153\\OneDrive\\图片\\Image\\test1.bmp");
+                //input.ImageRectified最终形变纠正后的标准图像  LocalDeformable
+                //拿这个图像跟差分模型中的ModelID进行差分也就是    Variation
+                //差分过程中,将我们界面设置的条件进行筛选 : 亮阈值,面积,暗阈值,面积进行筛选
+                //最终输出结果
+                var render = GetPrePareVariationModel();
                 if (render != null)
                 {
-                    return new RegionContextResult() { IsSuccess = false, Render = render, Location = location,Name = Model.Name};
+                    return new RegionContextResult() { IsSuccess = false, Render = render, Location = location, Name = Model.Name };
                 }
-                return new RegionContextResult() { IsSuccess = true ,Location = location,Message="未发现缺陷", Name = Model.Name };
+                return new RegionContextResult() { IsSuccess = true, Location = location, Message = "未发现缺陷", Name = Model.Name };
             }
             return new RegionContextResult() { IsSuccess = false, Message = "未匹配", Name = Model.Name };
         }
@@ -139,7 +139,7 @@ namespace MachineVision.Defect.ViewModels.Components
                 if (LightCount.D == 0 && DarkCount == 0) return null;
 
                 //有缺陷就发返回
-                return new LightAndDarkRegion() {Image = input.ImageRectified, Light = LightError, Dark = DarkError, };
+                return new LightAndDarkRegion() { Image = input.ImageRectified, Light = LightError, Dark = DarkError, };
             }
             return null;
         }
@@ -209,11 +209,47 @@ namespace MachineVision.Defect.ViewModels.Components
 
             //创建差异模型 训练 与 保存
             HOperatorSet.CreateVariationModel(size[0], size[1], "byte", "standard", out StandardId);
+
             //使用裁剪的灰度图进行形变训练  相当于设置标准的差异模型以便后续的形变完成的差异匹配
             HOperatorSet.TrainVariationModel(image, StandardId);
             HOperatorSet.WriteVariationModel(StandardId, url + Setting.StdFileName);
+
+            var stdUrl = model.GetRegionTrainUrl() + "standard.bmp";
+            image.SaveIamge(stdUrl);
         }
 
+        /// <summary>
+        /// 更新本地的模型
+        /// </summary>
+        /// <param name="model"></param>
+        public void RefreshVariationModel(InspecRegionModel model)
+        {
+            string url = model.GetRegionTrainUrl();
+            var stdurl = model.GetRegionUrl();
+            if (Directory.Exists(url))
+            {
+                string[] files = Directory.GetFiles(url);
+                if (files.Length == 0) return;
+                List<HImage> images = new List<HImage>();
+                foreach (string file in files)
+                {
+                    HImage hImage = new HImage();
+                    hImage.ReadImage(file);
+                    images.Add(hImage);
+                }
+
+                //创建差异模型 训练 与 保存
+                HOperatorSet.CreateVariationModel(model.MatchSetting.Width, model.MatchSetting.Height, "byte", "standard", out StandardId);
+
+                //训练本地的缓存图像
+                foreach (var item in images)
+                {
+                    HOperatorSet.TrainVariationModel(item, StandardId);
+                }
+                HOperatorSet.WriteVariationModel(StandardId, stdurl + Setting.StdFileName);
+
+            }
+        }
 
         public void Dispose()
         {

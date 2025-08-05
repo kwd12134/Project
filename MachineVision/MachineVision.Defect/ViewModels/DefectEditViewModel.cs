@@ -240,13 +240,14 @@ namespace MachineVision.Defect.ViewModels
             if (input == null) return;
 
             var region = RegionList.FirstOrDefault(q => q.Id == input.Id);
-
+            string regionPath = region.GetRegionUrl();
             if (region != null)
             {
                 //删除非C#托管资源 释放内存 正常C#对象内存释放是自动回收
                 region.Dispose();
                 await AppService.DeleteRegionAsync(region.Id);
                 RegionList.Remove(region);
+                Directory.Delete(regionPath);
             }
         }
 
@@ -267,7 +268,6 @@ namespace MachineVision.Defect.ViewModels
                 {
 
                 }
-
             });
         }
 
@@ -417,9 +417,14 @@ namespace MachineVision.Defect.ViewModels
         private void ImageTrain(ImageTrainInfo info)
         {
             var region = RegionList.FirstOrDefault(q => q.Name == info.Name);
-            if (region == null)
+            if (region != null)
             {
-                region.Context.UpdateVariationModel(info.Image, region);
+                string url = region.GetRegionTrainUrl() + DateTime.Now.ToString("yyyyMMddhhmmss") + "bmp";
+                info.Image.SaveIamge(url);
+                if (region.Context is LocalDeformableContext context)
+                {
+                    context.RefreshVariationModel(region);
+                }
             }
         }
 

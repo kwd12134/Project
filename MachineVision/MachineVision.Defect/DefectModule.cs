@@ -21,6 +21,7 @@ namespace MachineVision.Defect
 
             containerRegistry.RegisterDialog<CreateProjectView, CreateProjectViewModel>();
             containerRegistry.RegisterDialog<RegionParameterView, RegionParameterViewModel>();
+            containerRegistry.RegisterDialog<TrainView, TrainViewModel>();
 
             containerRegistry.Register<ProjectService>();
             containerRegistry.Register<TargetService>();
