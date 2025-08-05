@@ -18,7 +18,7 @@ namespace MachineVision.Defect.Views
     /// <summary>
     /// TrainView.xaml 的交互逻辑
     /// </summary>
-    public partial class TrainView : UserControl
+    public partial class TrainView : System.Windows.Controls.UserControl
     {
         public TrainView()
         {

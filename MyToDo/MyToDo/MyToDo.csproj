@@ -16,7 +16,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\Reference\my-todoapp-main\MyToDo\MyToDo\MyToDo.Shared\MyToDo.Shared.csproj" />
+    <ProjectReference Include="..\MyToDo.Shared\MyToDo.Shared.csproj" />
   </ItemGroup>
 
 </Project>
