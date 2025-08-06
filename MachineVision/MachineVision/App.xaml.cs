@@ -56,6 +56,7 @@ namespace MachineVision
         /// RegisterSingleton<TService, TImplementation>()	单例（Singleton），整个应用共用同一个实例
         /// RegisterInstance<TService>(T instance)	注册现有实例，手动控制生命周期
         /// RegisterForNavigation 背后其实是按 Transient 生命周期 注册的，也就是每次请求都会创建新对象。
+        /// RegisterDialog（默认行为：每次调用都会创建新实例）
         /// </summary>
         /// <param name="services"></param>
         protected override void RegisterTypes(IContainerRegistry services)

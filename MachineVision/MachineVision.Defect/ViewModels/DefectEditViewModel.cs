@@ -30,7 +30,8 @@ namespace MachineVision.Defect.ViewModels
         /// </summary>
         /// <param name="targetService"></param>
         /// <param name="appService"></param>
-        public DefectEditViewModel(TargetService targetService,
+        public DefectEditViewModel(
+            TargetService targetService,
             InspectionService inspectService,
             IDialogService dialogService,
             IEventAggregator aggregator,
@@ -65,6 +66,8 @@ namespace MachineVision.Defect.ViewModels
 
         public DelegateCommand RunCommand { get; set; }
 
+        public DelegateCommand TrainCommand { get; set; }
+
         private void InitialCommandBinding()
         {
             LoadImageCommand = new DelegateCommand(LoadImage);
@@ -75,6 +78,15 @@ namespace MachineVision.Defect.ViewModels
             DelectInspectRegionCommand = new DelegateCommand<InspecRegionModel>(DelectInspectRegion);
             EditRegionCommand = new DelegateCommand<InspecRegionModel>(EditRegion);
             RunCommand = new DelegateCommand(Run);
+            TrainCommand = new DelegateCommand(() =>
+            {
+                DialogParameters param = new DialogParameters();
+                param.Add("Value", RegionList);
+                DialogService.ShowDialog(nameof(TrainView), param, callback =>
+                {
+
+                });
+            });
         }
 
         /// <summary>
@@ -404,6 +416,11 @@ namespace MachineVision.Defect.ViewModels
         {
             Aggregator.GetEvent<ImageTrainEvent>().Unsubscribe(ImageTrain);
             base.OnNavigatedFrom(navigationContext);
+        }
+
+        public override bool IsNavigationTarget(NavigationContext navigationContext)
+        {
+            return false;
         }
 
         #endregion

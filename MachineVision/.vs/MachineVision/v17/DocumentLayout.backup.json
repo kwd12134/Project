@@ -3,20 +3,32 @@
   "WorkspaceRootPath": "F:\\Learning\\Project\\MachineVision\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1F01F060-F315-4E07-962B-0BA31C73D421}|MachineVision.Defect\\MachineVision.Defect.csproj|f:\\learning\\project\\machinevision\\machinevision.defect\\views\\trainview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1F01F060-F315-4E07-962B-0BA31C73D421}|MachineVision.Defect\\MachineVision.Defect.csproj|solutionrelative:machinevision.defect\\views\\trainview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1F01F060-F315-4E07-962B-0BA31C73D421}|MachineVision.Defect\\MachineVision.Defect.csproj|f:\\learning\\project\\machinevision\\machinevision.defect\\defectmodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1F01F060-F315-4E07-962B-0BA31C73D421}|MachineVision.Defect\\MachineVision.Defect.csproj|solutionrelative:machinevision.defect\\defectmodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{1F01F060-F315-4E07-962B-0BA31C73D421}|MachineVision.Defect\\MachineVision.Defect.csproj|f:\\learning\\project\\machinevision\\machinevision.defect\\viewmodels\\trainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1F01F060-F315-4E07-962B-0BA31C73D421}|MachineVision.Defect\\MachineVision.Defect.csproj|solutionrelative:machinevision.defect\\viewmodels\\trainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1F01F060-F315-4E07-962B-0BA31C73D421}|MachineVision.Defect\\MachineVision.Defect.csproj|f:\\learning\\project\\machinevision\\machinevision.defect\\views\\trainview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{1F01F060-F315-4E07-962B-0BA31C73D421}|MachineVision.Defect\\MachineVision.Defect.csproj|solutionrelative:machinevision.defect\\views\\trainview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F01F060-F315-4E07-962B-0BA31C73D421}|MachineVision.Defect\\MachineVision.Defect.csproj|f:\\learning\\project\\machinevision\\machinevision.defect\\viewmodels\\defecteditviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F01F060-F315-4E07-962B-0BA31C73D421}|MachineVision.Defect\\MachineVision.Defect.csproj|solutionrelative:machinevision.defect\\viewmodels\\defecteditviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F01F060-F315-4E07-962B-0BA31C73D421}|MachineVision.Defect\\MachineVision.Defect.csproj|f:\\learning\\project\\machinevision\\machinevision.defect\\views\\defecteditview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{1F01F060-F315-4E07-962B-0BA31C73D421}|MachineVision.Defect\\MachineVision.Defect.csproj|solutionrelative:machinevision.defect\\views\\defecteditview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F01F060-F315-4E07-962B-0BA31C73D421}|MachineVision.Defect\\MachineVision.Defect.csproj|f:\\learning\\project\\machinevision\\machinevision.defect\\views\\regionparameterview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{1F01F060-F315-4E07-962B-0BA31C73D421}|MachineVision.Defect\\MachineVision.Defect.csproj|solutionrelative:machinevision.defect\\views\\regionparameterview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F01F060-F315-4E07-962B-0BA31C73D421}|MachineVision.Defect\\MachineVision.Defect.csproj|f:\\learning\\project\\machinevision\\machinevision.defect\\views\\trainview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F01F060-F315-4E07-962B-0BA31C73D421}|MachineVision.Defect\\MachineVision.Defect.csproj|solutionrelative:machinevision.defect\\views\\trainview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F01F060-F315-4E07-962B-0BA31C73D421}|MachineVision.Defect\\MachineVision.Defect.csproj|f:\\learning\\project\\machinevision\\machinevision.defect\\defectmodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F01F060-F315-4E07-962B-0BA31C73D421}|MachineVision.Defect\\MachineVision.Defect.csproj|solutionrelative:machinevision.defect\\defectmodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1F01F060-F315-4E07-962B-0BA31C73D421}|MachineVision.Defect\\MachineVision.Defect.csproj|f:\\learning\\project\\machinevision\\machinevision.defect\\service\\inspectionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -31,16 +43,8 @@
       "RelativeMoniker": "D:0:0:{1F01F060-F315-4E07-962B-0BA31C73D421}|MachineVision.Defect\\MachineVision.Defect.csproj|solutionrelative:machinevision.defect\\extensions\\inspecregionmodelextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1F01F060-F315-4E07-962B-0BA31C73D421}|MachineVision.Defect\\MachineVision.Defect.csproj|f:\\learning\\project\\machinevision\\machinevision.defect\\viewmodels\\defecteditviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1F01F060-F315-4E07-962B-0BA31C73D421}|MachineVision.Defect\\MachineVision.Defect.csproj|solutionrelative:machinevision.defect\\viewmodels\\defecteditviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{1F01F060-F315-4E07-962B-0BA31C73D421}|MachineVision.Defect\\MachineVision.Defect.csproj|f:\\learning\\project\\machinevision\\machinevision.defect\\viewmodels\\createprojectviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1F01F060-F315-4E07-962B-0BA31C73D421}|MachineVision.Defect\\MachineVision.Defect.csproj|solutionrelative:machinevision.defect\\viewmodels\\createprojectviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1F01F060-F315-4E07-962B-0BA31C73D421}|MachineVision.Defect\\MachineVision.Defect.csproj|f:\\learning\\project\\machinevision\\machinevision.defect\\views\\defecteditview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{1F01F060-F315-4E07-962B-0BA31C73D421}|MachineVision.Defect\\MachineVision.Defect.csproj|solutionrelative:machinevision.defect\\views\\defecteditview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1F01F060-F315-4E07-962B-0BA31C73D421}|MachineVision.Defect\\MachineVision.Defect.csproj|f:\\learning\\project\\machinevision\\machinevision.defect\\extensions\\regionextensions_url.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -163,10 +167,6 @@
       "RelativeMoniker": "D:0:0:{1F01F060-F315-4E07-962B-0BA31C73D421}|MachineVision.Defect\\MachineVision.Defect.csproj|solutionrelative:machinevision.defect\\viewmodels\\regionparameterviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1F01F060-F315-4E07-962B-0BA31C73D421}|MachineVision.Defect\\MachineVision.Defect.csproj|f:\\learning\\project\\machinevision\\machinevision.defect\\views\\regionparameterview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{1F01F060-F315-4E07-962B-0BA31C73D421}|MachineVision.Defect\\MachineVision.Defect.csproj|solutionrelative:machinevision.defect\\views\\regionparameterview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{1F01F060-F315-4E07-962B-0BA31C73D421}|MachineVision.Defect\\MachineVision.Defect.csproj|f:\\learning\\project\\machinevision\\machinevision.defect\\service\\projectservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1F01F060-F315-4E07-962B-0BA31C73D421}|MachineVision.Defect\\MachineVision.Defect.csproj|solutionrelative:machinevision.defect\\service\\projectservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -272,7 +272,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 14,
           "Children": [
             {
               "$type": "Bookmark",
@@ -292,27 +292,6 @@
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "TrainView.xaml.cs",
-              "DocumentMoniker": "F:\\Learning\\Project\\MachineVision\\MachineVision.Defect\\Views\\TrainView.xaml.cs",
-              "RelativeDocumentMoniker": "MachineVision.Defect\\Views\\TrainView.xaml.cs",
-              "ToolTip": "F:\\Learning\\Project\\MachineVision\\MachineVision.Defect\\Views\\TrainView.xaml.cs*",
-              "RelativeToolTip": "MachineVision.Defect\\Views\\TrainView.xaml.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-05T10:14:52.978Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
-            },
-            {
-              "$type": "Bookmark",
               "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
             },
             {
@@ -324,21 +303,25 @@
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "TrainViewModel.cs",
-              "DocumentMoniker": "F:\\Learning\\Project\\MachineVision\\MachineVision.Defect\\ViewModels\\TrainViewModel.cs",
-              "RelativeDocumentMoniker": "MachineVision.Defect\\ViewModels\\TrainViewModel.cs",
-              "ToolTip": "F:\\Learning\\Project\\MachineVision\\MachineVision.Defect\\ViewModels\\TrainViewModel.cs",
-              "RelativeToolTip": "MachineVision.Defect\\ViewModels\\TrainViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAxAAAAAAAAAA==",
+              "DocumentIndex": 5,
+              "Title": "TrainView.xaml.cs",
+              "DocumentMoniker": "F:\\Learning\\Project\\MachineVision\\MachineVision.Defect\\Views\\TrainView.xaml.cs",
+              "RelativeDocumentMoniker": "MachineVision.Defect\\Views\\TrainView.xaml.cs",
+              "ToolTip": "F:\\Learning\\Project\\MachineVision\\MachineVision.Defect\\Views\\TrainView.xaml.cs",
+              "RelativeToolTip": "MachineVision.Defect\\Views\\TrainView.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-05T08:40:07.827Z",
+              "WhenOpened": "2025-08-05T10:14:52.978Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "TrainView.xaml",
               "DocumentMoniker": "F:\\Learning\\Project\\MachineVision\\MachineVision.Defect\\Views\\TrainView.xaml",
               "RelativeDocumentMoniker": "MachineVision.Defect\\Views\\TrainView.xaml",
@@ -350,33 +333,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "LocalDeformableContext.cs",
-              "DocumentMoniker": "F:\\Learning\\Project\\MachineVision\\MachineVision.Defect\\ViewModels\\Components\\LocalDeformableContext.cs",
-              "RelativeDocumentMoniker": "MachineVision.Defect\\ViewModels\\Components\\LocalDeformableContext.cs",
-              "ToolTip": "F:\\Learning\\Project\\MachineVision\\MachineVision.Defect\\ViewModels\\Components\\LocalDeformableContext.cs",
-              "RelativeToolTip": "MachineVision.Defect\\ViewModels\\Components\\LocalDeformableContext.cs",
-              "ViewState": "AgIAAFUAAAAAAAAAAAApwEcAAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-30T14:27:06.912Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 2,
               "Title": "DefectEditViewModel.cs",
               "DocumentMoniker": "F:\\Learning\\Project\\MachineVision\\MachineVision.Defect\\ViewModels\\DefectEditViewModel.cs",
               "RelativeDocumentMoniker": "MachineVision.Defect\\ViewModels\\DefectEditViewModel.cs",
               "ToolTip": "F:\\Learning\\Project\\MachineVision\\MachineVision.Defect\\ViewModels\\DefectEditViewModel.cs",
               "RelativeToolTip": "MachineVision.Defect\\ViewModels\\DefectEditViewModel.cs",
-              "ViewState": "AgIAAFoBAAAAAAAAAAAmwG4BAAAsAAAAAAAAAA==",
+              "ViewState": "AgIAADYAAAAAAAAAAAAYwEsAAABCAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-30T14:00:13.19Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 3,
               "Title": "DefectEditView.xaml",
               "DocumentMoniker": "F:\\Learning\\Project\\MachineVision\\MachineVision.Defect\\Views\\DefectEditView.xaml",
               "RelativeDocumentMoniker": "MachineVision.Defect\\Views\\DefectEditView.xaml",
@@ -388,7 +358,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "CreateProjectViewModel.cs",
               "DocumentMoniker": "F:\\Learning\\Project\\MachineVision\\MachineVision.Defect\\ViewModels\\CreateProjectViewModel.cs",
               "RelativeDocumentMoniker": "MachineVision.Defect\\ViewModels\\CreateProjectViewModel.cs",
@@ -396,12 +366,11 @@
               "RelativeToolTip": "MachineVision.Defect\\ViewModels\\CreateProjectViewModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-03T04:31:12.767Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-03T04:31:12.767Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 6,
               "Title": "DefectModule.cs",
               "DocumentMoniker": "F:\\Learning\\Project\\MachineVision\\MachineVision.Defect\\DefectModule.cs",
               "RelativeDocumentMoniker": "MachineVision.Defect\\DefectModule.cs",
@@ -409,12 +378,47 @@
               "RelativeToolTip": "MachineVision.Defect\\DefectModule.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-01T03:14:41.095Z",
+              "WhenOpened": "2025-08-01T03:14:41.095Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TrainViewModel.cs",
+              "DocumentMoniker": "F:\\Learning\\Project\\MachineVision\\MachineVision.Defect\\ViewModels\\TrainViewModel.cs",
+              "RelativeDocumentMoniker": "MachineVision.Defect\\ViewModels\\TrainViewModel.cs",
+              "ToolTip": "F:\\Learning\\Project\\MachineVision\\MachineVision.Defect\\ViewModels\\TrainViewModel.cs*",
+              "RelativeToolTip": "MachineVision.Defect\\ViewModels\\TrainViewModel.cs*",
+              "ViewState": "AgIAADQAAAAAAAAAAAAmwEIAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-05T08:40:07.827Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 4,
+              "Title": "RegionParameterView.xaml",
+              "DocumentMoniker": "F:\\Learning\\Project\\MachineVision\\MachineVision.Defect\\Views\\RegionParameterView.xaml",
+              "RelativeDocumentMoniker": "MachineVision.Defect\\Views\\RegionParameterView.xaml",
+              "ToolTip": "F:\\Learning\\Project\\MachineVision\\MachineVision.Defect\\Views\\RegionParameterView.xaml",
+              "RelativeToolTip": "MachineVision.Defect\\Views\\RegionParameterView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-08-01T03:15:28.678Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "LocalDeformableContext.cs",
+              "DocumentMoniker": "F:\\Learning\\Project\\MachineVision\\MachineVision.Defect\\ViewModels\\Components\\LocalDeformableContext.cs",
+              "RelativeDocumentMoniker": "MachineVision.Defect\\ViewModels\\Components\\LocalDeformableContext.cs",
+              "ToolTip": "F:\\Learning\\Project\\MachineVision\\MachineVision.Defect\\ViewModels\\Components\\LocalDeformableContext.cs",
+              "RelativeToolTip": "MachineVision.Defect\\ViewModels\\Components\\LocalDeformableContext.cs",
+              "ViewState": "AgIAAFUAAAAAAAAAAAApwEcAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-30T14:27:06.912Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "RegionExtensions_Url.cs",
               "DocumentMoniker": "F:\\Learning\\Project\\MachineVision\\MachineVision.Defect\\Extensions\\RegionExtensions_Url.cs",
               "RelativeDocumentMoniker": "MachineVision.Defect\\Extensions\\RegionExtensions_Url.cs",
@@ -422,12 +426,11 @@
               "RelativeToolTip": "MachineVision.Defect\\Extensions\\RegionExtensions_Url.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAuwBcAAABUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-31T02:36:41.727Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-31T02:36:41.727Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "InspectionService.cs",
               "DocumentMoniker": "F:\\Learning\\Project\\MachineVision\\MachineVision.Defect\\Service\\InspectionService.cs",
               "RelativeDocumentMoniker": "MachineVision.Defect\\Service\\InspectionService.cs",
@@ -435,12 +438,11 @@
               "RelativeToolTip": "MachineVision.Defect\\Service\\InspectionService.cs",
               "ViewState": "AgIAAB4AAAAAAAAAAAAQwDQAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-02T13:21:46.298Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-02T13:21:46.298Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 9,
               "Title": "InspecRegionModelExtensions.cs",
               "DocumentMoniker": "F:\\Learning\\Project\\MachineVision\\MachineVision.Defect\\Extensions\\InspecRegionModelExtensions.cs",
               "RelativeDocumentMoniker": "MachineVision.Defect\\Extensions\\InspecRegionModelExtensions.cs",
@@ -448,12 +450,11 @@
               "RelativeToolTip": "MachineVision.Defect\\Extensions\\InspecRegionModelExtensions.cs",
               "ViewState": "AgIAAAIAAAAAAAAAAAAhwBkAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-31T09:46:47.925Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-31T09:46:47.925Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "ShowErrorControl.xaml",
               "DocumentMoniker": "F:\\Learning\\Project\\MachineVision\\MachineVision.Defect\\Controls\\ShowErrorControl.xaml",
               "RelativeDocumentMoniker": "MachineVision.Defect\\Controls\\ShowErrorControl.xaml",
@@ -465,7 +466,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "ErrorManagerView.xaml",
               "DocumentMoniker": "F:\\Learning\\Project\\MachineVision\\MachineVision.Defect\\Controls\\ErrorManagerView.xaml",
               "RelativeDocumentMoniker": "MachineVision.Defect\\Controls\\ErrorManagerView.xaml",
@@ -477,7 +478,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "IRegionContext.cs",
               "DocumentMoniker": "F:\\Learning\\Project\\MachineVision\\MachineVision.Defect\\ViewModels\\Components\\IRegionContext.cs",
               "RelativeDocumentMoniker": "MachineVision.Defect\\ViewModels\\Components\\IRegionContext.cs",
@@ -485,12 +486,11 @@
               "RelativeToolTip": "MachineVision.Defect\\ViewModels\\Components\\IRegionContext.cs",
               "ViewState": "AgIAAAQAAAAAAAAAAAAEwBgAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-30T14:33:11.596Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-30T14:33:11.596Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "DefectViewModel.cs",
               "DocumentMoniker": "F:\\Learning\\Project\\MachineVision\\MachineVision.Defect\\ViewModels\\DefectViewModel.cs",
               "RelativeDocumentMoniker": "MachineVision.Defect\\ViewModels\\DefectViewModel.cs",
@@ -498,12 +498,11 @@
               "RelativeToolTip": "MachineVision.Defect\\ViewModels\\DefectViewModel.cs",
               "ViewState": "AgIAAFMAAAAAAAAAAAAewEQAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-31T02:41:10.334Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-31T02:41:10.334Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "ImageTrainEvent.cs",
               "DocumentMoniker": "F:\\Learning\\Project\\MachineVision\\MachineVision.Defect\\Events\\ImageTrainEvent.cs",
               "RelativeDocumentMoniker": "MachineVision.Defect\\Events\\ImageTrainEvent.cs",
@@ -511,12 +510,11 @@
               "RelativeToolTip": "MachineVision.Defect\\Events\\ImageTrainEvent.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAuwAsAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-04T14:41:59.395Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-04T14:41:59.395Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "RegionExtensions.cs",
               "DocumentMoniker": "F:\\Learning\\Project\\MachineVision\\MachineVision.Defect\\Extensions\\RegionExtensions.cs",
               "RelativeDocumentMoniker": "MachineVision.Defect\\Extensions\\RegionExtensions.cs",
@@ -524,12 +522,11 @@
               "RelativeToolTip": "MachineVision.Defect\\Extensions\\RegionExtensions.cs",
               "ViewState": "AgIAABEAAAAAAAAAAAAAwBcAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-31T02:36:38.406Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-31T02:36:38.406Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "RectangleExtension.cs",
               "DocumentMoniker": "F:\\Learning\\Project\\MachineVision\\MachineVision.Defect\\Extensions\\RectangleExtension.cs",
               "RelativeDocumentMoniker": "MachineVision.Defect\\Extensions\\RectangleExtension.cs",
@@ -537,12 +534,11 @@
               "RelativeToolTip": "MachineVision.Defect\\Extensions\\RectangleExtension.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-31T09:39:20.672Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-31T09:39:20.672Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "ProjectExtensions_Url.cs",
               "DocumentMoniker": "F:\\Learning\\Project\\MachineVision\\MachineVision.Defect\\Extensions\\ProjectExtensions_Url.cs",
               "RelativeDocumentMoniker": "MachineVision.Defect\\Extensions\\ProjectExtensions_Url.cs",
@@ -550,12 +546,11 @@
               "RelativeToolTip": "MachineVision.Defect\\Extensions\\ProjectExtensions_Url.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-31T09:39:18.287Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-31T09:39:18.287Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 20,
               "Title": "InspecRegionModel.cs",
               "DocumentMoniker": "F:\\Learning\\Project\\MachineVision\\MachineVision.Defect\\Models\\InspecRegionModel.cs",
               "RelativeDocumentMoniker": "MachineVision.Defect\\Models\\InspecRegionModel.cs",
@@ -563,12 +558,11 @@
               "RelativeToolTip": "MachineVision.Defect\\Models\\InspecRegionModel.cs",
               "ViewState": "AgIAACoAAAAAAAAAAAAAwEIAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-30T14:23:41.021Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-30T14:23:41.021Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 21,
               "Title": "VariationSetting.cs",
               "DocumentMoniker": "F:\\Learning\\Project\\MachineVision\\MachineVision.Defect\\ViewModels\\Components\\Models\\VariationSetting.cs",
               "RelativeDocumentMoniker": "MachineVision.Defect\\ViewModels\\Components\\Models\\VariationSetting.cs",
@@ -576,12 +570,11 @@
               "RelativeToolTip": "MachineVision.Defect\\ViewModels\\Components\\Models\\VariationSetting.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAuwA4AAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-02T08:02:50.566Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-02T08:02:50.566Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 22,
               "Title": "VariationParameter.cs",
               "DocumentMoniker": "F:\\Learning\\Project\\MachineVision\\MachineVision.Defect\\ViewModels\\Components\\Models\\VariationParameter.cs",
               "RelativeDocumentMoniker": "MachineVision.Defect\\ViewModels\\Components\\Models\\VariationParameter.cs",
@@ -589,12 +582,11 @@
               "RelativeToolTip": "MachineVision.Defect\\ViewModels\\Components\\Models\\VariationParameter.cs",
               "ViewState": "AgIAAA8AAAAAAAAAAAAAAA4AAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-01T03:06:02.201Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-01T03:06:02.201Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 23,
               "Title": "App.xaml.cs",
               "DocumentMoniker": "F:\\Learning\\Project\\MachineVision\\MachineVision\\App.xaml.cs",
               "RelativeDocumentMoniker": "MachineVision\\App.xaml.cs",
@@ -602,12 +594,11 @@
               "RelativeToolTip": "MachineVision\\App.xaml.cs",
               "ViewState": "AgIAACQAAAAAAAAAAAAmwDwAAABKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-02T14:24:05.631Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-02T14:24:05.631Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 24,
               "Title": "TemplateSetting.cs",
               "DocumentMoniker": "F:\\Learning\\Project\\MachineVision\\MachineVision.Defect\\ViewModels\\Components\\Models\\TemplateSetting.cs",
               "RelativeDocumentMoniker": "MachineVision.Defect\\ViewModels\\Components\\Models\\TemplateSetting.cs",
@@ -615,12 +606,11 @@
               "RelativeToolTip": "MachineVision.Defect\\ViewModels\\Components\\Models\\TemplateSetting.cs",
               "ViewState": "AgIAABQAAAAAAAAAAAAAwAsAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-31T03:10:46.115Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-31T03:10:46.115Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 25,
               "Title": "ProjectModel.cs",
               "DocumentMoniker": "F:\\Learning\\Project\\MachineVision\\MachineVision.Defect\\Models\\ProjectModel.cs",
               "RelativeDocumentMoniker": "MachineVision.Defect\\Models\\ProjectModel.cs",
@@ -628,12 +618,11 @@
               "RelativeToolTip": "MachineVision.Defect\\Models\\ProjectModel.cs",
               "ViewState": "AgIAAAkAAAAAAAAAAAAAACUAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-31T02:48:09.584Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-31T02:48:09.584Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 26,
               "Title": "ShowErrorControl.cs",
               "DocumentMoniker": "F:\\Learning\\Project\\MachineVision\\MachineVision.Defect\\Controls\\ShowErrorControl.cs",
               "RelativeDocumentMoniker": "MachineVision.Defect\\Controls\\ShowErrorControl.cs",
@@ -641,12 +630,11 @@
               "RelativeToolTip": "MachineVision.Defect\\Controls\\ShowErrorControl.cs",
               "ViewState": "AgIAAA4AAAAAAAAAAAAAwDcAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-04T08:15:03.058Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-04T08:15:03.058Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 27,
               "Title": "MainViewModel.cs",
               "DocumentMoniker": "F:\\Learning\\Project\\MachineVision\\MachineVision\\ViewModels\\MainViewModel.cs",
               "RelativeDocumentMoniker": "MachineVision\\ViewModels\\MainViewModel.cs",
@@ -654,12 +642,11 @@
               "RelativeToolTip": "MachineVision\\ViewModels\\MainViewModel.cs",
               "ViewState": "AgIAAA0AAAAAAAAAAAAYwB8AAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-02T14:45:39.633Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-02T14:45:39.633Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 28,
               "Title": "LanguageEventBus.cs",
               "DocumentMoniker": "F:\\Learning\\Project\\MachineVision\\MachineVision.Shared\\Events\\LanguageEventBus.cs",
               "RelativeDocumentMoniker": "MachineVision.Shared\\Events\\LanguageEventBus.cs",
@@ -667,12 +654,11 @@
               "RelativeToolTip": "MachineVision.Shared\\Events\\LanguageEventBus.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-02T09:01:12.599Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-02T09:01:12.599Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 29,
               "Title": "RegionContextResult.cs",
               "DocumentMoniker": "F:\\Learning\\Project\\MachineVision\\MachineVision.Defect\\Models\\RegionContextResult.cs",
               "RelativeDocumentMoniker": "MachineVision.Defect\\Models\\RegionContextResult.cs",
@@ -680,12 +666,11 @@
               "RelativeToolTip": "MachineVision.Defect\\Models\\RegionContextResult.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAuwA4AAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-03T04:29:07.827Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-03T04:29:07.827Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 30,
               "Title": "ErrorManagerView.cs",
               "DocumentMoniker": "F:\\Learning\\Project\\MachineVision\\MachineVision.Defect\\Controls\\ErrorManagerView.cs",
               "RelativeDocumentMoniker": "MachineVision.Defect\\Controls\\ErrorManagerView.cs",
@@ -693,12 +678,11 @@
               "RelativeToolTip": "MachineVision.Defect\\Controls\\ErrorManagerView.cs",
               "ViewState": "AgIAAAkAAAAAAAAAAAAAADAAAABEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-04T09:06:20.431Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-04T09:06:20.431Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 31,
               "Title": "DefectEditView.cs",
               "DocumentMoniker": "F:\\Learning\\Project\\MachineVision\\MachineVision.Defect\\Controls\\DefectEditView.cs",
               "RelativeDocumentMoniker": "MachineVision.Defect\\Controls\\DefectEditView.cs",
@@ -706,12 +690,11 @@
               "RelativeToolTip": "MachineVision.Defect\\Controls\\DefectEditView.cs",
               "ViewState": "AgIAACMAAAAAAAAAAAAAADsAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-30T14:02:25.497Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-30T14:02:25.497Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 32,
               "Title": "DefectEditView.xaml",
               "DocumentMoniker": "F:\\Learning\\Project\\MachineVision\\MachineVision.Defect\\Controls\\DefectEditView.xaml",
               "RelativeDocumentMoniker": "MachineVision.Defect\\Controls\\DefectEditView.xaml",
@@ -723,7 +706,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 34,
               "Title": "Generic.xaml",
               "DocumentMoniker": "F:\\Learning\\Project\\MachineVision\\MachineVision.Defect\\Themes\\Generic.xaml",
               "RelativeDocumentMoniker": "MachineVision.Defect\\Themes\\Generic.xaml",
@@ -735,7 +718,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 33,
               "Title": "HObjectExtension.cs",
               "DocumentMoniker": "F:\\Learning\\Project\\MachineVision\\MachineVision.Core\\Extensions\\HObjectExtension.cs",
               "RelativeDocumentMoniker": "MachineVision.Core\\Extensions\\HObjectExtension.cs",
@@ -743,12 +726,11 @@
               "RelativeToolTip": "MachineVision.Core\\Extensions\\HObjectExtension.cs",
               "ViewState": "AgIAADsAAAAAAAAAAAAlwFgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-31T08:23:36.748Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-31T08:23:36.748Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 35,
               "Title": "InspectionResult.cs",
               "DocumentMoniker": "F:\\Learning\\Project\\MachineVision\\MachineVision.Defect\\Models\\InspectionResult.cs",
               "RelativeDocumentMoniker": "MachineVision.Defect\\Models\\InspectionResult.cs",
@@ -756,12 +738,11 @@
               "RelativeToolTip": "MachineVision.Defect\\Models\\InspectionResult.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAuwAEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-03T08:43:34.299Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-03T08:43:34.299Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 36,
               "Title": "LightAndDarkRegion.cs",
               "DocumentMoniker": "F:\\Learning\\Project\\MachineVision\\MachineVision.Defect\\Models\\LightAndDarkRegion.cs",
               "RelativeDocumentMoniker": "MachineVision.Defect\\Models\\LightAndDarkRegion.cs",
@@ -769,12 +750,11 @@
               "RelativeToolTip": "MachineVision.Defect\\Models\\LightAndDarkRegion.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAuwAwAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-02T15:08:07.426Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-02T15:08:07.426Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 37,
               "Title": "RectangleLocation.cs",
               "DocumentMoniker": "F:\\Learning\\Project\\MachineVision\\MachineVision.Defect\\Models\\RectangleLocation.cs",
               "RelativeDocumentMoniker": "MachineVision.Defect\\Models\\RectangleLocation.cs",
@@ -782,24 +762,22 @@
               "RelativeToolTip": "MachineVision.Defect\\Models\\RectangleLocation.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-03T09:19:01.898Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-03T09:19:01.898Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 38,
               "Title": "DefectView.xaml",
               "DocumentMoniker": "F:\\Learning\\Project\\MachineVision\\MachineVision.Defect\\Views\\DefectView.xaml",
               "RelativeDocumentMoniker": "MachineVision.Defect\\Views\\DefectView.xaml",
               "ToolTip": "F:\\Learning\\Project\\MachineVision\\MachineVision.Defect\\Views\\DefectView.xaml",
               "RelativeToolTip": "MachineVision.Defect\\Views\\DefectView.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-07-31T02:41:53.432Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-31T02:41:53.432Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 39,
               "Title": "RectangleSetting.cs",
               "DocumentMoniker": "F:\\Learning\\Project\\MachineVision\\MachineVision.Defect\\ViewModels\\Components\\Models\\RectangleSetting.cs",
               "RelativeDocumentMoniker": "MachineVision.Defect\\ViewModels\\Components\\Models\\RectangleSetting.cs",
@@ -807,24 +785,11 @@
               "RelativeToolTip": "MachineVision.Defect\\ViewModels\\Components\\Models\\RectangleSetting.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAYwBwAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-31T03:08:36.947Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-31T03:08:36.947Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 40,
-              "Title": "RegionParameterView.xaml",
-              "DocumentMoniker": "F:\\Learning\\Project\\MachineVision\\MachineVision.Defect\\Views\\RegionParameterView.xaml",
-              "RelativeDocumentMoniker": "MachineVision.Defect\\Views\\RegionParameterView.xaml",
-              "ToolTip": "F:\\Learning\\Project\\MachineVision\\MachineVision.Defect\\Views\\RegionParameterView.xaml",
-              "RelativeToolTip": "MachineVision.Defect\\Views\\RegionParameterView.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-08-01T03:15:28.678Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 39,
               "Title": "RegionParameterViewModel.cs",
               "DocumentMoniker": "F:\\Learning\\Project\\MachineVision\\MachineVision.Defect\\ViewModels\\RegionParameterViewModel.cs",
               "RelativeDocumentMoniker": "MachineVision.Defect\\ViewModels\\RegionParameterViewModel.cs",
@@ -832,8 +797,7 @@
               "RelativeToolTip": "MachineVision.Defect\\ViewModels\\RegionParameterViewModel.cs",
               "ViewState": "AgIAACQAAAAAAAAAAAAnwEIAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-01T03:13:52.967Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-01T03:13:52.967Z"
             },
             {
               "$type": "Document",
@@ -845,8 +809,7 @@
               "RelativeToolTip": "MachineVision.Defect\\Service\\ProjectService.cs",
               "ViewState": "AgIAAGEAAAAAAAAAAAAUwIcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-31T02:45:21.575Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-31T02:45:21.575Z"
             },
             {
               "$type": "Document",
@@ -858,8 +821,7 @@
               "RelativeToolTip": "MachineVision.Core\\DialogViewModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-02T08:44:35.328Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-02T08:44:35.328Z"
             },
             {
               "$type": "Document",
@@ -907,8 +869,7 @@
               "RelativeToolTip": "MachineVision.Defect\\Models\\UI\\ImageFile.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAuwBYAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-30T14:06:36.808Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-30T14:06:36.808Z"
             },
             {
               "$type": "Document",
@@ -1085,8 +1046,7 @@
               "ToolTip": "F:\\Learning\\Project\\MachineVision\\MachineVision.Defect\\Views\\CreateProjectView.xaml",
               "RelativeToolTip": "MachineVision.Defect\\Views\\CreateProjectView.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-08-02T07:17:27.295Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-02T07:17:27.295Z"
             },
             {
               "$type": "Document",
