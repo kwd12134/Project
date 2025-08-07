@@ -3,6 +3,7 @@ using MachineVision.Core.Extensions;
 using MachineVision.Defect.Extensions;
 using MachineVision.Defect.Models;
 using System;
+using System.Collections;
 using System.Collections.Concurrent;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
@@ -56,17 +57,75 @@ namespace MachineVision.Defect.Service
             result.ContextResults = new List<RegionContextResult>();
             if (refer)
             {
-
-                foreach (var Item in RegionList)
+                var queues = new ConcurrentQueue<RegionContextResult>();
+                result.TimeSpan = SetTimerHelper.SetTimer(() =>
                 {
-                    var checkImage = Item.GetInspectImage(ImageSource, Model.ReferSetting.Row, Model.ReferSetting.Column);
-                    checkImage.SaveIamge("C:\\Users\\86153\\OneDrive\\图片\\Image\\test.bmp");
-                    var ItemResult = Item.Context.Run(checkImage, Item);
-                    if (!ItemResult.IsSuccess)
+                    //它是 .NET 中的一个线程安全的队列类，位于 System.Collections.Concurrent 命名空间下
+                    //特点是：多线程环境下不需要加锁就能安全使用。
+                    //遵循先进先出（FIFO）原则。
+                    //支持多个线程并发地 Enqueue()（入队） 和 TryDequeue()（出队）。
+                    //对 RegionList 中的每一项 Item，使用多线程并行执行括号 {} 中的代码块，提高运行效率。
+                    //Parallel.ForEach 是阻塞式执行，会等所有线程执行完毕后才继续往下走。
+                    Parallel.ForEach(RegionList, Item =>
                     {
-                        result.ContextResults.Add(ItemResult);
+                        //根据基准点来计算出预取的图像
+                        var checkImage = Item.GetInspectImage(ImageSource, Model.ReferSetting.Row, Model.ReferSetting.Column);
+                        checkImage.SaveIamge("C:\\Users\\86153\\OneDrive\\图片\\Image\\test.bmp");
+                        //执行检测服务算法
+                        var ItemResult = Item.Context.Run(checkImage, Item);
+                        if (!ItemResult.IsSuccess)
+                        {
+                            queues.Enqueue(ItemResult);
+                        }
+                    });
+                });
+                if (queues.Count > 0)
+                {
+                    foreach (var item in queues)
+                    {
+                        result.ContextResults.Add(item);
                     }
                 }
+                if (result.ContextResults.Count > 0)
+                {
+                    result.IsSuccess = false;
+                    result.Message = $"存在: {result.ContextResults.Count}处缺陷";
+                }
+                else
+                {
+                    result.IsSuccess = true;
+                }
+            }
+            else
+            {
+                result.IsSuccess = false;
+                result.Message = "未匹配图像基准";
+            }
+
+            return result;
+
+        }
+
+        public InspectionResult Execute(HObject ImageSource, ProjectModel Model, ObservableCollection<InspecRegionModel> RegionList)
+        {
+            //先查找基准点
+            bool refer = TargetService.GetRefer(ImageSource, Model);
+            InspectionResult result = new InspectionResult();
+            result.ContextResults = new List<RegionContextResult>();
+            if (refer)
+            {
+                result.TimeSpan = SetTimerHelper.SetTimer(() =>
+                {
+                    foreach (var Item in RegionList)
+                    {
+                        var checkImage = Item.GetInspectImage(ImageSource, Model.ReferSetting.Row, Model.ReferSetting.Column);
+                        var ItemResult = Item.Context.Run(checkImage, Item);
+                        if (!ItemResult.IsSuccess)
+                        {
+                            result.ContextResults.Add(ItemResult);
+                        }
+                    }
+                });
 
                 if (result.ContextResults.Count > 0)
                 {
@@ -77,27 +136,6 @@ namespace MachineVision.Defect.Service
                 {
                     result.IsSuccess = true;
                 }
-
-                //它是 .NET 中的一个线程安全的队列类，位于 System.Collections.Concurrent 命名空间下
-                //特点是：多线程环境下不需要加锁就能安全使用。
-                //遵循先进先出（FIFO）原则。
-                //支持多个线程并发地 Enqueue()（入队） 和 TryDequeue()（出队）。
-
-                //ConcurrentQueue<RegionContextResult> queues = new ConcurrentQueue<RegionContextResult>();
-
-                ////对 RegionList 中的每一项 Item，使用多线程并行执行括号 {} 中的代码块，提高运行效率。
-                //Parallel.ForEach(RegionList, Item =>
-                //{
-                //    //根据基准点来计算出预取的图像
-                //    var checkImage = Item.GetInspectImage(ImageSource, Model.ReferSetting.Row, Model.ReferSetting.Column);
-                //    checkImage.SaveIamge("C:\\Users\\86153\\OneDrive\\图片\\Image\\test.bmp");
-                //    //执行检测服务算法
-                //    var ItemResult = Item.Context.Run(checkImage, Item);
-                //    if (!ItemResult.IsSuccess)
-                //    {
-                //        queues.Enqueue(ItemResult);
-                //    }
-                //});
             }
             else
             {

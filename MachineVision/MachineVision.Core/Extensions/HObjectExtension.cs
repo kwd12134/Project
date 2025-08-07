@@ -100,5 +100,27 @@ namespace MachineVision.Core.Extensions
             return contours;
         }
 
+        /// <summary>
+        /// 获取面积总结
+        /// </summary>
+        /// <param name="region"></param>
+        /// <returns></returns>
+        public static long GetSumArea(this HObject region)
+        {
+            HOperatorSet.AreaCenter(region, out HTuple area, out HTuple row, out HTuple column);
+
+            if (area.Length == 0) return 0;
+
+            long sum_area = 0;
+            foreach (HTuple h in area.LArr)
+                sum_area += h;
+
+            area.Dispose();
+            row.Dispose();
+            column.Dispose();
+
+            return sum_area;
+        }
+
     }
 }

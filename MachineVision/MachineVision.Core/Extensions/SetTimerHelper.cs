@@ -40,6 +40,7 @@ namespace MachineVision.Core.Extensions
             }
             catch (Exception ex)
             {
+                //异常可以绑定外部一个回调函数进行处理
                 exception?.Invoke(ex);
             }
             finally

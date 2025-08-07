@@ -2,6 +2,7 @@
 using MachineVision.Core;
 using MachineVision.Defect.Extensions;
 using MachineVision.Defect.Models;
+using MachineVision.Defect.ViewModels.Components;
 using Prism.Commands;
 using Prism.Ioc;
 using Prism.Services.Dialogs;
@@ -75,6 +76,19 @@ namespace MachineVision.Defect.ViewModels
         {
             if (SelectedFile == null) return;
             if (SelectedRegion == null) return;
+
+            if (File.Exists(SelectedFile.FullPath))
+            {
+                //移除本地和界面上的数据
+                File.Delete(SelectedFile.FullPath);
+                var file = Files.FirstOrDefault(t => t.FileName == SelectedFile.FileName);
+                if (file != null)
+                    Files.Remove(file);
+
+                if (SelectedRegion.Context is LocalDeformableContext context)
+                    context.RefreshVariationModel(SelectedRegion);
+            }
+
         }
 
         /// <summary>
@@ -94,7 +108,7 @@ namespace MachineVision.Defect.ViewModels
                     Files.Add(new ImageInfo()
                     {
                         FileName = Path.GetFileName(file),
-                        fullPath = file,
+                        FullPath = file,
                     });
                 }
             }
@@ -110,7 +124,8 @@ namespace MachineVision.Defect.ViewModels
         /// <param name="img"></param>
         private void ShowImage(ImageInfo img)
         {
-            var bytes = File.ReadAllBytes(img.fullPath);
+            if (img == null) return;
+            var bytes = File.ReadAllBytes(img.FullPath);
             MemoryStream ms = new MemoryStream(bytes);
             BitmapImage b = new BitmapImage();
             // 4. 开始初始化图像

@@ -13,6 +13,6 @@ namespace MachineVision.Defect.Models
         /// <summary>
         /// 全路径
         /// </summary>
-        public string fullPath { get; set; }
+        public string FullPath { get; set; }
     }
 }

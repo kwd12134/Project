@@ -14,14 +14,20 @@ namespace MachineVision.Defect.Controls
         private HSmartWindowControlWPF hsmart;
         private HObject Image;
         private string Name;
+        private TextBlock txtMsg;
 
         public void DisPlay(RegionContextResult result)
         {
             var render = result.Render;
+
             Name=result.Name;
+
             if (render != null && hWindow != null)
             {
                 hWindow.ClearWindow();
+
+                HOperatorSet.SetColor(hWindow, "red");
+                txtMsg.Text = $"区域:{Name},亮缺陷:{render.Light.GetSumArea()},暗缺陷:{render.Dark.GetSumArea()}";
 
                 this.Image = render.Image;
 
@@ -47,6 +53,8 @@ namespace MachineVision.Defect.Controls
 
         private void Hsmart_Loaded(object sender, System.Windows.RoutedEventArgs e)
         {
+            txtMsg = (TextBlock)GetTemplateChild("PART_Msg");
+
             ((MenuItem)GetTemplateChild("PART_Train")).Click += (s, e) =>
             {
                 var aggregator = ContainerLocator.Container.Resolve<IEventAggregator>();

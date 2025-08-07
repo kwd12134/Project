@@ -3,7 +3,7 @@
   "WorkspaceRootPath": "F:\\Learning\\Project\\ASIL\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3E336DBA-9D68-4287-9F48-077958E01E4F}|SendReceiveCom\\SendReceiveCom.csproj|F:\\Learning\\Project\\ASIL\\sendreceivecom\\view\\comassistance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{3E336DBA-9D68-4287-9F48-077958E01E4F}|SendReceiveCom\\SendReceiveCom.csproj|f:\\learning\\project\\asil\\sendreceivecom\\view\\comassistance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{3E336DBA-9D68-4287-9F48-077958E01E4F}|SendReceiveCom\\SendReceiveCom.csproj|solutionrelative:sendreceivecom\\view\\comassistance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
@@ -15,7 +15,7 @@
       "RelativeMoniker": "D:0:0:{3E336DBA-9D68-4287-9F48-077958E01E4F}|SendReceiveCom\\SendReceiveCom.csproj|solutionrelative:sendreceivecom\\view\\frmmsgboxaffirm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3E336DBA-9D68-4287-9F48-077958E01E4F}|SendReceiveCom\\SendReceiveCom.csproj|f:\\learning\\project\\asil\\sendreceivecom\\view\\comassistance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3E336DBA-9D68-4287-9F48-077958E01E4F}|SendReceiveCom\\SendReceiveCom.csproj|F:\\Learning\\Project\\ASIL\\sendreceivecom\\view\\comassistance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3E336DBA-9D68-4287-9F48-077958E01E4F}|SendReceiveCom\\SendReceiveCom.csproj|solutionrelative:sendreceivecom\\view\\comassistance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -202,10 +202,6 @@
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
-            },
-            {
-              "$type": "Bookmark",
               "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
             },
             {
@@ -217,6 +213,10 @@
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "ComAssistance.cs",
@@ -226,8 +226,7 @@
               "RelativeToolTip": "SendReceiveCom\\View\\ComAssistance.cs",
               "ViewState": "AgIAAHMJAAAAAAAAAAAkwI4JAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-01T12:26:57.876Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-01T12:26:57.876Z"
             },
             {
               "$type": "Document",
@@ -274,8 +273,7 @@
               "ToolTip": "F:\\Learning\\Project\\ASIL\\SendReceiveCom\\View\\FrmMsgBoxAffirm.cs [\u8BBE\u8BA1]",
               "RelativeToolTip": "SendReceiveCom\\View\\FrmMsgBoxAffirm.cs [\u8BBE\u8BA1]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-26T05:15:04.008Z",
-              "EditorCaption": " [\u8BBE\u8BA1]"
+              "WhenOpened": "2024-07-26T05:15:04.008Z"
             },
             {
               "$type": "Document",
@@ -286,8 +284,7 @@
               "ToolTip": "F:\\Learning\\Project\\ASIL\\SendReceiveCom\\View\\FrmAdmin.cs [\u8BBE\u8BA1]",
               "RelativeToolTip": "SendReceiveCom\\View\\FrmAdmin.cs [\u8BBE\u8BA1]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-17T09:15:42.407Z",
-              "EditorCaption": " [\u8BBE\u8BA1]"
+              "WhenOpened": "2024-08-17T09:15:42.407Z"
             },
             {
               "$type": "Document",
@@ -297,10 +294,6 @@
               "ToolTip": "C:\\Users\\Administrator\\Desktop\\\u4E0A\u4F4D\u673A\\Project\\ASIL\\SendReceiveCom\\SettingForm.Designer.cs",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-11T00:21:15.246Z"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
             },
             {
               "$type": "Document",
@@ -456,8 +449,7 @@
               "RelativeToolTip": "SendReceiveCom\\View\\FrmAdmin.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-17T09:17:26.862Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-17T09:17:26.862Z"
             },
             {
               "$type": "Document",
@@ -505,8 +497,7 @@
               "RelativeToolTip": "SendReceiveCom\\View\\FrmAdmin.Designer.cs",
               "ViewState": "AgIAABMAAAAAAAAAAABRwBYAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-10T05:24:59.584Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-10T05:24:59.584Z"
             },
             {
               "$type": "Document",
@@ -542,8 +533,7 @@
               "RelativeToolTip": "SendReceiveCom\\View\\FrmMsgBoxAffirm.Designer.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAxwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-02T05:20:44.252Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-02T05:20:44.252Z"
             },
             {
               "$type": "Document",
@@ -567,8 +557,7 @@
               "RelativeToolTip": "SendReceiveCom\\View\\FrmMsgBoxAffirm.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-26T05:21:01.418Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-26T05:21:01.418Z"
             },
             {
               "$type": "Document",
@@ -580,8 +569,7 @@
               "RelativeToolTip": "SendReceiveCom\\App.config",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2024-07-13T05:00:53.922Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-13T05:00:53.922Z"
             },
             {
               "$type": "Document",

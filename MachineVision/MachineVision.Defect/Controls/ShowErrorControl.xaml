@@ -7,21 +7,32 @@
         <Setter Property="Template">
             <Setter.Value>
                 <ControlTemplate TargetType="control:ShowErrorControl">
-                    <h:HSmartWindowControlWPF
+                    <Grid>
+                        <TextBlock
+                            x:Name="PART_Msg"
+                            Margin="5"
+                            HorizontalAlignment="Left"
+                            VerticalAlignment="Top"
+                            Panel.ZIndex="1"
+                            Foreground="Red" />
+                        <h:HSmartWindowControlWPF
                         x:Name="PART_Smart"
                         HDoubleClickToFitContent="True"
                         HDrawingObjectsModifier="None"
                         HKeepAspectRatio="True"
                         HMoveContent="False"
                         HZoomContent="WheelForwardZoomsIn" >
-                        <h:HSmartWindowControlWPF.ContextMenu>
-                            <ContextMenu>
-                                <MenuItem x:Name="PART_Train">
-                                    <TextBlock Text="添加训练"/>
-                                </MenuItem>
-                            </ContextMenu>
-                        </h:HSmartWindowControlWPF.ContextMenu>
-                    </h:HSmartWindowControlWPF>
+                            <h:HSmartWindowControlWPF.ContextMenu>
+                                <ContextMenu>
+                                    <MenuItem x:Name="PART_Train">
+                                        <MenuItem.Header>
+                                            <TextBlock Text="添加训练"/>
+                                        </MenuItem.Header>
+                                    </MenuItem>
+                                </ContextMenu>
+                            </h:HSmartWindowControlWPF.ContextMenu>
+                        </h:HSmartWindowControlWPF>
+                    </Grid>
                 </ControlTemplate>
             </Setter.Value>
         </Setter>

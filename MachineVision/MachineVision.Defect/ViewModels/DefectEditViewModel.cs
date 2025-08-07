@@ -440,7 +440,7 @@ namespace MachineVision.Defect.ViewModels
                 info.Image.SaveIamge(url);
                 if (region.Context is LocalDeformableContext context)
                 {
-                    context.RefreshVariationModel(region);
+                    context.AddTrainImage(region,info.Image);
                 }
             }
         }

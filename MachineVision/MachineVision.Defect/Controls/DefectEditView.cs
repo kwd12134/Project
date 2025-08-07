@@ -49,12 +49,12 @@ namespace MachineVision.Defect.Controls
                 if (Result.IsSuccess)
                 {
                     txtMsg.Foreground = System.Windows.Media.Brushes.Green;
-                    txtMsg.Text = "OK";
+                    txtMsg.Text = "OK, 耗时: "+Result.TimeSpan+"ms";
                 }
                 else
                 {
                     txtMsg.Foreground = System.Windows.Media.Brushes.Red;
-                    txtMsg.Text = Result.Message;
+                    txtMsg.Text = "NG, 耗时: " + Result.TimeSpan +"ms,"+ Result.Message;
                 }
                 foreach (var context in Result.ContextResults)
                 {

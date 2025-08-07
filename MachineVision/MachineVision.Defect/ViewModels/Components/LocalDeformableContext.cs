@@ -177,8 +177,11 @@ namespace MachineVision.Defect.ViewModels.Components
                 ((new HTuple("image_rectified"))
                 .TupleConcat("vector_field"))
                 .TupleConcat("deformed_contours"),
-                new HTuple(),
-                new HTuple(), out hv_Score, out hv_Row, out hv_Column);
+                //设置形变参数
+                (new HTuple("deformation_smoothness").TupleConcat("expand_border").TupleConcat("subpixel").TupleConcat("scale_c_step").TupleConcat("scale_r_step")),
+                //设置形变参数 对应的值
+                (new HTuple(70).TupleConcat(0).TupleConcat(1).TupleConcat(0.1).TupleConcat(0.1)),
+                out hv_Score, out hv_Row, out hv_Column); ;
 
             if (hv_Score > 0)
             {
@@ -233,6 +236,7 @@ namespace MachineVision.Defect.ViewModels.Components
                 List<HImage> images = new List<HImage>();
                 foreach (string file in files)
                 {
+                    if (Path.GetExtension(file) != ".bmp") continue;
                     HImage hImage = new HImage();
                     hImage.ReadImage(file);
                     images.Add(hImage);
@@ -242,13 +246,21 @@ namespace MachineVision.Defect.ViewModels.Components
                 HOperatorSet.CreateVariationModel(model.MatchSetting.Width, model.MatchSetting.Height, "byte", "standard", out StandardId);
 
                 //训练本地的缓存图像
-                foreach (var item in images)
+                foreach (var image in images)
                 {
-                    HOperatorSet.TrainVariationModel(item, StandardId);
+                    HOperatorSet.TrainVariationModel(image, StandardId);
                 }
                 HOperatorSet.WriteVariationModel(StandardId, stdurl + Setting.StdFileName);
 
             }
+        }
+
+        public void AddTrainImage(InspecRegionModel model,HObject image)
+        {
+            string url = model.GetRegionUrl();
+            HOperatorSet.TrainVariationModel(image, StandardId);
+            HOperatorSet.WriteVariationModel(StandardId, url + Setting.StdFileName);
+
         }
 
         public void Dispose()
