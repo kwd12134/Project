@@ -27,9 +27,12 @@ namespace MyToDo.Service
             request.AddHeader("Content-Type", baseRequest.ContentType);
             if (baseRequest.Parameter!=null)
             {
-                request.AddParameter("Param", JsonConvert.SerializeObject(baseRequest.Parameter), ParameterType.RequestBody);
+                //request.AddParameter("Param", JsonConvert.SerializeObject(baseRequest.Parameter), ParameterType.RequestBody);
+                //RestSharp 自动处理序列化和请求体设置 手动序列化会有报错
+                request.AddJsonBody(baseRequest.Parameter);
             }
             var result =  await client.ExecuteAsync(request);
+
             if (result.StatusCode == System.Net.HttpStatusCode.OK)
                 return JsonConvert.DeserializeObject<ApiResponse<T>>(result.Content);
 
@@ -112,40 +115,40 @@ namespace MyToDo.Service
 
         public class ChatRequest
         {
-            public Message[] messages { get; set; }
-            public string model { get; set; }
+            public Message[]? messages { get; set; }
+            public string? model { get; set; }
             public int temperature { get; set; }
             public int max_tokens { get; set; }
         }
 
         public class Message
         {
-            public string role { get; set; }
-            public string content { get; set; }
+            public string? role { get; set; }
+            public string? content { get; set; }
         }
 
         public class ChatResponse
         {
             [JsonPropertyName("id")]
-            public string Id { get; set; }
+            public string? Id { get; set; }
 
             [JsonPropertyName("object")]
-            public string Object { get; set; }
+            public string? Object { get; set; }
 
             [JsonPropertyName("created")]
             public long Created { get; set; } // 时间戳可以用DateTime转换
 
             [JsonPropertyName("model")]
-            public string Model { get; set; }
+            public string? Model { get; set; }
 
             [JsonPropertyName("choices")]
-            public List<Choice> Choices { get; set; }
+            public List<Choice>? Choices { get; set; }
 
             [JsonPropertyName("usage")]
-            public Usage Usage { get; set; }
+            public Usage? Usage { get; set; }
 
             [JsonPropertyName("system_fingerprint")]
-            public string SystemFingerprint { get; set; }
+            public string? SystemFingerprint { get; set; }
         }
 
         public class Choice
@@ -154,22 +157,22 @@ namespace MyToDo.Service
             public int Index { get; set; }
 
             [JsonPropertyName("message")]
-            public Messages Message { get; set; }
+            public Messages? Message { get; set; }
 
             [JsonPropertyName("logprobs")]
-            public object Logprobs { get; set; } // 根据实际情况可以定义具体类型
+            public object? Logprobs { get; set; } // 根据实际情况可以定义具体类型
 
             [JsonPropertyName("finish_reason")]
-            public string FinishReason { get; set; }
+            public string? FinishReason { get; set; }
         }
 
         public class Messages
         {
             [JsonPropertyName("role")]
-            public string Role { get; set; }
+            public string? Role { get; set; }
 
             [JsonPropertyName("content")]
-            public string Content { get; set; }
+            public string? Content { get; set; }
         }
 
         public class Usage
@@ -184,7 +187,7 @@ namespace MyToDo.Service
             public int TotalTokens { get; set; }
 
             [JsonPropertyName("prompt_tokens_details")]
-            public PromptTokensDetails PromptTokensDetails { get; set; }
+            public PromptTokensDetails? PromptTokensDetails { get; set; }
 
             [JsonPropertyName("prompt_cache_hit_tokens")]
             public int PromptCacheHitTokens { get; set; }

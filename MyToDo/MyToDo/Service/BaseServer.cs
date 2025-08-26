@@ -23,7 +23,10 @@ namespace MyToDo.Service
         {
             BaseRequest Request = new BaseRequest();
             Request.Method = RestSharp.Method.Post;
+
+            //相当于访问并调用serviceName控制器里的Add方法
             Request.Route = $"api/{serviceName}/Add";
+
             Request.Parameter = entity;
             return await client.ExecuteAsync<TEntity>(Request);
         }
@@ -32,7 +35,10 @@ namespace MyToDo.Service
         {
             BaseRequest Request = new BaseRequest();
             Request.Method = RestSharp.Method.Post;
+
+            //相当于访问并调用serviceName控制器里的Delete方法
             Request.Route = $"api/{serviceName}/Delete?={id}";
+
            return  await client.ExecuteAsync(Request);
         }
 

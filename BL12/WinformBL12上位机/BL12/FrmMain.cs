@@ -19,6 +19,7 @@ using XmlUpper;
 using XmlCollection;
 using System.Linq;
 using System.Text.RegularExpressions;
+using System.Diagnostics;
 namespace BL12
 {
     public partial class FrmMain : Form
@@ -39,14 +40,12 @@ namespace BL12
             this.dataGridView_CHDV.ScrollBars = ScrollBars.None;
             this.dataGridView_NTC.ScrollBars = ScrollBars.None;
             this.DoubleBuffered = true;
-            storeTimer.Interval = 5000;
+            storeTimer.Interval = 500;
             storeTimer.AutoReset = true;
             storeTimer.Elapsed += StoreTimer_Elapsed;
             storeTimer.Start();
             this.FormClosing += FrmMain_FormClosing;
         }
-
-
 
         private void StoreTimer_Elapsed(object sender, ElapsedEventArgs e)
         {
@@ -65,11 +64,16 @@ namespace BL12
                         this.Jince.Text = "     精测机未连接";
                         this.Jince.ForeColor = Color.Red;
                     }
+                    SetNCT();
+                    SetLEDx();
+                    SetDVStatu();
                 }
-                catch (Exception)
+                catch (Exception ex)
                 {
+                    Debug.WriteLine(ex);
                 }
             }));
+
         }
 
         #region 属性参数
@@ -292,7 +296,7 @@ namespace BL12
                     GlobalVariable.XmlData.Part_No = request.Param2;  //零件编号
                     GlobalVariable.XmlData.Operation = request.Param3;
                     this.text_Config_name.Text = request.Param4;     // 型号
-                    if (request.Param4+"\r\n" != StaticMethod.WriteRuqire_ResultData(Common_Read.LED_GetModel))
+                    if (request.Param4 + "\r\n" != StaticMethod.WriteRuqire_ResultData(Common_Read.LED_GetModel))
                     {
                         Response response = new Response()
                         {
@@ -360,7 +364,13 @@ namespace BL12
             {
                 StaticMethod.WriteRuqire_ResultData(Common_Read.LED_OFF);
             }
+            cts.Cancel();
+            //thread.Abort();
         }
+
+        public Thread thread;
+
+        private CancellationTokenSource cts { get; set; } = new CancellationTokenSource();
 
         private void FrmMain_Load(object sender, EventArgs e)
         {
@@ -369,11 +379,10 @@ namespace BL12
 
             Task.Run(() =>
             {
-                while (true)
-                {
-                    DataDirdViewUpDate();
-                }
-            });
+                DataDirdViewUpDate();
+            }, cts.Token);
+            //thread.IsBackground = true;
+            //thread.Start();
         }
         #endregion
 
@@ -469,7 +478,7 @@ namespace BL12
                 {
                     this.dataGridView_NTC.Invoke(new Action(() =>
                     {
-                        dataGridView_NTC.Rows.Clear();
+                        //dataGridView_NTC.Rows.Clear();
                         for (int i = 0; i < NctVariable.Count; i++)
                         {
                             dataGridView_NTC.Rows.Add();
@@ -504,7 +513,7 @@ namespace BL12
                 {
                     this.dataGridView_CHDV.Invoke(new Action(() =>
                     {
-                        dataGridView_CHDV.Rows.Clear();
+                        //dataGridView_CHDV.Rows.Clear();
 
                         dataGridView_CHDV.Rows.Add();
                         dataGridView_CHDV.Rows[0].Cells[0].Value = StateAndDV[0].LED_channel_Number;
@@ -526,15 +535,15 @@ namespace BL12
                     this.dataGridView_LEDx.Invoke(new Action(() =>
                     {
 
-                        dataGridView_LEDx.Rows.Clear();
-
-                        for (int i = 0; i < LedxVariable.Count; i++)
-                        {
-                            dataGridView_LEDx.Rows.Add();
-                            dataGridView_LEDx.Rows[i].Cells[0].Value = LedxVariable[i].LED_Name;
-                            dataGridView_LEDx.Rows[i].Cells[1].Value = LedxVariable[i].VF;
-                            dataGridView_LEDx.Rows[i].Cells[2].Value = LedxVariable[i].Ima;
-                        }
+                        dataGridView_LEDx.DataSource = null;
+                        dataGridView_LEDx.DataSource = LedxVariable;
+                        //for (int i = 0; i < LedxVariable.Count; i++)
+                        //{
+                        //    dataGridView_LEDx.Rows.Add();
+                        //    dataGridView_LEDx.Rows[i].Cells[0].Value = LedxVariable[i].LED_Name;
+                        //    dataGridView_LEDx.Rows[i].Cells[1].Value = LedxVariable[i].VF;
+                        //    dataGridView_LEDx.Rows[i].Cells[2].Value = LedxVariable[i].Ima;
+                        //}
 
                         this.dataGridView_NTC.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
                     }));
@@ -1576,7 +1585,7 @@ namespace BL12
             {
                 TrxName = "CCDDataRepor",
                 LotNo = this.text_SN.Text,
-                IaryInfos = new IaryInfos() { Iary = new List<Iary>()},
+                IaryInfos = new IaryInfos() { Iary = new List<Iary>() },
                 LogID = DateTime.Now.ToString("yyyyMMddhhmm"),
                 LmUser = computerName,
                 LmTime = DateTime.Now.ToString("yyyy-MM-dd hh:mm"),
@@ -1668,6 +1677,11 @@ namespace BL12
         private void cmb_Model_No_SelectionChange(object sender, EventArgs e)
         {
             LoadResistSpec(this.cmb_Model_No.Text);
+        }
+
+        private void dataGridView_LEDx_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
         }
     }
 

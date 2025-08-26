@@ -30,7 +30,7 @@ namespace KWD.MTHproject
 
         private string VariablePath = Application.StartupPath + "\\Config\\Variable.xlsx";
 
-        private CancellationTokenSource cts = new CancellationTokenSource();
+        private CancellationTokenSource cts { get; set; } = new CancellationTokenSource();
 
         private ObservableCollection<string> actualAlarmList = new ObservableCollection<string>();
 

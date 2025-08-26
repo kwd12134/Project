@@ -24,3 +24,16 @@ F:\Learning\C#上位机\BL12上位机\WinformBL12上位机\Communication\obj\Deb
 F:\Learning\C#上位机\BL12上位机\WinformBL12上位机\Communication\obj\Debug\Communic.B9EB459D.Up2Date
 F:\Learning\C#上位机\BL12上位机\WinformBL12上位机\Communication\obj\Debug\Communication.dll
 F:\Learning\C#上位机\BL12上位机\WinformBL12上位机\Communication\obj\Debug\Communication.pdb
+F:\Learning\Project\BL12\WinformBL12上位机\Communication\bin\Debug\Communication.dll
+F:\Learning\Project\BL12\WinformBL12上位机\Communication\bin\Debug\Communication.pdb
+F:\Learning\Project\BL12\WinformBL12上位机\Communication\bin\Debug\CurrentVariable.dll
+F:\Learning\Project\BL12\WinformBL12上位机\Communication\bin\Debug\XmlUpper.dll
+F:\Learning\Project\BL12\WinformBL12上位机\Communication\bin\Debug\XmlCollection.dll
+F:\Learning\Project\BL12\WinformBL12上位机\Communication\bin\Debug\CurrentVariable.pdb
+F:\Learning\Project\BL12\WinformBL12上位机\Communication\bin\Debug\XmlUpper.pdb
+F:\Learning\Project\BL12\WinformBL12上位机\Communication\bin\Debug\XmlCollection.pdb
+F:\Learning\Project\BL12\WinformBL12上位机\Communication\obj\Debug\Communication.csproj.AssemblyReference.cache
+F:\Learning\Project\BL12\WinformBL12上位机\Communication\obj\Debug\Communication.csproj.CoreCompileInputs.cache
+F:\Learning\Project\BL12\WinformBL12上位机\Communication\obj\Debug\Communic.B9EB459D.Up2Date
+F:\Learning\Project\BL12\WinformBL12上位机\Communication\obj\Debug\Communication.dll
+F:\Learning\Project\BL12\WinformBL12上位机\Communication\obj\Debug\Communication.pdb

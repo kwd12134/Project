@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace MyToDo.ViewModels
 {
-    public class SettingViewModel:BindableBase
+    public class SettingViewModel : BindableBase
     {
         public SettingViewModel(IRegionManager regionManager)
         {

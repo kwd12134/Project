@@ -29,3 +29,14 @@ F:\Learning\C#上位机\BL12上位机\WinformBL12上位机\CurrentVariable\obj\D
 F:\Learning\C#上位机\BL12上位机\WinformBL12上位机\CurrentVariable\obj\Debug\CurrentV.112E208E.Up2Date
 F:\Learning\C#上位机\BL12上位机\WinformBL12上位机\CurrentVariable\obj\Debug\CurrentVariable.dll
 F:\Learning\C#上位机\BL12上位机\WinformBL12上位机\CurrentVariable\obj\Debug\CurrentVariable.pdb
+F:\Learning\Project\BL12\WinformBL12上位机\CurrentVariable\bin\Debug\CurrentVariable.dll
+F:\Learning\Project\BL12\WinformBL12上位机\CurrentVariable\bin\Debug\CurrentVariable.pdb
+F:\Learning\Project\BL12\WinformBL12上位机\CurrentVariable\bin\Debug\thinger.DataConvertLib.dll
+F:\Learning\Project\BL12\WinformBL12上位机\CurrentVariable\bin\Debug\XmlCollection.dll
+F:\Learning\Project\BL12\WinformBL12上位机\CurrentVariable\bin\Debug\XmlCollection.pdb
+F:\Learning\Project\BL12\WinformBL12上位机\CurrentVariable\bin\Debug\thinger.DataConvertLib.xml
+F:\Learning\Project\BL12\WinformBL12上位机\CurrentVariable\obj\Debug\CurrentVariable.csproj.AssemblyReference.cache
+F:\Learning\Project\BL12\WinformBL12上位机\CurrentVariable\obj\Debug\CurrentVariable.csproj.CoreCompileInputs.cache
+F:\Learning\Project\BL12\WinformBL12上位机\CurrentVariable\obj\Debug\CurrentV.112E208E.Up2Date
+F:\Learning\Project\BL12\WinformBL12上位机\CurrentVariable\obj\Debug\CurrentVariable.dll
+F:\Learning\Project\BL12\WinformBL12上位机\CurrentVariable\obj\Debug\CurrentVariable.pdb

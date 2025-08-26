@@ -1,4 +1,8 @@
 ﻿using MyToDo.Common.Models;
+using MyToDo.Service;
+using MyToDo.Shared.Dtos;
+using MyToDo.Shared.Parameters;
+using Prism.Ioc;
 using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
@@ -8,12 +12,13 @@ using System.Threading.Tasks;
 
 namespace MyToDo.ViewModels
 {
-    public class MemoViewModel : BindableBase
+    public class MemoViewModel : NavigationViewModel
     {
-        public MemoViewModel()
+        public MemoViewModel(IMemoService service, IContainerProvider Provider) : base(Provider)
         {
             AddCommand = new DelegateCommand(Add);
             MemoDtos = new ObservableCollection<MemoDto>();
+            this.service = service;
             CreateToDo();
         }
 
@@ -34,6 +39,7 @@ namespace MyToDo.ViewModels
 
 
         private ObservableCollection<MemoDto> memoDtos;
+        private readonly IMemoService service;
 
         public ObservableCollection<MemoDto> MemoDtos
         {
@@ -41,12 +47,22 @@ namespace MyToDo.ViewModels
             set { memoDtos = value; RaisePropertyChanged(); }
         }
 
-        void CreateToDo()
+        async void CreateToDo()
         {
-            for (int i = 0; i < 20; i++)
+            var MemoResult = await service.GetAllAsync(new QueryParameter()
             {
-                MemoDtos.Add(new MemoDto() { Title = "备忘录" + i, Content = "处理中.........." });
+                PageIndex = 0,
+                PageSize=100
+            });
+
+            if (MemoResult.Status)
+            {
+                foreach (var item in MemoResult.Result.Items)
+                {
+                    MemoDtos.Add(item);
+                }
             }
+
         }
     }
 

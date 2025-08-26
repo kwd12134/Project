@@ -215,6 +215,7 @@
             this.dataGridView_LEDx.RowHeadersWidth = 51;
             this.dataGridView_LEDx.Size = new System.Drawing.Size(301, 315);
             this.dataGridView_LEDx.TabIndex = 0;
+            this.dataGridView_LEDx.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView_LEDx_CellContentClick);
             // 
             // LEDx
             // 

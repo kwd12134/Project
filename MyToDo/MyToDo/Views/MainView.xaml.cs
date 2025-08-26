@@ -1,4 +1,5 @@
-﻿using MyToDo.Extensions;
+﻿using MaterialDesignThemes.Wpf;
+using MyToDo.Extensions;
 using MyToDo.Service;
 using System;
 using System.Collections.Generic;
@@ -21,15 +22,34 @@ namespace MyToDo.Views
     /// </summary>
     public partial class MainView : Window
     {
-        public MainView()
+        /// <summary>
+        /// DialogContent 的作用
+        ///专门用来放置对话框的内容（UI 元素）。
+        ///当你调用 DialogHost.Show() 或者打开对话框时，DialogContent 里面的内容会显示出来。
+        ///类似于 WinForms/WPF 的 对话框窗口，但它是嵌在页面里的，不需要单独开一个 Window
+        /// </summary>
+        /// <param name="aggregator"></param>
+        public MainView(IEventAggregator aggregator)
         {
             InitializeComponent();
+
+            //目前的窗口也都是注册在当前MainView当中 
+            //而因为是c/s架构使用在等待数据返回时使界面加载一下等待的窗口
+            aggregator.Register(arg =>
+            {
+                this.DialogHost.IsOpen = arg.IsOpen;
+
+                if (this.DialogHost.IsOpen)
+                {
+                    DialogHost.DialogContent = new ProgressView();
+                }
+            });
 
             btnMin.Click += (s, e) => { this.WindowState = WindowState.Minimized; };
             btnMax.Click += (s, e) =>
             {
-                HttpRestClient httpRestClient = new HttpRestClient("");
-                var a = httpRestClient.GetDeepSeek();
+                //HttpRestClient httpRestClient = new HttpRestClient("");
+                //var a = httpRestClient.GetDeepSeek();
                 if (this.WindowState == WindowState.Maximized)
                     this.WindowState = WindowState.Normal;
                 else
@@ -57,7 +77,6 @@ namespace MyToDo.Views
             {
                 DrawerHost.IsLeftDrawerOpen = false;
             };
-
         }
     }
 }

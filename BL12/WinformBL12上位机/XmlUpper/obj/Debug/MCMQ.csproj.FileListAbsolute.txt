@@ -20,3 +20,14 @@ F:\Learning\C#上位机\BL12上位机\WinformBL12上位机\XmlUpper\obj\Debug\MC
 F:\Learning\C#上位机\BL12上位机\WinformBL12上位机\XmlUpper\obj\Debug\MCMQ.csproj.Up2Date
 F:\Learning\C#上位机\BL12上位机\WinformBL12上位机\XmlUpper\obj\Debug\XmlUpper.dll
 F:\Learning\C#上位机\BL12上位机\WinformBL12上位机\XmlUpper\obj\Debug\XmlUpper.pdb
+F:\Learning\Project\BL12\WinformBL12上位机\XmlUpper\bin\Debug\XmlUpper.dll
+F:\Learning\Project\BL12\WinformBL12上位机\XmlUpper\bin\Debug\XmlUpper.pdb
+F:\Learning\Project\BL12\WinformBL12上位机\XmlUpper\bin\Debug\CurrentVariable.dll
+F:\Learning\Project\BL12\WinformBL12上位机\XmlUpper\bin\Debug\XmlCollection.dll
+F:\Learning\Project\BL12\WinformBL12上位机\XmlUpper\bin\Debug\CurrentVariable.pdb
+F:\Learning\Project\BL12\WinformBL12上位机\XmlUpper\bin\Debug\XmlCollection.pdb
+F:\Learning\Project\BL12\WinformBL12上位机\XmlUpper\obj\Debug\MCMQ.csproj.AssemblyReference.cache
+F:\Learning\Project\BL12\WinformBL12上位机\XmlUpper\obj\Debug\MCMQ.csproj.CoreCompileInputs.cache
+F:\Learning\Project\BL12\WinformBL12上位机\XmlUpper\obj\Debug\MCMQ.csproj.Up2Date
+F:\Learning\Project\BL12\WinformBL12上位机\XmlUpper\obj\Debug\XmlUpper.dll
+F:\Learning\Project\BL12\WinformBL12上位机\XmlUpper\obj\Debug\XmlUpper.pdb

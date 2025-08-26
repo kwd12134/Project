@@ -27,9 +27,9 @@
 
 
     <materialDesign:DialogHost
+        x:Name="DialogHost"
         DialogTheme="Inherit"
-        Identifier="RootDialog"
-        SnackbarMessageQueue="{Binding ElementName=MainSnackbar, Path=MessageQueue}">
+        Identifier="RootDialog">
 
         <materialDesign:DrawerHost x:Name="DrawerHost" IsLeftDrawerOpen="{Binding ElementName=MenuToggleButton, Path=IsChecked}">
             <materialDesign:DrawerHost.LeftDrawerContent>
@@ -38,7 +38,7 @@
                         <Image
                             Width="50"
                             Height="50"
-                            Source="F:\Learning\C#WPF\WpfApp1\MyToDo\Image\User1.jpg">
+                            Source="F:\Learning\Project\MyToDo\MyToDo\Image\User1.jpg">
                             <Image.Clip>
                                 <EllipseGeometry
                                     Center="25,25"
