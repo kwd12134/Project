@@ -4,3 +4,6 @@
 [submodule "MachineVision"]
 	path = MachineVision
 	url = https://github.com/kwd12134/MachineVision-Public.git
+[submodule "BL12"]
+	path = BL12
+	url = https://github.com/kwd12134/BL12-Public.git
