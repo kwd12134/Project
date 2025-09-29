@@ -1,3 +1,6 @@
 [submodule "Danikor"]
 	path = Danikor
 	url = https://github.com/kwd12134/Danikor-Public.git
+[submodule "MachineVision"]
+	path = MachineVision
+	url = https://github.com/kwd12134/MachineVision-Public.git
